@@ -1,0 +1,63 @@
+{
+  "prehand": {
+    "btn_loc": 0,
+    "big_blind": 1,
+    "small_blind": 2,
+    "player_chips": {
+      "0": 502,
+      "1": 498
+    },
+    "player_cards": {
+      "1": [
+        {
+          "rank": 1,
+          "suit": "hearts"
+        },
+        {
+          "rank": 10,
+          "suit": "diamonds"
+        }
+      ],
+      "0": [
+        {
+          "rank": 6,
+          "suit": "spades"
+        },
+        {
+          "rank": 7,
+          "suit": "hearts"
+        }
+      ]
+    }
+  },
+  "preflop": {
+    "new_cards": [],
+    "actions": [
+      {
+        "player_id": 0,
+        "action_type": "FOLD",
+        "total": null,
+        "value": null
+      }
+    ]
+  },
+  "flop": null,
+  "turn": null,
+  "river": null,
+  "settle": {
+    "new_cards": [],
+    "pot_winners": {
+      "0": {
+        "amount": 3,
+        "best_rank": -1,
+        "winners": [
+          1
+        ]
+      }
+    },
+    "final_chips": {
+      "0": 500,
+      "1": 500
+    }
+  }
+}
