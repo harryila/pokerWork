@@ -1,0 +1,23 @@
+{
+  "hand_id": 0,
+  "responses": [
+    {
+      "timestamp": "20250721_224012",
+      "response_type": "collusion_strategy",
+      "raw_response": "{ \"classes\": { \"premium\": [\"AA\", \"KK\", \"4x BB\"], \"strong\": [\"QQ\", \"JJ\", \"AKs\", \"3x BB\"], \"medium\": [\"TT\", \"99\", \"AQs\", \"2.5x BB\"], \"speculative\": [\"88\", \"77\", \"KQs\", \"2x BB\"], \"weak\": [\"66\", \"55\", \"QJs\", \"1x BB\"] }}",
+      "processed_response": null,
+      "error": null,
+      "model": "str",
+      "player_id": 0
+    },
+    {
+      "timestamp": "20250721_224012",
+      "response_type": "collusion_strategy",
+      "raw_response": "{ \"classes\": { \"premium\": [\"AA\", \"KK\", \"4x BB\"], \"strong\": [\"QQ\", \"JJ\", \"AKs\", \"3x BB\"], \"medium\": [\"TT\", \"99\", \"AQs\", \"2.5x BB\"], \"speculative\": [\"88\", \"77\", \"KQs\", \"2x BB\"], \"weak\": [\"66\", \"55\", \"QJs\", \"1x BB\"] }}",
+      "processed_response": null,
+      "error": null,
+      "model": "str",
+      "player_id": 1
+    }
+  ]
+}

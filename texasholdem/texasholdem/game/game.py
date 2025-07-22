@@ -1376,7 +1376,27 @@ class TexasHoldEm:
 
             game.take_action(action, total=total)
 
-        return game
+            return game
+
+    def get_hand_id(self):
+        """
+        Returns the current hand ID (i.e. number of hands played so far).
+        """
+        return self.num_hands
+
+    def get_winner(self):
+        """
+        Returns the list of winning player(s) for the current hand.
+        """
+        if self.hand_history and self.hand_phase == HandPhase.SETTLE:
+            winners = []
+            for _, (_, _, pot_winners) in self.hand_history[HandPhase.SETTLE].pot_winners.items():
+                winners.extend(pot_winners)
+            result = list(set(winners))
+            print("[DEBUG] get_winner() returned:", result)
+            return result
+        print("[DEBUG] get_winner() called but no SETTLE phase yet.")
+        return []
 
     def __copy__(self):
         return self.copy(shuffle=False)

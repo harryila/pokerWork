@@ -1,0 +1,23 @@
+{
+  "hand_id": 0,
+  "responses": [
+    {
+      "timestamp": "20250721_230106",
+      "response_type": "collusion_strategy",
+      "raw_response": "",
+      "processed_response": null,
+      "error": "Error generating collusion strategy: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************Z8A~. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "model": "str",
+      "player_id": 0
+    },
+    {
+      "timestamp": "20250721_230106",
+      "response_type": "collusion_strategy",
+      "raw_response": "",
+      "processed_response": null,
+      "error": "Error generating collusion strategy: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************Z8A~. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "model": "str",
+      "player_id": 0
+    }
+  ]
+}

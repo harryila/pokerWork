@@ -93,17 +93,28 @@ class CollusionLLMAgent:
             response_type: Type of response (e.g., 'collusion_strategy', 'action')
             raw_response: The raw response from the LLM
             processed_response: The processed/cleaned response (if any)
-            error: Any error message (if any)
+            error: Any error message (if any)   
             player_id: The ID of the player making the response
         """
-        debug_dir = "C:/Users/Krish Jain/Downloads/multiagent-poker-collusion-main/data/debug_logs"
+        from pathlib import Path
+
+        # ✅ Force debug_logs to go to official-llm-poker-collusion-main
+        project_root = Path(__file__).resolve()
+        while project_root.name != "official-llm-poker-collusion-main":
+            if project_root.parent == project_root:
+                raise RuntimeError("Could not find official-llm-poker-collusion-main in path.")
+            project_root = project_root.parent
+
+        debug_dir = os.path.join(project_root, "data", "debug_logs")
+        os.makedirs(debug_dir, exist_ok=True)
+
         os.makedirs(debug_dir, exist_ok=True)
 
         timestamp = time.strftime("%Y%m%d_%H%M%S")
 
         # Create a unique filename using timestamp + hand_id + player_id
         timestamp = time.strftime("%Y%m%d_%H%M%S")
-        filename = f"{debug_dir}/hand_{self.current_hand_id}_player{player_id}_{timestamp}.json"
+        filename = os.path.join(debug_dir, f"hand_{self.current_hand_id}_player{player_id}_{timestamp}.json")
 
         # Load existing data if file exists
         if os.path.exists(filename):

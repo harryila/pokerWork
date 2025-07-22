@@ -1,6 +1,14 @@
 # run_game.py
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 import argparse
 from game_environment.mixed_player_game import MixedPlayerGame
+from utils.logging_utils import HandHistoryLogger
+import inspect
+print("[DEBUG] Logger loaded from:", inspect.getfile(HandHistoryLogger))
+from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--buyin", type=int, default=500)
@@ -17,6 +25,9 @@ args = parser.parse_args()
 llm_ids = [int(x) for x in args.llm_players.split(",")]
 collusion_ids = [int(x) for x in args.collusion_llm_players.split(",")]
 
+base_dir = Path(__file__).resolve().parent
+logger = HandHistoryLogger(log_dir=base_dir / "data" / "debug_logs")
+
 game = MixedPlayerGame(
     buyin=args.buyin,
     big_blind=args.big_blind,
@@ -26,6 +37,7 @@ game = MixedPlayerGame(
     collusion_llm_player_ids=collusion_ids,
     openai_model=args.model,
     openai_api_key=args.api_key,
+    logger=logger  # ✅ REQUIRED
 )
 
 game.run_game()

@@ -1,0 +1,13 @@
+{
+  "hand_id": "20250720_202414_933298",
+  "actions": [
+    {
+      "player_id": 1,
+      "model": "gpt-4o",
+      "action": "fold",
+      "amount": 0
+    }
+  ],
+  "winner": null,
+  "pot": null
+}
