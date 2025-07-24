@@ -11,6 +11,7 @@ print("[DEBUG] Logger loaded from:", inspect.getfile(HandHistoryLogger))
 from pathlib import Path
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--num-hands", type=int, default=10)
 parser.add_argument("--buyin", type=int, default=500)
 parser.add_argument("--big-blind", type=int, default=1)
 parser.add_argument("--small-blind", type=int, default=2)

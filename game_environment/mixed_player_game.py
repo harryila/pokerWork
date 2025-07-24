@@ -180,6 +180,7 @@ class MixedPlayerGame:
         try:
             num_hands_played = 0
             while self.game.is_game_running() and num_hands_played < self.num_hands:
+                player_chips_before = {p.player_id: p.chips for p in self.game.players}
 
                 print("[DEBUG] Starting new hand...")
                 self.game.start_hand()
@@ -282,10 +283,28 @@ class MixedPlayerGame:
                 print(f"[WARNING] Could not determine winner or pot: {e}")
                 hand_log["pot"] = None
 
+            # ✅ Compute actual chip change from before the hand
+            player_chips_after = {p.player_id: p.chips for p in self.game.players}
+            chip_diff = {
+                pid: player_chips_after[pid] - player_chips_before.get(pid, 0)
+                for pid in player_chips_after
+            }
+            hand_log["chip_diff"] = chip_diff
+            
+
+            # Add winner, pot size, and chip_diff
+            winner_id = self.game.get_winner()
+            pot_size = self.game.pot
+            hand_log["winner_id"] = winner_id
+            hand_log["pot_size"] = pot_size
+
+            # ✅ Save full hand log
             self.logger.log_hand(hand_log, hand_log["hand_id"])
+            self.logger.log_hand(hand_log, f"summary_{hand_log['hand_id']}")
 
             num_hands_played += 1
             time.sleep(1)
+
 
         except Exception as e:
             # Save the error message and include full traceback
