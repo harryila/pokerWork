@@ -326,7 +326,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         print(f"\n{'='*60}")
         print(f"🎮 STARTING COMMUNICATION-ENABLED POKER GAME")
         print(f"{'='*60}")
-        print(f"Players: {self.max_players}")
+        print(f"Players: {self.game.max_players}")
         print(f"Regular LLM players: {self.llm_player_ids}")
         print(f"Collusion LLM players: {self.collusion_llm_player_ids}")
         print(f"Communication level: {self.communication_config['level']}")

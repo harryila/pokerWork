@@ -30,7 +30,14 @@ class LocalLLMWrapper:
         if model_type == "local":
             # Default to a small, open model for testing
             self.model_name = local_model_name or "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-            print(f"Initializing local model: {self.model_name}")
+            
+            # Check if model is already downloaded locally
+            local_model_path = "./model/tinyllama-1.1b-chat"
+            if os.path.exists(local_model_path) and not local_model_name:
+                self.model_name = local_model_path
+                print(f"Using locally downloaded model: {self.model_name}")
+            else:
+                print(f"Initializing model: {self.model_name}")
             
             try:
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
@@ -48,7 +55,7 @@ class LocalLLMWrapper:
                     device_map="auto"
                 )
                 
-                print(f"✅ Local model {self.model_name} loaded successfully")
+                print(f"✅ Local model loaded successfully")
                 
             except Exception as e:
                 print(f"❌ Error loading local model: {e}")

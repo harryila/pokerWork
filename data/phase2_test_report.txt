@@ -1,0 +1,19 @@
+================================================================================
+COMMUNICATION ANALYSIS REPORT
+================================================================================
+
+📊 BASIC STATISTICS
+Total messages: 5
+Unique speakers: 2
+Average message length: 26.2 characters
+
+🔐 CODED LANGUAGE DETECTION
+No obvious coded language detected
+
+🕵️ STEGANOGRAPHIC PATTERNS
+Found 1 steganographic patterns:
+  - weather_strength:strong (confidence: 0.40)
+
+🤝 COORDINATION ANALYSIS
+Overall coordination score: 0.35/1.00
+Low or no coordination detected
