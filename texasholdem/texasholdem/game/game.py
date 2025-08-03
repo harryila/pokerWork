@@ -14,6 +14,7 @@ from texasholdem.texasholdem.game.history import PrehandHistory
 from texasholdem.texasholdem.game.history import BettingRoundHistory, SettleHistory  # << ADDED HERE
 
 import os
+import datetime
 from typing import Iterator, Callable, Dict, Tuple, Optional, Union, List, Iterable
 from collections import deque
 from enum import Enum, auto
@@ -297,6 +298,14 @@ class TexasHoldEm:
         self.hand_history: Optional[History] = None
         self._action = None, None
         self._hand_gen = None
+        
+        # Communication features
+        self.chat_history: List[Dict] = []  # Store all chat messages
+        self.chat_enabled: bool = False  # Communication toggle
+        self.communication_level: str = "none"  # none/limited/moderate/full
+        self.max_messages_per_hand: int = 0  # Limit messages per hand
+        self.message_length_limit: int = 200  # Character limit for messages
+        self.allowed_phases: List[HandPhase] = []  # Phases where chat is allowed
 
     @property
     def action(self) -> Tuple[ActionType, Optional[int]]:
@@ -1397,6 +1406,142 @@ class TexasHoldEm:
             return result
         print("[DEBUG] get_winner() called but no SETTLE phase yet.")
         return []
+    
+    # Communication methods
+    def enable_communication(self, level: str = "full", max_messages_per_hand: int = None,
+                           message_length_limit: int = 200, allowed_phases: List[HandPhase] = None):
+        """
+        Enable communication for the game
+        
+        Args:
+            level: Communication level (none/limited/moderate/full)
+            max_messages_per_hand: Maximum messages allowed per hand (None for unlimited)
+            message_length_limit: Maximum length of each message
+            allowed_phases: List of phases where communication is allowed
+        """
+        self.chat_enabled = True
+        self.communication_level = level
+        self.max_messages_per_hand = max_messages_per_hand or float('inf')
+        self.message_length_limit = message_length_limit
+        
+        if allowed_phases is None:
+            # Default allowed phases based on level
+            if level == "limited":
+                self.allowed_phases = [HandPhase.PREFLOP, HandPhase.RIVER]
+            elif level == "moderate":
+                self.allowed_phases = [HandPhase.PREFLOP, HandPhase.FLOP, HandPhase.TURN, HandPhase.RIVER]
+            elif level == "full":
+                self.allowed_phases = [HandPhase.PREFLOP, HandPhase.FLOP, HandPhase.TURN, HandPhase.RIVER, HandPhase.SETTLE]
+            else:
+                self.allowed_phases = []
+        else:
+            self.allowed_phases = allowed_phases
+    
+    def add_chat_message(self, player_id: int, message: str, timestamp: str = None, 
+                        target_player: Optional[int] = None) -> bool:
+        """
+        Add a chat message to the game history
+        
+        Args:
+            player_id: ID of the player sending the message
+            message: The message content
+            timestamp: Optional timestamp (uses current time if not provided)
+            target_player: Optional target player ID for private messages
+            
+        Returns:
+            bool: True if message was added, False if rejected (e.g., due to limits)
+        """
+        if not self.chat_enabled:
+            return False
+            
+        # Check if communication is allowed in current phase
+        if self.hand_phase not in self.allowed_phases:
+            return False
+            
+        # Check message count limit for this hand
+        hand_messages = [m for m in self.chat_history if m.get('hand_id') == self.num_hands]
+        player_messages = [m for m in hand_messages if m['player_id'] == player_id]
+        if len(player_messages) >= self.max_messages_per_hand:
+            return False
+            
+        # Truncate message if too long
+        if len(message) > self.message_length_limit:
+            message = message[:self.message_length_limit]
+        
+        # Create chat entry
+        import datetime
+        chat_entry = {
+            "hand_id": self.num_hands,
+            "phase": self.hand_phase.name,
+            "player_id": player_id,
+            "message": message,
+            "timestamp": timestamp or datetime.datetime.now().isoformat(),
+            "target_player": target_player,
+            "message_type": "private" if target_player is not None else "public"
+        }
+        
+        self.chat_history.append(chat_entry)
+        return True
+    
+    def get_chat_history(self, player_id: int = None, hand_id: int = None, 
+                        private_only: bool = False) -> List[Dict]:
+        """
+        Get chat history visible to a specific player
+        
+        Args:
+            player_id: ID of the player requesting history (None for all public messages)
+            hand_id: Optional hand ID to filter messages (None for all hands)
+            private_only: If True, only return private messages
+            
+        Returns:
+            List of chat messages visible to the player
+        """
+        visible_messages = []
+        
+        for msg in self.chat_history:
+            # Filter by hand if specified
+            if hand_id is not None and msg['hand_id'] != hand_id:
+                continue
+                
+            # Determine visibility
+            if msg['message_type'] == 'public':
+                if not private_only:
+                    visible_messages.append(msg)
+            else:  # private message
+                # Private messages are visible to sender and recipient
+                if player_id is not None and (
+                    msg['player_id'] == player_id or 
+                    msg['target_player'] == player_id
+                ):
+                    visible_messages.append(msg)
+        
+        return visible_messages
+    
+    def allow_communication(self) -> bool:
+        """
+        Check if communication is allowed in current phase
+        
+        Returns:
+            bool: True if communication is allowed
+        """
+        return (self.chat_enabled and 
+                self.hand_phase in self.allowed_phases and
+                self.game_state == GameState.RUNNING)
+    
+    def get_messages_this_hand(self, player_id: int = None) -> int:
+        """
+        Get count of messages sent this hand by a player
+        
+        Args:
+            player_id: Player ID (None for total count)
+            
+        Returns:
+            int: Number of messages sent
+        """
+        hand_messages = [m for m in self.chat_history if m.get('hand_id') == self.num_hands]
+        if player_id is not None:
+            hand_messages = [m for m in hand_messages if m['player_id'] == player_id]
+        return len(hand_messages)
 
     def __copy__(self):
         return self.copy(shuffle=False)
