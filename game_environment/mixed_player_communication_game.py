@@ -77,6 +77,10 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             logger=logger
         )
         
+        # Store OpenAI configuration as instance attributes
+        self.openai_model = openai_model
+        self.openai_api_key = openai_api_key
+        
         # Communication configuration
         self.communication_config = communication_config or {
             "level": "none",
@@ -401,11 +405,12 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     action_type, total, reason, message = self._get_ai_action_with_communication(current_player)
                     
                     # Log the action
+                    action_type_name = action_type.name if hasattr(action_type, 'name') else str(action_type)
                     self.logger.log_action(
                         hand_id=self.game.num_hands,
                         phase=self.game.hand_phase.name,
                         player_id=current_player,
-                        action_type=action_type.name,
+                        action_type=action_type_name,
                         amount=total,
                         reason=reason,
                         game_state=game_state

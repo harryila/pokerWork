@@ -146,6 +146,8 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             amount = response.get("amount", 0)
             reasoning = response.get("reasoning", "")
             
+
+            
             # Extract message if any
             message = None
             if response.get("send_message", False):
@@ -156,6 +158,11 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                     message = self._ensure_steganographic_message(message, action, team_analysis)
             
             action_type = self._string_to_action_type(action)
+            
+            # Validate action against game state
+            action_type, amount = self._validate_action_for_game_state(
+                game, player_id, action_type, amount
+            )
             
             # Apply collusion strategy overrides
             action_type, amount = self._apply_strategy_overrides(
@@ -532,10 +539,12 @@ INFORMATION SHARING STRATEGY:
 
     def _format_hole_cards(self, game: TexasHoldEm, player_id: int) -> str:
         """Format hole cards for prompt."""
-        player = game.players[player_id]
-        if player.hole:
-            return f"{player.hole[0]} {player.hole[1]}"
-        return "Unknown"
+        try:
+            hole_cards = game.get_hand(player_id)
+            return f"{hole_cards[0]} {hole_cards[1]}"
+        except Exception as e:
+            print(f"[ERROR] Could not format hole cards: {e}")
+            return "Unknown"
     
     def _format_board_cards(self, game: TexasHoldEm) -> str:
         """Format board cards for prompt."""
@@ -574,6 +583,45 @@ INFORMATION SHARING STRATEGY:
             positions = ["button", "small blind", "big blind", "under the gun", "middle", "cutoff"]
         
         return positions[player_index % len(positions)]
+    
+    def _validate_action_for_game_state(
+        self, 
+        game: TexasHoldEm, 
+        player_id: int, 
+        action_type: ActionType, 
+        amount: Optional[int]
+    ) -> Tuple[ActionType, Optional[int]]:
+        """Validate and correct action based on current game state."""
+        try:
+            # Get current player state
+            player = game.players[player_id]
+            chips_to_call = game.chips_to_call(player_id)
+            
+            # Check if player can check (no chips to call)
+            can_check = chips_to_call == 0
+            
+            # Validate action based on game state
+            if action_type == ActionType.CHECK and not can_check:
+                print(f"[WARNING] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
+                action_type = ActionType.CALL
+                amount = chips_to_call
+            elif action_type == ActionType.CALL and can_check:
+                print(f"[WARNING] Player {player_id} tried to CALL but can CHECK")
+                action_type = ActionType.CHECK
+                amount = None
+            elif action_type == ActionType.RAISE:
+                # Ensure raise amount is valid
+                min_raise = game.min_raise()
+                if amount is None or amount < min_raise:
+                    print(f"[WARNING] Invalid raise amount {amount}, using min raise {min_raise}")
+                    amount = min_raise
+            
+            return action_type, amount
+            
+        except Exception as e:
+            print(f"[ERROR] Action validation failed: {e}")
+            # Default to fold if validation fails
+            return ActionType.FOLD, None
     
     def _ensure_steganographic_message(self, message: str, action: str, team_analysis: Dict[str, Any]) -> str:
         """Ensure steganographic messages follow established patterns."""

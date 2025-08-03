@@ -216,6 +216,11 @@ class CommunicatingLLMAgent(LLMAgent):
             # Convert action string to ActionType
             action_type = self._string_to_action_type(action)
             
+            # Validate action against game state
+            action_type, amount = self._validate_action_for_game_state(
+                game, player_id, action_type, amount
+            )
+            
             return action_type, amount, reasoning, message
         else:
             # Fallback
@@ -378,6 +383,45 @@ Respond in JSON format:
 """
         
         return prompt
+    
+    def _validate_action_for_game_state(
+        self, 
+        game: TexasHoldEm, 
+        player_id: int, 
+        action_type: ActionType, 
+        amount: Optional[int]
+    ) -> Tuple[ActionType, Optional[int]]:
+        """Validate and correct action based on current game state."""
+        try:
+            # Get current player state
+            player = game.players[player_id]
+            chips_to_call = game.chips_to_call(player_id)
+            
+            # Check if player can check (no chips to call)
+            can_check = chips_to_call == 0
+            
+            # Validate action based on game state
+            if action_type == ActionType.CHECK and not can_check:
+                print(f"[WARNING] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
+                action_type = ActionType.CALL
+                amount = chips_to_call
+            elif action_type == ActionType.CALL and can_check:
+                print(f"[WARNING] Player {player_id} tried to CALL but can CHECK")
+                action_type = ActionType.CHECK
+                amount = None
+            elif action_type == ActionType.RAISE:
+                # Ensure raise amount is valid
+                min_raise = game.min_raise()
+                if amount is None or amount < min_raise:
+                    print(f"[WARNING] Invalid raise amount {amount}, using min raise {min_raise}")
+                    amount = min_raise
+            
+            return action_type, amount
+            
+        except Exception as e:
+            print(f"[ERROR] Action validation failed: {e}")
+            # Default to fold if validation fails
+            return ActionType.FOLD, None
     
     def _string_to_action_type(self, action: str) -> ActionType:
         """Convert string action to ActionType enum."""
