@@ -11,7 +11,8 @@ print("[DEBUG] Forced path:", Path(__file__).resolve().parent.parent)
 import os
 import time
 from typing import List, Dict, Optional, Tuple, Set, Union
-from utils.logging_utils import HandHistoryLogger  # add it here
+from utils.simulation_logger import SimulationLogger
+from utils.game_state_extractor import extract_complete_game_state
 from dotenv import load_dotenv
 from texasholdem.texasholdem.game.game import TexasHoldEm
 #from texasholdem.texasholdem.gui.text_gui import TextGUI
@@ -44,7 +45,7 @@ class MixedPlayerGame:
     openai_model: Optional[str] = None,
     openai_api_key: Optional[str] = None,
     num_hands: int = 10,
-    logger: Optional[HandHistoryLogger] = None  # ✅ add this line
+    logger: Optional[SimulationLogger] = None  # ✅ Updated to SimulationLogger
 ):
 
         """
@@ -98,79 +99,62 @@ class MixedPlayerGame:
         )
 
         self.num_hands = num_hands
-        self.logger = logger or HandHistoryLogger(log_dir="C:/Users/Krish Jain/Downloads/official-llm-poker-collusion-main/data/debug_logs")
-
-        # Load the preflop strategy table
-        self.preflop_strategy = load_preflop_chart('preflop_chart.csv')
-
-
+        self.logger = logger or SimulationLogger()  # ✅ Use SimulationLogger by default
+        
         # Initialize AI agents
         self.ai_agents = {}
-
-        # Initialize regular LLM agents with the shared Hugging Face model
-        for player_id in self.llm_player_ids:
-            self.ai_agents[player_id] = LLMAgent(model=self.hf_model, tokenizer=self.hf_tokenizer)
-
-        # Initialize collusion LLM agents
-        if len(collusion_llm_player_ids) == 2:
-            player1, player2 = sorted(collusion_llm_player_ids)
-            self.ai_agents[player1] = CollusionLLMAgent(
-            model=self.hf_model,
-            tokenizer=self.hf_tokenizer,
-            api_key=openai_api_key,
-            teammate_id=player2
-        )
-        self.ai_agents[player2] = CollusionLLMAgent(
-            model=self.hf_model,
-            tokenizer=self.hf_tokenizer,
-            api_key=openai_api_key,
-            teammate_id=player1
-)
+        
+        # Initialize collusion agents
+        if collusion_llm_player_ids:
+            for player_id in collusion_llm_player_ids:
+                try:
+                    agent = CollusionLLMAgent(
+                        model=openai_model or "gpt-4o",
+                        tokenizer=None,  # Not needed for OpenAI
+                        api_key=openai_api_key,
+                        teammate_id=next((pid for pid in collusion_llm_player_ids if pid != player_id), None)
+                    )
+                    self.ai_agents[player_id] = agent
+                    print(f"✅ Created collusion LLM agent for player {player_id}")
+                except Exception as e:
+                    print(f"❌ Failed to create collusion LLM agent for player {player_id}: {e}")
+        
+        # Initialize regular LLM agents
+        for player_id in llm_player_ids:
+            if player_id not in self.ai_agents:  # Don't overwrite collusion agents
+                try:
+                    agent = LLMAgent(
+                        model=openai_model or "gpt-4o",
+                        tokenizer=None,  # Not needed for OpenAI
+                        api_key=openai_api_key
+                    )
+                    self.ai_agents[player_id] = agent
+                    print(f"✅ Created regular LLM agent for player {player_id}")
+                except Exception as e:
+                    print(f"❌ Failed to create regular LLM agent for player {player_id}: {e}")
 
     def _is_ai_player(self, player_id: int) -> bool:
-        """
-        Check if a player is controlled by AI.
-
-        Args:
-            player_id: The ID of the player to check
-
-        Returns:
-            True if the player is controlled by AI, False otherwise
-        """
-        return (
-            player_id in self.llm_player_ids
-            or player_id in self.collusion_llm_player_ids
-        )
+        """Check if a player is controlled by an AI agent."""
+        return player_id in self.ai_agents
 
     def _get_ai_action(self, player_id: int) -> Tuple[ActionType, Optional[int], str]:
-        print(f"[DEBUG] Calling _get_ai_action for player_id={player_id}")
-        # Check if we're in the preflop round
-        # TEMPORARILY DISABLED PREFLOP STRATEGY TO FORCE LLM EXECUTION
-        if player_id in self.ai_agents:
+        """Get action from AI agent."""
+        if player_id not in self.ai_agents:
+            print(f"[ERROR] No AI agent found for player {player_id}")
+            return ActionType.FOLD, None, "No AI agent"
+        
+        try:
             agent = self.ai_agents[player_id]
-            print("[DEBUG] Forcing LLM get_action even in preflop...")
-            return agent.get_action(self.game, player_id)
-
-        # Normal postflop or other phase: call LLM or CFR
-        if (
-            player_id not in self.llm_player_ids
-            and player_id not in self.collusion_llm_player_ids
-        ):
-            raise ValueError(f"Player {player_id} is not an LLM player")
-
-        agent = self.ai_agents[player_id]
-        return agent.get_action(self.game, player_id)
-
+            action_type, total, reason = agent.get_action(self.game, player_id)
+            return action_type, total, reason or "AI decision"
+        except Exception as e:
+            print(f"[ERROR] AI agent error for player {player_id}: {e}")
+            return ActionType.FOLD, None, f"AI error: {str(e)}"
 
     def _get_human_action(self) -> Tuple[ActionType, Optional[int]]:
-        print("[DEBUG] Auto-folding human player to avoid loop.")
-        self.game.take_action(ActionType.FOLD)
+        """Get action from human player (placeholder)."""
+        # For now, just fold
         return ActionType.FOLD, None
-        # Use the GUI to get the action from the human player
-        #self.gui.run_step()
-
-        # The action is already taken by the GUI, so we just return None
-        return None, None
 
     def run_game(self):
         """
@@ -178,24 +162,26 @@ class MixedPlayerGame:
         """
         error_message = None
         try:
+            # ✅ Start simulation logging
+            simulation_id = self.logger.start_simulation()
+            print(f"🎮 Starting simulation {simulation_id}")
+            
             num_hands_played = 0
             while self.game.is_game_running() and num_hands_played < self.num_hands:
                 player_chips_before = {p.player_id: p.chips for p in self.game.players}
 
-                print("[DEBUG] Starting new hand...")
+                print(f"[DEBUG] Starting hand {num_hands_played + 1}...")
                 self.game.start_hand()
-                hand_log = {
-                    "hand_id": self.game.get_hand_id(),
-                    "actions": [],
-                    "winner": None,
-                    "pot": None
-                }
+                hand_id = self.game.get_hand_id()
 
                 print(f"[DEBUG] Hand running? {self.game.is_hand_running()}")
 
                 while self.game.is_hand_running():
                     current_player = self.game.current_player
                     print(f"[DEBUG] Current player: {current_player}")
+
+                    # ✅ Extract complete game state before action
+                    game_state = extract_complete_game_state(self.game, current_player)
 
                     if self._is_ai_player(current_player):
                         # Get action from AI
@@ -208,6 +194,16 @@ class MixedPlayerGame:
                             action_type, total, reason = result
                             print(f"[DEBUG] ActionType: {action_type}, Total: {total}, Reason: {reason}")
 
+                        # ✅ Log the action with complete game state
+                        self.logger.log_action(
+                            hand_id=hand_id,
+                            phase=game_state["phase"],
+                            player_id=current_player,
+                            action_type=action_type.name,
+                            amount=total,
+                            reason=reason,
+                            game_state=game_state
+                        )
 
                         # Take the action
                         try:
@@ -217,13 +213,6 @@ class MixedPlayerGame:
                             else:
                                 print(f"[DEBUG] Taking action: {action_type}")
                                 self.game.take_action(action_type)
-                            model_name = getattr(self.ai_agents[current_player], "model", "unknown")
-                            hand_log["actions"].append({
-                                "player_id": current_player,
-                                "model": str(model_name),
-                                "action": action_type.name.lower(),
-                                "amount": total if total is not None else 0
-                                })
 
                         except Exception as e:
                             print(f"[ERROR] Action failed: {e}. Forcing fold.")
@@ -233,78 +222,51 @@ class MixedPlayerGame:
                         # Get action from human
                         self._get_human_action()
                 
-                    try:
-                        hand_log["winner"] = self.game.get_winner()
-                        hand_log["pot"] = self.game._get_last_pot().get_total_amount()
-                    except Exception as e:
-                        print(f"[WARNING] Could not extract winner or pot size: {e}")
+                # ✅ Force settlement if needed
+                if self.game.hand_phase != HandPhase.SETTLE:
+                    print("[WARNING] Forcing hand settlement.")
+                    self.game.settle_hand()
 
-                # Export and replay the hand history
+                # ✅ Extract winner and pot after settlement
                 try:
-                    pgn_path = self.game.export_history("./data/pgns")
-                    json_path = self.game.hand_history.export_history_json("./data/json")
-                    try:
-                        winning_player = self.game.get_winner()
-                        hand_log["winner"] = winning_player
-                        hand_log["pot"] = self.game._get_last_pot().get_total_amount()
-                    except Exception as e:
-                        print(f"[WARNING] Could not determine winner or pot: {e}")
-
-                    print(f"\nExported hand history to:")
-                    print(f"PGN: {pgn_path}")
-                    print(f"JSON: {json_path}")
+                    winning_player = self.game.get_winner()
+                    pot_size = self.game._get_last_pot().get_total_amount()
+                    
+                    # Calculate chip differences
+                    player_chips_after = {p.player_id: p.chips for p in self.game.players}
+                    chip_diff = {
+                        pid: player_chips_after[pid] - player_chips_before.get(pid, 0)
+                        for pid in player_chips_after
+                    }
+                    
+                    # Log hand summary
+                    hand_summary = {
+                        "winner": winning_player,
+                        "pot": pot_size,
+                        "chip_diff": chip_diff,
+                        "final_chips": player_chips_after
+                    }
+                    
+                    self.logger.log_hand_summary(hand_id, hand_summary)
+                    print(f"✅ Hand {hand_id} complete. Winner: {winning_player}, Pot: {pot_size}")
+                    
                 except Exception as e:
-                    print(f"[WARNING] Failed to export hand history: {e}")
-            # ✅ Force settlement if needed
-            if self.game.hand_phase != HandPhase.SETTLE:
-                print("[WARNING] Forcing hand settlement.")
-                self.game.settle_hand()
+                    print(f"[WARNING] Could not determine winner or pot: {e}")
 
-            # ✅ Extract winner and pot again after forced settlement
-            try:
-                winning_player = self.game.get_winner()
-                hand_log["winner"] = winning_player
-                hand_log["pot"] = self.game._get_last_pot().get_total_amount()
-            except Exception as e:
-                print(f"[WARNING] Could not determine winner or pot: {e}")
+                num_hands_played += 1
+                time.sleep(1)
 
-            try:
-                winning_player = self.game.get_winner()
-                hand_log["winner"] = winning_player
-
-                pot_total = self.game._get_last_pot().get_total_amount()
-                if isinstance(pot_total, (int, float)):
-                    hand_log["pot"] = pot_total
-                else:
-                    print(f"[WARNING] Pot total is not a number: {pot_total}")
-                    hand_log["pot"] = None
-
-            except Exception as e:
-                print(f"[WARNING] Could not determine winner or pot: {e}")
-                hand_log["pot"] = None
-
-            # ✅ Compute actual chip change from before the hand
-            player_chips_after = {p.player_id: p.chips for p in self.game.players}
-            chip_diff = {
-                pid: player_chips_after[pid] - player_chips_before.get(pid, 0)
-                for pid in player_chips_after
+            # ✅ End simulation with final stats
+            final_stats = {
+                "total_hands": num_hands_played,
+                "final_chips": {p.player_id: p.chips for p in self.game.players},
+                "collusion_players": list(self.collusion_llm_player_ids),
+                "llm_players": list(self.llm_player_ids),
+                "human_players": list(self.human_player_ids)
             }
-            hand_log["chip_diff"] = chip_diff
             
-
-            # Add winner, pot size, and chip_diff
-            winner_id = self.game.get_winner()
-            pot_size = self.game.pot
-            hand_log["winner_id"] = winner_id
-            hand_log["pot_size"] = pot_size
-
-            # ✅ Save full hand log
-            self.logger.log_hand(hand_log, hand_log["hand_id"])
-            self.logger.log_hand(hand_log, f"summary_{hand_log['hand_id']}")
-
-            num_hands_played += 1
-            time.sleep(1)
-
+            self.logger.end_simulation(final_stats)
+            print(f"✅ Simulation {simulation_id} completed!")
 
         except Exception as e:
             # Save the error message and include full traceback
@@ -313,7 +275,6 @@ class MixedPlayerGame:
             # No error occurred
             error_message = None
         finally:
-
             # Always clean up the curses session
             #self.gui.hide()
             # Reset the terminal
@@ -326,13 +287,13 @@ class MixedPlayerGame:
 
 if __name__ == "__main__":
     import argparse
-    from utils.logging_utils import HandHistoryLogger
+    from utils.simulation_logger import SimulationLogger
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-hands", type=int, default=10)
     args = parser.parse_args()
 
-    logger = HandHistoryLogger(log_dir="C:/Users/Krish Jain/Downloads/official-llm-poker-collusion-main/data/debug_logs")
+    logger = SimulationLogger()
 
     game = MixedPlayerGame(
         buyin=500,

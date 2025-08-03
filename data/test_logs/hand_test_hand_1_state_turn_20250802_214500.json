@@ -1,0 +1,38 @@
+{
+  "hand_id": "test_hand_1",
+  "current_player": 0,
+  "phase": "TURN",
+  "pot_amount": 40,
+  "player_chips": {
+    "0": 490,
+    "1": 510
+  },
+  "community_cards": [
+    {
+      "rank": 12,
+      "suit": "hearts",
+      "str_rank": "A",
+      "str_suit": "h"
+    },
+    {
+      "rank": 10,
+      "suit": "clubs",
+      "str_rank": "Q",
+      "str_suit": "c"
+    }
+  ],
+  "current_player_hand": [
+    {
+      "rank": 7,
+      "suit": "hearts",
+      "str_rank": "7",
+      "str_suit": "h"
+    },
+    {
+      "rank": 0,
+      "suit": "hearts",
+      "str_rank": "2",
+      "str_suit": "h"
+    }
+  ]
+}

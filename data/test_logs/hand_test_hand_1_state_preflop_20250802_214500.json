@@ -1,0 +1,25 @@
+{
+  "hand_id": "test_hand_1",
+  "current_player": 0,
+  "phase": "PREFLOP",
+  "pot_amount": 20,
+  "player_chips": {
+    "0": 500,
+    "1": 500
+  },
+  "community_cards": [],
+  "current_player_hand": [
+    {
+      "rank": 7,
+      "suit": "hearts",
+      "str_rank": "7",
+      "str_suit": "h"
+    },
+    {
+      "rank": 0,
+      "suit": "hearts",
+      "str_rank": "2",
+      "str_suit": "h"
+    }
+  ]
+}

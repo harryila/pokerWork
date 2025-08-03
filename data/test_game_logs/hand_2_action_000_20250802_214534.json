@@ -1,0 +1,10 @@
+{
+  "hand_id": 2,
+  "action_num": 0,
+  "player_id": 0,
+  "action_type": "CALL",
+  "amount": 0,
+  "reason": "Dummy agent always calls",
+  "phase": "PREFLOP",
+  "timestamp": "2025-08-02T21:45:34.678876"
+}

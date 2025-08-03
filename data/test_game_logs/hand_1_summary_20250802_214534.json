@@ -1,0 +1,10 @@
+{
+  "hand_id": 1,
+  "winner": [],
+  "pot": 10,
+  "actions": [],
+  "chip_diff": {
+    "0": -5,
+    "1": 5
+  }
+}

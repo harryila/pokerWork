@@ -1,0 +1,10 @@
+{
+  "hand_id": "test_hand_1",
+  "action_num": 2,
+  "player_id": 0,
+  "action_type": "CALL",
+  "amount": 10,
+  "reason": "Test action 2",
+  "phase": "PREFLOP",
+  "timestamp": "2025-08-02T21:45:00.756031"
+}

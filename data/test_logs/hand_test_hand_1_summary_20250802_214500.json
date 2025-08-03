@@ -1,0 +1,21 @@
+{
+  "hand_id": "test_hand_1",
+  "winner": 0,
+  "pot": 50,
+  "actions": [
+    {
+      "player_id": 0,
+      "action": "call",
+      "amount": 10
+    },
+    {
+      "player_id": 1,
+      "action": "fold",
+      "amount": 0
+    }
+  ],
+  "chip_diff": {
+    "0": 40,
+    "1": -10
+  }
+}

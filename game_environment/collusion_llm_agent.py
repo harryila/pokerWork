@@ -502,6 +502,26 @@ Betting history:
 """
             # Save the formatted state for debugging
             self._save_llm_response("game_state", state, None, None, player_id)
+            
+            # Also log the raw card data for debugging
+            raw_hand_data = [
+                {"rank": card.rank, "suit": card.suit, "str_rank": Card.STR_RANKS[card.rank], "str_suit": Card.INT_SUIT_TO_CHAR_SUIT[card.suit]}
+                for card in hand
+            ]
+            raw_community_data = [
+                {"rank": card.rank, "suit": card.suit, "str_rank": Card.STR_RANKS[card.rank], "str_suit": Card.INT_SUIT_TO_CHAR_SUIT[card.suit]}
+                for card in community_cards
+            ] if community_cards else []
+            
+            debug_data = {
+                "player_id": player_id,
+                "hand_cards": raw_hand_data,
+                "community_cards": raw_community_data,
+                "formatted_hand": hand_str,
+                "formatted_community": community_str
+            }
+            self._save_llm_response("card_debug", str(debug_data), None, None, player_id)
+            
             return state
 
         except Exception as e:
