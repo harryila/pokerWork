@@ -77,6 +77,9 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             logger=logger
         )
         
+        # Store max_players as instance attribute
+        self.max_players = max_players
+        
         # Communication configuration
         self.communication_config = communication_config or {
             "level": "none",
@@ -98,6 +101,42 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         
         # Track communication rounds
         self.communication_round_messages = []
+        
+    def _get_game_state_for_logging(self):
+        """Extract game state for logging purposes."""
+        from utils.game_state_extractor import extract_complete_game_state
+        return extract_complete_game_state(self.game, self.game.current_player)
+        
+    def _create_hand_summary(self):
+        """Create a summary of the current hand."""
+        try:
+            winning_player = self.game.get_winner()
+            pot_size = self.game._get_last_pot().get_total_amount()
+            
+            # Calculate chip differences
+            player_chips_after = {p.player_id: p.chips for p in self.game.players}
+            
+            hand_summary = {
+                "winner": winning_player,
+                "pot": pot_size,
+                "final_chips": player_chips_after
+            }
+            
+            return hand_summary
+        except Exception as e:
+            print(f"[WARNING] Could not create hand summary: {e}")
+            return {"error": str(e)}
+            
+    def _calculate_final_statistics(self):
+        """Calculate final statistics for the simulation."""
+        return {
+            "total_hands": self.game.num_hands,
+            "final_chips": {p.player_id: p.chips for p in self.game.players},
+            "collusion_players": list(self.collusion_llm_player_ids),
+            "llm_players": list(self.llm_player_ids),
+            "human_players": list(self.human_player_ids),
+            "communication_config": self.communication_config
+        }
         
     def _setup_communication(self):
         """Configure communication in the game based on config."""
