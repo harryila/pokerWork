@@ -100,6 +100,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         
         # Track communication rounds
         self.communication_round_messages = []
+        self.phase_messages = {}  # Track messages by phase
+        self.current_phase = None  # Track current phase explicitly
         
     def _get_game_state_for_logging(self):
         """Extract game state for logging purposes."""
@@ -344,6 +346,21 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                                 game_state=game_state,
                                 contains_signal=signals is not None
                             )
+                            
+                            # Also track for communication round analysis
+                            message_data = {
+                                "player_id": player_id,
+                                "message": message,
+                                "signals": signals
+                            }
+                            self.communication_round_messages.append(message_data)
+                            
+                            # Track by phase
+                            current_phase = self.game.hand_phase.name
+                            if current_phase not in self.phase_messages:
+                                self.phase_messages[current_phase] = []
+                            self.phase_messages[current_phase].append(message_data)
+
                 
                 return action_type, total, reason or "AI decision", message
             else:
@@ -385,6 +402,10 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             # Start new hand
             self.game.start_hand()
             
+            # Initialize phase tracking for new hand
+            self.current_phase = self.game.hand_phase.name
+            self.phase_messages = {}  # Clear phase messages for new hand
+            
             # Communication before preflop
             if self.game.hand_phase == HandPhase.PREFLOP:
                 self._handle_communication_round()
@@ -422,9 +443,34 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                 # Check if we've moved to a new phase and allow communication
                 if self.game.hand_phase != HandPhase.PREHAND and self.game.is_hand_running():
                     # Only communicate at phase transitions
-                    last_phase = game_state.get("phase")
-                    if last_phase != self.game.hand_phase.name:
+                    current_phase = self.game.hand_phase.name
+                    if self.current_phase is not None and self.current_phase != current_phase:
+                        # Phase transition detected
                         self._handle_communication_round()
+                        
+                        # Log communication round analysis for the phase that just ended
+                        if self.current_phase in self.phase_messages and self.phase_messages[self.current_phase]:
+                            self.logger.log_communication_round(
+                                hand_id=self.game.num_hands,
+                                phase=self.current_phase,
+                                all_messages=self.phase_messages[self.current_phase],
+                                game_state=self._get_game_state_for_logging()
+                            )
+                            # Clear messages for the phase that just ended
+                            del self.phase_messages[self.current_phase]
+                    
+                    # Update current phase
+                    self.current_phase = current_phase
+            
+            # Log final communication round if we have messages
+            current_phase = self.game.hand_phase.name
+            if current_phase in self.phase_messages and self.phase_messages[current_phase]:
+                self.logger.log_communication_round(
+                    hand_id=self.game.num_hands,
+                    phase=current_phase,
+                    all_messages=self.phase_messages[current_phase],
+                    game_state=self._get_game_state_for_logging()
+                )
             
             # Log hand summary
             hand_summary = self._create_hand_summary()

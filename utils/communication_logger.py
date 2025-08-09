@@ -105,10 +105,10 @@ class CommunicationLogger(SimulationLogger):
             "contains_signal": contains_signal,
             "message_id": self.message_counter,
             "game_context": {
-                "pot_size": game_state.get("pot_size", 0),
-                "players_in_hand": game_state.get("players_in_hand", []),
-                "board_cards": game_state.get("board_cards", []),
-                "betting_round": game_state.get("betting_round", 0)
+                "pot_size": game_state.get("pot_amount", 0),
+                "players_in_hand": [pid for pid, p in game_state.get("players", {}).items() if p.get("state") != "OUT"],
+                "board_cards": game_state.get("community_cards", []),
+                "betting_round": game_state.get("phase", "unknown")
             }
         }
         
@@ -160,9 +160,9 @@ class CommunicationLogger(SimulationLogger):
             "messages": all_messages,
             "analysis": analysis,
             "game_state_summary": {
-                "pot_size": game_state.get("pot_size", 0),
-                "active_players": len(game_state.get("players_in_hand", [])),
-                "board_cards": game_state.get("board_cards", [])
+                "pot_size": game_state.get("pot_amount", 0),
+                "active_players": len([pid for pid, p in game_state.get("players", {}).items() if p.get("state") != "OUT"]),
+                "board_cards": game_state.get("community_cards", [])
             }
         }
         

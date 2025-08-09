@@ -548,8 +548,10 @@ INFORMATION SHARING STRATEGY:
             if team_analysis["can_squeeze"] and action == ActionType.CALL:
                 # Convert calls to raises in squeeze situations
                 min_raise = game.min_raise()
+                chips_to_call = game.chips_to_call(player_id)
                 if min_raise > 0:
-                    return ActionType.RAISE, min_raise * 2
+                    total_raise_amount = chips_to_call + (min_raise * 2)
+                    return ActionType.RAISE, total_raise_amount
         
         # Chip dumping overrides
         elif self.collusion_strategy == "chip_dumping":
