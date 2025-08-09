@@ -1,0 +1,5 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T14:08:28.338818,1,PREFLOP,0,,public,"Looks like a storm is brewing, time for some coffee!",52,False
+2025-08-09T14:08:29.596991,1,PREFLOP,1,,public,"Looks like the sun is shining bright, time for a BBQ party!",59,False
+2025-08-09T14:08:31.555826,1,PREFLOP,3,,public,"I'll fold this hand, not strong enough to continue.",51,False
+2025-08-09T14:08:32.255274,1,PREFLOP,0,,public,The BBQ party is heating up! Time for some spicy ribs!,54,False

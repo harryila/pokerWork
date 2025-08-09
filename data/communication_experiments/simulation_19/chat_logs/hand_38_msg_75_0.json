@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:28:19.242387",
+  "hand_id": 38,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm feeling a bit under the weather with this hand, better to wait for a better dish to serve.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 94,
+  "contains_signal": false,
+  "message_id": 75,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

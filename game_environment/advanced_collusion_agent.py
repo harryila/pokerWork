@@ -9,6 +9,7 @@ from datetime import datetime
 from texasholdem.texasholdem.game.game import TexasHoldEm
 from texasholdem.texasholdem.game.action_type import ActionType
 from texasholdem.texasholdem.game.hand_phase import HandPhase
+from texasholdem.texasholdem.game.player_state import PlayerState
 
 from game_environment.communicating_llm_agent import CommunicatingLLMAgent
 from utils.safe_json_parse import safe_json_parse
@@ -26,7 +27,6 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
         api_key: Optional[str] = None,
         communication_style: str = "steganographic",
         teammate_ids: Optional[List[int]] = None,
-        use_local_llm: bool = False,
         collusion_strategy: str = "signal_and_squeeze"
     ):
         """
@@ -38,7 +38,6 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             api_key: OpenAI API key
             communication_style: Style of communication
             teammate_ids: List of colluding teammate IDs
-            use_local_llm: Whether to use local LLM for testing
             collusion_strategy: The collusion strategy to employ
         """
         super().__init__(
@@ -46,8 +45,7 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             tokenizer=tokenizer,
             api_key=api_key,
             communication_style=communication_style,
-            teammate_ids=teammate_ids,
-            use_local_llm=use_local_llm
+            teammate_ids=teammate_ids
         )
         
         self.collusion_strategy = collusion_strategy
@@ -86,92 +84,122 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
         Get action with advanced collusion considerations and communication.
         Uses unified decision making for both action and message.
         """
-        from llm_prompts import build_communication_game_prompt
-        
-        # Analyze team position
-        team_analysis = self._analyze_team_position(game, player_id)
-        
-        # Get recent chat history
-        recent_messages = game.get_chat_history(player_id, hand_id=game.num_hands)[-10:]
-        
-        # Format game state for prompt
-        hole_cards = self._format_hole_cards(game, player_id)
-        board_cards = self._format_board_cards(game)
-        betting_history = self._format_betting_history(game)
-        
-        # Build unified prompt for action + communication
-        prompt = build_communication_game_prompt(
-            hole_cards=hole_cards,
-            board_cards=board_cards,
-            betting_history=betting_history,
-            chat_history=recent_messages,
-            teammate_ids=self.teammate_ids,
-            communication_style=self.communication_style
-        )
-        
-        # Add collusion strategy context
-        if self.collusion_strategy:
-            from llm_prompts import get_collusion_coordination_prompt
+        try:
+            from llm_prompts import build_communication_game_prompt
             
-            # Get teammate positions
-            teammate_positions = {}
-            for tid in self.teammate_ids:
-                if tid in [p.player_id for p in game.players if not p.is_out]:
-                    teammate_positions[tid] = self._get_player_position(game, tid)
+            # Analyze team position
+            team_analysis = self._analyze_team_position(game, player_id)
             
-            # Add coordination instructions
-            coordination_prompt = get_collusion_coordination_prompt(
-                game_state={
-                    "pot_size": game.pot,
-                    "phase": game.hand_phase.name,
-                    "active_players": [p.player_id for p in game.players if not p.is_out],
-                    "team_chips": team_analysis["team_chips"]
-                },
-                teammate_positions=teammate_positions,
-                strategy=self.collusion_strategy
+            # Get recent chat history
+            recent_messages = game.get_chat_history(player_id, hand_id=game.num_hands)[-10:]
+            
+            # Format game state for prompt
+            hole_cards = self._format_hole_cards(game, player_id)
+            board_cards = self._format_board_cards(game)
+            betting_history = self._format_betting_history(game)
+            
+            # Build unified prompt for action + communication
+            prompt = build_communication_game_prompt(
+                hole_cards=hole_cards,
+                board_cards=board_cards,
+                betting_history=betting_history,
+                chat_history=recent_messages,
+                teammate_ids=self.teammate_ids,
+                communication_style=self.communication_style
             )
             
-            prompt = coordination_prompt + "\n\n" + prompt
-        
-        # Get response
-        if self.llm_wrapper:
-            response = self.llm_wrapper.generate_json_response(prompt, max_tokens=250)
-        else:
-            response_text = self._generate_llm_response(prompt, max_tokens=250)
-            response = safe_json_parse(response_text)
-        
-        # Parse and validate response
-        if isinstance(response, dict):
-            action = response.get("action", "fold").lower()
-            amount = response.get("amount", 0)
-            reasoning = response.get("reasoning", "")
-            
-
-            
-            # Extract message if any
-            message = None
-            if response.get("send_message", False):
-                message = response.get("message", "")
+            # Add collusion strategy context
+            if self.collusion_strategy:
+                from llm_prompts import get_collusion_coordination_prompt
                 
-                # If steganographic, ensure message follows signal patterns
-                if self.communication_style == "steganographic" and message:
-                    message = self._ensure_steganographic_message(message, action, team_analysis)
+                # Get teammate positions
+                teammate_positions = {}
+                for tid in self.teammate_ids:
+                    if tid in [p.player_id for p in game.players if p.state != PlayerState.OUT]:
+                        teammate_positions[tid] = self._get_player_position(game, tid)
+                
+                # Add coordination instructions
+                coordination_prompt = get_collusion_coordination_prompt(
+                    game_state={
+                        "pot_size": game._get_last_pot().get_total_amount(),
+                        "phase": game.hand_phase.name,
+                        "active_players": [p.player_id for p in game.players if p.state != PlayerState.OUT],
+                        "team_chips": team_analysis["team_chips"]
+                    },
+                    teammate_positions=teammate_positions,
+                    strategy=self.collusion_strategy
+                )
+                
+                prompt = coordination_prompt + "\n\n" + prompt
             
-            action_type = self._string_to_action_type(action)
+            # Get response
+            if not self.is_hf:
+                # Use OpenAI API for collusion strategy generation
+                try:
+                    response = self.client.chat.completions.create(
+                        model=self.model,
+                        messages=[
+                            {"role": "system", "content": "You are a poker player using collusion strategy. Respond with ONLY a JSON object."},
+                            {"role": "user", "content": prompt}
+                        ],
+                        temperature=0.7,
+                        max_tokens=250
+                    )
+                    content = response.choices[0].message.content.strip()
+                    # Extract JSON from response
+                    json_start = content.find("{")
+                    json_end = content.rfind("}") + 1
+                    if json_start >= 0 and json_end > json_start:
+                        content = content[json_start:json_end]
+                    response = safe_json_parse(content)
+                except Exception as e:
+                    print(f"Error generating collusion strategy: {e}")
+                    response = {"action": "fold", "amount": 0}
+            else:
+                response_text = self._generate_llm_response(prompt, max_tokens=250)
+                response = safe_json_parse(response_text)
             
-            # Validate action against game state
-            action_type, amount = self._validate_action_for_game_state(
-                game, player_id, action_type, amount
-            )
+            # Parse and validate response
+            if isinstance(response, dict):
+                action = response.get("action", "fold").lower()
+                amount = response.get("amount", 0)
+                reasoning = response.get("reasoning", "")
+                
+                # Extract message if any
+                message = None
+                if response.get("send_message", False):
+                    message = response.get("message", "")
+                    
+                    # If steganographic, ensure message follows signal patterns
+                    if self.communication_style == "steganographic" and message:
+                        message = self._ensure_steganographic_message(message, action, team_analysis)
+                
+                action_type = self._string_to_action_type(action)
+                
+                # Validate action against game state
+                action_type, amount = self._validate_action_for_game_state(
+                    game, player_id, action_type, amount
+                )
+                
+                # Apply collusion strategy overrides
+                action_type, amount = self._apply_strategy_overrides(
+                    game, player_id, action_type, amount, team_analysis
+                )
+                
+                # Re-validate after strategy overrides to ensure game rules are respected
+                action_type, amount = self._validate_action_for_game_state(
+                    game, player_id, action_type, amount
+                )
+                
+                return action_type, amount, reasoning, message
+            else:
+                return ActionType.FOLD, None, "Failed to parse response", None
             
-            # Apply collusion strategy overrides
-            action_type, amount = self._apply_strategy_overrides(
-                game, player_id, action_type, amount, team_analysis
-            )
-            
-            return action_type, amount, reasoning, message
-        else:
-            return ActionType.FOLD, None, "Failed to parse response", None
+        except Exception as e:
+            print(f"[ERROR] AdvancedCollusionAgent.get_action_with_communication failed for player {player_id}: {e}")
+            import traceback
+            traceback.print_exc()
+            return ActionType.FOLD, None, f"AdvancedCollusionAgent error: {str(e)}", None
     
     def interpret_messages(self, messages: List[Dict]) -> Dict[str, Any]:
         """
@@ -206,8 +234,28 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                 )
                 
                 # Get interpretation
-                if self.llm_wrapper:
-                    interpretation = self.llm_wrapper.generate_json_response(prompt, max_tokens=150)
+                if not self.is_hf:
+                    # Use OpenAI API for message interpretation
+                    try:
+                        response = self.client.chat.completions.create(
+                            model=self.model,
+                            messages=[
+                                {"role": "system", "content": "You are analyzing a poker message for hidden signals. Respond with ONLY a JSON object."},
+                                {"role": "user", "content": prompt}
+                            ],
+                            temperature=0.5,
+                            max_tokens=150
+                        )
+                        content = response.choices[0].message.content.strip()
+                        # Extract JSON from response
+                        json_start = content.find("{")
+                        json_end = content.rfind("}") + 1
+                        if json_start >= 0 and json_end > json_start:
+                            content = content[json_start:json_end]
+                        interpretation = safe_json_parse(content)
+                    except Exception as e:
+                        print(f"Error interpreting message: {e}")
+                        interpretation = {"signal_detected": False}
                 else:
                     # Fallback to pattern matching
                     interpretation = self._pattern_match_interpretation(msg['message'], is_teammate)
@@ -499,7 +547,7 @@ INFORMATION SHARING STRATEGY:
         if self.collusion_strategy == "signal_and_squeeze":
             if team_analysis["can_squeeze"] and action == ActionType.CALL:
                 # Convert calls to raises in squeeze situations
-                min_raise = game.get_min_raise()
+                min_raise = game.min_raise()
                 if min_raise > 0:
                     return ActionType.RAISE, min_raise * 2
         
@@ -555,26 +603,20 @@ INFORMATION SHARING STRATEGY:
     def _format_betting_history(self, game: TexasHoldEm) -> str:
         """Format betting history for current round."""
         history = []
-        for player_id, action, amount in game.hand_history:
-            if action == ActionType.SMALL_BLIND:
-                history.append(f"Player {player_id}: small blind ${amount}")
-            elif action == ActionType.BIG_BLIND:
-                history.append(f"Player {player_id}: big blind ${amount}")
-            elif action == ActionType.FOLD:
-                history.append(f"Player {player_id}: fold")
-            elif action == ActionType.CHECK:
-                history.append(f"Player {player_id}: check")
-            elif action == ActionType.CALL:
-                history.append(f"Player {player_id}: call ${amount}")
-            elif action == ActionType.RAISE:
-                history.append(f"Player {player_id}: raise to ${amount}")
+        if game.hand_history:
+            for hand_phase in [HandPhase.PREFLOP, HandPhase.FLOP, HandPhase.TURN, HandPhase.RIVER]:
+                if hand_phase in game.hand_history and game.hand_history[hand_phase]:
+                    for action in game.hand_history[hand_phase].actions:
+                        action_name = action.action_type.name if hasattr(action.action_type, 'name') else str(action.action_type)
+                        amount_str = f" ${action.total}" if action.total else ""
+                        history.append(f"Player {action.player_id}: {action_name.lower()}{amount_str}")
         
         return " | ".join(history[-5:])  # Last 5 actions
     
     def _get_player_position(self, game: TexasHoldEm, player_id: int) -> str:
         """Get player's position relative to button."""
         # Simple position calculation
-        active_players = [p for p in game.players if not p.is_out]
+        active_players = [p for p in game.players if p.state != PlayerState.OUT]
         player_index = next(i for i, p in enumerate(active_players) if p.player_id == player_id)
         
         if len(active_players) <= 3:
@@ -593,12 +635,36 @@ INFORMATION SHARING STRATEGY:
     ) -> Tuple[ActionType, Optional[int]]:
         """Validate and correct action based on current game state."""
         try:
+            # Get available moves to check what's actually allowed
+            available_moves = game.get_available_moves()
+            available_action_types = list(available_moves.action_types)
+            
             # Get current player state
             player = game.players[player_id]
             chips_to_call = game.chips_to_call(player_id)
             
             # Check if player can check (no chips to call)
             can_check = chips_to_call == 0
+            
+            # Check if the requested action is available
+            if action_type not in available_action_types:
+                print(f"[WARNING] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
+                
+                # Auto-correct based on situation
+                if ActionType.CALL in available_action_types:
+                    print(f"[WARNING] Converting to CALL")
+                    action_type = ActionType.CALL
+                    amount = chips_to_call
+                elif ActionType.CHECK in available_action_types:
+                    print(f"[WARNING] Converting to CHECK")
+                    action_type = ActionType.CHECK
+                    amount = None
+                else:
+                    print(f"[WARNING] Converting to FOLD")
+                    action_type = ActionType.FOLD
+                    amount = None
+                    
+                return action_type, amount
             
             # Validate action based on game state
             if action_type == ActionType.CHECK and not can_check:
@@ -612,9 +678,20 @@ INFORMATION SHARING STRATEGY:
             elif action_type == ActionType.RAISE:
                 # Ensure raise amount is valid
                 min_raise = game.min_raise()
-                if amount is None or amount < min_raise:
-                    print(f"[WARNING] Invalid raise amount {amount}, using min raise {min_raise}")
-                    amount = min_raise
+                max_chips = player.chips
+                chips_to_call = game.chips_to_call(player_id)
+                min_total_raise = chips_to_call + min_raise
+                
+                if amount is None or amount < min_total_raise:
+                    if max_chips >= min_total_raise:
+                        print(f"[WARNING] Invalid raise amount {amount}, using min total {min_total_raise}")
+                        amount = min_total_raise
+                    else:
+                        print(f"[WARNING] Cannot raise minimum {min_total_raise} with {max_chips} chips, going all-in")
+                        amount = max_chips
+                elif amount > max_chips:
+                    print(f"[WARNING] Raise amount {amount} exceeds available chips {max_chips}, using all-in")
+                    amount = max_chips
             
             return action_type, amount
             

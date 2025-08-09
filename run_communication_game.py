@@ -10,8 +10,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import argparse
+from dotenv import load_dotenv
 from game_environment.mixed_player_communication_game import MixedPlayerCommunicationGame
 from utils.communication_logger import CommunicationLogger
+
+# Load environment variables from .env file
+load_dotenv()
 
 def main():
     parser = argparse.ArgumentParser(description="Run communication-enabled poker experiments")
@@ -27,13 +31,13 @@ def main():
     parser.add_argument("--communication-level", type=str, default="moderate", 
                        choices=["none", "limited", "moderate", "full"], 
                        help="Communication level")
-    parser.add_argument("--communication-style", type=str, default="steganographic",
-                       choices=["cooperative", "subtle", "steganographic", "deceptive"],
-                       help="Communication style")
+    parser.add_argument("--communication-style", type=str, default="emergent",
+                       choices=["cooperative", "emergent", "steganographic_self", "steganographic_guided", "subtle", "deceptive"],
+                       help="Communication style for research track")
     parser.add_argument("--collusion-strategy", type=str, default="signal_and_squeeze",
                        choices=["signal_and_squeeze", "chip_dumping", "information_sharing", "whipsaw"],
                        help="Collusion strategy")
-    parser.add_argument("--use-local-llm", action="store_true", help="Use local LLM instead of API")
+    # Removed --use-local-llm option - API only now
     parser.add_argument("--output-dir", type=str, default="data/communication_experiments", 
                        help="Output directory for results")
 
@@ -41,14 +45,13 @@ def main():
 
     # Parse player IDs
     llm_ids = [int(x) for x in args.llm_players.split(",")]
-    collusion_ids = [int(x) for x in args.collusion_llm_players.split(",")]
+    collusion_ids = [int(x) for x in args.collusion_llm_players.split(",") if x.strip()]
 
-    # Get API key
+    # Get API key (always required now)
     api_key = args.api_key or os.getenv("OPENAI_API_KEY")
-    if not api_key and not args.use_local_llm:
-        print("❌ Error: No OpenAI API key provided!")
+    if not api_key:
+        print("❌ Error: OpenAI API key is required!")
         print("   Set OPENAI_API_KEY environment variable or use --api-key")
-        print("   Or use --use-local-llm for local testing")
         return 1
 
     # Create output directory
@@ -69,7 +72,7 @@ def main():
     print(f"Communication Level: {args.communication_level}")
     print(f"Communication Style: {args.communication_style}")
     print(f"Collusion Strategy: {args.collusion_strategy}")
-    print(f"Use Local LLM: {args.use_local_llm}")
+    print(f"Using OpenAI API: Yes")
     print(f"Output Directory: {output_dir}")
     print("=" * 60)
 
@@ -90,8 +93,7 @@ def main():
             openai_model=args.model,
             openai_api_key=api_key,
             num_hands=args.num_hands,
-            logger=logger,
-            use_local_llm=args.use_local_llm
+            logger=logger
         )
 
         # Run the game

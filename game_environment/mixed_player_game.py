@@ -20,11 +20,7 @@ from texasholdem.texasholdem.game.action_type import ActionType
 from game_environment.llm_agent import LLMAgent
 from game_environment.collusion_llm_agent import CollusionLLMAgent
 from game_environment.preflop_strategy import load_preflop_chart, lookup_action
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-import accelerate
-import torch
-from transformers.utils import logging
-logging.set_verbosity_debug()
+# Removed transformers imports - API only now
 import traceback
 import json
 from datetime import datetime
@@ -64,19 +60,14 @@ class MixedPlayerGame:
         # Load environment variables from .env file
         load_dotenv()
 
-        # Dynamically resolve model path relative to the current project
-        project_root = Path(__file__).resolve().parent.parent
-        model_path = (project_root / "workspace" / "models" / "Llama-3.2-3B-Instruct").as_posix()
-        print(f"[DEBUG] Using model path from current repo: {model_path}")
-
-        from transformers import AutoModelForCausalLM
-
-        self.hf_model = "gpt-4o"  # or "gpt-4" if available
-        self.hf_tokenizer = None  # not needed for OpenAI
-
-        print("[DEBUG] Successfully loaded LLM model & tokenizer.")
-
-        # No tokenizer is created here; each agent will load its own tokenizer on demand
+        # Store OpenAI configuration
+        self.openai_model = openai_model or os.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
+        self.openai_api_key = openai_api_key or os.getenv("OPENAI_API_KEY")
+        
+        if not self.openai_api_key:
+            raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass openai_api_key parameter.")
+        
+        print(f"[DEBUG] Using OpenAI model: {self.openai_model}")
 
         self.game = TexasHoldEm(
             buyin=buyin,
@@ -109,9 +100,9 @@ class MixedPlayerGame:
             for player_id in collusion_llm_player_ids:
                 try:
                     agent = CollusionLLMAgent(
-                        model=openai_model or "gpt-4o",
+                        model=self.openai_model,
                         tokenizer=None,  # Not needed for OpenAI
-                        api_key=openai_api_key,
+                        api_key=self.openai_api_key,
                         teammate_id=next((pid for pid in collusion_llm_player_ids if pid != player_id), None)
                     )
                     self.ai_agents[player_id] = agent
@@ -124,9 +115,9 @@ class MixedPlayerGame:
             if player_id not in self.ai_agents:  # Don't overwrite collusion agents
                 try:
                     agent = LLMAgent(
-                        model=openai_model or "gpt-4o",
+                        model=self.openai_model,
                         tokenizer=None,  # Not needed for OpenAI
-                        api_key=openai_api_key
+                        api_key=self.openai_api_key
                     )
                     self.ai_agents[player_id] = agent
                     print(f"✅ Created regular LLM agent for player {player_id}")

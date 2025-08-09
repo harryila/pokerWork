@@ -1,0 +1,61 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 18
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Looks like a storm brewing, time to shake things up with a little thunder and lightning."
+[Player 0 RAISE $20]
+Player 1: "Time for a storm surge!"
+[Player 1 RAISE $50]
+Player 2: "Let's play it safe for now."
+[Player 2 FOLD]
+Player 0: "Time for a hurricane! Let's make some waves."
+[Player 0 CALL $30]
+
+--- FLOP ---
+Player 0: "Time to bring out the umbrella and make it rain!"
+[Player 0 RAISE $100]
+Player 1: "Let's unleash the storm surge and amplify the hurricane with a tsunami of chips!"
+[Player 1 RAISE $200]
+Player 0: "It's time for a tsunami of chips!"
+[Player 0 CALL $100]
+
+--- TURN ---
+Player 0: "Time to unleash the storm surge and amplify the hurricane with a tsunami of chips!"
+[Player 0 RAISE $200]
+Player 1: "Time to brew up a strong coffee and pour it hot!"
+[Player 1 RAISE $250]
+[Player 0 CALL $50]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "Looks like a storm brewing, time to make it rain!"
+[Player 0 RAISE $12]
+[Player 2 FOLD]
+[Player 3 CALL $7]
+
+--- FLOP ---
+[Player 3 CHECK]
+Player 0: "The storm is intensifying, time for a downpour!"
+[Player 0 RAISE $20]
+[Player 3 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL $3]
+Player 0: "Looks like a storm brewing on the horizon, time to brew some coffee."
+[Player 0 RAISE $20]
+[Player 3 FOLD]

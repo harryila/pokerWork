@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:12:05.660142",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'm going to put some pressure on the raisers with a strong hand!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

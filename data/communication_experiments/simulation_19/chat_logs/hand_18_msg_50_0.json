@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:36.344380",
+  "hand_id": 18,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "The sun is shining bright, time for a sizzling steak!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 50,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

@@ -294,7 +294,7 @@ Here is the current game state:
 {state_str}
 
 Available actions:
-{', '.join(f'{action.name}: {desc}' for action, desc in available_actions.items())}
+{', '.join(f'{action.name if hasattr(action, "name") else str(action)}: {desc}' for action, desc in available_actions.items())}
 
 Always calculate pot odds versus hand strength and position. Consider stack-to-pot ratios and remaining streets.
 

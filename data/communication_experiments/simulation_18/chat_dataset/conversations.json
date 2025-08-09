@@ -1,0 +1,116 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time to shake things up with a little thunder and lightning.",
+        "timestamp": "2025-08-09T14:25:21.456769",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Time for a storm surge!",
+        "timestamp": "2025-08-09T14:25:22.573331",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's play it safe for now.",
+        "timestamp": "2025-08-09T14:25:23.759873",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Time for a hurricane! Let's make some waves.",
+        "timestamp": "2025-08-09T14:25:24.832253",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Time to bring out the umbrella and make it rain!",
+        "timestamp": "2025-08-09T14:25:26.099587",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's unleash the storm surge and amplify the hurricane with a tsunami of chips!",
+        "timestamp": "2025-08-09T14:25:27.089836",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "It's time for a tsunami of chips!",
+        "timestamp": "2025-08-09T14:25:28.384337",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Time to unleash the storm surge and amplify the hurricane with a tsunami of chips!",
+        "timestamp": "2025-08-09T14:25:29.347458",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Time to brew up a strong coffee and pour it hot!",
+        "timestamp": "2025-08-09T14:25:30.665221",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_FLOP",
+    "hand_id": 2,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The storm is intensifying, time for a downpour!",
+        "timestamp": "2025-08-09T14:25:36.351849",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time to make it rain!",
+        "timestamp": "2025-08-09T14:25:32.581514",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing on the horizon, time to brew some coffee.",
+        "timestamp": "2025-08-09T14:25:39.291662",
+        "target_player": null
+      }
+    ]
+  }
+]

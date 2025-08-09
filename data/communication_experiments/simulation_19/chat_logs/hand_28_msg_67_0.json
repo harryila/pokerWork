@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:28:06.780674",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like a storm is brewing with some dark clouds. Time for a thunderous play.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": false,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:06:48.816486",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "I have a strong hand with top pair and I want to build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

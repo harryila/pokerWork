@@ -465,7 +465,7 @@ Your response:"""
                         for action in phase_history.actions:  # type: ignore[attr-defined]
                             try:
                                 position_name = rotated_positions[action.player_id]
-                                action_type = action.action_type.name
+                                action_type = action.action_type.name if hasattr(action.action_type, 'name') else str(action.action_type)
                                 total = action.total if hasattr(action, "total") else ""
                                 betting_history.append(  # type: ignore[attr-defined]
                                     f"Position {action.player_id} ({position_name}): {action_type} {total}"
@@ -554,7 +554,7 @@ Betting history:
 
             # Add all available actions from the MoveIterator
             for action_type in moves.action_types:
-                action_str = action_type.name
+                action_str = action_type.name if hasattr(action_type, 'name') else str(action_type)
                 if action_type == ActionType.CHECK:
                     actions[action_str] = "Check (pass the action without betting)"
                 elif action_type == ActionType.CALL:
@@ -946,8 +946,9 @@ Your response:
                 return ActionType.FOLD, None, None
 
             # Validate the action
-            if action_type.name not in available_actions:
-                error_msg = f"Action '{action_type.name}' not available"
+            action_name = action_type.name if hasattr(action_type, 'name') else str(action_type)
+            if action_name not in available_actions:
+                error_msg = f"Action '{action_name}' not available"
                 self._save_llm_response("action", content, None, error_msg, player_id)
                 return ActionType.FOLD, None, None
             
@@ -961,7 +962,7 @@ Your response:
 
             # Format processed response as a simple string
             processed_response = {
-            "action": action_type.name.lower(),
+            "action": (action_type.name if hasattr(action_type, 'name') else str(action_type)).lower(),
             "amount": int(amount) if amount is not None else 0
         }
 
@@ -1025,7 +1026,7 @@ Your response:
                 return ActionType.FOLD, None, None
 
             # Save final action
-            processed_response = {"action": action_type.name.lower(), "amount": int(amount) if amount is not None else 0}
+            processed_response = {"action": (action_type.name if hasattr(action_type, 'name') else str(action_type)).lower(), "amount": int(amount) if amount is not None else 0}
 
             self._save_llm_response("final_action", content, processed_response, None, player_id)
             return action_type, amount, None

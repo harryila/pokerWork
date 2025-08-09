@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:06:49.524089",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "I'm going to reraise to build the pot further.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

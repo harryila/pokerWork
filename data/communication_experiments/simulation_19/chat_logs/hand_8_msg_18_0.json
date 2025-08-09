@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:26:34.672647",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like a storm brewing, time for a coffee break.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 18,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

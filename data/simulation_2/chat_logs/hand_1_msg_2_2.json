@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T13:07:36.695649",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Interesting flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 17,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

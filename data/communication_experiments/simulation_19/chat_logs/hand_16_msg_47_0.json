@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:31.420830",
+  "hand_id": 16,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "The coffee break is over, time to bring out the dessert!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 47,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

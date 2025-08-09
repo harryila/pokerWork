@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:23:34.681109",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Let's bring out the umbrella for this storm!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 11,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

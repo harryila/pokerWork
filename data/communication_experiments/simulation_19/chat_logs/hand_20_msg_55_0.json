@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:43.669675",
+  "hand_id": 20,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Time for some coffee to wake up! I'll raise $20.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 55,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

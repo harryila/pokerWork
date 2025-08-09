@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:26:39.956090",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "The sun shines bright on this hand, time to fire up the grill!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": false,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

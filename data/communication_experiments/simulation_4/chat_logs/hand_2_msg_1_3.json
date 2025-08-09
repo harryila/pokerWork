@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T13:58:10.033890",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "I'll call to see the next card. Let's keep the pressure on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

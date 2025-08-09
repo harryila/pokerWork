@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:07:41.453919",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'll check as well.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 19,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

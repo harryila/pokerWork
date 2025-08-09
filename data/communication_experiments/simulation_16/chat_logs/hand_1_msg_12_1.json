@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:23:36.589804",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "The weather is clearing up, time to celebrate with champagne!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

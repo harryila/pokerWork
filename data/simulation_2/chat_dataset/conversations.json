@@ -1,0 +1,34 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Good luck everyone!",
+        "timestamp": "2025-08-09T13:07:36.695435",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Thanks! The weather looks nice today.",
+        "timestamp": "2025-08-09T13:07:36.695542",
+        "target_player": 0
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Interesting flop.",
+        "timestamp": "2025-08-09T13:07:36.695649",
+        "target_player": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:23:32.133860",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "The weather is getting stormy, time to seek shelter!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

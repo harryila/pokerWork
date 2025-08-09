@@ -21,7 +21,7 @@ from transformers import AutoTokenizer, PreTrainedModel
 
 from game_environment.llm_agent import LLMAgent
 from utils.safe_json_parse import safe_json_parse
-from utils.local_llm_wrapper import LocalLLMWrapper
+# Removed local LLM wrapper - API only
 
 
 class CommunicatingLLMAgent(LLMAgent):
@@ -35,8 +35,7 @@ class CommunicatingLLMAgent(LLMAgent):
         tokenizer=None,
         api_key: Optional[str] = None,
         communication_style: str = "cooperative",
-        teammate_ids: Optional[List[int]] = None,
-        use_local_llm: bool = False
+        teammate_ids: Optional[List[int]] = None
     ):
         """
         Initialize the communicating LLM agent.
@@ -47,7 +46,6 @@ class CommunicatingLLMAgent(LLMAgent):
             api_key: The API key for OpenAI. If None, will try to get from .env file
             communication_style: Style of communication (cooperative/subtle/steganographic)
             teammate_ids: List of teammate player IDs for coordination
-            use_local_llm: Whether to use local LLM wrapper for testing
         """
         # Initialize parent class
         super().__init__(model, tokenizer, api_key)
@@ -58,11 +56,7 @@ class CommunicatingLLMAgent(LLMAgent):
         self.message_history = []
         self.sent_messages_this_hand = 0
         
-        # If using local LLM wrapper for testing
-        if use_local_llm:
-            self.llm_wrapper = LocalLLMWrapper(model_type="local")
-        else:
-            self.llm_wrapper = None
+        # API-only communication system
     
     def should_send_message(self, game: TexasHoldEm, player_id: int) -> bool:
         """
@@ -130,8 +124,22 @@ class CommunicatingLLMAgent(LLMAgent):
         )
         
         # Generate message using appropriate model
-        if self.llm_wrapper:
-            message = self.llm_wrapper.generate_response(prompt, max_tokens=50)
+        if not self.is_hf:
+            # Use OpenAI API for message generation
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are a poker player generating a chat message. Keep it natural and under 50 words."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.8,
+                    max_tokens=50
+                )
+                message = response.choices[0].message.content.strip()
+            except Exception as e:
+                print(f"Error generating message: {e}")
+                message = ""
         else:
             message = self._generate_llm_response(prompt, max_tokens=50)
         
@@ -167,8 +175,28 @@ class CommunicatingLLMAgent(LLMAgent):
         prompt = self._build_interpretation_prompt(teammate_messages)
         
         # Get interpretation
-        if self.llm_wrapper:
-            response = self.llm_wrapper.generate_json_response(prompt)
+        if not self.is_hf:
+            # Use OpenAI API for action generation
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.7,
+                    max_tokens=100
+                )
+                content = response.choices[0].message.content.strip()
+                # Extract JSON from response
+                json_start = content.find("{")
+                json_end = content.rfind("}") + 1
+                if json_start >= 0 and json_end > json_start:
+                    content = content[json_start:json_end]
+                response = safe_json_parse(content)
+            except Exception as e:
+                print(f"Error generating action: {e}")
+                response = {"action": "fold", "amount": 0}
         else:
             response_text = self._generate_llm_response(prompt, max_tokens=100)
             response = safe_json_parse(response_text)
@@ -200,8 +228,28 @@ class CommunicatingLLMAgent(LLMAgent):
         prompt = self._build_unified_prompt(game, player_id, recent_messages, message_info)
         
         # Get response
-        if self.llm_wrapper:
-            response = self.llm_wrapper.generate_json_response(prompt, max_tokens=200)
+        if not self.is_hf:
+            # Use OpenAI API for action generation
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are a poker player. Respond with ONLY a JSON object containing action and amount."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.7,
+                    max_tokens=200
+                )
+                content = response.choices[0].message.content.strip()
+                # Extract JSON from response
+                json_start = content.find("{")
+                json_end = content.rfind("}") + 1
+                if json_start >= 0 and json_end > json_start:
+                    content = content[json_start:json_end]
+                response = safe_json_parse(content)
+            except Exception as e:
+                print(f"Error generating action: {e}")
+                response = {"action": "fold", "amount": 0}
         else:
             response_text = self._generate_llm_response(prompt, max_tokens=200)
             response = safe_json_parse(response_text)
@@ -393,12 +441,36 @@ Respond in JSON format:
     ) -> Tuple[ActionType, Optional[int]]:
         """Validate and correct action based on current game state."""
         try:
+            # Get available moves to check what's actually allowed
+            available_moves = game.get_available_moves()
+            available_action_types = list(available_moves.action_types)
+            
             # Get current player state
             player = game.players[player_id]
             chips_to_call = game.chips_to_call(player_id)
             
             # Check if player can check (no chips to call)
             can_check = chips_to_call == 0
+            
+            # Check if the requested action is available
+            if action_type not in available_action_types:
+                print(f"[WARNING] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
+                
+                # Auto-correct based on situation
+                if ActionType.CALL in available_action_types:
+                    print(f"[WARNING] Converting to CALL")
+                    action_type = ActionType.CALL
+                    amount = chips_to_call
+                elif ActionType.CHECK in available_action_types:
+                    print(f"[WARNING] Converting to CHECK")
+                    action_type = ActionType.CHECK
+                    amount = None
+                else:
+                    print(f"[WARNING] Converting to FOLD")
+                    action_type = ActionType.FOLD
+                    amount = None
+                    
+                return action_type, amount
             
             # Validate action based on game state
             if action_type == ActionType.CHECK and not can_check:
@@ -412,9 +484,20 @@ Respond in JSON format:
             elif action_type == ActionType.RAISE:
                 # Ensure raise amount is valid
                 min_raise = game.min_raise()
-                if amount is None or amount < min_raise:
-                    print(f"[WARNING] Invalid raise amount {amount}, using min raise {min_raise}")
-                    amount = min_raise
+                max_chips = player.chips
+                chips_to_call = game.chips_to_call(player_id)
+                min_total_raise = chips_to_call + min_raise
+                
+                if amount is None or amount < min_total_raise:
+                    if max_chips >= min_total_raise:
+                        print(f"[WARNING] Invalid raise amount {amount}, using min total {min_total_raise}")
+                        amount = min_total_raise
+                    else:
+                        print(f"[WARNING] Cannot raise minimum {min_total_raise} with {max_chips} chips, going all-in")
+                        amount = max_chips
+                elif amount > max_chips:
+                    print(f"[WARNING] Raise amount {amount} exceeds available chips {max_chips}, using all-in")
+                    amount = max_chips
             
             return action_type, amount
             

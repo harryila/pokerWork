@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:23:30.979068",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Time to add some caviar to our gourmet treats!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

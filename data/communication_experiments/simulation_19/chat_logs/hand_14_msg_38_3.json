@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:11.982665",
+  "hand_id": 14,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's continue building the pot together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 38,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

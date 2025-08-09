@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:04:58.151877",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'll fold this hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 20,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

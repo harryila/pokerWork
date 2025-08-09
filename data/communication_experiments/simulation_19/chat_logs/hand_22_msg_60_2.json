@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:54.426031",
+  "hand_id": 22,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'll fold this hand, not worth risking at this point.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 60,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

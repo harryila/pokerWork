@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:48.557703",
+  "hand_id": 20,
+  "phase": "RIVER",
+  "player_id": 0,
+  "message": "Looks like a perfect day for a BBQ! Let's spice it up with a raise of $80.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 74,
+  "contains_signal": false,
+  "message_id": 57,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

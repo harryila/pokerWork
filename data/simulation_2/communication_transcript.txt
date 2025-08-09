@@ -1,0 +1,14 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 2
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Good luck everyone!"
+Player 1 → Player 0 (private): "Thanks! The weather looks nice today."
+
+--- FLOP ---
+Player 2: "Interesting flop."

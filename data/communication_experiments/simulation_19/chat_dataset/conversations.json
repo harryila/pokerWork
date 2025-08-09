@@ -1,0 +1,867 @@
+[
+  {
+    "key": "10_PREFLOP",
+    "hand_id": 10,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm is brewing. I'll add some spice to the pot with a raise.",
+        "timestamp": "2025-08-09T14:26:52.972669",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_PREFLOP",
+    "hand_id": 11,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing here, time to bring out the umbrella!",
+        "timestamp": "2025-08-09T14:26:55.279714",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_PREFLOP",
+    "hand_id": 13,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing here, time to serve some heat!",
+        "timestamp": "2025-08-09T14:26:59.002355",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_FLOP",
+    "hand_id": 13,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like the perfect time for a refreshing lemonade!",
+        "timestamp": "2025-08-09T14:27:00.882819",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_TURN",
+    "hand_id": 13,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like it's time for a spicy salsa!",
+        "timestamp": "2025-08-09T14:27:02.805839",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "It's a tough spot with just a pair of nines, folding for now.",
+        "timestamp": "2025-08-09T14:27:03.794563",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_PREFLOP",
+    "hand_id": 14,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The weather is looking stormy with a chance of rain. I'll pass this round.",
+        "timestamp": "2025-08-09T14:27:04.460393",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I believe I have a strong hand with pocket eights, let's build the pot.",
+        "timestamp": "2025-08-09T14:27:06.200220",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'm raising with my pocket nines to try to build the pot.",
+        "timestamp": "2025-08-09T14:27:07.579898",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_FLOP",
+    "hand_id": 14,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's keep building the pot with our strong hands.",
+        "timestamp": "2025-08-09T14:27:10.260589",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_TURN",
+    "hand_id": 14,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's keep the pressure on with our strong hands.",
+        "timestamp": "2025-08-09T14:27:11.094686",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's continue building the pot together!",
+        "timestamp": "2025-08-09T14:27:11.982665",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's keep pushing with our strong hands!",
+        "timestamp": "2025-08-09T14:27:12.674976",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_RIVER",
+    "hand_id": 14,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's continue building the pot with a small raise.",
+        "timestamp": "2025-08-09T14:27:13.473134",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_PREFLOP",
+    "hand_id": 15,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for a hot coffee.",
+        "timestamp": "2025-08-09T14:27:18.400855",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_FLOP",
+    "hand_id": 15,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Time for some spicy food!",
+        "timestamp": "2025-08-09T14:27:22.066259",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_PREFLOP",
+    "hand_id": 16,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "I'm raising with a strong hand (Ace-Nine suited) from UTG position.",
+        "timestamp": "2025-08-09T14:27:25.359875",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for a coffee break.",
+        "timestamp": "2025-08-09T14:27:26.117548",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_FLOP",
+    "hand_id": 16,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The coffee is brewing, time to serve the cake.",
+        "timestamp": "2025-08-09T14:27:28.363498",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The storm is intensifying, time to seek shelter with a hearty meal.",
+        "timestamp": "2025-08-09T14:27:30.301502",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_TURN",
+    "hand_id": 16,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The coffee break is over, time to bring out the dessert!",
+        "timestamp": "2025-08-09T14:27:31.420830",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I fold. Good luck everyone!",
+        "timestamp": "2025-08-09T14:27:32.217990",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_PREFLOP",
+    "hand_id": 17,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for some fresh lemonade!",
+        "timestamp": "2025-08-09T14:27:33.260882",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_PREFLOP",
+    "hand_id": 18,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The sun is shining bright, time for a sizzling steak!",
+        "timestamp": "2025-08-09T14:27:36.344380",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_PREFLOP",
+    "hand_id": 19,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time to heat things up with some spicy salsa!",
+        "timestamp": "2025-08-09T14:27:38.977191",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Fold. Let's conserve our chips with a weak hand.",
+        "timestamp": "2025-08-09T14:27:39.838666",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's try to take control of the pot with a decent raise here.",
+        "timestamp": "2025-08-09T14:26:05.863733",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I see a storm brewing. Time to make it rain on the table!",
+        "timestamp": "2025-08-09T14:26:08.082616",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "The storm is intensifying, time to unleash the hurricane!",
+        "timestamp": "2025-08-09T14:26:08.785780",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's preserve our chips for better spots.",
+        "timestamp": "2025-08-09T14:26:10.165064",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The hurricane is hitting hard! Let's shake things up with a $250 raise!",
+        "timestamp": "2025-08-09T14:26:10.854086",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The storm surge is coming! Raising $150 to ride the wave!",
+        "timestamp": "2025-08-09T14:26:11.652716",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "The storm surge is at its peak! Let's raise $200 to flood the pot!",
+        "timestamp": "2025-08-09T14:26:12.518694",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The storm surge continues! Let's raise $100 to keep the pressure high!",
+        "timestamp": "2025-08-09T14:26:13.240699",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The storm surge intensifies! Let's flood the pot with a $350 raise!",
+        "timestamp": "2025-08-09T14:26:14.083816",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "The hurricane is brewing stronger! Let's raise $200 to stir up the pot!",
+        "timestamp": "2025-08-09T14:26:14.761373",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_PREFLOP",
+    "hand_id": 20,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing. I'm stirring up some action with a raise.",
+        "timestamp": "2025-08-09T14:27:40.811990",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_FLOP",
+    "hand_id": 20,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "I'll call and see the next card.",
+        "timestamp": "2025-08-09T14:27:42.665209",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Time for some coffee to wake up! I'll raise $20.",
+        "timestamp": "2025-08-09T14:27:43.669675",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_TURN",
+    "hand_id": 20,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Time for a picnic! Let's raise $40 and enjoy the feast.",
+        "timestamp": "2025-08-09T14:27:46.036953",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_RIVER",
+    "hand_id": 20,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a perfect day for a BBQ! Let's spice it up with a raise of $80.",
+        "timestamp": "2025-08-09T14:27:48.557703",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_PREFLOP",
+    "hand_id": 21,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing. Time for some lightning strikes!",
+        "timestamp": "2025-08-09T14:27:51.049086",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_PREFLOP",
+    "hand_id": 22,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, let's heat things up with a sizzle!",
+        "timestamp": "2025-08-09T14:27:53.697872",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'll fold this hand, not worth risking at this point.",
+        "timestamp": "2025-08-09T14:27:54.426031",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_PREFLOP",
+    "hand_id": 23,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time to make it rain!",
+        "timestamp": "2025-08-09T14:27:55.330563",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_PREFLOP",
+    "hand_id": 25,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm is brewing, time for some thunder and lightning! Raise incoming.",
+        "timestamp": "2025-08-09T14:27:59.265666",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_FLOP",
+    "hand_id": 25,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The sun is shining bright, time for some heat! I'll raise $20.",
+        "timestamp": "2025-08-09T14:28:00.715838",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'll call the $20 raise.",
+        "timestamp": "2025-08-09T14:28:01.424789",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_TURN",
+    "hand_id": 25,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The temperature is rising, adding some spice with a raise of $40!",
+        "timestamp": "2025-08-09T14:28:02.474906",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_PREFLOP",
+    "hand_id": 26,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing in the pot. Time for some espresso!",
+        "timestamp": "2025-08-09T14:28:04.418946",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_PREFLOP",
+    "hand_id": 28,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm is brewing with some dark clouds. Time for a thunderous play.",
+        "timestamp": "2025-08-09T14:28:06.780674",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The sun is shining, time for a refreshing lemonade!",
+        "timestamp": "2025-08-09T14:26:15.637174",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_PREFLOP",
+    "hand_id": 30,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The weather is cloudy with a chance of rain.",
+        "timestamp": "2025-08-09T14:28:08.593285",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_PREFLOP",
+    "hand_id": 32,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing in my hand. Time for a refreshing beverage!",
+        "timestamp": "2025-08-09T14:28:10.310715",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_PREFLOP",
+    "hand_id": 34,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for some coffee!",
+        "timestamp": "2025-08-09T14:28:11.859229",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_PREFLOP",
+    "hand_id": 36,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The weather is looking sunny with a chance of a spicy dish. Let's spice things up with a raise!",
+        "timestamp": "2025-08-09T14:28:13.844669",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_PREFLOP",
+    "hand_id": 37,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "I'm raising to put pressure on the big blind and steal the blinds.",
+        "timestamp": "2025-08-09T14:28:15.383015",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like the skies are clear, I'm enjoying a light snack here.",
+        "timestamp": "2025-08-09T14:28:16.101968",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_FLOP",
+    "hand_id": 37,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The forecast is getting stormy, time for a strong drink!",
+        "timestamp": "2025-08-09T14:28:16.785506",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_PREFLOP",
+    "hand_id": 38,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling a bit under the weather with this hand, better to wait for a better dish to serve.",
+        "timestamp": "2025-08-09T14:28:19.242387",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm is brewing on the horizon. Time to bring out the umbrella!",
+        "timestamp": "2025-08-09T14:26:18.887384",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_PREFLOP",
+    "hand_id": 40,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm is brewing, time for a coffee break.",
+        "timestamp": "2025-08-09T14:28:21.539593",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_PREFLOP",
+    "hand_id": 42,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The sun is shining brightly, time for a refreshing lemonade!",
+        "timestamp": "2025-08-09T14:28:23.606691",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_PREFLOP",
+    "hand_id": 44,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The forecast is looking sunny with a chance of a squeeze play. I'll add some spice to the pot.",
+        "timestamp": "2025-08-09T14:28:25.968290",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_PREFLOP",
+    "hand_id": 46,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for a little lightning strike.",
+        "timestamp": "2025-08-09T14:28:27.689436",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a sunny day ahead, time for a refreshing drink!",
+        "timestamp": "2025-08-09T14:26:21.157986",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The sun is shining bright, time for some refreshing lemonade!",
+        "timestamp": "2025-08-09T14:26:22.401156",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_FLOP",
+    "hand_id": 5,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I feel a slight drizzle, might need some hot cocoa",
+        "timestamp": "2025-08-09T14:26:25.862397",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'm folding this hand.",
+        "timestamp": "2025-08-09T14:26:27.294867",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_PREFLOP",
+    "hand_id": 6,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The weather is turning stormy. Time for a quick snack.",
+        "timestamp": "2025-08-09T14:26:29.118210",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_PREFLOP",
+    "hand_id": 7,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing with my hand. Time to add some spice to the pot!",
+        "timestamp": "2025-08-09T14:26:31.451799",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_PREFLOP",
+    "hand_id": 8,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a storm brewing, time for a coffee break.",
+        "timestamp": "2025-08-09T14:26:34.672647",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_FLOP",
+    "hand_id": 8,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "I believe I have a strong hand with top pair and I want to build the pot.",
+        "timestamp": "2025-08-09T14:26:38.156345",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The sun shines bright on this hand, time to fire up the grill!",
+        "timestamp": "2025-08-09T14:26:39.956090",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'm confident in my hand and want to keep building the pot.",
+        "timestamp": "2025-08-09T14:26:40.870508",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_TURN",
+    "hand_id": 8,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Gather the ingredients for a feast, let's sizzle this pot!",
+        "timestamp": "2025-08-09T14:26:43.477466",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_RIVER",
+    "hand_id": 8,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "I'm going all in to maximize the pot with my strong hand.",
+        "timestamp": "2025-08-09T14:26:45.517585",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The storm is brewing, time to make it rain!",
+        "timestamp": "2025-08-09T14:26:46.624736",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's push the limits and go all in!",
+        "timestamp": "2025-08-09T14:26:47.674744",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_PREFLOP",
+    "hand_id": 9,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like rain on the horizon. Time for a coffee break.",
+        "timestamp": "2025-08-09T14:26:50.577037",
+        "target_player": null
+      }
+    ]
+  }
+]

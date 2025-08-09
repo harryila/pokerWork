@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:25:21.456769",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like a storm brewing, time to shake things up with a little thunder and lightning.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

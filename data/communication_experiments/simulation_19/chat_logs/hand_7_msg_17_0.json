@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:26:31.451799",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like a storm brewing with my hand. Time to add some spice to the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

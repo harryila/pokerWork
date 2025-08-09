@@ -1,0 +1,33 @@
+{
+  "simulation_id": 19,
+  "start_time": "2025-08-09T14:28:28.358649",
+  "end_time": "2025-08-09T14:28:28.358652",
+  "description": "Poker simulation 19",
+  "status": "completed",
+  "total_actions": 176,
+  "final_stats": {
+    "total_hands": 47,
+    "final_chips": {
+      "0": 2000,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "collusion_players": [
+      0,
+      1
+    ],
+    "llm_players": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "human_players": [],
+    "communication_config": {
+      "level": "moderate",
+      "style": "emergent",
+      "strategy": "signal_and_squeeze"
+    }
+  }
+}

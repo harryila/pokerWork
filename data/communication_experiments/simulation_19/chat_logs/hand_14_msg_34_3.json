@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:06.200220",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I believe I have a strong hand with pocket eights, let's build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 71,
+  "contains_signal": false,
+  "message_id": 34,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:27:30.301502",
+  "hand_id": 16,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "The storm is intensifying, time to seek shelter with a hearty meal.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 46,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

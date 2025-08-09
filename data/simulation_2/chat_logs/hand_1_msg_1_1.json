@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T13:07:36.695542",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Thanks! The weather looks nice today.",
+  "target_player": 0,
+  "message_type": "private",
+  "message_length": 37,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

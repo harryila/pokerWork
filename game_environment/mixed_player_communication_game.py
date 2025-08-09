@@ -43,8 +43,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         openai_model: Optional[str] = None,
         openai_api_key: Optional[str] = None,
         num_hands: int = 10,
-        logger: Optional[CommunicationLogger] = None,
-        use_local_llm: bool = False
+        logger: Optional[CommunicationLogger] = None
     ):
         """
         Initialize the communication-enabled game.
@@ -61,7 +60,6 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             openai_api_key: OpenAI API key
             num_hands: Number of hands to play
             logger: Communication logger instance
-            use_local_llm: Whether to use local LLM for testing
         """
         # Initialize base game
         super().__init__(
@@ -98,7 +96,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         self._setup_communication()
         
         # Replace agents with communication-enabled versions
-        self._upgrade_agents_to_communication(use_local_llm)
+        self._upgrade_agents_to_communication()
         
         # Track communication rounds
         self.communication_round_messages = []
@@ -162,7 +160,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         else:
             print("🔇 Communication disabled for this game")
     
-    def _upgrade_agents_to_communication(self, use_local_llm: bool = False):
+    def _upgrade_agents_to_communication(self):
         """Upgrade existing agents to communication-enabled versions."""
         new_agents = {}
         
@@ -185,7 +183,6 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     api_key=self.openai_api_key,
                     communication_style=self.communication_config.get("style", "steganographic"),
                     teammate_ids=teammate_ids,
-                    use_local_llm=use_local_llm,
                     collusion_strategy=self.communication_config.get("strategy", "signal_and_squeeze")
                 )
                 print(f"🤝 Upgraded player {player_id} to AdvancedCollusionAgent")
@@ -196,8 +193,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     tokenizer=agent.tokenizer if hasattr(agent, 'tokenizer') else None,
                     api_key=self.openai_api_key,
                     communication_style="cooperative",
-                    teammate_ids=[],
-                    use_local_llm=use_local_llm
+                    teammate_ids=[]
                 )
                 print(f"💬 Upgraded player {player_id} to CommunicatingLLMAgent")
             

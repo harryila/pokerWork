@@ -6,7 +6,7 @@ Evaluates hand strengths with optimizations in terms of speed and memory usage.
 import itertools
 from typing import List
 
-from texasholdem.texasholdem.card.card import Card
+from texasholdem.texasholdem.card.card import Card, prime_product_from_hand, prime_product_from_rankbits
 from texasholdem.texasholdem.evaluator.lookup_table import LOOKUP_TABLE
 
 
@@ -26,11 +26,11 @@ def _five(cards: List[Card]) -> int:
     # if flush
     if cards[0] & cards[1] & cards[2] & cards[3] & cards[4] & 0xF000:
         hand_or = (cards[0] | cards[1] | cards[2] | cards[3] | cards[4]) >> 16
-        prime = card.prime_product_from_rankbits(hand_or)
+        prime = prime_product_from_rankbits(hand_or)
         return LOOKUP_TABLE.flush_lookup[prime]
 
     # otherwise
-    prime = card.prime_product_from_hand(cards)
+    prime = prime_product_from_hand(cards)
     return LOOKUP_TABLE.unsuited_lookup[prime]
 
 

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:23:27.583905",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's keep the game going!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 26,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

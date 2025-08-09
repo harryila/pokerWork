@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:28:16.785506",
+  "hand_id": 37,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "The forecast is getting stormy, time for a strong drink!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 74,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

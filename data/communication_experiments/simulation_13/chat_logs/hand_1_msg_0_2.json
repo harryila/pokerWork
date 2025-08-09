@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T14:18:05.495835",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'm raising to build the pot with my pocket pair of deuces.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}
