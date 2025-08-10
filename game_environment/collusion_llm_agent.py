@@ -548,9 +548,13 @@ Betting history:
 
             # Calculate pot-based betting suggestions
             pot_amount = game._get_last_pot().get_total_amount()
-            min_raise = game.min_raise()
+            min_raise_increment = game.min_raise()  # This is the INCREMENT, not the total
             player_chips = game.players[player_id].chips
             chips_to_call = game.chips_to_call(player_id)
+            player_bet = game.player_bet_amount(player_id)
+            
+            # Calculate the minimum TOTAL raise amount (what we actually pass to take_action)
+            min_total_raise = game.value_to_total(min_raise_increment, player_id)
 
             # Add all available actions from the MoveIterator
             for action_type in moves.action_types:
@@ -564,43 +568,39 @@ Betting history:
                 elif action_type == ActionType.RAISE:
                     # Calculate bet sizes based on pot and previous bet
                     bet_sizes = []
+                    
+                    # Maximum we can raise to
+                    max_total_raise = player_bet + player_chips
 
                     # Pot-based bet sizes
                     pot_percentages = [0.33, 0.5, 0.66, 1.25]
                     for percentage in pot_percentages:
-                        # Calculate total amount including chips to call
-                        suggested_amount = chips_to_call + int(pot_amount * percentage)
-                        if (
-                            min_raise + chips_to_call
-                            <= suggested_amount
-                            <= player_chips
-                        ):
+                        # Calculate suggested TOTAL amount (what we pass to take_action)
+                        suggested_total = chips_to_call + player_bet + int(pot_amount * percentage)
+                        if min_total_raise <= suggested_total <= max_total_raise:
                             bet_sizes.append(
-                                f"{int(percentage * 100)}% of pot ({suggested_amount} chips)"
+                                f"{int(percentage * 100)}% of pot ({suggested_total} chips total)"
                             )
 
-                    # Previous bet multiplier
+                    # Previous bet multiplier (based on chips to call)
                     if chips_to_call > 0:
-                        suggested_amount = chips_to_call + int(chips_to_call * 2.5)
-                        if (
-                            min_raise + chips_to_call
-                            <= suggested_amount
-                            <= player_chips
-                        ):
+                        suggested_total = chips_to_call + player_bet + int(chips_to_call * 2.5)
+                        if min_total_raise <= suggested_total <= max_total_raise:
                             bet_sizes.append(
-                                f"2.5x previous bet ({suggested_amount} chips)"
+                                f"2.5x previous bet ({suggested_total} chips total)"
                             )
 
                     # Add all-in if it would be less than 20% of the pot
-                    if player_chips >= min_raise + chips_to_call:
-                        remaining_chips = player_chips - (min_raise + chips_to_call)
-                        if remaining_chips < pot_amount * 0.2:
-                            bet_sizes.append(f"All-in ({player_chips} chips)")
+                    all_in_total = player_bet + player_chips
+                    if all_in_total >= min_total_raise:
+                        remaining_after_min = player_chips - (min_total_raise - player_bet)
+                        if remaining_after_min < pot_amount * 0.2:
+                            bet_sizes.append(f"All-in ({all_in_total} chips total)")
                         elif len(bet_sizes) == 0:  # If no other valid bets, add all-in
-                            bet_sizes.append(f"All-in ({player_chips} chips)")
+                            bet_sizes.append(f"All-in ({all_in_total} chips total)")
 
                     actions[action_str] = (
-                        f"Raise (increase the bet, minimum raise is {min_raise + chips_to_call} chips, maximum is {player_chips} chips)\n"
+                        f"Raise (increase the bet, minimum raise to {min_total_raise} chips total, maximum to {max_total_raise} chips total)\n"
                         f"Bet choices:\n" + "\n".join(f"- {size}" for size in bet_sizes)
                     )
                 elif action_type == ActionType.FOLD:
