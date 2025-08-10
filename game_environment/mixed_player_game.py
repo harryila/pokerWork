@@ -15,6 +15,7 @@ from utils.simulation_logger import SimulationLogger
 from utils.game_state_extractor import extract_complete_game_state
 from dotenv import load_dotenv
 from texasholdem.texasholdem.game.game import TexasHoldEm
+from texasholdem.texasholdem.game.hand_phase import HandPhase
 #from texasholdem.texasholdem.gui.text_gui import TextGUI
 from texasholdem.texasholdem.game.action_type import ActionType
 from game_environment.llm_agent import LLMAgent

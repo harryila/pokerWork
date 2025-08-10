@@ -377,6 +377,20 @@ Your response:"""
             if "action" not in action_json:
                 print("Error: Missing 'action' field in LLM response")
                 return ActionType.FOLD, None, None
+            
+            # Extract action and amount
+            action_str = action_json["action"].upper()
+            amount = action_json.get("amount", 0)
+            
+            # Convert to ActionType
+            try:
+                action_type = ActionType[action_str]
+            except KeyError:
+                print(f"Error: Invalid action type '{action_str}'")
+                return ActionType.FOLD, None, None
+            
+            # Return the action
+            return action_type, amount if action_type == ActionType.RAISE else None, None
 
         except Exception as e:
             print(f"Error getting action from LLM: {str(e)}")
