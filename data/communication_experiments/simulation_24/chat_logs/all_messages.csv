@@ -1,0 +1,38 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T15:42:03.558171,1,PREFLOP,1,,public,Let's apply some pressure here.,31,False
+2025-08-09T15:42:04.918997,1,PREFLOP,2,,public,Let's put some pressure back with a raise.,42,False
+2025-08-09T15:42:05.869018,1,PREFLOP,3,,public,Let's put even more pressure with a bigger raise!,49,False
+2025-08-09T15:42:06.684695,1,PREFLOP,0,,public,Let's squeeze them hard with a big raise!,41,False
+2025-08-09T15:42:07.494624,1,PREFLOP,1,,public,Let's put maximum pressure with a substantial raise!,52,False
+2025-08-09T15:42:08.321274,1,PREFLOP,2,,public,Let's continue the pressure by making a substantial raise.,58,False
+2025-08-09T15:42:09.026669,1,PREFLOP,3,,public,Let's put immense pressure on our opponents!,44,False
+2025-08-09T15:42:10.530081,1,FLOP,3,,public,Let's keep the pressure on with a significant raise!,52,False
+2025-08-09T15:42:11.977820,1,FLOP,0,,public,Let's squeeze them even harder with a substantial raise!,56,False
+2025-08-09T15:42:12.932442,1,FLOP,1,,public,Let's put the pressure on and squeeze them out with a strong raise!,67,False
+2025-08-09T15:42:13.706698,1,FLOP,2,,public,Let's put even more pressure and go all-in!,43,False
+2025-08-09T15:42:14.467994,1,FLOP,3,,public,I fold. Let's not risk too much on this hand.,45,False
+2025-08-09T15:42:15.996172,1,FLOP,0,,public,Let's go all-in and maximize our value with this strong hand!,61,False
+2025-08-09T15:42:17.046213,1,FLOP,1,,public,Let's squeeze them out with an all-in raise!,44,False
+2025-08-09T15:42:18.359569,3,PREFLOP,0,,public,Let's apply some pressure here. I'm feeling strong with my hand.,64,False
+2025-08-09T15:42:20.915775,3,FLOP,0,,public,"Nice bet, let's squeeze a bit more to maximize value.",53,False
+2025-08-09T15:42:22.920338,5,PREFLOP,0,,public,Let's apply some pressure here and squeeze the pot.,51,False
+2025-08-09T15:42:25.239135,7,PREFLOP,0,,public,Let's apply pressure here and squeeze the pot with a raise.,59,False
+2025-08-09T15:42:27.880284,9,PREFLOP,0,,public,Let's apply pressure here with a raise to build the pot.,56,False
+2025-08-09T15:42:30.215020,11,PREFLOP,0,,public,Let's apply pressure and build the pot together.,48,False
+2025-08-09T15:42:32.046988,11,FLOP,3,,public,Let's continue building the pot as suggested.,45,False
+2025-08-09T15:42:32.993888,11,FLOP,0,,public,Let's squeeze them out with a strong raise here!,48,False
+2025-08-09T15:42:34.005961,11,FLOP,3,,public,Let's put the pressure on with a big raise!,43,False
+2025-08-09T15:42:35.108248,11,TURN,3,,public,Let's squeeze them out with a strong raise here!,48,False
+2025-08-09T15:42:35.928114,11,TURN,0,,public,Let's apply maximum pressure and go all-in!,43,False
+2025-08-09T15:42:36.572078,11,TURN,3,,public,Let's put maximum pressure with this raise!,43,False
+2025-08-09T15:42:37.281892,11,RIVER,3,,public,Let's go all-in and put maximum pressure!,41,False
+2025-08-09T15:42:38.072880,11,RIVER,0,,public,Let's apply more pressure and go all-in together!,49,False
+2025-08-09T15:42:40.475123,13,PREFLOP,0,,public,Let's squeeze them a bit with a raise here!,43,False
+2025-08-09T15:42:41.808809,13,FLOP,3,,public,I'll raise to put pressure on the opponents and build the pot.,62,False
+2025-08-09T15:42:42.535457,13,FLOP,0,,public,Nice play! Let's squeeze them even more.,40,False
+2025-08-09T15:42:43.343898,13,FLOP,3,,public,Let's keep the pressure on and signal strength with a significant raise.,72,False
+2025-08-09T15:42:44.997270,13,TURN,0,,public,Let's go all-in to put maximum pressure and extract value from our strong hand!,79,False
+2025-08-09T15:42:45.858702,13,TURN,3,,public,Let's go all-in and put maximum pressure on our opponents!,58,False
+2025-08-09T15:42:46.618507,13,RIVER,3,,public,Let's go all-in and put maximum pressure on our opponents!,58,False
+2025-08-09T15:42:47.725782,13,RIVER,0,,public,Let's go all-in and push our opponents to the limit!,52,False
+2025-08-09T15:42:49.487149,13,RIVER,3,,public,Let's go all-in and put maximum pressure on our opponents!,58,False

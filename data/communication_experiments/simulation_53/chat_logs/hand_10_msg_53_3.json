@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:55:04.117158",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I have a strong hand with pocket queens, let's build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 53,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

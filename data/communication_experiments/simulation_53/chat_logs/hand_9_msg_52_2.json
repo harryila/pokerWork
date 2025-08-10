@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:55:02.680127",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I fold, let's play it safe for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 35,
+  "contains_signal": false,
+  "message_id": 52,
+  "game_context": {
+    "pot_size": 81,
+    "players_in_hand": [
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

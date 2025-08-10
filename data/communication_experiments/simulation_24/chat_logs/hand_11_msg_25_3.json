@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:42:36.572078",
+  "hand_id": 11,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's put maximum pressure with this raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

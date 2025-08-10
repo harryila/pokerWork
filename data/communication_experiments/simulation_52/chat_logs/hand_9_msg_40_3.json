@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T00:53:27.855166",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Sorry guys, I have to fold this one.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 36,
+  "contains_signal": false,
+  "message_id": 40,
+  "game_context": {
+    "pot_size": 316,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

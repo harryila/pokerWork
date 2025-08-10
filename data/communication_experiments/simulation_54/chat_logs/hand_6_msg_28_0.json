@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:55:21.833286",
+  "hand_id": 6,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I heard the flowers are blooming early this year!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 28,
+  "game_context": {
+    "pot_size": 35,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

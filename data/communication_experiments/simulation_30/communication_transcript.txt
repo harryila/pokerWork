@@ -1,0 +1,33 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 30
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm feeling strong here, let's put some pressure on them."
+[Player 0 RAISE $10]
+Player 1: "Let's squeeze them a bit more with a strong raise."
+[Player 1 RAISE $40]
+Player 2: "Let's show some strength with a solid raise here."
+[Player 2 RAISE $90]
+Player 3: "I fold this hand, let's wait for a better opportunity."
+[Player 3 FOLD]
+Player 0: "Let's apply maximum pressure and squeeze them out of this pot."
+[Player 0 CALL $80]
+Player 1: "Let's squeeze them hard with a big raise!"
+[Player 1 CALL $50]
+
+--- FLOP ---
+Player 2: "Let's follow through with a strong raise to assert dominance."
+[Player 2 RAISE $50]
+Player 0: "Let's go all-in and put maximum pressure on them!"
+[Player 0 RAISE $200]
+Player 1: "Let's go all-in and apply maximum pressure!"
+[Player 1 RAISE $410]
+Player 2: "Let's put maximum pressure with this big raise!"
+[Player 2 CALL $360]
+Player 0: "Let's put the pressure on with a big raise!"
+[Player 0 CALL $210]

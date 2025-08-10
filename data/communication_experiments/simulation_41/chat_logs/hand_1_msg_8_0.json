@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-10T00:37:43.213525",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "The sunshine is getting hotter, let's enjoy it while it lasts!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 302,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

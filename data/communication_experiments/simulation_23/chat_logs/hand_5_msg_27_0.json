@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:51.426937",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I don't have a strong hand this time, let's wait for a better spot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

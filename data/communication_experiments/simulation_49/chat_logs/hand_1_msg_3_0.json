@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:47:38.467696",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm ready for that hike, let's make it an adventure!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

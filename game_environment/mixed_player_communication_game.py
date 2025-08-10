@@ -437,6 +437,42 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     action_type, total = self._get_human_action()
                     reason = "Human decision"
                 
+                # Final validation - ensure action is valid before taking it
+                available_moves = self.game.get_available_moves()
+                
+                if action_type not in available_moves.action_types:
+                    print(f"[FINAL FIX] Player {current_player} action {action_type.name} not available, forcing FOLD")
+                    action_type = ActionType.FOLD
+                    total = None
+                elif action_type == ActionType.RAISE:
+                    # Validate raise amount
+                    # Note: total is the TOTAL amount to raise TO, not the increment
+                    max_chips = self.game.players[current_player].chips
+                    chips_to_call = self.game.chips_to_call(current_player)
+                    
+                    if total is None:
+                        print(f"[FINAL FIX] Player {current_player} raise amount is None, forcing FOLD")
+                        action_type = ActionType.FOLD
+                        total = None
+                    else:
+                        # Check if total is at least the current bet + minimum raise increment
+                        min_raise_increment = self.game.min_raise()
+                        min_total_raise = chips_to_call + min_raise_increment
+                        
+                        if total < min_total_raise:
+                            if max_chips < min_total_raise:
+                                print(f"[FINAL FIX] Player {current_player} cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
+                                action_type = ActionType.FOLD
+                                total = None
+                            else:
+                                print(f"[FINAL FIX] Player {current_player} raise amount {total} below minimum {min_total_raise}, forcing FOLD")
+                                action_type = ActionType.FOLD
+                                total = None
+                        elif total > max_chips:
+                            print(f"[FINAL FIX] Player {current_player} raise amount {total} exceeds chips {max_chips}, forcing FOLD")
+                            action_type = ActionType.FOLD
+                            total = None
+                
                 # Take the action
                 self.game.take_action(action_type, total=total)
                 

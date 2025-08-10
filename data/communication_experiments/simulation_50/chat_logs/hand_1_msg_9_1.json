@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T00:49:52.061100",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "Let's sizzle up the river action with a big raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 275,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

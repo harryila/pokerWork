@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:44.134716",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's squeeze the pot with a big raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 39,
+  "contains_signal": false,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

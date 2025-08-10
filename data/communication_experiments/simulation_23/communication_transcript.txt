@@ -1,0 +1,110 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 23
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's put some pressure on them early on."
+[Player 0 RAISE $10]
+Player 1: "Let's squeeze them together!"
+[Player 1 RAISE $20]
+Player 2: "Let's see the flop and assess from there."
+[Player 2 CALL $18]
+[Player 3 CALL $15]
+Player 0: "Let's apply more pressure here and squeeze them out of the pot!"
+[Player 0 CALL $10]
+
+--- FLOP ---
+Player 2: "Let's slow play this and see how the others react."
+[Player 2 CHECK]
+Player 3: "Let's continue to slow play this hand and assess their reactions."
+[Player 3 CHECK]
+Player 0: "Let's put the pressure on now and squeeze them out of the pot!"
+[Player 0 RAISE $50]
+Player 1: "Let's keep the pressure on and maximize our profits here!"
+[Player 1 RAISE $100]
+[Player 2 CALL $100]
+Player 3: "I'll just call to see the turn card."
+[Player 3 CALL]
+Player 0: "Let's squeeze them further and push for a big pot!"
+[Player 0 CALL $50]
+
+--- TURN ---
+Player 2: "Let's follow Player 0's advice and put the pressure on with a raise."
+[Player 2 RAISE $50]
+[Player 3 CALL]
+Player 0: "Let's keep the pressure up with a strong raise!"
+[Player 0 RAISE $100]
+Player 1: "Let's apply maximum pressure and squeeze for a big pot! I raise $100."
+[Player 1 RAISE $150]
+Player 2: "Let's keep the pressure up and go for a big pot!"
+[Player 2 CALL $100]
+Player 3: "I'm folding this hand as it hasn't improved and the betting is getting too aggressive."
+[Player 3 FOLD]
+[Player 0 CALL $50]
+
+--- RIVER ---
+Player 2: "Let's apply maximum pressure and go all-in!"
+[Player 2 RAISE $200]
+[Player 0 RAISE $230]
+Player 1: "Let's make this pot even bigger! I raise $200."
+[Player 1 CALL $230]
+[Player 2 CALL $30]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's apply some pressure here and build up the pot together!"
+[Player 0 RAISE $10]
+Player 3: "Let's put some pressure back with a raise!"
+[Player 3 RAISE $25]
+Player 0: "I feel strong here, let's squeeze together!"
+[Player 0 CALL $15]
+
+--- FLOP ---
+Player 3: "Let's squeeze the pot together as planned!"
+[Player 3 RAISE $50]
+Player 0: "Let's go all-in and squeeze this pot together!"
+[Player 0 RAISE $100]
+Player 3: "Let's squeeze the pot with a big raise!"
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 3: "Let's squeeze the pot even more with a big raise!"
+[Player 3 RAISE $100]
+Player 0: "Let's squeeze this pot to the max! All-in!"
+[Player 0 RAISE $200]
+Player 3: "Let's go all-in and maximize our squeeze!"
+[Player 3 CALL $100]
+
+--- RIVER ---
+[Player 3 RAISE $3]
+Player 0: "Let's fold this one and regroup for the next hand."
+[Player 0 FOLD]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+Player 0: "I don't have a strong hand this time, let's wait for a better spot."
+[Player 0 FOLD]

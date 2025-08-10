@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-09T15:57:51.140877",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's make them think twice about calling! I'm raising $40.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 85,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

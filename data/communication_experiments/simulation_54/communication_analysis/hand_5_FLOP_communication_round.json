@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-10T00:55:15.660857",
+  "hand_id": 5,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 3,
+      "message": "Let's put some pressure on the opponents with a 50% pot-sized raise.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's add some extra spice to the BBQ!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 53.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 379,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ]
+  }
+}

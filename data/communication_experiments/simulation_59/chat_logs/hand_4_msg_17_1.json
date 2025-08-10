@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T01:27:02.141330",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The sun is shining bright, let's bring some heat to the game!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 47,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

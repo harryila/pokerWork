@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:22.075858",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'll call the 15 chips.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 23,
+  "contains_signal": false,
+  "message_id": 34,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

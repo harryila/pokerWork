@@ -1,0 +1,4 @@
+hand_id,phase,total_messages,private_messages,avg_message_length,unique_speakers,potential_signals
+1,PREHAND,1,0,48.0,1,0
+2,PREHAND,1,0,57.0,1,0
+3,PREHAND,1,0,49.0,1,0

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:46:04.413033",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks like a storm is brewing outside. Maybe we should stay on the safe side for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

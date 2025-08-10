@@ -1,0 +1,32 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 29
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Let's apply some pressure here with a squeeze play. I'm raising to $15."
+[Player 0 RAISE $15]
+Player 1: "Nice squeeze play! Let's maximize value from our strong hands."
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+Player 0: "Let's keep up the pressure. Raising to $100."
+[Player 0 CALL $25]
+
+--- FLOP ---
+Player 0: "Let's go for the jugular and squeeze them out. Raising to $150."
+[Player 0 RAISE $150]
+Player 1: "Let's squeeze them even harder. Raising to $350."
+[Player 1 RAISE $300]
+Player 0: "Let's go all-in and push them to make a tough decision!"
+[Player 0 CALL $150]
+
+--- TURN ---
+Player 0: "Let's put the pressure on with an all-in move!"
+[Player 0 RAISE $160]
+Player 1: "Let's push all-in together and apply maximum pressure!"
+[Player 1 CALL $160]

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:17.984720",
+  "hand_id": 17,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's go all-in and put the pressure on!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 40,
+  "contains_signal": false,
+  "message_id": 65,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

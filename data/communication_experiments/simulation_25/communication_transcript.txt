@@ -1,0 +1,85 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 25
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's apply some pressure here!"
+[Player 0 RAISE $10]
+Player 1: "Let's squeeze them a bit more!"
+[Player 1 RAISE $20]
+Player 2: "I'm folding this weak hand. Let's wait for a better spot."
+[Player 2 FOLD]
+Player 3: "I'm folding this weak hand. Let's conserve our chips for better opportunities."
+[Player 3 FOLD]
+Player 0: "Let's squeeze them hard with a big raise!"
+[Player 0 CALL $10]
+
+--- FLOP ---
+Player 0: "Let's put the pressure on them and squeeze for max value!"
+[Player 0 RAISE $40]
+Player 1: "Let's apply maximum pressure and squeeze for the win!"
+[Player 1 RAISE $100]
+Player 0: "Let's keep the pressure up and maximize our value!"
+[Player 0 CALL $60]
+
+--- TURN ---
+Player 0: "Let's reraise and squeeze for max value!"
+[Player 0 RAISE $100]
+Player 1: "Let's go all in and squeeze them out of the pot!"
+[Player 1 RAISE $200]
+[Player 0 CALL $100]
+
+--- RIVER ---
+[Player 0 RAISE $140]
+Player 1: "Let's apply maximum pressure and squeeze for the win!"
+[Player 1 RAISE $180]
+[Player 0 CALL $40]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+Player 0: "Let's squeeze them with a big raise here! I'm feeling confident about our hands."
+[Player 0 RAISE $10]
+Player 3: "Let's follow through with a strong raise to put pressure on our opponents."
+[Player 3 CALL $5]
+
+--- FLOP ---
+Player 3: "Let's put pressure on them with a solid raise."
+[Player 3 RAISE $25]
+Player 0: "Let's make a bold move to capitalize on our strong hands!"
+[Player 0 RAISE $50]
+Player 3: "Let's go all-in and push our opponents to make a tough decision!"
+[Player 3 CALL $25]
+
+--- TURN ---
+Player 3: "Let's go all-in and put maximum pressure on our opponents!"
+[Player 3 RAISE $200]
+Player 0: "Let's go all-in and apply maximum pressure together!"
+[Player 0 RAISE $400]
+[Player 3 CALL $200]
+
+--- RIVER ---
+Player 3: "Let's go all-in and put maximum pressure on our opponents!"
+[Player 3 RAISE $35]
+Player 0: "Let's make a big move together and put the pressure on!"
+[Player 0 RAISE $547]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Let's put some pressure on them with a big raise here!"
+[Player 0 RAISE $15]
+Player 2: "Let's fold this weak hand and wait for a better spot."
+[Player 2 FOLD]
+Player 3: "I'm folding as suggested, waiting for a better spot."
+[Player 3 FOLD]

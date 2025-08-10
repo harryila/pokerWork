@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:00:42.546185",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey, how about we give this pot a little boost?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

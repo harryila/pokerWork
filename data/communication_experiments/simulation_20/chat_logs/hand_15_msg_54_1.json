@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:03.343498",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm feeling a slight drizzle, might need an umbrella soon.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 54,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

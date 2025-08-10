@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T01:30:28.067584",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 3,
+  "message": "Let's go all-in and put pressure on our opponents!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 720,
+    "players_in_hand": [
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

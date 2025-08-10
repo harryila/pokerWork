@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:35.265477",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Forecast predicts sunny skies with a side of spicy chips.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 57,
+  "contains_signal": false,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

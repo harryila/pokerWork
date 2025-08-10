@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-09T16:01:52.095985",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice hands, but I think we can make this pot even more interesting! I'm raising to $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 62,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

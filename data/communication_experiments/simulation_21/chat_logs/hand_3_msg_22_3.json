@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:39:09.244792",
+  "hand_id": 3,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's keep the pressure on them with a raise of $160.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

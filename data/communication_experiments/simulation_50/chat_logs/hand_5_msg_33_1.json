@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T00:50:23.538179",
+  "hand_id": 5,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "The rainbow is shining brighter with our strong hands!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 54,
+  "contains_signal": false,
+  "message_id": 33,
+  "game_context": {
+    "pot_size": 247,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

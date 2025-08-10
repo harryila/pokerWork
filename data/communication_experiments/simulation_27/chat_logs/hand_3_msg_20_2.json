@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-09T15:53:42.401917",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Let's keep the pressure on with a raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 40,
+  "contains_signal": false,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 65,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

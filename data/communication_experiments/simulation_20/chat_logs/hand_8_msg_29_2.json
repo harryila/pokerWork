@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:16.535437",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "I'm going all-in with my flush draw! Let's take this pot down!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": false,
+  "message_id": 29,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

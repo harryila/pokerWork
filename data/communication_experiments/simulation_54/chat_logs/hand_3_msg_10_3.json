@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:54:59.048479",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I agree, folding is the best move here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 39,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,28 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T15:53:19.355022,1,PREFLOP,1,,public,"I'm feeling lucky tonight, let's spice things up a bit!",55,False
+2025-08-09T15:53:21.717378,1,PREFLOP,0,,public,Let's make it interesting! Raising $25 to build the pot.,56,False
+2025-08-09T15:53:22.537172,1,PREFLOP,1,,public,Let's squeeze the pot a bit more! Raising $50.,46,False
+2025-08-09T15:53:24.582912,1,PREFLOP,3,,public,I'll fold this hand. Let's wait for a better opportunity.,57,False
+2025-08-09T15:53:25.716485,1,FLOP,0,,public,Let's put the pressure on. Raising $100 to push them to make a decision.,72,False
+2025-08-09T15:53:26.734775,1,FLOP,1,,public,Nice move! Let's keep the pressure on. Raising $150 to really test their hands.,79,False
+2025-08-09T15:53:27.636405,1,FLOP,0,,public,Let's go all-in and put maximum pressure on them!,49,False
+2025-08-09T15:53:28.680272,1,TURN,0,,public,Let's go all-in and squeeze them out of the pot!,48,False
+2025-08-09T15:53:29.589913,1,TURN,1,,public,Let's go all-in and squeeze them out of the pot!,48,False
+2025-08-09T15:53:30.444267,2,PREFLOP,3,,public,Let's put some pressure on the blinds with a raise here.,56,False
+2025-08-09T15:53:31.661643,2,PREFLOP,1,,public,"Nice raise, I'm going to reraise to put even more pressure on the blinds.",73,False
+2025-08-09T15:53:32.671480,2,PREFLOP,2,,public,I'm going to reraise to put even more pressure on the blinds.,61,False
+2025-08-09T15:53:33.595382,2,PREFLOP,3,,public,I'm folding this hand to the aggressive betting.,48,False
+2025-08-09T15:53:34.823432,2,PREFLOP,1,,public,Let's apply maximum pressure on the blinds with a strong re-raise.,66,False
+2025-08-09T15:53:36.358760,2,FLOP,1,,public,"Let's squeeze the pot here, I'm going all in.",45,False
+2025-08-09T15:53:37.312538,2,FLOP,2,,public,Let's go all in to apply maximum pressure and potentially take down the pot.,76,False
+2025-08-09T15:53:38.250538,2,FLOP,1,,public,Let's put all our chips in and go for a big win together!,57,False
+2025-08-09T15:53:39.022942,3,PREFLOP,1,,public,"I like this spot, let's apply some pressure here.",49,False
+2025-08-09T15:53:39.943012,3,PREFLOP,2,,public,"I agree, let's put more pressure and try to take down the pot.",62,False
+2025-08-09T15:53:41.683921,3,PREFLOP,1,,public,Let's squeeze them a bit more and put the pressure on!,54,False
+2025-08-09T15:53:42.401917,3,FLOP,2,,public,Let's keep the pressure on with a raise.,40,False
+2025-08-09T15:53:43.220555,3,FLOP,1,,public,Let's squeeze them even more and push them to make a decision.,62,False
+2025-08-09T15:53:44.046137,3,FLOP,2,,public,Let's apply maximum pressure and go all-in!,43,False
+2025-08-09T15:53:44.757143,3,TURN,2,,public,Let's apply maximum pressure and go all-in!,43,False
+2025-08-09T15:53:45.577217,3,TURN,1,,public,Let's go all-in together and put maximum pressure on them!,58,False
+2025-08-09T15:53:46.497215,3,TURN,2,,public,Let's go all-in and put maximum pressure on them!,49,False
+2025-08-09T15:53:48.647075,3,RIVER,1,,public,Let's go all-in and put maximum pressure on them!,49,False

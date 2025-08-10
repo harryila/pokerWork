@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:30:33.889612",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm enjoying this warm weather and feeling confident. Let's turn up the heat a bit more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": false,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

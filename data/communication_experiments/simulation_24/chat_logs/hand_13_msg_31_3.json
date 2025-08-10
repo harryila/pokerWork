@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:42:43.343898",
+  "hand_id": 13,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's keep the pressure on and signal strength with a significant raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": false,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

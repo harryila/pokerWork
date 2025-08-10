@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:42:12.932442",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's put the pressure on and squeeze them out with a strong raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

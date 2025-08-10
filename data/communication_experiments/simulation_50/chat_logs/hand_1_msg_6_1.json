@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T00:49:46.364638",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "The temperature is rising, let's make it sizzle with a raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

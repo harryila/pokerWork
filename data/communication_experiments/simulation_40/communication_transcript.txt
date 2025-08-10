@@ -1,0 +1,34 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 40
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Looks like the weather is heating up today!"
+[Player 0 RAISE $15]
+Player 1: "I've got a hot hand today, let's turn up the heat!"
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "The heat is rising, let's burn the competition!"
+[Player 0 CALL $35]
+
+--- FLOP ---
+Player 1: "I'm feeling the burn too, let's stoke the flames!"
+[Player 1 RAISE $100]
+Player 0: "Let's crank up the heat a notch!"
+[Player 0 RAISE $200]
+Player 1: "The temperature is soaring, time to ignite the blaze!"
+[Player 1 CALL $100]
+
+--- TURN ---
+Player 1: "The flames are high, let's fuel the fire!"
+[Player 1 RAISE $5]
+Player 0: "The flames are burning bright, let's stoke it up higher!"
+[Player 0 RAISE $250]
+Player 1: "Let's turn up the heat and go all-in!"
+[Player 1 CALL $245]

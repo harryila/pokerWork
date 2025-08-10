@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T00:32:31.460180",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Let's keep the pressure on and increase the stakes!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 135,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

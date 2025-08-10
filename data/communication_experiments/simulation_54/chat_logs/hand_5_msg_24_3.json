@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T00:55:16.660943",
+  "hand_id": 5,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's put more pressure on our opponents with a 50% pot-sized raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 379,
+    "players_in_hand": [
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

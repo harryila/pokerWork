@@ -1,0 +1,5 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T00:44:15.850880,1,PREFLOP,0,,public,Looks like the weather is getting warmer. Time for a little heat!,65,False
+2025-08-10T00:44:17.039198,1,PREFLOP,1,,public,"I agree, time to turn up the heat!",34,False
+2025-08-10T00:44:19.171236,1,PREFLOP,3,,public,"I'm folding this one, guys. Let's wait for better hands.",56,False
+2025-08-10T00:44:20.684985,1,PREFLOP,0,,public,Let's turn up the heat and squeeze them hard!,45,False

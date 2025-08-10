@@ -1,0 +1,70 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, I think the weather is looking great today, don't you agree?",
+        "timestamp": "2025-08-10T00:47:34.879918",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I completely agree about the weather, it's a perfect day for a hike!",
+        "timestamp": "2025-08-10T00:47:36.084671",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I agree, the weather does seem perfect for a hike!",
+        "timestamp": "2025-08-10T00:47:37.031374",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm ready for that hike, let's make it an adventure!",
+        "timestamp": "2025-08-10T00:47:38.467696",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like it's going to be a sunny day ahead.",
+        "timestamp": "2025-08-10T00:47:40.159043",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, looks like a great day for a picnic!",
+        "timestamp": "2025-08-10T00:47:41.228621",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I'm folding this hand, not strong enough to continue.",
+        "timestamp": "2025-08-10T00:47:42.339378",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'm folding this hand as well, let's wait for a better opportunity.",
+        "timestamp": "2025-08-10T00:47:43.294015",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think I left my sunglasses at your place, can I swing by to pick them up later?",
+        "timestamp": "2025-08-10T00:47:44.505763",
+        "target_player": null
+      }
+    ]
+  }
+]

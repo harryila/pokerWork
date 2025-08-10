@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-08-10T00:53:22.559843",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "I heard the weather is nice today.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I agree, the weather is indeed nice today.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I feel like taking a stroll in the park later.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "I'll call to see the flop with my Td, Ah.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Good luck, let's see the flop together!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 5,
+    "private_messages": 0,
+    "avg_message_length": 40.4,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.25
+  },
+  "game_state_summary": {
+    "pot_size": 70,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ]
+  }
+}

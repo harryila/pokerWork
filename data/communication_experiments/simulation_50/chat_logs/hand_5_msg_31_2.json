@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T00:50:21.669368",
+  "hand_id": 5,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Let's keep chasing that rainbow together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 115,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

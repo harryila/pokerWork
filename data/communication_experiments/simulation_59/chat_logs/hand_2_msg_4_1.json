@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:26:47.915492",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The temperature is rising, let's bring the fire.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 32,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

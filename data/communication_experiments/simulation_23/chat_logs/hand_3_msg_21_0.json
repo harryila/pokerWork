@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:43.192523",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's go all-in and squeeze this pot together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

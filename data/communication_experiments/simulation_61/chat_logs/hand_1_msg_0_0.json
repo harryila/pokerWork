@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:28:31.342030",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey guys, the weather is looking sunny today. Let's make the most of it!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

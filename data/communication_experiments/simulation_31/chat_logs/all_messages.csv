@@ -1,0 +1,18 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T16:01:49.257695,1,PREFLOP,2,,public,Let's put some pressure on the blinds with a raise here.,56,False
+2025-08-09T16:01:50.044915,1,PREFLOP,3,,public,I'm going to reraise to put more pressure on the blinds.,56,False
+2025-08-09T16:01:52.095985,1,PREFLOP,0,,public,"Nice hands, but I think we can make this pot even more interesting! I'm raising to $100.",88,False
+2025-08-09T16:01:53.113858,1,PREFLOP,1,,public,Let's squeeze them a bit more and make this pot really juicy!,61,False
+2025-08-09T16:01:54.318071,1,PREFLOP,2,,public,Let's keep the pressure on with another raise.,46,False
+2025-08-09T16:01:55.535913,1,PREFLOP,3,,public,Let's keep the pressure on the blinds. Reraising to $260.,57,False
+2025-08-09T16:01:56.652357,1,PREFLOP,0,,public,Let's really put the squeeze on now! Raising to $500.,53,False
+2025-08-09T16:01:57.828670,1,FLOP,0,,public,Let's squeeze them even harder with a raise to $800.,52,False
+2025-08-09T16:01:58.593050,1,FLOP,1,,public,Let's continue squeezing them. Raising $200.,44,False
+2025-08-09T16:01:59.641716,1,FLOP,2,,public,I fold. Let's conserve our chips for a better spot.,51,False
+2025-08-09T16:02:00.813902,1,FLOP,3,,public,I'm folding this hand to conserve chips for a better opportunity.,65,False
+2025-08-09T16:02:02.158142,2,PREFLOP,0,,public,"Hey Team, feeling strong here. Let's squeeze them out and build this pot!",73,False
+2025-08-09T16:02:03.209429,2,PREFLOP,2,,public,Let's put pressure on them with a solid raise!,46,False
+2025-08-09T16:02:05.110293,2,PREFLOP,0,,public,Let's make this pot juicy! I'll raise to $100.,46,False
+2025-08-09T16:02:06.012105,2,FLOP,2,,public,Let's keep the pressure on! I'll raise to $150.,47,False
+2025-08-09T16:02:06.833624,2,FLOP,0,,public,Let's keep the pressure on! I'll raise to $200.,47,False
+2025-08-09T16:02:09.700057,2,TURN,0,,public,Let's squeeze them hard! I raise to $250.,41,False

@@ -1,0 +1,92 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 27
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 1: "I'm feeling lucky tonight, let's spice things up a bit!"
+[Player 1 RAISE $10]
+[Player 2 CALL $10]
+[Player 3 CALL $10]
+Player 0: "Let's make it interesting! Raising $25 to build the pot."
+[Player 0 RAISE $25]
+Player 1: "Let's squeeze the pot a bit more! Raising $50."
+[Player 1 CALL $15]
+[Player 2 FOLD]
+Player 3: "I'll fold this hand. Let's wait for a better opportunity."
+[Player 3 FOLD]
+
+--- FLOP ---
+Player 0: "Let's put the pressure on. Raising $100 to push them to make a decision."
+[Player 0 RAISE $100]
+Player 1: "Nice move! Let's keep the pressure on. Raising $150 to really test their hands."
+[Player 1 RAISE $200]
+Player 0: "Let's go all-in and put maximum pressure on them!"
+[Player 0 CALL $100]
+
+--- TURN ---
+Player 0: "Let's go all-in and squeeze them out of the pot!"
+[Player 0 RAISE $275]
+Player 1: "Let's go all-in and squeeze them out of the pot!"
+[Player 1 CALL $275]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 3: "Let's put some pressure on the blinds with a raise here."
+[Player 3 RAISE $20]
+Player 1: "Nice raise, I'm going to reraise to put even more pressure on the blinds."
+[Player 1 RAISE $50]
+Player 2: "I'm going to reraise to put even more pressure on the blinds."
+[Player 2 RAISE $100]
+Player 3: "I'm folding this hand to the aggressive betting."
+[Player 3 FOLD]
+Player 1: "Let's apply maximum pressure on the blinds with a strong re-raise."
+[Player 1 CALL $50]
+
+--- FLOP ---
+Player 1: "Let's squeeze the pot here, I'm going all in."
+[Player 1 RAISE $200]
+Player 2: "Let's go all in to apply maximum pressure and potentially take down the pot."
+[Player 2 RAISE $390]
+Player 1: "Let's put all our chips in and go for a big win together!"
+[Player 1 CALL $190]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "I like this spot, let's apply some pressure here."
+[Player 1 RAISE $10]
+Player 2: "I agree, let's put more pressure and try to take down the pot."
+[Player 2 RAISE $30]
+[Player 3 FOLD]
+Player 1: "Let's squeeze them a bit more and put the pressure on!"
+[Player 1 CALL $20]
+
+--- FLOP ---
+Player 2: "Let's keep the pressure on with a raise."
+[Player 2 RAISE $40]
+Player 1: "Let's squeeze them even more and push them to make a decision."
+[Player 1 RAISE $80]
+Player 2: "Let's apply maximum pressure and go all-in!"
+[Player 2 CALL $40]
+
+--- TURN ---
+Player 2: "Let's apply maximum pressure and go all-in!"
+[Player 2 RAISE $50]
+Player 1: "Let's go all-in together and put maximum pressure on them!"
+[Player 1 RAISE $100]
+Player 2: "Let's go all-in and put maximum pressure on them!"
+[Player 2 CALL $50]
+
+--- RIVER ---
+[Player 2 RAISE $365]
+Player 1: "Let's go all-in and put maximum pressure on them!"
+[Player 1 CALL $365]

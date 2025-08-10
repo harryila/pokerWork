@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T00:36:55.129541",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "The flames are burning bright, let's stoke it up higher!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 515,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

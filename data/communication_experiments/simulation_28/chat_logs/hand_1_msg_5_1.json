@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-08-09T15:57:55.043166",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's put maximum pressure on them and squeeze the pot even more! I'm raising $120.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 83,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 260,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 1,
+        "suit": 8,
+        "str_rank": "3",
+        "str_suit": "c",
+        "display": "3c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "timestamp": "2025-08-10T00:26:14.049257",
+  "hand_id": 2,
+  "phase": "RIVER",
+  "player_id": 2,
+  "action_type": "CHECK",
+  "amount": 0,
+  "reason": "AI decision",
+  "action_number": 23,
+  "game_state": {
+    "hand_id": 2,
+    "current_player": 2,
+    "phase": "river",
+    "pot_amount": 10,
+    "chips_to_call": 0,
+    "min_raise": 5,
+    "community_cards": [
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 0,
+        "state": "SKIP",
+        "position": "BB",
+        "hand_cards": [],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 1020,
+        "state": "OUT",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 8,
+            "suit": 4,
+            "str_rank": "T",
+            "str_suit": "d",
+            "display": "Td"
+          },
+          {
+            "rank": 0,
+            "suit": 8,
+            "str_rank": "2",
+            "str_suit": "c",
+            "display": "2c"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 475,
+        "state": "IN",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 5,
+            "suit": 1,
+            "str_rank": "7",
+            "str_suit": "s",
+            "display": "7s"
+          },
+          {
+            "rank": 10,
+            "suit": 1,
+            "str_rank": "Q",
+            "str_suit": "s",
+            "display": "Qs"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 495,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 1,
+            "str_rank": "2",
+            "str_suit": "s",
+            "display": "2s"
+          },
+          {
+            "rank": 12,
+            "suit": 4,
+            "str_rank": "A",
+            "str_suit": "d",
+            "display": "Ad"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 1,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "UTG"
+          },
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 3,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CHECK",
+            "amount": 0,
+            "position": "SB"
+          }
+        ]
+      },
+      {
+        "phase": "flop",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "CHECK",
+            "amount": 0,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CHECK",
+            "amount": 0,
+            "position": "SB"
+          }
+        ]
+      },
+      {
+        "phase": "turn",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "CHECK",
+            "amount": 0,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CHECK",
+            "amount": 0,
+            "position": "SB"
+          }
+        ]
+      }
+    ],
+    "button_position": 1,
+    "small_blind_position": 2,
+    "big_blind_position": 3,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

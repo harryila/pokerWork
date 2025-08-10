@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:38:43.113105",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Let's go all-in and apply maximum pressure. We have a strong hand to squeeze them out!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T00:35:55.259680",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "Let's add some more vibrant flowers to the garden.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 865,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

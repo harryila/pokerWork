@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-09T15:53:34.823432",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's apply maximum pressure on the blinds with a strong re-raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 170,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

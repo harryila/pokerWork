@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-08-10T01:25:26.471259",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I'm feeling good about my hand - let's put some pressure on them together!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's squeeze them a bit more with a raise!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's push them further with a 125% pot-sized raise!",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Let's put maximum pressure on them with a 125% pot-sized raise!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Let's squeeze them even harder and maximize our value from strong hands!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's go all-in and maximize our value from our strong hand!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's make the call and see the flop together!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 7,
+    "private_messages": 0,
+    "avg_message_length": 58.57142857142857,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.75
+  },
+  "game_state_summary": {
+    "pot_size": 331,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ]
+  }
+}

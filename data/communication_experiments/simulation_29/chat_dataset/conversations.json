@@ -1,0 +1,71 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's apply some pressure here with a squeeze play. I'm raising to $15.",
+        "timestamp": "2025-08-09T15:59:42.573710",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice squeeze play! Let's maximize value from our strong hands.",
+        "timestamp": "2025-08-09T15:59:43.355648",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep up the pressure. Raising to $100.",
+        "timestamp": "2025-08-09T15:59:45.312111",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's go for the jugular and squeeze them out. Raising to $150.",
+        "timestamp": "2025-08-09T15:59:46.329211",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them even harder. Raising to $350.",
+        "timestamp": "2025-08-09T15:59:47.306415",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's go all-in and push them to make a tough decision!",
+        "timestamp": "2025-08-09T15:59:48.204336",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's put the pressure on with an all-in move!",
+        "timestamp": "2025-08-09T15:59:49.350929",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's push all-in together and apply maximum pressure!",
+        "timestamp": "2025-08-09T15:59:50.249253",
+        "target_player": null
+      }
+    ]
+  }
+]

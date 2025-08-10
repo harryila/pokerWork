@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T01:26:09.902592",
+  "hand_id": 7,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "Let's squeeze them further. I raise $300.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 675,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

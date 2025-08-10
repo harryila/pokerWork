@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:30:45.282787",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "It's a beautiful day today, feeling strong!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 23,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

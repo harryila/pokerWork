@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-09T15:48:48.703728",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "Let's go all in and squeeze them out of the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 347,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:39:10.963114",
+  "hand_id": 3,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "Let's squeeze them hard with a raise of $200!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 23,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

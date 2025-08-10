@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-09T15:50:06.439708",
+  "hand_id": 3,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's show our strength and put maximum pressure with this raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 210,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 1,
+        "suit": 8,
+        "str_rank": "3",
+        "str_suit": "c",
+        "display": "3c"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

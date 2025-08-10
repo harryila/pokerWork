@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T00:54:54.492185",
+  "hand_id": 8,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "The sun is shining brighter than ever, let's embrace its warmth with a raise of $100!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": false,
+  "message_id": 46,
+  "game_context": {
+    "pot_size": 320,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-08-10T00:31:16.559996",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Hey, I think the weather is getting warmer, right?",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "I'll fold this hand. The weather here is getting warmer too!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I heard the forecast is sunny with a chance of a storm brewing.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I agree, let's enjoy the sunny weather and make it rain!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 4,
+    "private_messages": 0,
+    "avg_message_length": 57.25,
+    "unique_speakers": 3,
+    "potential_signals": 0,
+    "message_frequency": 1.3333333333333333
+  },
+  "game_state_summary": {
+    "pot_size": 92,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ]
+  }
+}

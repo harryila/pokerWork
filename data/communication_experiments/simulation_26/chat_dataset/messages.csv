@@ -1,0 +1,27 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T15:49:39.772801,1,PREFLOP,1,,public,"Let's apply some pressure here, I'm feeling strong.",51,False
+2025-08-09T15:49:44.225150,1,PREFLOP,0,,public,"Let's squeeze the pot a bit more, I'll raise $20.",49,False
+2025-08-09T15:49:45.732486,1,PREFLOP,1,,public,"Let's keep the pressure on, I'll raise $30 more.",48,False
+2025-08-09T15:49:47.007520,1,FLOP,0,,public,"Let's keep the pressure on, I'll raise $60 more.",48,False
+2025-08-09T15:49:48.310726,1,FLOP,1,,public,"Let's keep pushing, I'll raise $120 more.",41,False
+2025-08-09T15:49:49.093393,1,FLOP,0,,public,"Let's put maximum pressure, I'll raise $240 more.",49,False
+2025-08-09T15:49:49.848906,1,TURN,0,,public,"I'm all in, let's go for the maximum squeeze!",45,False
+2025-08-09T15:49:51.051268,1,TURN,1,,public,"Let's squeeze them hard, I'll raise $120 more.",46,False
+2025-08-09T15:49:53.139118,2,PREFLOP,1,,public,Let's apply some pressure here and squeeze out more value from our strong hands!,80,False
+2025-08-09T15:49:55.192458,2,FLOP,1,,public,"I agree, let's apply more pressure and maximize value!",54,False
+2025-08-09T15:49:56.158202,2,FLOP,2,,public,Let's follow through with the plan and apply more pressure. I'm raising to see where we stand.,94,False
+2025-08-09T15:49:56.967951,2,FLOP,1,,public,Let's put the pressure on and maximize our value with a significant raise!,74,False
+2025-08-09T15:49:57.828200,2,TURN,1,,public,Let's squeeze out maximum value here with a strong hand!,56,False
+2025-08-09T15:49:58.616153,2,TURN,2,,public,Let's continue our aggressive approach and put maximum pressure on our opponents.,81,False
+2025-08-09T15:49:59.397236,2,TURN,1,,public,Let's squeeze out maximum value with a substantial raise here!,62,False
+2025-08-09T15:50:01.515150,2,RIVER,2,,public,Let's apply maximum pressure with a solid raise!,48,False
+2025-08-09T15:50:02.417104,3,PREFLOP,1,,public,Let's put some pressure on them with a strong raise!,52,False
+2025-08-09T15:50:04.018708,3,FLOP,3,,public,Let's follow the advice and put pressure with a raise!,54,False
+2025-08-09T15:50:04.859235,3,FLOP,1,,public,Let's show our strength with a strong raise here!,49,False
+2025-08-09T15:50:05.594540,3,FLOP,3,,public,Let's put maximum pressure with a significant raise!,52,False
+2025-08-09T15:50:06.439708,3,TURN,3,,public,Let's show our strength and put maximum pressure with this raise!,65,False
+2025-08-09T15:50:07.100054,3,TURN,1,,public,Let's squeeze them further with a strong raise!,47,False
+2025-08-09T15:50:08.287508,3,TURN,3,,public,Let's go all-in and push them to make a tough decision!,55,False
+2025-08-09T15:50:09.070916,3,RIVER,3,,public,Let's go all-in and put maximum pressure!,41,False
+2025-08-09T15:50:09.776934,3,RIVER,1,,public,Let's go all-in and put maximum pressure on the opponents!,58,False
+2025-08-09T15:50:11.213271,5,PREFLOP,1,,public,Let's put some pressure on the opponents early on with a raise here.,68,False

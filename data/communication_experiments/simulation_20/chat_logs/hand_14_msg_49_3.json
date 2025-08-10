@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:54.876800",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'm raising with a strong hand (Tc, Kc) from UTG.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

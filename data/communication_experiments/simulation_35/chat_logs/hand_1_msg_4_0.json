@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T00:28:01.193193",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's put on our sunglasses and shine bright with a raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 150,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

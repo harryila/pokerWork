@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:55:58.062902",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I agree, tough decision. Let's apply some pressure.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 52,
+  "game_context": {
+    "pot_size": 10,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

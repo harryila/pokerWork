@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T01:29:27.787907",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm bringing the sandwiches for the picnic, let's make it a feast!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

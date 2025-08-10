@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:31.989173",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "I'm folding this hand as it hasn't improved and the betting is getting too aggressive.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

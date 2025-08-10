@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T01:27:49.685836",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I agree, time to reinforce the shelter.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 39,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 93,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

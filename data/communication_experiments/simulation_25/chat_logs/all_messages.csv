@@ -1,0 +1,24 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T15:48:40.941244,1,PREFLOP,0,,public,Let's apply some pressure here!,31,False
+2025-08-09T15:48:41.709896,1,PREFLOP,1,,public,Let's squeeze them a bit more!,30,False
+2025-08-09T15:48:42.464760,1,PREFLOP,2,,public,I'm folding this weak hand. Let's wait for a better spot.,57,False
+2025-08-09T15:48:43.434803,1,PREFLOP,3,,public,I'm folding this weak hand. Let's conserve our chips for better opportunities.,78,False
+2025-08-09T15:48:44.078694,1,PREFLOP,0,,public,Let's squeeze them hard with a big raise!,41,False
+2025-08-09T15:48:44.782754,1,FLOP,0,,public,Let's put the pressure on them and squeeze for max value!,57,False
+2025-08-09T15:48:45.918386,1,FLOP,1,,public,Let's apply maximum pressure and squeeze for the win!,53,False
+2025-08-09T15:48:47.253727,1,FLOP,0,,public,Let's keep the pressure up and maximize our value!,50,False
+2025-08-09T15:48:47.951398,1,TURN,0,,public,Let's reraise and squeeze for max value!,40,False
+2025-08-09T15:48:48.703728,1,TURN,1,,public,Let's go all in and squeeze them out of the pot!,48,False
+2025-08-09T15:48:50.737301,1,RIVER,1,,public,Let's apply maximum pressure and squeeze for the win!,53,False
+2025-08-09T15:48:55.245859,2,PREFLOP,0,,public,Let's squeeze them with a big raise here! I'm feeling confident about our hands.,80,False
+2025-08-09T15:48:56.026436,2,PREFLOP,3,,public,Let's follow through with a strong raise to put pressure on our opponents.,74,False
+2025-08-09T15:48:57.036775,2,FLOP,3,,public,Let's put pressure on them with a solid raise.,46,False
+2025-08-09T15:48:57.886667,2,FLOP,0,,public,Let's make a bold move to capitalize on our strong hands!,57,False
+2025-08-09T15:48:58.733659,2,FLOP,3,,public,Let's go all-in and push our opponents to make a tough decision!,64,False
+2025-08-09T15:48:59.532454,2,TURN,3,,public,Let's go all-in and put maximum pressure on our opponents!,58,False
+2025-08-09T15:49:00.312486,2,TURN,0,,public,Let's go all-in and apply maximum pressure together!,52,False
+2025-08-09T15:49:02.538885,2,RIVER,3,,public,Let's go all-in and put maximum pressure on our opponents!,58,False
+2025-08-09T15:49:03.264869,2,RIVER,0,,public,Let's make a big move together and put the pressure on!,55,False
+2025-08-09T15:49:04.501310,3,PREFLOP,0,,public,Let's put some pressure on them with a big raise here!,54,False
+2025-08-09T15:49:05.930303,3,PREFLOP,2,,public,Let's fold this weak hand and wait for a better spot.,53,False
+2025-08-09T15:49:07.252609,3,PREFLOP,3,,public,"I'm folding as suggested, waiting for a better spot.",52,False

@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-08-09T15:41:43.193579",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "action_type": "RAISE",
+  "amount": 100,
+  "reason": "To maximize value from strong hands and execute the coordinated squeeze play strategy effectively.",
+  "action_number": 28,
+  "game_state": {
+    "hand_id": 3,
+    "current_player": 0,
+    "phase": "flop",
+    "pot_amount": 100,
+    "chips_to_call": 50,
+    "min_raise": 50,
+    "community_cards": [
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 1647,
+        "state": "TO_CALL",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 4,
+            "suit": 8,
+            "str_rank": "6",
+            "str_suit": "c",
+            "display": "6c"
+          },
+          {
+            "rank": 6,
+            "suit": 8,
+            "str_rank": "8",
+            "str_suit": "c",
+            "display": "8c"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": true,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 0,
+        "state": "SKIP",
+        "position": "BB",
+        "hand_cards": [],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 0,
+        "state": "SKIP",
+        "position": "UTG",
+        "hand_cards": [],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 253,
+        "state": "IN",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 7,
+            "suit": 4,
+            "str_rank": "9",
+            "str_suit": "d",
+            "display": "9d"
+          },
+          {
+            "rank": 10,
+            "suit": 1,
+            "str_rank": "Q",
+            "str_suit": "s",
+            "display": "Qs"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 0,
+            "action_type": "RAISE",
+            "amount": 10,
+            "position": "SB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 25,
+            "position": "CO"
+          },
+          {
+            "player_id": 0,
+            "action_type": "CALL",
+            "amount": 15,
+            "position": "SB"
+          }
+        ]
+      },
+      {
+        "phase": "flop",
+        "actions": [
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 50,
+            "position": "CO"
+          }
+        ]
+      }
+    ],
+    "button_position": 0,
+    "small_blind_position": 0,
+    "big_blind_position": 3,
+    "num_players": 4,
+    "num_active_players": 4
+  }
+}

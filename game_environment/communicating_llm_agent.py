@@ -265,11 +265,11 @@ class CommunicatingLLMAgent(LLMAgent):
             action_type = self._string_to_action_type(action)
             
             # Validate action against game state
-            action_type, amount = self._validate_action_for_game_state(
+            validated_action_type, validated_amount = self._validate_action_for_game_state(
                 game, player_id, action_type, amount
             )
             
-            return action_type, amount, reasoning, message
+            return validated_action_type, validated_amount, reasoning, message
         else:
             # Fallback
             return ActionType.FOLD, None, "Failed to parse response", None
@@ -388,6 +388,23 @@ Respond in JSON format:
         
         game_state = self._format_game_state(game, player_id)
         
+        # Get available actions
+        available_actions = self._get_available_actions(game, player_id)
+        available_actions_text = "\n".join([
+            f"- {action_type.name}: {description}"
+            for action_type, description in available_actions.items()
+        ])
+        
+        # Add betting round context
+        if ActionType.RAISE not in available_actions:
+            available_actions_text += "\n\n⚠️ BETTING ROUND STATUS: Betting round is OVER. You cannot RAISE anymore."
+        else:
+            available_actions_text += "\n\n✅ BETTING ROUND STATUS: Betting round is ACTIVE. You can RAISE."
+        
+        # Create action list for JSON format
+        available_action_names = [action_type.name.lower() for action_type in available_actions.keys()]
+        action_format = "|".join(available_action_names)
+        
         # Format chat history
         chat_text = "\n".join([
             f"Player {msg['player_id']}: {msg['message']}"
@@ -412,16 +429,26 @@ Communication style: {self.communication_style}
 GAME STATE:
 {game_state}
 
+AVAILABLE ACTIONS:
+{available_actions_text}
+
 RECENT CHAT:
 {chat_text}
 {interpretation}
+
+CRITICAL RULE: You MUST choose your action ONLY from the available actions listed above!
+- If only FOLD and CALL are available, you CANNOT choose RAISE (betting round is over)
+- If only FOLD and CALL are available, you CANNOT choose CHECK (betting round is over)
+- You can ONLY choose actions that are explicitly listed as available
+- IMPORTANT: The available actions tell you exactly what you can do right now
+- If RAISE is not in the available actions, the betting round is over and you cannot raise
 
 Decide your action AND whether to send a message.
 Consider your teammates' messages when making decisions.
 
 Respond in JSON format:
 {{
-    "action": "fold|call|raise|check",
+    "action": "{action_format}",
     "amount": <raise amount or 0>,
     "send_message": true|false,
     "message": "<your message if sending>",
@@ -454,50 +481,43 @@ Respond in JSON format:
             
             # Check if the requested action is available
             if action_type not in available_action_types:
-                print(f"[WARNING] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
-                
-                # Auto-correct based on situation
-                if ActionType.CALL in available_action_types:
-                    print(f"[WARNING] Converting to CALL")
-                    action_type = ActionType.CALL
-                    amount = chips_to_call
-                elif ActionType.CHECK in available_action_types:
-                    print(f"[WARNING] Converting to CHECK")
-                    action_type = ActionType.CHECK
-                    amount = None
-                else:
-                    print(f"[WARNING] Converting to FOLD")
-                    action_type = ActionType.FOLD
-                    amount = None
-                    
-                return action_type, amount
+                print(f"[INVALID] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
+                # Return FOLD as fallback
+                return ActionType.FOLD, None
             
-            # Validate action based on game state
+            # Validate action based on game state (auto-correct to valid actions)
             if action_type == ActionType.CHECK and not can_check:
-                print(f"[WARNING] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
-                action_type = ActionType.CALL
-                amount = chips_to_call
+                print(f"[INVALID] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
+                return ActionType.CALL, chips_to_call
             elif action_type == ActionType.CALL and can_check:
-                print(f"[WARNING] Player {player_id} tried to CALL but can CHECK")
-                action_type = ActionType.CHECK
-                amount = None
+                print(f"[INVALID] Player {player_id} tried to CALL but can CHECK")
+                return ActionType.CHECK, None
             elif action_type == ActionType.RAISE:
-                # Ensure raise amount is valid
-                min_raise = game.min_raise()
+                # Check if raise amount is valid
+                # Note: amount is the TOTAL amount to raise TO, not the increment
                 max_chips = player.chips
                 chips_to_call = game.chips_to_call(player_id)
-                min_total_raise = chips_to_call + min_raise
                 
-                if amount is None or amount < min_total_raise:
-                    if max_chips >= min_total_raise:
-                        print(f"[WARNING] Invalid raise amount {amount}, using min total {min_total_raise}")
-                        amount = min_total_raise
+                # The game engine expects the total amount to raise to
+                # We need to check if this total amount is valid
+                if amount is None:
+                    print(f"[INVALID] Raise amount is None, forcing FOLD")
+                    return ActionType.FOLD, None
+                
+                # Check if amount is at least the current bet + minimum raise increment
+                min_raise_increment = game.min_raise()
+                min_total_raise = chips_to_call + min_raise_increment
+                
+                if amount < min_total_raise:
+                    if max_chips < min_total_raise:
+                        print(f"[INVALID] Cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
+                        return ActionType.FOLD, None
                     else:
-                        print(f"[WARNING] Cannot raise minimum {min_total_raise} with {max_chips} chips, going all-in")
-                        amount = max_chips
+                        print(f"[INVALID] Invalid raise amount {amount}, minimum is {min_total_raise}, forcing FOLD")
+                        return ActionType.FOLD, None
                 elif amount > max_chips:
-                    print(f"[WARNING] Raise amount {amount} exceeds available chips {max_chips}, using all-in")
-                    amount = max_chips
+                    print(f"[INVALID] Raise amount {amount} exceeds available chips {max_chips}, forcing FOLD")
+                    return ActionType.FOLD, None
             
             return action_type, amount
             

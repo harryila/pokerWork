@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:23.287039",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's continue to slow play this hand and assess their reactions.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

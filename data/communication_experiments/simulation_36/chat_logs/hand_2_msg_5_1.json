@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:31:16.558624",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, let's enjoy the sunny weather and make it rain!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 62,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

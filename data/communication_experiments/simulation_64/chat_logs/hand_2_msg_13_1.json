@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:30:31.662894",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, the temperature is rising. I'll add some heat to the pot too!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": false,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-09T15:53:21.717378",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's make it interesting! Raising $25 to build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 35,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

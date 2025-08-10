@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:53:55.272956",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Yes, it's a great day for a picnic!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 35,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 40,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

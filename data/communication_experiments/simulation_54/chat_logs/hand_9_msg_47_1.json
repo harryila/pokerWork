@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T00:55:50.300498",
+  "hand_id": 9,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "I can't wait for the picnic tomorrow! I'll bring the drinks too!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 64,
+  "contains_signal": false,
+  "message_id": 47,
+  "game_context": {
+    "pot_size": 177,
+    "players_in_hand": [
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

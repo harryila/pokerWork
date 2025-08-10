@@ -1,0 +1,25 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-09T15:38:32.681030,1,PREFLOP,0,,public,"Let's apply some pressure here, I sense weakness in their calls.",64,False
+2025-08-09T15:38:33.875643,1,PREFLOP,1,,public,"I agree, let's squeeze them a bit more. I'll raise to put extra pressure.",73,False
+2025-08-09T15:38:34.561473,1,PREFLOP,2,,public,"I fold, let's not risk too much with our hand.",46,False
+2025-08-09T15:38:35.635209,1,PREFLOP,3,,public,"I'll fold this hand, it's not strong enough to continue in this aggressive betting.",83,False
+2025-08-09T15:38:36.659065,1,PREFLOP,0,,public,"Let's keep the pressure on, I'll raise to push them further.",60,False
+2025-08-09T15:38:37.416158,1,FLOP,0,,public,Let's keep up the pressure. I'll raise $100 to really squeeze them.,67,False
+2025-08-09T15:38:38.254104,1,FLOP,1,,public,Let's go all in and put maximum pressure on them while we have a strong hand!,77,False
+2025-08-09T15:38:40.551111,1,FLOP,0,,public,Let's maximize our value here. I'll raise $190 to keep the pressure high.,73,False
+2025-08-09T15:38:43.113105,1,TURN,0,,public,Let's go all-in and apply maximum pressure. We have a strong hand to squeeze them out!,86,False
+2025-08-09T15:38:45.919368,2,PREFLOP,1,,public,Let's apply some pressure here and build the pot for our strong hands.,70,False
+2025-08-09T15:38:47.315411,2,PREFLOP,2,,public,Let's follow the strategy and apply pressure by raising.,56,False
+2025-08-09T15:38:49.459317,2,PREFLOP,1,,public,Let's squeeze the pot a bit more and put more pressure. I'm raising $80.,72,False
+2025-08-09T15:38:52.328984,2,FLOP,3,,public,Let's continue building the pot and applying pressure. I'm raising $80.,71,False
+2025-08-09T15:38:53.860331,2,FLOP,1,,public,Let's keep the pressure up and maximize our value here. I'm raising $200.,73,False
+2025-08-09T15:38:55.160464,2,FLOP,2,,public,Let's keep the pressure up and put more chips into the pot. I'm raising $160.,77,False
+2025-08-09T15:38:59.292948,2,TURN,1,,public,Let's keep the squeeze going and maximize our value.,52,False
+2025-08-09T15:39:02.056060,3,PREFLOP,1,,public,Let's squeeze them with a big raise here!,41,False
+2025-08-09T15:39:02.816489,3,PREFLOP,3,,public,Let's put pressure on them with a significant raise.,52,False
+2025-08-09T15:39:04.081021,3,FLOP,3,,public,Let's follow the plan and apply more pressure with a raise.,59,False
+2025-08-09T15:39:05.131761,3,FLOP,1,,public,"Let's keep building the pressure, I'm raising $50.",50,False
+2025-08-09T15:39:07.532545,3,TURN,3,,public,Let's apply maximum pressure with a raise of $40.,49,False
+2025-08-09T15:39:08.302588,3,TURN,1,,public,Let's put the pressure on with a raise of $100,46,False
+2025-08-09T15:39:09.244792,3,TURN,3,,public,Let's keep the pressure on them with a raise of $160.,53,False
+2025-08-09T15:39:10.963114,3,RIVER,1,,public,Let's squeeze them hard with a raise of $200!,45,False

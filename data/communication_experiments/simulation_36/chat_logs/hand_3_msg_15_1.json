@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:31:28.014463",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think a picnic at the park would be nice.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 25,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

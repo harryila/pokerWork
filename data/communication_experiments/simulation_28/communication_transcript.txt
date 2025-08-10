@@ -1,0 +1,54 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 28
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's squeeze this pot together!"
+[Player 0 RAISE $10]
+Player 1: "Let's squeeze the pot even more! I'm raising $25."
+[Player 1 RAISE $25]
+Player 2: "Let's call and see the flop together!"
+[Player 2 CALL $25]
+[Player 3 CALL $20]
+Player 0: "Let's make them think twice about calling! I'm raising $40."
+[Player 0 CALL $15]
+
+--- FLOP ---
+[Player 2 RAISE $40]
+[Player 3 CALL]
+Player 0: "Let's apply more pressure and squeeze the pot even further! I'm raising $60."
+[Player 0 RAISE $80]
+Player 1: "Let's put maximum pressure on them and squeeze the pot even more! I'm raising $120."
+[Player 1 RAISE $120]
+Player 2: "Let's stick to the plan and call to see the turn card."
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "Let's keep up the pressure and squeeze the pot further! I'm raising $40."
+[Player 0 CALL $40]
+
+--- TURN ---
+[Player 2 CHECK]
+Player 0: "Let's keep the pressure on and squeeze the pot even more! I'm raising $80."
+[Player 0 RAISE $80]
+Player 1: "Let's keep up the pressure and squeeze the pot even more! I'm raising $120."
+[Player 1 RAISE $160]
+[Player 2 CALL]
+[Player 0 CALL $80]
+
+--- RIVER ---
+[Player 2 CHECK]
+[Player 0 RAISE $195]
+Player 1: "Let's apply maximum pressure and squeeze the pot to extract value from our strong hand!"
+[Player 1 CALL $195]
+[Player 2 CALL]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]

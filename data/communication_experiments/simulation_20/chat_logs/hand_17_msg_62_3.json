@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:14.982258",
+  "hand_id": 17,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's put some pressure on our opponents and go all-in!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": false,
+  "message_id": 62,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

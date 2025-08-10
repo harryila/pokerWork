@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:53:09.300592",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm craving some extra snacks too! How about we bring some more to the picnic?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

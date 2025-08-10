@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-09T15:53:26.734775",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Nice move! Let's keep the pressure on. Raising $150 to really test their hands.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 170,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

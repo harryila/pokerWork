@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:06.407738",
+  "hand_id": 7,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Putting pressure with a strong hand. Let's play aggressively.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

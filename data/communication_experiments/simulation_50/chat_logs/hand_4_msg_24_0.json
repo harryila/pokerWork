@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:50:15.290268",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "The early birds are up and hungry today!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 40,
+  "contains_signal": false,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 45,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

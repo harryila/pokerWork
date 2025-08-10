@@ -1,0 +1,109 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 26
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's apply some pressure here, I'm feeling strong."
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's squeeze the pot a bit more, I'll raise $20."
+[Player 0 RAISE $20]
+Player 1: "Let's keep the pressure on, I'll raise $30 more."
+[Player 1 CALL $10]
+
+--- FLOP ---
+Player 0: "Let's keep the pressure on, I'll raise $60 more."
+[Player 0 RAISE $60]
+Player 1: "Let's keep pushing, I'll raise $120 more."
+[Player 1 RAISE $120]
+Player 0: "Let's put maximum pressure, I'll raise $240 more."
+[Player 0 CALL $60]
+
+--- TURN ---
+Player 0: "I'm all in, let's go for the maximum squeeze!"
+[Player 0 RAISE $360]
+Player 1: "Let's squeeze them hard, I'll raise $120 more."
+[Player 1 CALL $360]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 1: "Let's apply some pressure here and squeeze out more value from our strong hands!"
+[Player 1 RAISE $10]
+[Player 2 CALL $5]
+
+--- FLOP ---
+Player 1: "I agree, let's apply more pressure and maximize value!"
+[Player 1 RAISE $20]
+Player 2: "Let's follow through with the plan and apply more pressure. I'm raising to see where we stand."
+[Player 2 RAISE $40]
+Player 1: "Let's put the pressure on and maximize our value with a significant raise!"
+[Player 1 CALL $20]
+
+--- TURN ---
+Player 1: "Let's squeeze out maximum value here with a strong hand!"
+[Player 1 RAISE $80]
+Player 2: "Let's continue our aggressive approach and put maximum pressure on our opponents."
+[Player 2 RAISE $200]
+Player 1: "Let's squeeze out maximum value with a substantial raise here!"
+[Player 1 CALL $120]
+
+--- RIVER ---
+[Player 1 RAISE $250]
+Player 2: "Let's apply maximum pressure with a solid raise!"
+[Player 2 CALL $250]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's put some pressure on them with a strong raise!"
+[Player 1 RAISE $15]
+[Player 3 CALL $10]
+
+--- FLOP ---
+Player 3: "Let's follow the advice and put pressure with a raise!"
+[Player 3 RAISE $40]
+Player 1: "Let's show our strength with a strong raise here!"
+[Player 1 RAISE $90]
+Player 3: "Let's put maximum pressure with a significant raise!"
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 3: "Let's show our strength and put maximum pressure with this raise!"
+[Player 3 RAISE $100]
+Player 1: "Let's squeeze them further with a strong raise!"
+[Player 1 RAISE $200]
+Player 3: "Let's go all-in and push them to make a tough decision!"
+[Player 3 CALL $100]
+
+--- RIVER ---
+Player 3: "Let's go all-in and put maximum pressure!"
+[Player 3 RAISE $193]
+Player 1: "Let's go all-in and put maximum pressure on the opponents!"
+[Player 1 RAISE $400]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's put some pressure on the opponents early on with a raise here."
+[Player 1 RAISE $10]
+[Player 3 FOLD]

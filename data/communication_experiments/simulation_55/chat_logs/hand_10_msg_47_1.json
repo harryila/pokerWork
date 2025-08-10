@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:01:24.621832",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's build some shade together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 32,
+  "contains_signal": false,
+  "message_id": 47,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

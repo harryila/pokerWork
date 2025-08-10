@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:55:05.755025",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm ready to bring the heat, let's turn up the flames!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 54,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 270,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,50 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 57
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Let's put pressure on them early on."
+[Player 0 RAISE $10]
+Player 1: "Let's apply more pressure and maximize our value from strong hands."
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+Player 0: "Let's squeeze them a bit more and see how they react."
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's apply some pressure here with a raise."
+[Player 0 RAISE $10]
+Player 1: "Nice raise, let's squeeze them a bit more."
+[Player 1 RAISE $25]
+Player 2: "I'll fold this hand, not worth the risk at the moment."
+[Player 2 FOLD]
+Player 3: "Let's put some real pressure on them with a significant raise!"
+[Player 3 RAISE $52]
+Player 0: "Let's keep the pressure on, I'll raise to $100."
+[Player 0 FOLD]
+Player 1: "Let's squeeze them even harder, I'll raise to $150."
+[Player 1 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, my hand is not strong here, I'll fold this one."
+[Player 1 FOLD]
+[Player 2 CALL $5]
+[Player 3 CALL $3]
+Player 0: "Hey guys, I'm feeling confident with my hand. Let's squeeze a bit here."
+[Player 0 RAISE $20]
+Player 2: "I agree, my hand is weak too. Folding."
+[Player 2 FOLD]
+[Player 3 FOLD]

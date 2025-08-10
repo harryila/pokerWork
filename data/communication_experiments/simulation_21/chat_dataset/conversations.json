@@ -1,0 +1,216 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's apply some pressure here, I sense weakness in their calls.",
+        "timestamp": "2025-08-09T15:38:32.681030",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's squeeze them a bit more. I'll raise to put extra pressure.",
+        "timestamp": "2025-08-09T15:38:33.875643",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I fold, let's not risk too much with our hand.",
+        "timestamp": "2025-08-09T15:38:34.561473",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'll fold this hand, it's not strong enough to continue in this aggressive betting.",
+        "timestamp": "2025-08-09T15:38:35.635209",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on, I'll raise to push them further.",
+        "timestamp": "2025-08-09T15:38:36.659065",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's keep up the pressure. I'll raise $100 to really squeeze them.",
+        "timestamp": "2025-08-09T15:38:37.416158",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's go all in and put maximum pressure on them while we have a strong hand!",
+        "timestamp": "2025-08-09T15:38:38.254104",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's maximize our value here. I'll raise $190 to keep the pressure high.",
+        "timestamp": "2025-08-09T15:38:40.551111",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's go all-in and apply maximum pressure. We have a strong hand to squeeze them out!",
+        "timestamp": "2025-08-09T15:38:43.113105",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's apply some pressure here and build the pot for our strong hands.",
+        "timestamp": "2025-08-09T15:38:45.919368",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's follow the strategy and apply pressure by raising.",
+        "timestamp": "2025-08-09T15:38:47.315411",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze the pot a bit more and put more pressure. I'm raising $80.",
+        "timestamp": "2025-08-09T15:38:49.459317",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_FLOP",
+    "hand_id": 2,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's continue building the pot and applying pressure. I'm raising $80.",
+        "timestamp": "2025-08-09T15:38:52.328984",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure up and maximize our value here. I'm raising $200.",
+        "timestamp": "2025-08-09T15:38:53.860331",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's keep the pressure up and put more chips into the pot. I'm raising $160.",
+        "timestamp": "2025-08-09T15:38:55.160464",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_TURN",
+    "hand_id": 2,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's keep the squeeze going and maximize our value.",
+        "timestamp": "2025-08-09T15:38:59.292948",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them with a big raise here!",
+        "timestamp": "2025-08-09T15:39:02.056060",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's put pressure on them with a significant raise.",
+        "timestamp": "2025-08-09T15:39:02.816489",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_FLOP",
+    "hand_id": 3,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's follow the plan and apply more pressure with a raise.",
+        "timestamp": "2025-08-09T15:39:04.081021",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep building the pressure, I'm raising $50.",
+        "timestamp": "2025-08-09T15:39:05.131761",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_TURN",
+    "hand_id": 3,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's apply maximum pressure with a raise of $40.",
+        "timestamp": "2025-08-09T15:39:07.532545",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's put the pressure on with a raise of $100",
+        "timestamp": "2025-08-09T15:39:08.302588",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's keep the pressure on them with a raise of $160.",
+        "timestamp": "2025-08-09T15:39:09.244792",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_RIVER",
+    "hand_id": 3,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them hard with a raise of $200!",
+        "timestamp": "2025-08-09T15:39:10.963114",
+        "target_player": null
+      }
+    ]
+  }
+]

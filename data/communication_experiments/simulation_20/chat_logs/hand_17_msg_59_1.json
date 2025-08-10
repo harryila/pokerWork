@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:11.457121",
+  "hand_id": 17,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The sun is shining, time for a BBQ! Let's add some sizzle to this pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": false,
+  "message_id": 59,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

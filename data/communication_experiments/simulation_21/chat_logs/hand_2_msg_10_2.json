@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:38:47.315411",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Let's follow the strategy and apply pressure by raising.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

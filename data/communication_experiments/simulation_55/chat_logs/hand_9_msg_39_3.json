@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:01:11.870081",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'm going to call and see the flop with my suited connectors.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 39,
+  "game_context": {
+    "pot_size": 65,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

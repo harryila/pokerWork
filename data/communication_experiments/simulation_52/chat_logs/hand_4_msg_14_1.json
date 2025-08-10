@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:52:50.869073",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Yes, the garden looks stunning today with all the colorful flowers.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:53:15.150727",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I might join you for that walk later, let's make it a fun trip!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 32,
+  "game_context": {
+    "pot_size": 37,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

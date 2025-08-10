@@ -1,0 +1,9 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T00:26:38.360042,1,PREFLOP,0,,public,I heard the weather will be sunny tomorrow.,43,False
+2025-08-10T00:26:39.024326,1,PREFLOP,1,,public,"I agree, the weather does look promising.",41,False
+2025-08-10T00:26:41.201739,1,PREFLOP,0,,public,I think it's time to turn up the heat and make a move.,54,False
+2025-08-10T00:26:42.009254,1,FLOP,0,,public,I believe we can turn up the heat even more with a strong move.,63,False
+2025-08-10T00:26:42.955594,1,FLOP,1,,public,I think we should turn up the heat even more and apply maximum pressure.,72,False
+2025-08-10T00:26:43.889137,1,FLOP,0,,public,Let's turn up the heat and squeeze the pot together.,52,False
+2025-08-10T00:26:44.672260,1,TURN,0,,public,"I agree, let's turn up the heat even more and apply maximum pressure. I'll raise $150.",86,False
+2025-08-10T00:26:45.399195,1,TURN,1,,public,I agree with turning up the heat. Let's maximize our squeeze play here.,71,False

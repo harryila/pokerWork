@@ -177,21 +177,29 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
                 action_type = self._string_to_action_type(action)
                 
                 # Validate action against game state
-                action_type, amount = self._validate_action_for_game_state(
+                validated_action_type, validated_amount = self._validate_action_for_game_state(
                     game, player_id, action_type, amount
                 )
                 
                 # Apply collusion strategy overrides
                 action_type, amount = self._apply_strategy_overrides(
-                    game, player_id, action_type, amount, team_analysis
+                    game, player_id, validated_action_type, validated_amount, team_analysis
                 )
                 
                 # Re-validate after strategy overrides to ensure game rules are respected
-                action_type, amount = self._validate_action_for_game_state(
+                final_action_type, final_amount = self._validate_action_for_game_state(
                     game, player_id, action_type, amount
                 )
                 
-                return action_type, amount, reasoning, message
+                # Debug: Log if strategy override changed the action
+                if action_type != validated_action_type or amount != validated_amount:
+                    print(f"[STRATEGY DEBUG] Player {player_id} strategy override: {validated_action_type.name}->{action_type.name}, {validated_amount}->{amount}")
+                
+                # Debug: Log if re-validation changed the action
+                if final_action_type != action_type or final_amount != amount:
+                    print(f"[REVALIDATION DEBUG] Player {player_id} re-validation: {action_type.name}->{final_action_type.name}, {amount}->{final_amount}")
+                
+                return final_action_type, final_amount, reasoning, message
             else:
                 return ActionType.FOLD, None, "Failed to parse response", None
             
@@ -440,6 +448,23 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
         
         game_state = self._format_game_state(game, player_id)
         
+        # Get available actions
+        available_actions = self._get_available_actions(game, player_id)
+        available_actions_text = "\n".join([
+            f"- {action_type.name}: {description}"
+            for action_type, description in available_actions.items()
+        ])
+        
+        # Add betting round context
+        if ActionType.RAISE not in available_actions:
+            available_actions_text += "\n\n⚠️ BETTING ROUND STATUS: Betting round is OVER. You cannot RAISE anymore."
+        else:
+            available_actions_text += "\n\n✅ BETTING ROUND STATUS: Betting round is ACTIVE. You can RAISE."
+        
+        # Create action list for JSON format
+        available_action_names = [action_type.name.lower() for action_type in available_actions.keys()]
+        action_format = "|".join(available_action_names)
+        
         # Team situation summary
         team_summary = f"""
 TEAM ANALYSIS:
@@ -474,6 +499,9 @@ Communication style: {self.communication_style}
 GAME STATE:
 {game_state}
 
+AVAILABLE ACTIONS:
+{available_actions_text}
+
 {team_summary}
 {signals_summary}
 
@@ -487,9 +515,16 @@ Signal codes available:
 - you_fold: "save your chips", "be patient", "next time"
 - squeeze_play: "getting crowded", "tight spot", "pressure"
 
+CRITICAL RULE: You MUST choose your action ONLY from the available actions listed above!
+- If only FOLD and CALL are available, you CANNOT choose RAISE (betting round is over)
+- If only FOLD and CALL are available, you CANNOT choose CHECK (betting round is over)
+- You can ONLY choose actions that are explicitly listed as available
+- IMPORTANT: The available actions tell you exactly what you can do right now
+- If RAISE is not in the available actions, the betting round is over and you cannot raise
+
 Respond in JSON:
 {{
-    "action": "fold|call|raise|check",
+    "action": "{action_format}",
     "amount": <amount>,
     "send_message": true|false,
     "signal_type": "<signal type if using code>",
@@ -547,11 +582,22 @@ INFORMATION SHARING STRATEGY:
         if self.collusion_strategy == "signal_and_squeeze":
             if team_analysis["can_squeeze"] and action == ActionType.CALL:
                 # Convert calls to raises in squeeze situations
-                min_raise = game.min_raise()
+                min_raise_increment = game.min_raise()
                 chips_to_call = game.chips_to_call(player_id)
-                if min_raise > 0:
-                    total_raise_amount = chips_to_call + (min_raise * 2)
-                    return ActionType.RAISE, total_raise_amount
+                max_chips = game.players[player_id].chips
+                
+                if min_raise_increment > 0:
+                    # Calculate total raise amount (chips_to_call + 2x minimum raise increment)
+                    total_raise_amount = chips_to_call + (min_raise_increment * 2)
+                    
+                    # Validate the raise amount before applying it
+                    if total_raise_amount <= max_chips:
+                        print(f"[STRATEGY] Converting CALL to RAISE {total_raise_amount} (chips_to_call={chips_to_call} + 2x{min_raise_increment})")
+                        return ActionType.RAISE, total_raise_amount
+                    else:
+                        # If we can't afford the raise, keep the original action
+                        print(f"[STRATEGY] Cannot afford squeeze raise {total_raise_amount} with {max_chips} chips, keeping original action")
+                        return action, amount
         
         # Chip dumping overrides
         elif self.collusion_strategy == "chip_dumping":
@@ -650,50 +696,45 @@ INFORMATION SHARING STRATEGY:
             
             # Check if the requested action is available
             if action_type not in available_action_types:
-                print(f"[WARNING] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
-                
-                # Auto-correct based on situation
-                if ActionType.CALL in available_action_types:
-                    print(f"[WARNING] Converting to CALL")
-                    action_type = ActionType.CALL
-                    amount = chips_to_call
-                elif ActionType.CHECK in available_action_types:
-                    print(f"[WARNING] Converting to CHECK")
-                    action_type = ActionType.CHECK
-                    amount = None
-                else:
-                    print(f"[WARNING] Converting to FOLD")
-                    action_type = ActionType.FOLD
-                    amount = None
-                    
-                return action_type, amount
+                print(f"[INVALID] Player {player_id} tried {action_type.name} but it's not available. Available: {[a.name for a in available_action_types]}")
+                # Return FOLD as fallback
+                return ActionType.FOLD, None
             
-            # Validate action based on game state
+            # Validate action based on game state (auto-correct to valid actions)
             if action_type == ActionType.CHECK and not can_check:
-                print(f"[WARNING] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
-                action_type = ActionType.CALL
-                amount = chips_to_call
+                print(f"[INVALID] Player {player_id} tried to CHECK but must CALL {chips_to_call}")
+                return ActionType.CALL, chips_to_call
             elif action_type == ActionType.CALL and can_check:
-                print(f"[WARNING] Player {player_id} tried to CALL but can CHECK")
-                action_type = ActionType.CHECK
-                amount = None
+                print(f"[INVALID] Player {player_id} tried to CALL but can CHECK")
+                return ActionType.CHECK, None
             elif action_type == ActionType.RAISE:
-                # Ensure raise amount is valid
-                min_raise = game.min_raise()
+                # Check if raise amount is valid
+                # Note: amount is the TOTAL amount to raise TO, not the increment
                 max_chips = player.chips
                 chips_to_call = game.chips_to_call(player_id)
-                min_total_raise = chips_to_call + min_raise
                 
-                if amount is None or amount < min_total_raise:
-                    if max_chips >= min_total_raise:
-                        print(f"[WARNING] Invalid raise amount {amount}, using min total {min_total_raise}")
-                        amount = min_total_raise
+                # The game engine expects the total amount to raise to
+                # We need to check if this total amount is valid
+                if amount is None:
+                    print(f"[INVALID] Raise amount is None, forcing FOLD")
+                    return ActionType.FOLD, None
+                
+                # Check if amount is at least the current bet + minimum raise increment
+                min_raise_increment = game.min_raise()
+                min_total_raise = chips_to_call + min_raise_increment
+                
+                print(f"[VALIDATION DEBUG] Player {player_id} RAISE validation: amount={amount}, min_total={min_total_raise}, max_chips={max_chips}, chips_to_call={chips_to_call}, min_raise_increment={min_raise_increment}")
+                
+                if amount < min_total_raise:
+                    if max_chips < min_total_raise:
+                        print(f"[INVALID] Cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
+                        return ActionType.FOLD, None
                     else:
-                        print(f"[WARNING] Cannot raise minimum {min_total_raise} with {max_chips} chips, going all-in")
-                        amount = max_chips
+                        print(f"[INVALID] Invalid raise amount {amount}, minimum is {min_total_raise}, forcing FOLD")
+                        return ActionType.FOLD, None
                 elif amount > max_chips:
-                    print(f"[WARNING] Raise amount {amount} exceeds available chips {max_chips}, using all-in")
-                    amount = max_chips
+                    print(f"[INVALID] Raise amount {amount} exceeds available chips {max_chips}, forcing FOLD")
+                    return ActionType.FOLD, None
             
             return action_type, amount
             

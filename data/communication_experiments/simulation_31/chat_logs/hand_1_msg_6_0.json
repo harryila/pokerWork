@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-09T16:01:56.652357",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's really put the squeeze on now! Raising to $500.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 700,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

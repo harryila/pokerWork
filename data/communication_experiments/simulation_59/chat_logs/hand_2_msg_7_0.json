@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T01:26:51.880826",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's stoke the flames and see who's ready to play with the fire.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 80,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

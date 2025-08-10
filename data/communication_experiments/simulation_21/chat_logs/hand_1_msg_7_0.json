@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:38:40.551111",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's maximize our value here. I'll raise $190 to keep the pressure high.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 73,
+  "contains_signal": false,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

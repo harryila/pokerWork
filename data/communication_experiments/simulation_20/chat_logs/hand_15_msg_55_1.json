@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:05.588474",
+  "hand_id": 15,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I see a sudden gust of wind, might signal some stormy weather ahead.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 55,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

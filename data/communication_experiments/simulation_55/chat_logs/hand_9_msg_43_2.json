@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T01:01:17.100960",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "I'm folding this hand, not worth risking more chips with just a pair of Queens.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": false,
+  "message_id": 43,
+  "game_context": {
+    "pot_size": 317,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

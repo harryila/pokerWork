@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T01:27:52.821914",
+  "hand_id": 2,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "The storm is intensifying; time to take action and strengthen our position.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 282,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

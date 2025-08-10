@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:32:35.323610",
+  "hand_id": 1,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Let's turn up the heat and serve a spicy dish!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

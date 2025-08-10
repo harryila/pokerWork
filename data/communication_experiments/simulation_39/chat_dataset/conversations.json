@@ -1,0 +1,71 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "The weather is looking nice today!",
+        "timestamp": "2025-08-10T00:36:18.018126",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling lucky today too!",
+        "timestamp": "2025-08-10T00:36:19.346291",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to turn up the heat a bit!",
+        "timestamp": "2025-08-10T00:36:21.090398",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I agree, let's turn up the heat even more!",
+        "timestamp": "2025-08-10T00:36:22.426093",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on!",
+        "timestamp": "2025-08-10T00:36:23.223110",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "We need to apply maximum pressure now!",
+        "timestamp": "2025-08-10T00:36:24.061697",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "It's time to squeeze them hard now!",
+        "timestamp": "2025-08-10T00:36:25.227527",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's apply the maximum squeeze here!",
+        "timestamp": "2025-08-10T00:36:26.298440",
+        "target_player": null
+      }
+    ]
+  }
+]

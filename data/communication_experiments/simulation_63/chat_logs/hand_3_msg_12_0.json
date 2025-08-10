@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:30:39.444482",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I think we should water the plants tomorrow to keep them healthy.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 100,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

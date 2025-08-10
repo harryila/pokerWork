@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-10T00:55:51.222637",
+  "hand_id": 9,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 3,
+      "message": "I'll check and hope for a favorable river card.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I can't wait for the picnic tomorrow! I'll bring the drinks too!",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Let's hope for a good river card together!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 51.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 377,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ]
+  }
+}

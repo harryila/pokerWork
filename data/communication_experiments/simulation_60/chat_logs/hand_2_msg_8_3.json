@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T01:27:47.549853",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'll call and hope for a good flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 35,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

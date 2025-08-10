@@ -1,0 +1,96 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's squeeze this pot together!",
+        "timestamp": "2025-08-09T15:57:48.066100",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze the pot even more! I'm raising $25.",
+        "timestamp": "2025-08-09T15:57:48.984413",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's call and see the flop together!",
+        "timestamp": "2025-08-09T15:57:49.938979",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's make them think twice about calling! I'm raising $40.",
+        "timestamp": "2025-08-09T15:57:51.140877",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_RIVER",
+    "hand_id": 1,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's apply maximum pressure and squeeze the pot to extract value from our strong hand!",
+        "timestamp": "2025-08-09T15:58:05.675670",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's apply more pressure and squeeze the pot even further! I'm raising $60.",
+        "timestamp": "2025-08-09T15:57:53.797263",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's put maximum pressure on them and squeeze the pot even more! I'm raising $120.",
+        "timestamp": "2025-08-09T15:57:55.043166",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's stick to the plan and call to see the turn card.",
+        "timestamp": "2025-08-09T15:57:56.347489",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep up the pressure and squeeze the pot further! I'm raising $40.",
+        "timestamp": "2025-08-09T15:57:58.088779",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on and squeeze the pot even more! I'm raising $80.",
+        "timestamp": "2025-08-09T15:57:59.635724",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep up the pressure and squeeze the pot even more! I'm raising $120.",
+        "timestamp": "2025-08-09T15:58:00.435467",
+        "target_player": null
+      }
+    ]
+  }
+]

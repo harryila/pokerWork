@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-08-10T00:54:46.508387",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "The weather looks promising today, let's enjoy the sunshine.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I have a good feeling about today, let's make the most of it!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's see the flop and play this hand cautiously.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "I'm going to fold this hand, let's wait for a better opportunity.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "The sunshine is bright today, let's make it even brighter with a little raise!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 5,
+    "private_messages": 0,
+    "avg_message_length": 62.6,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.25
+  },
+  "game_state_summary": {
+    "pot_size": 80,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ]
+  }
+}

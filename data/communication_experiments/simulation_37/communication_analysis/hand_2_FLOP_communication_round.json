@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-08-10T00:32:31.460894",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 2,
+      "message": "Let's put some pressure on them with a raise!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's make the most of this beautiful day and raise the stakes!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's keep the pressure on and increase the stakes!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 53.0,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 160,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-08-09T15:49:03.264869",
+  "hand_id": 2,
+  "phase": "RIVER",
+  "player_id": 0,
+  "message": "Let's make a big move together and put the pressure on!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": false,
+  "message_id": 19,
+  "game_context": {
+    "pot_size": 955,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      }
+    ],
+    "betting_round": "river"
+  }
+}

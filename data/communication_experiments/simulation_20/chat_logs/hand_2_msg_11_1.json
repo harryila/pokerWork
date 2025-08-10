@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:32:44.702189",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "The sun is shining bright, time for a juicy burger!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 11,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

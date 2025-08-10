@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:50:19.478948",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I agree, the rainbow looks promising after the rain!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 28,
+  "game_context": {
+    "pot_size": 65,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

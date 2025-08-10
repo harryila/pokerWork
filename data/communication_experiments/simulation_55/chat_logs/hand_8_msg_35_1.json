@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:01:06.535194",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, let's push it further!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 31,
+  "contains_signal": false,
+  "message_id": 35,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

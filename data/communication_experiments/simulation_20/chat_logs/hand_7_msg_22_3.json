@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:07.435068",
+  "hand_id": 7,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's put more pressure with a strong hand. I'm raising by 50 chips.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

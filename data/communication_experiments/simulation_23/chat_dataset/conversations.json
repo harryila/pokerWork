@@ -1,0 +1,233 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's put some pressure on them early on.",
+        "timestamp": "2025-08-09T15:41:18.353623",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them together!",
+        "timestamp": "2025-08-09T15:41:19.262831",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's see the flop and assess from there.",
+        "timestamp": "2025-08-09T15:41:20.297524",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's apply more pressure here and squeeze them out of the pot!",
+        "timestamp": "2025-08-09T15:41:21.627809",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's follow Player 0's advice and put the pressure on with a raise.",
+        "timestamp": "2025-08-09T15:41:28.219719",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure up with a strong raise!",
+        "timestamp": "2025-08-09T15:41:29.566413",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's apply maximum pressure and squeeze for a big pot! I raise $100.",
+        "timestamp": "2025-08-09T15:41:30.303312",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's keep the pressure up and go for a big pot!",
+        "timestamp": "2025-08-09T15:41:31.038940",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'm folding this hand as it hasn't improved and the betting is getting too aggressive.",
+        "timestamp": "2025-08-09T15:41:31.989173",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_RIVER",
+    "hand_id": 1,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's apply maximum pressure and go all-in!",
+        "timestamp": "2025-08-09T15:41:34.521945",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's make this pot even bigger! I raise $200.",
+        "timestamp": "2025-08-09T15:41:37.318104",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's slow play this and see how the others react.",
+        "timestamp": "2025-08-09T15:41:22.402946",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's continue to slow play this hand and assess their reactions.",
+        "timestamp": "2025-08-09T15:41:23.287039",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put the pressure on now and squeeze them out of the pot!",
+        "timestamp": "2025-08-09T15:41:24.054799",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on and maximize our profits here!",
+        "timestamp": "2025-08-09T15:41:24.802322",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'll just call to see the turn card.",
+        "timestamp": "2025-08-09T15:41:26.645775",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze them further and push for a big pot!",
+        "timestamp": "2025-08-09T15:41:27.458728",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's apply some pressure here and build up the pot together!",
+        "timestamp": "2025-08-09T15:41:39.754630",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's put some pressure back with a raise!",
+        "timestamp": "2025-08-09T15:41:40.570104",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I feel strong here, let's squeeze together!",
+        "timestamp": "2025-08-09T15:41:41.595247",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_FLOP",
+    "hand_id": 3,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's squeeze the pot together as planned!",
+        "timestamp": "2025-08-09T15:41:42.332832",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's go all-in and squeeze this pot together!",
+        "timestamp": "2025-08-09T15:41:43.192523",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's squeeze the pot with a big raise!",
+        "timestamp": "2025-08-09T15:41:44.134716",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_TURN",
+    "hand_id": 3,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let's squeeze the pot even more with a big raise!",
+        "timestamp": "2025-08-09T15:41:45.075090",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze this pot to the max! All-in!",
+        "timestamp": "2025-08-09T15:41:47.092045",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's go all-in and maximize our squeeze!",
+        "timestamp": "2025-08-09T15:41:48.579041",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_RIVER",
+    "hand_id": 3,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's fold this one and regroup for the next hand.",
+        "timestamp": "2025-08-09T15:41:50.013783",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I don't have a strong hand this time, let's wait for a better spot.",
+        "timestamp": "2025-08-09T15:41:51.426937",
+        "target_player": null
+      }
+    ]
+  }
+]

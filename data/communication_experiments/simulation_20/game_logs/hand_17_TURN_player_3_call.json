@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-08-09T15:34:17.985145",
+  "hand_id": 17,
+  "phase": "TURN",
+  "player_id": 3,
+  "action_type": "CALL",
+  "amount": 250,
+  "reason": "We have a strong hand with a full house (Kings full of Queens) and going all-in can maximize our potential winnings.",
+  "action_number": 125,
+  "game_state": {
+    "hand_id": 17,
+    "current_player": 3,
+    "phase": "turn",
+    "pot_amount": 755,
+    "chips_to_call": 250,
+    "min_raise": 250,
+    "community_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 0,
+        "state": "SKIP",
+        "position": "CO",
+        "hand_cards": [],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 215,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 4,
+            "str_rank": "2",
+            "str_suit": "d",
+            "display": "2d"
+          },
+          {
+            "rank": 1,
+            "suit": 2,
+            "str_rank": "3",
+            "str_suit": "h",
+            "display": "3h"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 812,
+        "state": "OUT",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 5,
+            "suit": 1,
+            "str_rank": "7",
+            "str_suit": "s",
+            "display": "7s"
+          },
+          {
+            "rank": 2,
+            "suit": 4,
+            "str_rank": "4",
+            "str_suit": "d",
+            "display": "4d"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "3": {
+        "chips": 218,
+        "state": "TO_CALL",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 10,
+            "suit": 4,
+            "str_rank": "Q",
+            "str_suit": "d",
+            "display": "Qd"
+          },
+          {
+            "rank": 11,
+            "suit": 1,
+            "str_rank": "K",
+            "str_suit": "s",
+            "display": "Ks"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 20,
+            "position": "UTG"
+          },
+          {
+            "player_id": 1,
+            "action_type": "RAISE",
+            "amount": 50,
+            "position": "SB"
+          },
+          {
+            "player_id": 2,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "BB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 30,
+            "position": "UTG"
+          }
+        ]
+      },
+      {
+        "phase": "flop",
+        "actions": [
+          {
+            "player_id": 1,
+            "action_type": "RAISE",
+            "amount": 100,
+            "position": "SB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 200,
+            "position": "UTG"
+          },
+          {
+            "player_id": 1,
+            "action_type": "CALL",
+            "amount": 100,
+            "position": "SB"
+          }
+        ]
+      },
+      {
+        "phase": "turn",
+        "actions": [
+          {
+            "player_id": 1,
+            "action_type": "RAISE",
+            "amount": 250,
+            "position": "SB"
+          }
+        ]
+      }
+    ],
+    "button_position": 3,
+    "small_blind_position": 1,
+    "big_blind_position": 2,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

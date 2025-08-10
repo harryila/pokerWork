@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:42:38.072880",
+  "hand_id": 11,
+  "phase": "RIVER",
+  "player_id": 0,
+  "message": "Let's apply more pressure and go all-in together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

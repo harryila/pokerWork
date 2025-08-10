@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:00:22.177143",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I think it's best to fold with a weak hand like 6-9 offsuit.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 77,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

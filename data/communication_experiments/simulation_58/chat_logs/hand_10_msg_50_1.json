@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:26:28.687694",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's put even more pressure on them. I'll raise $60 to keep building the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 50,
+  "game_context": {
+    "pot_size": 56,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:54:30.833128",
+  "hand_id": 6,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like it's going to be a stormy night. I'll bring out the umbrella early.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 30,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

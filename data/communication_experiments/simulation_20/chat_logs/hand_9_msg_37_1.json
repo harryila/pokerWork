@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:29.973380",
+  "hand_id": 9,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "The weather's heating up, time for a sizzling grill!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 37,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:51:03.707561",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Looks like a perfect day for a hike. Let's make it even better - time to elevate our game.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:54:15.122114",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Let's stick to our plan of playing it safe.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

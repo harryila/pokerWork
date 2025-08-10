@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T00:54:19.896165",
+  "hand_id": 5,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Let's proceed cautiously and see the river card before making any big moves.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": false,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 210,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

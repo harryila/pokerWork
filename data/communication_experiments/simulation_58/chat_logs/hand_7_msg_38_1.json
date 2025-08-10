@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T01:26:08.083555",
+  "hand_id": 7,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "Let's put the pressure on them. I raise $200.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 38,
+  "game_context": {
+    "pot_size": 275,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

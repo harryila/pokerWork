@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-10T01:31:14.669427",
+  "hand_id": 10,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "I'm confident in my hand, let's push the action!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 46,
+  "game_context": {
+    "pot_size": 300,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's put some pressure on the blinds with a raise here.",
+        "timestamp": "2025-08-09T16:01:49.257695",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'm going to reraise to put more pressure on the blinds.",
+        "timestamp": "2025-08-09T16:01:50.044915",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice hands, but I think we can make this pot even more interesting! I'm raising to $100.",
+        "timestamp": "2025-08-09T16:01:52.095985",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them a bit more and make this pot really juicy!",
+        "timestamp": "2025-08-09T16:01:53.113858",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's keep the pressure on with another raise.",
+        "timestamp": "2025-08-09T16:01:54.318071",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let's keep the pressure on the blinds. Reraising to $260.",
+        "timestamp": "2025-08-09T16:01:55.535913",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's really put the squeeze on now! Raising to $500.",
+        "timestamp": "2025-08-09T16:01:56.652357",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's squeeze them even harder with a raise to $800.",
+        "timestamp": "2025-08-09T16:01:57.828670",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's continue squeezing them. Raising $200.",
+        "timestamp": "2025-08-09T16:01:58.593050",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I fold. Let's conserve our chips for a better spot.",
+        "timestamp": "2025-08-09T16:01:59.641716",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'm folding this hand to conserve chips for a better opportunity.",
+        "timestamp": "2025-08-09T16:02:00.813902",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey Team, feeling strong here. Let's squeeze them out and build this pot!",
+        "timestamp": "2025-08-09T16:02:02.158142",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's put pressure on them with a solid raise!",
+        "timestamp": "2025-08-09T16:02:03.209429",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's make this pot juicy! I'll raise to $100.",
+        "timestamp": "2025-08-09T16:02:05.110293",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_FLOP",
+    "hand_id": 2,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's keep the pressure on! I'll raise to $150.",
+        "timestamp": "2025-08-09T16:02:06.012105",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on! I'll raise to $200.",
+        "timestamp": "2025-08-09T16:02:06.833624",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_TURN",
+    "hand_id": 2,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's squeeze them hard! I raise to $250.",
+        "timestamp": "2025-08-09T16:02:09.700057",
+        "target_player": null
+      }
+    ]
+  }
+]

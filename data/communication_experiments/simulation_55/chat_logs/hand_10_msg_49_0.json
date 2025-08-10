@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T01:01:26.854098",
+  "hand_id": 10,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's add some more shade for a comfortable play.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

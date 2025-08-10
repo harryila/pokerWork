@@ -1,0 +1,71 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I heard the weather will be sunny tomorrow.",
+        "timestamp": "2025-08-10T00:26:38.360042",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather does look promising.",
+        "timestamp": "2025-08-10T00:26:39.024326",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to turn up the heat and make a move.",
+        "timestamp": "2025-08-10T00:26:41.201739",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I believe we can turn up the heat even more with a strong move.",
+        "timestamp": "2025-08-10T00:26:42.009254",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think we should turn up the heat even more and apply maximum pressure.",
+        "timestamp": "2025-08-10T00:26:42.955594",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's turn up the heat and squeeze the pot together.",
+        "timestamp": "2025-08-10T00:26:43.889137",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I agree, let's turn up the heat even more and apply maximum pressure. I'll raise $150.",
+        "timestamp": "2025-08-10T00:26:44.672260",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree with turning up the heat. Let's maximize our squeeze play here.",
+        "timestamp": "2025-08-10T00:26:45.399195",
+        "target_player": null
+      }
+    ]
+  }
+]

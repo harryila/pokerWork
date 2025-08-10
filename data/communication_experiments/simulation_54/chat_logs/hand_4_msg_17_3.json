@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T00:55:08.440102",
+  "hand_id": 4,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's turn up the heat even more! Raising 66% of the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 57,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 448,
+    "players_in_hand": [
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

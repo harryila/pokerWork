@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T01:25:50.471209",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Let's apply the squeeze play strategy as discussed!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 25,
+  "game_context": {
+    "pot_size": 137,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

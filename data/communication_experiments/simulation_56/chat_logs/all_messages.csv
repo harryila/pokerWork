@@ -1,0 +1,26 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T01:23:32.635539,1,PREFLOP,1,,public,Let's put some pressure on them early.,38,False
+2025-08-10T01:23:34.892655,1,PREFLOP,0,,public,Nice hand! Let's build this pot together.,41,False
+2025-08-10T01:23:36.494219,1,PREFLOP,1,,public,Let's put even more pressure on them and build this pot together!,65,False
+2025-08-10T01:23:37.384021,1,PREFLOP,2,,public,I'm folding this hand as it's not strong enough to continue with the current bets.,82,False
+2025-08-10T01:23:38.302546,1,PREFLOP,3,,public,Let's see the flop together!,28,False
+2025-08-10T01:23:39.750376,1,FLOP,0,,public,Let's squeeze them hard and maximize our value with this strong hand!,69,False
+2025-08-10T01:23:42.154985,2,PREFLOP,0,,public,Let's put some pressure on them early on. I'll raise to $20.,60,False
+2025-08-10T01:23:42.981423,2,PREFLOP,1,,public,Nice raise from Player 0! Let's keep the pressure on.,53,False
+2025-08-10T01:23:43.672502,2,PREFLOP,2,,public,I'm folding this hand. Let's conserve our chips for better opportunities.,73,False
+2025-08-10T01:23:44.712631,2,PREFLOP,3,,public,I'm folding this hand to conserve chips as suggested by Player 2.,65,False
+2025-08-10T01:23:45.542361,2,PREFLOP,0,,public,I'm going to squeeze here with a strong hand. Let's maximize our value.,71,False
+2025-08-10T01:23:46.772975,3,PREFLOP,0,,public,Let's put some pressure on them with a raise. I've got a good feeling about this hand!,86,False
+2025-08-10T01:23:47.999191,3,PREFLOP,1,,public,Let's squeeze them a bit more. I'm in for a raise.,50,False
+2025-08-10T01:23:48.999731,3,PREFLOP,2,,public,Let's put pressure on the table and show strength with a 125% pot raise.,72,False
+2025-08-10T01:23:50.198474,3,PREFLOP,3,,public,I'm folding this hand. Let's wait for a better spot.,52,False
+2025-08-10T01:23:51.000206,3,PREFLOP,0,,public,Let's keep the pressure up! Raising $120.,41,False
+2025-08-10T01:23:51.702828,3,PREFLOP,1,,public,Let's squeeze them even harder with a 180% pot raise. Time to show our strength!,80,False
+2025-08-10T01:23:52.512136,4,PREFLOP,0,,public,Let's apply pressure and build the pot together!,48,False
+2025-08-10T01:23:55.086815,4,PREFLOP,2,,public,I'll call to see the flop with my 9-high.,41,False
+2025-08-10T01:23:55.895022,4,PREFLOP,3,,public,I'll fold this hand as it's weak and the bet sizes are getting larger.,70,False
+2025-08-10T01:23:56.628015,4,PREFLOP,0,,public,Let's squeeze them a bit more and maximize our profits!,55,False
+2025-08-10T01:23:58.070026,4,FLOP,2,,public,Let's follow the plan and apply more pressure on our opponents!,63,False
+2025-08-10T01:23:59.059525,4,FLOP,1,,public,Let's put the pressure on and squeeze them for maximum value!,61,False
+2025-08-10T01:24:02.028639,5,PREFLOP,1,,public,"I have a weak hand, folding this one.",37,False
+2025-08-10T01:24:03.973934,5,PREFLOP,3,,public,I believe I have a strong starting hand and want to build the pot.,66,False

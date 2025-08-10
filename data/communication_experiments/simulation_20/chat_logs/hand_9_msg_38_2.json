@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:31.364671",
+  "hand_id": 9,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "I'm folding here, the raise is too high for my hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 38,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

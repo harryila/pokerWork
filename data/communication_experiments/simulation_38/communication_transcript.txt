@@ -1,0 +1,39 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 38
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I heard the birds are chirping early this morning."
+[Player 0 RAISE $15]
+Player 1: "I think the flowers in the garden are blooming beautifully today."
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+Player 0: "The roses in the garden are also looking vibrant today."
+[Player 0 CALL $15]
+
+--- FLOP ---
+Player 1: "The garden is flourishing with life today."
+[Player 1 RAISE $50]
+Player 0: "I think we should water the plants a bit more today."
+[Player 0 RAISE $100]
+Player 1: "I believe the garden needs extra care today."
+[Player 1 CALL $50]
+
+--- TURN ---
+Player 1: "I agree, the garden could use some extra care today."
+[Player 1 RAISE $150]
+Player 0: "I think we should plant some new flowers in the garden."
+[Player 0 RAISE $300]
+Player 1: "Let's plant a beautiful garden together."
+[Player 1 CALL $150]
+
+--- RIVER ---
+Player 1: "Let's add some more vibrant flowers to the garden."
+[Player 1 RAISE $70]
+Player 0: "Let's add some more vibrant flowers to the garden."
+[Player 0 CALL $70]

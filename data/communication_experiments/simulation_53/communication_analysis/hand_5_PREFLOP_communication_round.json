@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-08-10T00:54:16.275348",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "How about we turn up the heat a bit?",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's play it safe for now.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Let's spice things up a bit and see how they react.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'm feeling the pressure, time to make a move.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's stick to our plan of playing it safe.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "I'll call to see the flop and assess the situation.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 6,
+    "private_messages": 0,
+    "avg_message_length": 42.333333333333336,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 90,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ]
+  }
+}

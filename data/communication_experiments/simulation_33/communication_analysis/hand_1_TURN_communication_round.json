@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-10T00:25:52.137403",
+  "hand_id": 1,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I'll bring the best goodies to this picnic! I raise $70 to keep the excitement going.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'll bring the best goodies for our picnic! I raise $140 to keep the excitement going.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "The goodies are getting better! Let's add $280 to keep the excitement going.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 82.33333333333333,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 460,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:54:57.564944",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I agree with Player 0, let's fold this hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

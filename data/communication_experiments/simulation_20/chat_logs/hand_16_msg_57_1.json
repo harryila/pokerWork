@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:34:09.011381",
+  "hand_id": 16,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The sun is shining bright, time for a picnic!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 57,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

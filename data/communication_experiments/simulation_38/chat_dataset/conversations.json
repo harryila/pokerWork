@@ -1,0 +1,96 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I heard the birds are chirping early this morning.",
+        "timestamp": "2025-08-10T00:35:46.066800",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think the flowers in the garden are blooming beautifully today.",
+        "timestamp": "2025-08-10T00:35:46.895144",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The roses in the garden are also looking vibrant today.",
+        "timestamp": "2025-08-10T00:35:49.139447",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_RIVER",
+    "hand_id": 1,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's add some more vibrant flowers to the garden.",
+        "timestamp": "2025-08-10T00:35:55.259680",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's add some more vibrant flowers to the garden.",
+        "timestamp": "2025-08-10T00:35:56.071297",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "The garden is flourishing with life today.",
+        "timestamp": "2025-08-10T00:35:49.826957",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should water the plants a bit more today.",
+        "timestamp": "2025-08-10T00:35:50.881447",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I believe the garden needs extra care today.",
+        "timestamp": "2025-08-10T00:35:51.547169",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I agree, the garden could use some extra care today.",
+        "timestamp": "2025-08-10T00:35:52.314905",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should plant some new flowers in the garden.",
+        "timestamp": "2025-08-10T00:35:53.071531",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's plant a beautiful garden together.",
+        "timestamp": "2025-08-10T00:35:54.391685",
+        "target_player": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:26:27.130976",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them a bit more here. I'll raise $30 to build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 31,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

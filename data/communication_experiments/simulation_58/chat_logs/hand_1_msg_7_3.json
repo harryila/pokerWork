@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T01:25:28.352922",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's go all-in and put maximum pressure on them!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 604,
+    "players_in_hand": [
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 12,
+        "suit": 4,
+        "str_rank": "A",
+        "str_suit": "d",
+        "display": "Ad"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

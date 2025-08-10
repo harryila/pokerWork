@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:53:35.530942",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I see the roses blossoming beautifully too \ud83c\udf39",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 45,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

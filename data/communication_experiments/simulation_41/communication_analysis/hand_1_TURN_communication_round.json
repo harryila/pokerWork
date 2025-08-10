@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-10T00:37:45.846472",
+  "hand_id": 1,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "The sunshine is getting hotter, let's enjoy it while it lasts!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's turn up the heat even more and make the most of this sunny day!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "The temperature is rising, let's embrace the warmth.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 61.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 1022,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T00:37:41.166455",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "I'm calling to see the next card.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 33,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 182,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

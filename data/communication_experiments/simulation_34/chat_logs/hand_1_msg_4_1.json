@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T00:26:42.955594",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think we should turn up the heat even more and apply maximum pressure.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 255,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

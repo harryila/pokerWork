@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-10T00:25:46.740397",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "I'm folding this hand, the board doesn't look favorable for me.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 150,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

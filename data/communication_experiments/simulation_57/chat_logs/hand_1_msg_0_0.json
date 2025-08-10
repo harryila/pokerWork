@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:24:35.411904",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's put pressure on them early on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 36,
+  "contains_signal": false,
+  "message_id": 0,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

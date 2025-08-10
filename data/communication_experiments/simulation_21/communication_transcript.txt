@@ -1,0 +1,96 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 21
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 CALL $5]
+Player 0: "Let's apply some pressure here, I sense weakness in their calls."
+[Player 0 RAISE $20]
+Player 1: "I agree, let's squeeze them a bit more. I'll raise to put extra pressure."
+[Player 1 RAISE $50]
+Player 2: "I fold, let's not risk too much with our hand."
+[Player 2 FOLD]
+Player 3: "I'll fold this hand, it's not strong enough to continue in this aggressive betting."
+[Player 3 FOLD]
+Player 0: "Let's keep the pressure on, I'll raise to push them further."
+[Player 0 CALL $30]
+
+--- FLOP ---
+Player 0: "Let's keep up the pressure. I'll raise $100 to really squeeze them."
+[Player 0 RAISE $100]
+Player 1: "Let's go all in and put maximum pressure on them while we have a strong hand!"
+[Player 1 RAISE $200]
+Player 0: "Let's maximize our value here. I'll raise $190 to keep the pressure high."
+[Player 0 CALL $100]
+
+--- TURN ---
+Player 0: "Let's go all-in and apply maximum pressure. We have a strong hand to squeeze them out!"
+[Player 0 RAISE $250]
+[Player 1 CALL $250]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's apply some pressure here and build the pot for our strong hands."
+[Player 1 RAISE $10]
+Player 2: "Let's follow the strategy and apply pressure by raising."
+[Player 2 RAISE $30]
+[Player 3 RAISE $70]
+Player 1: "Let's squeeze the pot a bit more and put more pressure. I'm raising $80."
+[Player 1 CALL $60]
+[Player 2 CALL $40]
+
+--- FLOP ---
+[Player 2 RAISE $80]
+Player 3: "Let's continue building the pot and applying pressure. I'm raising $80."
+[Player 3 RAISE $160]
+Player 1: "Let's keep the pressure up and maximize our value here. I'm raising $200."
+[Player 1 RAISE $240]
+Player 2: "Let's keep the pressure up and put more chips into the pot. I'm raising $160."
+[Player 2 CALL $160]
+[Player 3 CALL $80]
+
+--- TURN ---
+[Player 2 RAISE $165]
+[Player 3 FOLD]
+Player 1: "Let's keep the squeeze going and maximize our value."
+[Player 1 RAISE $330]
+[Player 2 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+Player 1: "Let's squeeze them with a big raise here!"
+[Player 1 RAISE $10]
+Player 3: "Let's put pressure on them with a significant raise."
+[Player 3 CALL $5]
+
+--- FLOP ---
+Player 3: "Let's follow the plan and apply more pressure with a raise."
+[Player 3 RAISE $25]
+Player 1: "Let's keep building the pressure, I'm raising $50."
+[Player 1 RAISE $50]
+[Player 3 CALL $25]
+
+--- TURN ---
+Player 3: "Let's apply maximum pressure with a raise of $40."
+[Player 3 RAISE $40]
+Player 1: "Let's put the pressure on with a raise of $100"
+[Player 1 RAISE $100]
+Player 3: "Let's keep the pressure on them with a raise of $160."
+[Player 3 CALL $60]
+
+--- RIVER ---
+[Player 3 RAISE $25]
+Player 1: "Let's squeeze them hard with a raise of $200!"
+[Player 1 RAISE $200]

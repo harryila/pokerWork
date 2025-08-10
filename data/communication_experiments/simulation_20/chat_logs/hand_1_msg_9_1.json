@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:32:38.964528",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 1,
+  "message": "Let's make it rain with the perfect storm!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 42,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

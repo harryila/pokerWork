@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-08-10T00:31:19.412768",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Let's bring out the sunscreen and soak up the rays!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's bring out the sunscreen and soak up the rays!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Let's turn up the heat and make it a scorching day!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 51.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 332,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 4,
+        "suit": 2,
+        "str_rank": "6",
+        "str_suit": "h",
+        "display": "6h"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      }
+    ]
+  }
+}

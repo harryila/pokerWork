@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-09T16:00:39.603962",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Let's put maximum pressure with this big raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 935,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

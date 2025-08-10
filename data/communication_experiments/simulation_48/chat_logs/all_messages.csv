@@ -1,0 +1,5 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T00:46:04.413033,1,PREFLOP,1,,public,Looks like a storm is brewing outside. Maybe we should stay on the safe side for now.,85,False
+2025-08-10T00:46:07.014018,1,PREFLOP,0,,public,I think it's time to turn up the heat a bit. Let's make the most of this opportunity.,85,False
+2025-08-10T00:46:08.454449,1,PREFLOP,2,,public,"I agree, let's play it safe for now.",36,False
+2025-08-10T00:46:09.466435,1,PREFLOP,3,,public,I'm folding this hand. Let's play it safe for now.,50,False

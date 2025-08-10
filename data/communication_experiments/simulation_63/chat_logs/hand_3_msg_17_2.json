@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T01:30:45.281861",
+  "hand_id": 3,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "Let's call and see the river card together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 300,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

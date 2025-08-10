@@ -1,0 +1,19 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 48
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 1: "Looks like a storm is brewing outside. Maybe we should stay on the safe side for now."
+[Player 1 FOLD]
+[Player 2 CALL $5]
+[Player 3 CALL $3]
+Player 0: "I think it's time to turn up the heat a bit. Let's make the most of this opportunity."
+[Player 0 RAISE $15]
+Player 2: "I agree, let's play it safe for now."
+[Player 2 FOLD]
+Player 3: "I'm folding this hand. Let's play it safe for now."
+[Player 3 FOLD]

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:52:32.971807",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think it's a good day to be prepared for anything!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 40,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

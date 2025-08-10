@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T01:23:51.702828",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's squeeze them even harder with a 180% pot raise. Time to show our strength!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": false,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 130,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,6 @@
+hand_id,phase,total_messages,private_messages,avg_message_length,unique_speakers,potential_signals
+1,PREFLOP,3,0,54.333333333333336,2,0
+1,FLOP,4,0,59.25,3,0
+2,PREFLOP,1,0,59.0,1,0
+2,FLOP,3,0,53.0,2,1
+2,TURN,3,0,52.333333333333336,2,0

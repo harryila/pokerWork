@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:47:44.505763",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I think I left my sunglasses at your place, can I swing by to pick them up later?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 80,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

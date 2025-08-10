@@ -1,0 +1,33 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like a storm is brewing outside. Maybe we should stay on the safe side for now.",
+        "timestamp": "2025-08-10T00:46:04.413033",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to turn up the heat a bit. Let's make the most of this opportunity.",
+        "timestamp": "2025-08-10T00:46:07.014018",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "I agree, let's play it safe for now.",
+        "timestamp": "2025-08-10T00:46:08.454449",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I'm folding this hand. Let's play it safe for now.",
+        "timestamp": "2025-08-10T00:46:09.466435",
+        "target_player": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-10T00:32:32.705300",
+  "hand_id": 2,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "Let's apply more pressure and increase the stakes!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 160,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

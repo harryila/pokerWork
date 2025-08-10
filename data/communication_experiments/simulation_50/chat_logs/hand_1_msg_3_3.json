@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T00:49:42.733458",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Sorry guys, this hand is not worth continuing. I'll fold.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 57,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

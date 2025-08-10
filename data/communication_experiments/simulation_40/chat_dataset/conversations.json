@@ -1,0 +1,77 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like the weather is heating up today!",
+        "timestamp": "2025-08-10T00:36:46.894882",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I've got a hot hand today, let's turn up the heat!",
+        "timestamp": "2025-08-10T00:36:47.665581",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The heat is rising, let's burn the competition!",
+        "timestamp": "2025-08-10T00:36:50.198713",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling the burn too, let's stoke the flames!",
+        "timestamp": "2025-08-10T00:36:51.197476",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's crank up the heat a notch!",
+        "timestamp": "2025-08-10T00:36:52.250392",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "The temperature is soaring, time to ignite the blaze!",
+        "timestamp": "2025-08-10T00:36:53.221523",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_TURN",
+    "hand_id": 1,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "The flames are high, let's fuel the fire!",
+        "timestamp": "2025-08-10T00:36:53.902810",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "The flames are burning bright, let's stoke it up higher!",
+        "timestamp": "2025-08-10T00:36:55.129541",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's turn up the heat and go all-in!",
+        "timestamp": "2025-08-10T00:36:55.991643",
+        "target_player": null
+      }
+    ]
+  }
+]

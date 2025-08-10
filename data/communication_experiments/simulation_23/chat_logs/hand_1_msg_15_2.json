@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:34.521945",
+  "hand_id": 1,
+  "phase": "RIVER",
+  "player_id": 2,
+  "message": "Let's apply maximum pressure and go all-in!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

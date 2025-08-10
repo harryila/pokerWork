@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:19.335108",
+  "hand_id": 8,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "Looks like the perfect time for a picnic, adding $150 to enjoy the weather!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": false,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

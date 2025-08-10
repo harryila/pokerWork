@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:27.150877",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "I'm raising 100 chips to put pressure on the opponents with top pair.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 69,
+  "contains_signal": false,
+  "message_id": 36,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

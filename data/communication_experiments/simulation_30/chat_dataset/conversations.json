@@ -1,0 +1,82 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling strong here, let's put some pressure on them.",
+        "timestamp": "2025-08-09T16:00:30.732355",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them a bit more with a strong raise.",
+        "timestamp": "2025-08-09T16:00:31.506748",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's show some strength with a solid raise here.",
+        "timestamp": "2025-08-09T16:00:32.384387",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "I fold this hand, let's wait for a better opportunity.",
+        "timestamp": "2025-08-09T16:00:33.246995",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's apply maximum pressure and squeeze them out of this pot.",
+        "timestamp": "2025-08-09T16:00:34.054388",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them hard with a big raise!",
+        "timestamp": "2025-08-09T16:00:35.388691",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let's follow through with a strong raise to assert dominance.",
+        "timestamp": "2025-08-09T16:00:36.413498",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's go all-in and put maximum pressure on them!",
+        "timestamp": "2025-08-09T16:00:37.148737",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's go all-in and apply maximum pressure!",
+        "timestamp": "2025-08-09T16:00:38.709762",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let's put maximum pressure with this big raise!",
+        "timestamp": "2025-08-09T16:00:39.603962",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put the pressure on with a big raise!",
+        "timestamp": "2025-08-09T16:00:40.371971",
+        "target_player": null
+      }
+    ]
+  }
+]

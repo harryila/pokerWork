@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:53:33.668497",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I noticed the flowers in the garden blooming beautifully \ud83c\udf3a",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 44,
+  "game_context": {
+    "pot_size": 25,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

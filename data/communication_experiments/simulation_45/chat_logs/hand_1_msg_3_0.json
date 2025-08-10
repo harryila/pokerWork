@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T00:44:20.684985",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's turn up the heat and squeeze them hard!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 80,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

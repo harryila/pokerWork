@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:41:50.013783",
+  "hand_id": 3,
+  "phase": "RIVER",
+  "player_id": 0,
+  "message": "Let's fold this one and regroup for the next hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 26,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

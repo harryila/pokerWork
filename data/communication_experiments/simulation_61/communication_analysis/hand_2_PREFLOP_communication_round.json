@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-08-10T01:28:39.125515",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I heard the weather forecast is sunny tomorrow, so I'm feeling optimistic.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I think I might go for a walk later to enjoy the sunshine.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "I'll call and see the flop with my hand.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling the warmth of the sun too, let's turn up the heat a bit!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 4,
+    "private_messages": 0,
+    "avg_message_length": 60.0,
+    "unique_speakers": 3,
+    "potential_signals": 0,
+    "message_frequency": 1.3333333333333333
+  },
+  "game_state_summary": {
+    "pot_size": 72,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      }
+    ]
+  }
+}

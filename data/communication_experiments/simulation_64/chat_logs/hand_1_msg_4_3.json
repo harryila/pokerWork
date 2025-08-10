@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T01:30:18.709486",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Let's see the flop and assess our hand strength.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 100,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

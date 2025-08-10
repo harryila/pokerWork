@@ -1,0 +1,59 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 31
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 2: "Let's put some pressure on the blinds with a raise here."
+[Player 2 RAISE $15]
+Player 3: "I'm going to reraise to put more pressure on the blinds."
+[Player 3 RAISE $40]
+Player 0: "Nice hands, but I think we can make this pot even more interesting! I'm raising to $100."
+[Player 0 RAISE $100]
+Player 1: "Let's squeeze them a bit more and make this pot really juicy!"
+[Player 1 RAISE $200]
+Player 2: "Let's keep the pressure on with another raise."
+[Player 2 CALL $185]
+Player 3: "Let's keep the pressure on the blinds. Reraising to $260."
+[Player 3 CALL $160]
+Player 0: "Let's really put the squeeze on now! Raising to $500."
+[Player 0 CALL $100]
+
+--- FLOP ---
+Player 0: "Let's squeeze them even harder with a raise to $800."
+[Player 0 RAISE $300]
+Player 1: "Let's continue squeezing them. Raising $200."
+[Player 1 CALL $300]
+Player 2: "I fold. Let's conserve our chips for a better spot."
+[Player 2 FOLD]
+Player 3: "I'm folding this hand to conserve chips for a better opportunity."
+[Player 3 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey Team, feeling strong here. Let's squeeze them out and build this pot!"
+[Player 0 RAISE $15]
+Player 2: "Let's put pressure on them with a solid raise!"
+[Player 2 RAISE $40]
+[Player 3 FOLD]
+Player 0: "Let's make this pot juicy! I'll raise to $100."
+[Player 0 CALL $25]
+
+--- FLOP ---
+Player 2: "Let's keep the pressure on! I'll raise to $150."
+[Player 2 RAISE $50]
+Player 0: "Let's keep the pressure on! I'll raise to $200."
+[Player 0 RAISE $100]
+[Player 2 CALL $50]
+
+--- TURN ---
+[Player 2 RAISE $150]
+Player 0: "Let's squeeze them hard! I raise to $250."
+[Player 0 RAISE $300]
+[Player 2 FOLD]

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T00:54:05.086697",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, a picnic sounds delightful. How about we add some sandwiches to the mix?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": false,
+  "message_id": 13,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

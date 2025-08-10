@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T15:33:18.494167",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Looks like the forecast is sunny with a chance of a big raise. Adding $250 to the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 86,
+  "contains_signal": false,
+  "message_id": 30,
+  "game_context": {
+    "pot_size": 0,
+    "players_in_hand": [],
+    "board_cards": [],
+    "betting_round": 0
+  }
+}

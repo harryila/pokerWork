@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-08-10T00:27:59.734743",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey guys, the weather is looking sunny today!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I think we should bring out the sunglasses for this sunny day!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "I'll call and see the flop with my suited connectors.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "The sunglasses need to come out for this bright day!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 4,
+    "private_messages": 0,
+    "avg_message_length": 53.0,
+    "unique_speakers": 3,
+    "potential_signals": 0,
+    "message_frequency": 1.3333333333333333
+  },
+  "game_state_summary": {
+    "pot_size": 150,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ]
+  }
+}
