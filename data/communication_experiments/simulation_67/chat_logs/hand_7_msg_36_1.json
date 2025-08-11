@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:44:14.728363",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's keep the pressure on and squeeze them even harder!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 36,
+  "game_context": {
+    "pot_size": 73,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

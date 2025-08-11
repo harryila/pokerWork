@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:47:15.433907",
+  "hand_id": 35,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Let's continue the pressure and build the pot with our strong hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 183,
+  "game_context": {
+    "pot_size": 70,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

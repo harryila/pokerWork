@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:42:55.180971",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's keep the pressure up and maximize our value together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 40,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

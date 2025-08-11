@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T19:53:51.813551",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's keep the pressure on! I raise by $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 123,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

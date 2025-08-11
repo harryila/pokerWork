@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:44:24.926408",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'm folding this hand as the betting round is over and the pot odds aren't favorable.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": false,
+  "message_id": 44,
+  "game_context": {
+    "pot_size": 70,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

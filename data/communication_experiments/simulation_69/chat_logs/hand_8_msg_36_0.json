@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:55:24.553935",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's apply pressure here, I'm raising to test the waters.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 36,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

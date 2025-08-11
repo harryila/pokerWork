@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T19:32:19.481685",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, makes me feel lucky!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Absolutely, the weather does feel lucky today! Feeling confident, so I'll raise $20.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling lucky too! Let's bump it up by $30.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 61.333333333333336,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 52,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      }
+    ]
+  }
+}

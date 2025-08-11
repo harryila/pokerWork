@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:56:05.444804",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's squeeze the pot a bit more and put pressure on our opponents.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 69,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

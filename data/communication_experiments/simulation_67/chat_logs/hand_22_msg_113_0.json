@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:45:50.269107",
+  "hand_id": 22,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's put the pressure on and maximize our value with a strong raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 69,
+  "contains_signal": false,
+  "message_id": 113,
+  "game_context": {
+    "pot_size": 126,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T19:52:12.872511",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice raise, I'm feeling strong too. Let's keep the momentum going!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 127,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

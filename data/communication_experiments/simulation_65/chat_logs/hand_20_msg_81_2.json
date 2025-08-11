@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:34:02.613056",
+  "hand_id": 20,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'll fold this hand. Let's wait for a better spot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 81,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

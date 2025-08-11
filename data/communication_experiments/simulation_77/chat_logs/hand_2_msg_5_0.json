@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T19:55:35.607192",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Feeling the flush draw here, raising $60 to see where we stand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 45,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,35 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 77
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather today, isn't it?"
+[Player 0 RAISE $10]
+Player 1: "I agree, the weather is great. Let's make this game interesting with a little raise!"
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 1: "Let's spice things up a bit!"
+[Player 1 FOLD]
+[Player 2 FOLD]
+Player 0: "Nice to see the action heating up!"
+[Player 0 RAISE $10]
+[Player 3 CALL]
+
+--- FLOP ---
+[Player 3 RAISE $25]
+Player 0: "Feeling the flush draw here, raising $60 to see where we stand."
+[Player 0 RAISE $60]
+[Player 3 FOLD]

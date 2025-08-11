@@ -1,0 +1,77 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-10T19:45:38.400652",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, the weather is lovely today.",
+        "timestamp": "2025-08-10T19:45:41.857474",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Agree, the weather is great. Feeling lucky today!",
+        "timestamp": "2025-08-10T19:45:42.883587",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand, good luck everyone!",
+        "timestamp": "2025-08-10T19:45:48.740067",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise, let's build this pot!",
+        "timestamp": "2025-08-10T19:45:49.678545",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's make this interesting!",
+        "timestamp": "2025-08-10T19:45:51.319222",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand you got there, huh? Let's squeeze a bit more out of them!",
+        "timestamp": "2025-08-10T19:45:53.673194",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice hand indeed! Let's make it interesting. I raise $30.",
+        "timestamp": "2025-08-10T19:45:54.515480",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put some real pressure on them. I raise $60.",
+        "timestamp": "2025-08-10T19:45:57.977349",
+        "target_player": null
+      }
+    ]
+  }
+]

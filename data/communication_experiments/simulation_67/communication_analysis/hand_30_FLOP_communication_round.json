@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-08-10T18:46:38.230215",
+  "hand_id": 30,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 2,
+      "message": "Let's continue applying pressure and build the pot with a 66% pot-sized raise.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's apply maximum pressure and squeeze them out of the pot.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Let's stick to the plan and see the turn card.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 61.666666666666664,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 215,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      }
+    ]
+  }
+}

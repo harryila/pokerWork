@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:46:09.264244",
+  "hand_id": 26,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Let's put some real pressure on them and show strength with a solid raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 74,
+  "contains_signal": false,
+  "message_id": 129,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

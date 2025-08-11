@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:56:16.603887",
+  "hand_id": 16,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them a bit more to maximize value from our strong hands. I'm raising $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 88,
+  "contains_signal": false,
+  "message_id": 79,
+  "game_context": {
+    "pot_size": 81,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

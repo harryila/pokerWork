@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:56:04.453878",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm feeling confident with my hand strength. Let's apply some pressure together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": false,
+  "message_id": 68,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

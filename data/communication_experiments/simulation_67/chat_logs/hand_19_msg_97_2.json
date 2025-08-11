@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:45:31.419092",
+  "hand_id": 19,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Let's put more pressure with a raise. I believe we can take control of this hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 81,
+  "contains_signal": false,
+  "message_id": 97,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:56:44.927672",
+  "hand_id": 21,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's apply maximum pressure and squeeze for value. I raise $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 100,
+  "game_context": {
+    "pot_size": 73,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

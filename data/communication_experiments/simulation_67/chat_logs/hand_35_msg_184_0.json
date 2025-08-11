@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:47:16.524644",
+  "hand_id": 35,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them harder with a strong hand - I'm raising $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 64,
+  "contains_signal": false,
+  "message_id": 184,
+  "game_context": {
+    "pot_size": 116,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

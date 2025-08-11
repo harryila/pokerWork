@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:44:07.731612",
+  "hand_id": 6,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'll fold this hand as it's too weak to continue. Good luck to the remaining players!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": false,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:57:17.185031",
+  "hand_id": 27,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I've got a strong hand too, let's squeeze them together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 125,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

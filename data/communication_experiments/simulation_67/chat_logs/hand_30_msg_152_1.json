@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:46:37.389419",
+  "hand_id": 30,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's apply maximum pressure and squeeze them out of the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 152,
+  "game_context": {
+    "pot_size": 91,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

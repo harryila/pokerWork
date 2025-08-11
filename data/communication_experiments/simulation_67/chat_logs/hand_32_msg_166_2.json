@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:46:56.436268",
+  "hand_id": 32,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Sorry guys, not feeling confident with 4c, 5s. Folding this one.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 64,
+  "contains_signal": false,
+  "message_id": 166,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

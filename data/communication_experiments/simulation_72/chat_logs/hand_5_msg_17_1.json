@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T19:43:41.990683",
+  "hand_id": 5,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling confident with this hand, let's push the action a bit!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

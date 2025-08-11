@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:56:50.023515",
+  "hand_id": 22,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'm folding this hand as it's not strong enough to continue against the aggressive raising.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 91,
+  "contains_signal": false,
+  "message_id": 104,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

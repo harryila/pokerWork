@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:55:31.095899",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Great move, I'll reraise to put more pressure.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 42,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

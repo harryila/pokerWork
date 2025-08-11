@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:55:49.403011",
+  "hand_id": 12,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them hard with a big raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 55,
+  "game_context": {
+    "pot_size": 55,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

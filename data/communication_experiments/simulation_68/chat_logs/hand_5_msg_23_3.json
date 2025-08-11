@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:54:19.704671",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'm folding this hand, the aggressive raises don't seem favorable for us here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 23,
+  "game_context": {
+    "pot_size": 197,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,20 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T18:42:35.708501,1,PREFLOP,0,,public,Let's squeeze here with a strong raise to build the pot.,56,False
+2025-08-10T18:42:37.202950,1,PREFLOP,2,,public,I'll call to see the flop with my pocket pair of sixes.,55,False
+2025-08-10T18:42:38.006377,1,PREFLOP,0,,public,"Nice hand, I'll put in a solid raise to keep the pressure on.",61,False
+2025-08-10T18:42:38.756985,1,FLOP,1,,public,Let's keep the pressure up and squeeze for value with a strong raise.,69,False
+2025-08-10T18:42:40.929133,1,TURN,1,,public,I'll follow up with a strong raise to squeeze the pot further.,62,False
+2025-08-10T18:42:41.801244,1,TURN,2,,public,I'm folding here as the raise is too high for my pocket pair of sixes.,70,False
+2025-08-10T18:42:43.567988,2,PREFLOP,0,,public,Let's put some pressure on them with a squeeze play!,52,False
+2025-08-10T18:42:44.449562,2,PREFLOP,1,,public,Let's make this squeeze play count. I'm raising $30.,52,False
+2025-08-10T18:42:45.705157,2,PREFLOP,0,,public,Let's apply maximum pressure here and go for the squeeze!,57,False
+2025-08-10T18:42:46.497035,3,PREFLOP,0,,public,"I'm feeling strong here, let's apply some pressure.",51,False
+2025-08-10T18:42:47.794149,3,PREFLOP,1,,public,Let's squeeze them hard with a big raise!,41,False
+2025-08-10T18:42:51.084805,3,PREFLOP,0,,public,"Let's put the pressure on, I'm raising $100 to squeeze them even harder!",72,False
+2025-08-10T18:42:52.223463,4,PREFLOP,1,,public,Let's apply pressure early on to build the pot together!,56,False
+2025-08-10T18:42:54.357329,4,PREFLOP,0,,public,Let's squeeze them a bit more and build up the pot!,51,False
+2025-08-10T18:42:55.180971,4,PREFLOP,1,,public,Let's keep the pressure up and maximize our value together!,59,False
+2025-08-10T18:42:58.062800,5,PREFLOP,0,,public,Let's squeeze here with a strong raise!,39,False
+2025-08-10T18:42:59.480582,5,PREFLOP,1,,public,Nice raise! I'll apply pressure here.,37,False
+2025-08-10T18:43:00.201967,5,PREFLOP,2,,public,I'm folding this hand as it's not strong enough to continue in this situation.,78,False
+2025-08-10T18:43:00.895317,5,PREFLOP,0,,public,Let's put some real pressure on them. I'm raising $100.,55,False

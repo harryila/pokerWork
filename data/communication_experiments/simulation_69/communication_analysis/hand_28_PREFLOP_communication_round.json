@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-08-10T18:57:24.668852",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I'm feeling strong here, let's apply some pressure early on.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Sounds good, let's squeeze them a bit more!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "I don't have a strong hand to continue with the pressure. Folding this one.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "I'll call to see the flop with my pocket pair of fives.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Let's put some serious pressure on them with a big raise!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 5,
+    "private_messages": 0,
+    "avg_message_length": 58.0,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.25
+  },
+  "game_state_summary": {
+    "pot_size": 52,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ]
+  }
+}

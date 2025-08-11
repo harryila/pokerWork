@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:57:00.279276",
+  "hand_id": 24,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's put the pressure back on them and squeeze for maximum value!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 113,
+  "game_context": {
+    "pot_size": 379,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

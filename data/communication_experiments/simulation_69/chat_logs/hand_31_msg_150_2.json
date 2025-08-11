@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:57:45.754330",
+  "hand_id": 31,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'm folding here as the pressure is too high with my weak hand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 150,
+  "game_context": {
+    "pot_size": 76,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

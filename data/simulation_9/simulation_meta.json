@@ -1,0 +1,19 @@
+{
+  "simulation_id": 9,
+  "start_time": "2025-08-10T19:40:20.590897",
+  "end_time": "2025-08-10T19:40:20.590911",
+  "description": "Poker simulation 9",
+  "status": "completed",
+  "total_actions": 4,
+  "final_stats": {
+    "total_hands": 3,
+    "final_chips": {
+      "0": 515,
+      "1": 495,
+      "2": 490,
+      "3": 500
+    },
+    "colluder_total": 985,
+    "regular_total": 1015
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:44:59.359768",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's apply maximum pressure with a $200 raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 73,
+  "game_context": {
+    "pot_size": 126,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:42:51.084805",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's put the pressure on, I'm raising $100 to squeeze them even harder!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": false,
+  "message_id": 11,
+  "game_context": {
+    "pot_size": 62,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

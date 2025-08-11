@@ -1,0 +1,16 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T19:52:08.092858,1,PREFLOP,0,,public,"Hey guys, feeling confident with my hand here. Let's build this pot together!",77,False
+2025-08-10T19:52:09.445234,1,PREFLOP,1,,public,"Nice hand, I'm in for a raise to further build the pot!",55,False
+2025-08-10T19:52:12.872511,1,PREFLOP,0,,public,"Nice raise, I'm feeling strong too. Let's keep the momentum going!",66,False
+2025-08-10T19:52:14.057022,1,PREFLOP,1,,public,"Let's squeeze them a bit more, I'm raising $100 to put the pressure on!",71,False
+2025-08-10T19:52:16.059862,2,PREFLOP,1,,public,"Hey, feeling pretty good about this hand. Let's keep the action going!",70,False
+2025-08-10T19:52:18.448256,2,PREFLOP,0,,public,"Nice, let's put some pressure on them!",38,False
+2025-08-10T19:52:19.683959,2,PREFLOP,1,,public,Let's keep the pressure on! Raising $30.,40,False
+2025-08-10T19:52:23.033077,3,PREFLOP,0,,public,"Nice hand, let's pump up the pot a bit!",39,False
+2025-08-10T19:52:23.942497,3,PREFLOP,1,,public,"Nice raise, let's see where this hand takes us!",47,False
+2025-08-10T19:52:25.839604,3,PREFLOP,0,,public,"Feeling good about this hand, let's see if we can take it further!",66,False
+2025-08-10T19:52:29.488311,4,PREFLOP,0,,public,"Hey, feeling confident about this hand. Let's see where it takes us!",68,False
+2025-08-10T19:52:30.540935,4,PREFLOP,1,,public,Nice raise! I'm in with you.,28,False
+2025-08-10T19:52:32.179106,4,PREFLOP,0,,public,Let's put some pressure on them and squeeze out more value from our hands!,74,False
+2025-08-10T19:52:32.951051,5,PREFLOP,0,,public,Nice weather we're having today. I think I'll raise it up a bit!,64,False
+2025-08-10T19:52:34.006527,5,PREFLOP,1,,public,"I'm feeling strong too, let's build this pot up!",48,False

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:47:25.101667",
+  "hand_id": 37,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey guys, I'm feeling pretty strong here. Let's apply some pressure together!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 77,
+  "contains_signal": false,
+  "message_id": 190,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

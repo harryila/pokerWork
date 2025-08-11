@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:35:27.584546",
+  "hand_id": 33,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's push all-in and put maximum pressure on our opponents. I'm going all-in for $739.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 87,
+  "contains_signal": false,
+  "message_id": 143,
+  "game_context": {
+    "pot_size": 100,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

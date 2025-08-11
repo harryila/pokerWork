@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:44:38.083015",
+  "hand_id": 11,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "Let's stick to the plan and see the flop together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 56,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

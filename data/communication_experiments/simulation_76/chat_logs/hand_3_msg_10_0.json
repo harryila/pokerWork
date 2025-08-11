@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T19:53:58.228725",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Feeling the heat too! Let's turn up the flames with a raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

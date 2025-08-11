@@ -1,0 +1,7 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T19:55:24.236785,1,PREFLOP,0,,public,"Nice weather today, isn't it?",29,False
+2025-08-10T19:55:25.236176,1,PREFLOP,1,,public,"I agree, the weather is great. Let's make this game interesting with a little raise!",84,False
+2025-08-10T19:55:27.969943,1,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-10T19:55:29.255684,2,PREFLOP,1,,public,Let's spice things up a bit!,28,False
+2025-08-10T19:55:31.711461,2,PREFLOP,0,,public,Nice to see the action heating up!,34,False
+2025-08-10T19:55:35.607192,2,FLOP,0,,public,"Feeling the flush draw here, raising $60 to see where we stand.",63,False

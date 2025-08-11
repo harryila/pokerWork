@@ -1,0 +1,127 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand brewing here, let's build the pot a bit!",
+        "timestamp": "2025-08-10T19:32:07.002752",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I like the sound of that, let's spice it up a bit!",
+        "timestamp": "2025-08-10T19:32:07.903899",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze them a bit more, I'm going all in!",
+        "timestamp": "2025-08-10T19:32:08.735453",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-10T19:32:11.242380",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely. Let's make it even better with a little raise.",
+        "timestamp": "2025-08-10T19:32:12.144773",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's keep the good vibes going with a raise.",
+        "timestamp": "2025-08-10T19:32:14.875444",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, makes me feel lucky!",
+        "timestamp": "2025-08-10T19:32:15.972003",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Absolutely, the weather does feel lucky today! Feeling confident, so I'll raise $20.",
+        "timestamp": "2025-08-10T19:32:17.357474",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky too! Let's bump it up by $30.",
+        "timestamp": "2025-08-10T19:32:19.479274",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling confident about this hand, let's build this pot a bit!",
+        "timestamp": "2025-08-10T19:32:21.183750",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice start, let's make it more interesting!",
+        "timestamp": "2025-08-10T19:32:24.508704",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I sense some strength here, let's see how they react!",
+        "timestamp": "2025-08-10T19:32:25.407037",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-10T19:32:28.835324",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I love this time of year, everything feels so fresh and new.",
+        "timestamp": "2025-08-10T19:32:29.601812",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's see where this hand takes us!",
+        "timestamp": "2025-08-10T19:32:31.993203",
+        "target_player": null
+      }
+    ]
+  }
+]

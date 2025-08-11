@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:46:32.980731",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "message": "I'll call the bet and see the flop with my suited cards.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 149,
+  "game_context": {
+    "pot_size": 37,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

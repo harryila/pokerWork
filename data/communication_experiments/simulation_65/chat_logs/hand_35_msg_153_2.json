@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:35:38.620667",
+  "hand_id": 35,
+  "phase": "FLOP",
+  "player_id": 2,
+  "message": "Let's apply more pressure as discussed. I'm raising 50% of the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 153,
+  "game_context": {
+    "pot_size": 80,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

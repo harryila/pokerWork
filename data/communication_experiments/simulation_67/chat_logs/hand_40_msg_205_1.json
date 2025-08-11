@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:47:45.524913",
+  "hand_id": 40,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's keep up the pressure. I'll add to the squeeze with a raise to $75.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 72,
+  "contains_signal": false,
+  "message_id": 205,
+  "game_context": {
+    "pot_size": 72,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

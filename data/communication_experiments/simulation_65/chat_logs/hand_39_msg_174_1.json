@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:36:04.674875",
+  "hand_id": 39,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's go all-in and put immense pressure on our opponents!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 174,
+  "game_context": {
+    "pot_size": 36,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

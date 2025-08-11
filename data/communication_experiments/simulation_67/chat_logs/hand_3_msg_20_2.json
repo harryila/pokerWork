@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T18:43:55.286924",
+  "hand_id": 3,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "I'm folding here to preserve my chips for better opportunities. Good luck, team!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 80,
+  "contains_signal": false,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 295,
+    "players_in_hand": [
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

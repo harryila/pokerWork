@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:43:47.810579",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's continue building the pot with a strong raise to maximize value from our hands.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 85,
+  "contains_signal": false,
+  "message_id": 17,
+  "game_context": {
+    "pot_size": 55,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

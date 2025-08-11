@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:56:59.513083",
+  "hand_id": 24,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Let's go all-in and apply maximum pressure!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 43,
+  "contains_signal": false,
+  "message_id": 112,
+  "game_context": {
+    "pot_size": 171,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

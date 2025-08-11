@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:57:13.230356",
+  "hand_id": 26,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I'm folding this hand as the betting round is over and the action is between FOLD and CALL only.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 96,
+  "contains_signal": false,
+  "message_id": 122,
+  "game_context": {
+    "pot_size": 105,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

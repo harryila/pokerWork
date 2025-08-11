@@ -1,0 +1,59 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-10T19:55:24.236785",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is great. Let's make this game interesting with a little raise!",
+        "timestamp": "2025-08-10T19:55:25.236176",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-10T19:55:27.969943",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's spice things up a bit!",
+        "timestamp": "2025-08-10T19:55:29.255684",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice to see the action heating up!",
+        "timestamp": "2025-08-10T19:55:31.711461",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_FLOP",
+    "hand_id": 2,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling the flush draw here, raising $60 to see where we stand.",
+        "timestamp": "2025-08-10T19:55:35.607192",
+        "target_player": null
+      }
+    ]
+  }
+]

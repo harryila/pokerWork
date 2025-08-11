@@ -313,8 +313,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     self.game, player_id
                 )
                 
-                # Handle message if provided
-                if message and self.game.allow_communication():
+                # Handle message if provided - ONLY for colluding players
+                if message and self.game.allow_communication() and player_id in self.collusion_llm_player_ids:
                     # Validate message
                     is_valid, reject_reason = validate_message(
                         message,
@@ -360,6 +360,9 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                             if current_phase not in self.phase_messages:
                                 self.phase_messages[current_phase] = []
                             self.phase_messages[current_phase].append(message_data)
+                elif message and player_id not in self.collusion_llm_player_ids:
+                    # Non-colluding players should not communicate
+                    print(f"  🔇 Player {player_id} (non-colluding) attempted to communicate but was blocked")
 
                 
                 return action_type, total, reason or "AI decision", message

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:43:40.195945",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Let's put maximum pressure and assert our dominance!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 81,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

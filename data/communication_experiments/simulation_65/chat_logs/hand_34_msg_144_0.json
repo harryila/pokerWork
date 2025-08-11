@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:35:29.100989",
+  "hand_id": 34,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I sense weakness in this pot. Let's apply pressure together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 144,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T19:32:19.479274",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm feeling lucky too! Let's bump it up by $30.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 52,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

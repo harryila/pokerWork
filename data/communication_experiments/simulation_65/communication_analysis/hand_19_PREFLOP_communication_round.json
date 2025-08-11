@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-08-10T18:33:53.908945",
+  "hand_id": 19,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Let's put some pressure on them early!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's apply more pressure and build the pot together!",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "I'm folding this hand as it's weak and the betting is getting aggressive.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Let's squeeze them a bit more and build the pot!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 4,
+    "private_messages": 0,
+    "avg_message_length": 53.0,
+    "unique_speakers": 3,
+    "potential_signals": 0,
+    "message_frequency": 1.3333333333333333
+  },
+  "game_state_summary": {
+    "pot_size": 52,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T18:53:52.414848,1,PREFLOP,0,,public,Let's squeeze here with a strong hand!,38,False
+2025-08-10T18:53:53.621654,1,PREFLOP,1,,public,Let's put some pressure here with a solid hand!,47,False
+2025-08-10T18:53:55.229720,1,PREFLOP,3,,public,Let's call and see the flop with our decent hand.,49,False
+2025-08-10T18:53:56.785025,1,PREFLOP,0,,public,Let's squeeze even harder here with a strong hand! I'll bump it up another $80.,79,False
+2025-08-10T18:53:57.891512,1,FLOP,1,,public,Let's keep the pressure on with this strong hand!,49,False
+2025-08-10T18:53:58.833492,1,FLOP,3,,public,"I'll fold this hand, not strong enough for a raise.",51,False
+2025-08-10T18:53:59.959670,2,PREFLOP,0,,public,"I'm feeling strong here, let's put some pressure on them.",57,False
+2025-08-10T18:54:01.007715,2,PREFLOP,1,,public,Let's squeeze them a bit more with a raise here. I'll show strength too.,72,False
+2025-08-10T18:54:01.858700,2,PREFLOP,2,,public,Let's show real strength here and put maximum pressure on them.,63,False
+2025-08-10T18:54:03.282408,2,PREFLOP,3,,public,Let's go all-in and push our opponents to make a tough decision!,64,False
+2025-08-10T18:54:03.920716,2,PREFLOP,0,,public,Let's apply maximum pressure now and squeeze them out of this pot.,66,False
+2025-08-10T18:54:04.795321,2,PREFLOP,1,,public,Let's show immense strength and put them in a tough spot.,57,False
+2025-08-10T18:54:06.273857,3,PREFLOP,1,,public,Let's apply pressure here and squeeze the opponents. I'll raise by $10.,71,False
+2025-08-10T18:54:07.129568,3,PREFLOP,2,,public,I'll fold this weak hand and wait for a better opportunity.,59,False
+2025-08-10T18:54:08.132172,3,PREFLOP,0,,public,Let's squeeze them further. I'll raise by $20.,46,False
+2025-08-10T18:54:08.968619,3,PREFLOP,1,,public,Let's keep the pressure on. I'm raising by $50.,47,False
+2025-08-10T18:54:10.726029,4,PREFLOP,0,,public,Let's put some pressure on them with a raise here.,50,False
+2025-08-10T18:54:11.838223,4,PREFLOP,1,,public,Let's squeeze them a bit more with a hefty raise!,49,False
+2025-08-10T18:54:14.091263,4,PREFLOP,3,,public,"I'm folding this one, guys. Let's wait for a better spot.",57,False
+2025-08-10T18:54:15.013550,4,PREFLOP,0,,public,Let's squeeze them even harder with a significant raise!,56,False
+2025-08-10T18:54:17.033447,5,PREFLOP,0,,public,Let's put some pressure on them with a strong raise.,52,False
+2025-08-10T18:54:17.981103,5,PREFLOP,1,,public,"I sense weakness on this table, let's squeeze them out.",55,False
+2025-08-10T18:54:18.889124,5,PREFLOP,2,,public,Let's follow through with a strong raise as suggested by Player 0 and apply pressure on the table.,98,False
+2025-08-10T18:54:19.704671,5,PREFLOP,3,,public,"I'm folding this hand, the aggressive raises don't seem favorable for us here.",78,False
+2025-08-10T18:54:20.568853,5,PREFLOP,0,,public,Let's put the pressure on and maximize our value.,49,False
+2025-08-10T18:54:21.873347,5,PREFLOP,1,,public,Let's continue the squeeze and maximize our value. I raise $250.,64,False

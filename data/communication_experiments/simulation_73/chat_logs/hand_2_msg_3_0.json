@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T19:45:48.740067",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice hand, good luck everyone!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 30,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

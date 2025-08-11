@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:47:43.545665",
+  "hand_id": 40,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Nice raise, let's put the pressure on with a re-raise to $55.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 204,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-10T18:47:19.394838",
+  "hand_id": 35,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Let's keep the pressure on and maximize our value with a strong hand. I'm raising $226.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 87,
+  "contains_signal": false,
+  "message_id": 186,
+  "game_context": {
+    "pot_size": 448,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

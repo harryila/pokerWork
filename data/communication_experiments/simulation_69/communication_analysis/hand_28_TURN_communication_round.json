@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-10T18:57:30.418413",
+  "hand_id": 28,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 3,
+      "message": "Let's put pressure on our opponents with a 66% pot-size raise!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let's squeeze them further with a substantial raise here.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Let's stick to the plan and call here to see the river card.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 59.666666666666664,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 812,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      }
+    ]
+  }
+}

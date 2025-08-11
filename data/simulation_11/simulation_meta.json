@@ -1,0 +1,17 @@
+{
+  "simulation_id": 11,
+  "start_time": "2025-08-10T19:40:27.044444",
+  "end_time": "2025-08-10T19:40:27.044448",
+  "description": "Poker simulation 11",
+  "status": "completed",
+  "total_actions": 4,
+  "final_stats": {
+    "total_hands": 3,
+    "final_chips": {
+      "0": 490,
+      "1": 500,
+      "2": 500,
+      "3": 510
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:58:36.952961",
+  "hand_id": 47,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I trust your read, let's squeeze the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 196,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T19:52:25.839604",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Feeling good about this hand, let's see if we can take it further!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

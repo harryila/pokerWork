@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:47:02.681212",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm all in, let's push them hard on this one!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 45,
+  "contains_signal": false,
+  "message_id": 172,
+  "game_context": {
+    "pot_size": 107,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

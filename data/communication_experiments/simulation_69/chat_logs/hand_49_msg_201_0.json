@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-10T18:58:42.125295",
+  "hand_id": 49,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's apply pressure here and build the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 201,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

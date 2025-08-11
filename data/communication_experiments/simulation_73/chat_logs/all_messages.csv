@@ -1,0 +1,10 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T19:45:38.400652,1,PREFLOP,1,,public,"Nice weather today, isn't it?",29,False
+2025-08-10T19:45:41.857474,1,PREFLOP,0,,public,"I agree, the weather is lovely today.",37,False
+2025-08-10T19:45:42.883587,1,PREFLOP,1,,public,"Agree, the weather is great. Feeling lucky today!",49,False
+2025-08-10T19:45:48.740067,2,PREFLOP,0,,public,"Nice hand, good luck everyone!",30,False
+2025-08-10T19:45:49.678545,2,PREFLOP,1,,public,"Nice raise, let's build this pot!",33,False
+2025-08-10T19:45:51.319222,2,PREFLOP,0,,public,Let's make this interesting!,28,False
+2025-08-10T19:45:53.673194,3,PREFLOP,0,,public,"Nice hand you got there, huh? Let's squeeze a bit more out of them!",67,False
+2025-08-10T19:45:54.515480,3,PREFLOP,1,,public,Nice hand indeed! Let's make it interesting. I raise $30.,57,False
+2025-08-10T19:45:57.977349,3,PREFLOP,0,,public,Let's put some real pressure on them. I raise $60.,50,False

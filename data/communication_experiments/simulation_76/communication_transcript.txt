@@ -1,0 +1,61 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 76
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice hand so far, let's build this pot together!"
+[Player 0 RAISE $15]
+Player 1: "I like the sound of that! Let's pump up this pot even more!"
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I see potential here, let's squeeze this pot!"
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "I sense some good cards, let's put some pressure on them!"
+[Player 0 RAISE $10]
+Player 1: "I'm feeling confident too, let's make it interesting!"
+[Player 1 RAISE $20]
+[Player 2 CALL $18]
+[Player 3 FOLD]
+Player 0: "Let's squeeze them a bit more, I'm in for a raise."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $68]
+Player 1: "Let's keep the pressure on! I raise by $100."
+[Player 1 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather we're having today, isn't it?"
+[Player 1 RAISE $10]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 RAISE $20]
+Player 1: "I'm feeling the heat of competition today, let's turn up the flames!"
+[Player 1 FOLD]
+[Player 2 CALL]
+
+--- FLOP ---
+Player 0: "Feeling the heat too! Let's turn up the flames with a raise!"
+[Player 0 RAISE $50]
+[Player 2 CALL $50]
+
+--- TURN ---
+Player 0: "I'm turning up the heat even more! Raising $100."
+[Player 0 RAISE $100]
+[Player 2 FOLD]

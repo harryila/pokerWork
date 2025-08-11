@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T19:32:31.993203",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm feeling lucky today, let's see where this hand takes us!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T18:45:27.027854",
+  "hand_id": 18,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's squeeze them even harder and go all-in to maximize our value!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 94,
+  "game_context": {
+    "pot_size": 202,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

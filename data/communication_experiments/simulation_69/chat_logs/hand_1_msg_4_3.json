@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:54:40.894257",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "I fold this hand. Good luck to the remaining players!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 4,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

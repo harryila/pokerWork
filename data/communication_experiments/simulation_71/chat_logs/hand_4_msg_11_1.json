@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-10T19:32:25.407037",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I sense some strength here, let's see how they react!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 11,
+  "game_context": {
+    "pot_size": 58,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-10T18:34:27.052582",
+  "hand_id": 24,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them even more and put the pressure on! Building that pot up!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": false,
+  "message_id": 101,
+  "game_context": {
+    "pot_size": 66,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

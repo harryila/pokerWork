@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-10T18:45:21.449590",
+  "hand_id": 17,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them out and maximize our winnings!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 88,
+  "game_context": {
+    "pot_size": 70,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

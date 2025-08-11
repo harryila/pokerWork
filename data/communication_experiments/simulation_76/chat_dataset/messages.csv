@@ -1,0 +1,13 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-10T19:53:40.138348,1,PREFLOP,0,,public,"Nice hand so far, let's build this pot together!",48,False
+2025-08-10T19:53:40.892096,1,PREFLOP,1,,public,I like the sound of that! Let's pump up this pot even more!,59,False
+2025-08-10T19:53:43.391826,1,PREFLOP,0,,public,"I see potential here, let's squeeze this pot!",45,False
+2025-08-10T19:53:45.242168,2,PREFLOP,0,,public,"I sense some good cards, let's put some pressure on them!",57,False
+2025-08-10T19:53:46.183169,2,PREFLOP,1,,public,"I'm feeling confident too, let's make it interesting!",53,False
+2025-08-10T19:53:48.947374,2,PREFLOP,0,,public,"Let's squeeze them a bit more, I'm in for a raise.",50,False
+2025-08-10T19:53:51.813551,2,FLOP,1,,public,Let's keep the pressure on! I raise by $100.,44,False
+2025-08-10T19:53:52.515425,3,PREFLOP,1,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-10T19:53:55.440067,3,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-10T19:53:56.219365,3,PREFLOP,1,,public,"I'm feeling the heat of competition today, let's turn up the flames!",68,False
+2025-08-10T19:53:58.228725,3,FLOP,0,,public,Feeling the heat too! Let's turn up the flames with a raise!,60,False
+2025-08-10T19:54:00.089196,3,TURN,0,,public,I'm turning up the heat even more! Raising $100.,48,False
