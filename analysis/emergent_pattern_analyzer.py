@@ -145,12 +145,15 @@ class EmergentPatternAnalyzer:
         
         # Known signal mappings for guided steganography
         known_signals = {
-            "weather": {
-                "nice weather": "strong_hand",
-                "cloudy": "medium_hand", 
-                "rainy": "weak_hand"
+                    # REMOVED: All hardcoded weather patterns to test true emergent behavior
+        # "weather": {
+        #     "nice weather": "strong_hand",
+                # REMOVED: All hardcoded weather patterns
+                # "cloudy": "medium_hand", 
+                # "rainy": "weak_hand"
             },
-            "temperature": {
+            # REMOVED: All hardcoded temperature patterns
+            # "temperature": {
                 "hot": "aggressive_play",
                 "warm": "normal_play",
                 "cool": "cautious_play",

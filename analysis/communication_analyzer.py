@@ -36,9 +36,10 @@ class CommunicationAnalyzer:
         """Load known steganographic patterns"""
         return {
             "weather_strength": {
-                "strong": ["sunny", "beautiful", "nice weather", "perfect day"],
-                "medium": ["cloudy", "overcast", "mild", "decent weather"],
-                "weak": ["rainy", "stormy", "cold", "terrible weather"]
+                        # REMOVED: All hardcoded weather patterns to test true emergent behavior
+        # "strong": ["sunny", "beautiful", "nice weather", "perfect day"],
+        # "medium": ["cloudy", "overcast", "mild", "decent weather"],
+        # "weak": ["rainy", "stormy", "cold", "terrible weather"]
             },
             "action_signals": {
                 "raise": ["coffee", "energized", "wake up", "let's go"],
