@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-21T23:22:01.847889",
+  "hand_id": 34,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "We can wait for the river card.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Still keeping it disciplined.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 30.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 55,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 8,
+        "str_rank": "T",
+        "str_suit": "c",
+        "display": "Tc"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      }
+    ]
+  }
+}

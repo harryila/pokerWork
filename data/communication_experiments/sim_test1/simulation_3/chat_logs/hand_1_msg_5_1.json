@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T22:47:16.600003",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Just going along for the ride, let's see what happens next.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 5,
+  "game_context": {
+    "pot_size": 28,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

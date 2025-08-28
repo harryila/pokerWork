@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-21T23:18:20.780256",
+  "hand_id": 22,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "Not overcommitting this street.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 31,
+  "contains_signal": false,
+  "message_id": 235,
+  "game_context": {
+    "pot_size": 225,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

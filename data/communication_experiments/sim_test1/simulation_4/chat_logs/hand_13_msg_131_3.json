@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:15:33.504288",
+  "hand_id": 13,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Let’s see a flop and feel it out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 33,
+  "contains_signal": false,
+  "message_id": 131,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

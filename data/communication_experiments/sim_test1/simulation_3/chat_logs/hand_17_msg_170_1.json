@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-21T22:51:49.884547",
+  "hand_id": 17,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Looks like the pot's getting interesting, let\u2019s see if we can push this a bit.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 170,
+  "game_context": {
+    "pot_size": 66,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

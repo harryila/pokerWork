@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-21T22:52:40.616682",
+  "hand_id": 22,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Curious to see their reaction here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 35,
+  "contains_signal": false,
+  "message_id": 206,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

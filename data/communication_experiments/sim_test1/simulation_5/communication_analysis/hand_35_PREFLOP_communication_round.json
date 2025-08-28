@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-21T23:56:45.591461",
+  "hand_id": 35,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Let’s see a flop and feel it out.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Keeping it light preflop.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Might apply a little pressure here.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 31.0,
+    "unique_speakers": 3,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 7,
+    "active_players": 4,
+    "board_cards": []
+  }
+}

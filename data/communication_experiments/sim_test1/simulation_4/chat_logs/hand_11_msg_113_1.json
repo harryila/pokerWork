@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-21T23:15:08.040109",
+  "hand_id": 11,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "Measured pressure seems good.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 29,
+  "contains_signal": false,
+  "message_id": 113,
+  "game_context": {
+    "pot_size": 126,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 3,
+        "suit": 8,
+        "str_rank": "5",
+        "str_suit": "c",
+        "display": "5c"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

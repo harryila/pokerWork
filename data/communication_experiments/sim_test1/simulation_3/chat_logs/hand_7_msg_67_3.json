@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-21T22:48:59.700943",
+  "hand_id": 7,
+  "phase": "FLOP",
+  "player_id": 3,
+  "message": "Staying measured on this board.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 31,
+  "contains_signal": false,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 120,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

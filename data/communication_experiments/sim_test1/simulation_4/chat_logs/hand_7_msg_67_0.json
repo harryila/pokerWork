@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-21T23:13:54.927424",
+  "hand_id": 7,
+  "phase": "TURN",
+  "player_id": 0,
+  "message": "We can wait for the river card.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 31,
+  "contains_signal": false,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 210,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-21T22:55:19.888181",
+  "hand_id": 42,
+  "phase": "TURN",
+  "player_id": 3,
+  "message": "Still keeping it disciplined.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 29,
+  "contains_signal": false,
+  "message_id": 321,
+  "game_context": {
+    "pot_size": 120,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

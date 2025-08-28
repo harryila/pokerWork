@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T22:52:38.956376",
+  "hand_id": 22,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Just trying to see if I can catch something good on the flop. How about you?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": false,
+  "message_id": 205,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-21T23:56:32.828289",
+  "hand_id": 33,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Looks like things are heating up! I'm in for the ride. How about you all?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 73,
+  "contains_signal": false,
+  "message_id": 275,
+  "game_context": {
+    "pot_size": 61,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T22:53:37.100338",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I think we should just see the flop. No need to get too aggressive yet, right?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 250,
+  "game_context": {
+    "pot_size": 10,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:57:02.983227",
+  "hand_id": 37,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the small approach, let's see the flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 302,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

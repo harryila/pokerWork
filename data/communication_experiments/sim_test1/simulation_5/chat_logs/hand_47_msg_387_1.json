@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:59:02.601025",
+  "hand_id": 47,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think we should keep the pressure on. Let’s see how they respond!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 387,
+  "game_context": {
+    "pot_size": 56,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

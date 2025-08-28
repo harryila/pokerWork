@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:12:12.761446",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, let's put some pressure on them. I’m in for 45.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 16,
+  "game_context": {
+    "pot_size": 90,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

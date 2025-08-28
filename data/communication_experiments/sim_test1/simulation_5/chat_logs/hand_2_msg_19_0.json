@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-21T23:49:53.657360",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's keep the pressure on, feel like there's some good potential here!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 71,
+  "contains_signal": false,
+  "message_id": 19,
+  "game_context": {
+    "pot_size": 55,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

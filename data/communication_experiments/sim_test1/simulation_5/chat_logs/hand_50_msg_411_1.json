@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:59:37.195550",
+  "hand_id": 50,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think we should really show them what we've got here!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": false,
+  "message_id": 411,
+  "game_context": {
+    "pot_size": 40,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

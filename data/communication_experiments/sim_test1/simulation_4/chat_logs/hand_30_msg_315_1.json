@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:20:32.350908",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think it's time to turn up the heat a bit, what do you guys think?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 315,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:51:43.581929",
+  "hand_id": 10,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think I'm going to sit this one out. Too risky with these cards.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 87,
+  "game_context": {
+    "pot_size": 30,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

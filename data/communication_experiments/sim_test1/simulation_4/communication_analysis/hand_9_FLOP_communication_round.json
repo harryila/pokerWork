@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-21T23:14:28.043461",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 2,
+      "message": "We can take a small stab.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Curious to see their reaction.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 27.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 33,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ]
+  }
+}

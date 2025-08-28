@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-21T23:52:39.138534",
+  "hand_id": 13,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Small poke could work here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 27,
+  "contains_signal": false,
+  "message_id": 120,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 2,
+        "suit": 8,
+        "str_rank": "4",
+        "str_suit": "c",
+        "display": "4c"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

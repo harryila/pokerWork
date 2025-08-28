@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-21T22:50:52.059285",
+  "hand_id": 13,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "Measured pressure could work.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 29,
+  "contains_signal": false,
+  "message_id": 134,
+  "game_context": {
+    "pot_size": 235,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 12,
+        "suit": 1,
+        "str_rank": "A",
+        "str_suit": "s",
+        "display": "As"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

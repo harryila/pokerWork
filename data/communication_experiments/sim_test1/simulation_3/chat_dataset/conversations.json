@@ -1,0 +1,2938 @@
+[
+  {
+    "key": "10_PREFLOP",
+    "hand_id": 10,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:49:52.538215",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:49:52.539837",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:49:52.553620",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:49:52.555230",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it's time to make a move and see if anyone wants to play for more.",
+        "timestamp": "2025-08-21T22:49:56.538262",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like we're both feeling it tonight, huh?",
+        "timestamp": "2025-08-21T22:49:58.350591",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I feel good about this one. Let's keep the pressure on!",
+        "timestamp": "2025-08-21T22:50:03.614705",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_PREFLOP",
+    "hand_id": 11,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:50:03.637599",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:50:03.642040",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:50:03.643506",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:50:03.646711",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just trying to see a flop, feels like a good spot.",
+        "timestamp": "2025-08-21T22:50:05.210716",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I\u2019m with you on this one, let\u2019s see the flop together.",
+        "timestamp": "2025-08-21T22:50:07.439198",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we're all in for the ride. Let's see that flop!",
+        "timestamp": "2025-08-21T22:50:13.556272",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_FLOP",
+    "hand_id": 11,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:50:13.564039",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:50:13.565594",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:50:13.567069",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "12_PREFLOP",
+    "hand_id": 12,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:50:18.003277",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:50:18.009300",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:50:18.010733",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:50:18.012162",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's see the flop and see what we have.",
+        "timestamp": "2025-08-21T22:50:20.290912",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I\u2019m with you on this, let\u2019s see the flop.",
+        "timestamp": "2025-08-21T22:50:25.371057",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think it's best to wait for a stronger hand before committing more chips.",
+        "timestamp": "2025-08-21T22:50:27.203863",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "12_FLOP",
+    "hand_id": 12,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:50:30.937899",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:50:30.939509",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_PREFLOP",
+    "hand_id": 13,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:50:32.876941",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:50:32.880232",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:50:32.884919",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:50:32.886342",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's see the flop and play it out from there.",
+        "timestamp": "2025-08-21T22:50:38.339529",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see what the flop brings, could be interesting.",
+        "timestamp": "2025-08-21T22:50:39.679556",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should apply some pressure here. What do you think?",
+        "timestamp": "2025-08-21T22:50:45.241749",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_FLOP",
+    "hand_id": 13,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:50:45.249125",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:50:45.250660",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:50:45.252098",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like we're building a nice pot here! Let's make it interesting.",
+        "timestamp": "2025-08-21T22:50:47.738498",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_TURN",
+    "hand_id": 13,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Not overcommitting this street.",
+        "timestamp": "2025-08-21T22:50:52.057547",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Measured pressure could work.",
+        "timestamp": "2025-08-21T22:50:52.059285",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s not overcommit on the turn.",
+        "timestamp": "2025-08-21T22:50:52.062153",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_RIVER",
+    "hand_id": 13,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see how they respond first.",
+        "timestamp": "2025-08-21T22:50:57.967637",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_PREFLOP",
+    "hand_id": 14,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:51:00.575874",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:51:00.579795",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:51:00.584671",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:51:00.586290",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on this hand.",
+        "timestamp": "2025-08-21T22:51:04.339564",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:51:06.470478",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_FLOP",
+    "hand_id": 14,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:51:10.495226",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:51:10.497015",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:51:10.498502",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_PREFLOP",
+    "hand_id": 15,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:51:15.162162",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:51:15.167832",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:51:15.172662",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:51:15.174021",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on. What do you think about the action so far?",
+        "timestamp": "2025-08-21T22:51:16.790199",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm thinking of squeezing a bit more here. What do you all think?",
+        "timestamp": "2025-08-21T22:51:18.457106",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_PREFLOP",
+    "hand_id": 16,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:51:22.700747",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:51:22.702278",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:51:22.703720",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:51:22.705109",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I like the idea of keeping it small for now.",
+        "timestamp": "2025-08-21T22:51:24.259010",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just going with the flow, might as well see the flop.",
+        "timestamp": "2025-08-21T22:51:29.150817",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on keeping it small. Let's see what the flop brings.",
+        "timestamp": "2025-08-21T22:51:30.900719",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_FLOP",
+    "hand_id": 16,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:51:32.596042",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:51:32.597731",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_PREFLOP",
+    "hand_id": 17,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:51:35.248104",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:51:35.249823",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:51:35.252888",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:51:35.254247",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let\u2019s keep it low for now and see what the flop brings.",
+        "timestamp": "2025-08-21T22:51:40.939606",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just trying to see the flop here, let's keep it interesting.",
+        "timestamp": "2025-08-21T22:51:42.531120",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the way this is shaping up, let's see if we can build it a bit more.",
+        "timestamp": "2025-08-21T22:51:47.947487",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_FLOP",
+    "hand_id": 17,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:51:47.955994",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:51:47.957538",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like the pot's getting interesting, let\u2019s see if we can push this a bit.",
+        "timestamp": "2025-08-21T22:51:49.884547",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_PREFLOP",
+    "hand_id": 18,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:51:55.437410",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:51:55.439166",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:51:55.440728",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I feel like it's a good time to put some pressure on. What do you think?",
+        "timestamp": "2025-08-21T22:51:57.112778",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on, I have a good feeling about this.",
+        "timestamp": "2025-08-21T22:51:58.914054",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to turn up the heat a bit more.",
+        "timestamp": "2025-08-21T22:52:03.226347",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_PREFLOP",
+    "hand_id": 19,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:52:03.248272",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:52:03.253114",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:52:03.254628",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think it's time to make a move, what do you guys think?",
+        "timestamp": "2025-08-21T22:52:04.879965",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should put some pressure on them now. What do you all think?",
+        "timestamp": "2025-08-21T22:52:08.577614",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm with you on this one, let's see how it plays out.",
+        "timestamp": "2025-08-21T22:52:10.273264",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_FLOP",
+    "hand_id": 19,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:52:12.374351",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:52:12.376735",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:47:07.902332",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:47:07.903323",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:47:07.904373",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:47:07.905305",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just keeping it light for now, right? Let's see what the flop brings.",
+        "timestamp": "2025-08-21T22:47:14.674147",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just going along for the ride, let's see what happens next.",
+        "timestamp": "2025-08-21T22:47:16.600003",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we're both feeling a bit bold tonight, huh?",
+        "timestamp": "2025-08-21T22:47:22.306835",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_PREFLOP",
+    "hand_id": 20,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:52:14.763774",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:52:14.771680",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:52:14.773142",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just trying to see if I can catch something good.",
+        "timestamp": "2025-08-21T22:52:18.243215",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just playing it safe for now, let's see what the flop brings.",
+        "timestamp": "2025-08-21T22:52:19.791887",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just trying to see the flop myself, you never know what can happen!",
+        "timestamp": "2025-08-21T22:52:22.738946",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_FLOP",
+    "hand_id": 20,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:52:22.744058",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:52:22.745592",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just keeping it steady for now, let's see how this plays out.",
+        "timestamp": "2025-08-21T22:52:24.417804",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_PREFLOP",
+    "hand_id": 21,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:52:24.556038",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:52:24.566198",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:52:24.570642",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to apply some pressure here, what do you think?",
+        "timestamp": "2025-08-21T22:52:26.055745",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I feel like we can take this one down now.",
+        "timestamp": "2025-08-21T22:52:28.410562",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to make a stand here, let's show some strength.",
+        "timestamp": "2025-08-21T22:52:32.284802",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_PREFLOP",
+    "hand_id": 22,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:52:32.416559",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:52:32.418014",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:52:32.430924",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's see how the next cards fall, yeah?",
+        "timestamp": "2025-08-21T22:52:33.839564",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just playing it safe and seeing how it goes. What do you think about the next hand?",
+        "timestamp": "2025-08-21T22:52:37.395011",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just trying to see if I can catch something good on the flop. How about you?",
+        "timestamp": "2025-08-21T22:52:38.956376",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_FLOP",
+    "hand_id": 22,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:52:40.616682",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:52:40.618473",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_PREFLOP",
+    "hand_id": 23,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:52:42.537238",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:52:42.539342",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:52:42.551132",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the idea of seeing a flop. Let's keep it light for now.",
+        "timestamp": "2025-08-21T22:52:46.260744",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think I\u2019ll just see the flop, feels like a good spot to play it safe.",
+        "timestamp": "2025-08-21T22:52:47.797347",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I\u2019ll just see the flop too, could be interesting.",
+        "timestamp": "2025-08-21T22:52:51.454356",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_FLOP",
+    "hand_id": 23,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:52:51.582938",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:52:51.867077",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling good about this hand, let's apply some pressure.",
+        "timestamp": "2025-08-21T22:52:54.312396",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like we're both feeling good, let's keep the pressure on!",
+        "timestamp": "2025-08-21T22:52:55.923809",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_PREFLOP",
+    "hand_id": 24,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:52:56.074408",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:52:56.076056",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:52:56.077657",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think I'll just see what the next card brings.",
+        "timestamp": "2025-08-21T22:52:57.914655",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in for the ride, let's see what happens next!",
+        "timestamp": "2025-08-21T22:52:59.282604",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:02.898427",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_FLOP",
+    "hand_id": 24,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:53:02.907970",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:53:02.909502",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Feeling confident about this hand, I think a bigger bet could pressure them.",
+        "timestamp": "2025-08-21T22:53:05.143241",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_TURN",
+    "hand_id": 24,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I like the texture\u2014playing it disciplined.",
+        "timestamp": "2025-08-21T22:53:07.061908",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Measured pressure could work.",
+        "timestamp": "2025-08-21T22:53:07.064031",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_RIVER",
+    "hand_id": 24,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No rush here.",
+        "timestamp": "2025-08-21T22:53:10.594120",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_PREFLOP",
+    "hand_id": 25,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:53:13.943536",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:13.945052",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:53:13.947118",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I\u2019m feeling good about this hand, let\u2019s put some pressure on.",
+        "timestamp": "2025-08-21T22:53:15.695857",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like where this is going, let\u2019s add some heat!",
+        "timestamp": "2025-08-21T22:53:19.669528",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s keep the pressure on, I\u2019m feeling strong about this hand.",
+        "timestamp": "2025-08-21T22:53:21.292862",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_PREFLOP",
+    "hand_id": 26,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:53:21.323924",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:53:21.330674",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:53:21.332080",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it might be a good time to stir things up a bit.",
+        "timestamp": "2025-08-21T22:53:25.566476",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "27_PREFLOP",
+    "hand_id": 27,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:53:25.587154",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:25.606925",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:53:25.653617",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think a little raise here could help us gauge their interest.",
+        "timestamp": "2025-08-21T22:53:27.056347",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I\u2019m just going to see what the flop brings, no need to scare them off too soon.",
+        "timestamp": "2025-08-21T22:53:28.776938",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "27_FLOP",
+    "hand_id": 27,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:53:30.919644",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:53:30.921423",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:53:30.922999",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_PREFLOP",
+    "hand_id": 28,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:53:33.010687",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:33.012327",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should just see the flop. No need to get too aggressive yet, right?",
+        "timestamp": "2025-08-21T22:53:37.100338",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "29_PREFLOP",
+    "hand_id": 29,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:53:37.126206",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:37.136231",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on, what do you guys think?",
+        "timestamp": "2025-08-21T22:53:38.620542",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "29_FLOP",
+    "hand_id": 29,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:53:41.182514",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:53:41.306976",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:47:22.310774",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:47:22.347599",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:47:22.385736",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:47:22.425809",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it's time to turn up the heat a bit.",
+        "timestamp": "2025-08-21T22:47:26.600014",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think I'm going to sit this one out. Let's see how it plays out.",
+        "timestamp": "2025-08-21T22:47:28.181363",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_FLOP",
+    "hand_id": 2,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:47:33.490464",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:47:33.492246",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:47:33.493994",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_PREFLOP",
+    "hand_id": 30,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:53:42.844419",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:53:42.846046",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling pretty good about this hand so far. How about you?",
+        "timestamp": "2025-08-21T22:53:48.019121",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "31_PREFLOP",
+    "hand_id": 31,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:53:49.966238",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:53:49.967908",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should turn up the heat a bit, what do you guys think?",
+        "timestamp": "2025-08-21T22:53:51.389655",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "31_FLOP",
+    "hand_id": 31,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:53:52.812342",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:53:52.814089",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_PREFLOP",
+    "hand_id": 32,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:53:54.845742",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:54.847325",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the way this is shaping up, just trying to see the flop for now.",
+        "timestamp": "2025-08-21T22:53:58.132077",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_PREFLOP",
+    "hand_id": 33,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:53:58.240901",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:53:58.242482",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling good about this hand, let's make it interesting!",
+        "timestamp": "2025-08-21T22:53:59.583805",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_FLOP",
+    "hand_id": 33,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:54:01.650856",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:54:01.652502",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_PREFLOP",
+    "hand_id": 34,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:54:03.922694",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:54:03.924609",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on this hand, what do you guys think?",
+        "timestamp": "2025-08-21T22:54:08.097173",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_FLOP",
+    "hand_id": 34,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:54:09.945125",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:54:09.946881",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we've got a good hand here, let's see if we can apply some pressure.",
+        "timestamp": "2025-08-21T22:54:11.546655",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_TURN",
+    "hand_id": 34,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Not overcommitting this street.",
+        "timestamp": "2025-08-21T22:54:13.626744",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Still keeping it disciplined.",
+        "timestamp": "2025-08-21T22:54:13.629345",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_PREFLOP",
+    "hand_id": 35,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:54:17.390463",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:54:17.392002",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on, what do you think?",
+        "timestamp": "2025-08-21T22:54:21.644817",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_FLOP",
+    "hand_id": 35,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:54:24.379984",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:54:24.381563",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_PREFLOP",
+    "hand_id": 36,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:54:26.739037",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:54:26.740713",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to apply some pressure here.",
+        "timestamp": "2025-08-21T22:54:29.998263",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_FLOP",
+    "hand_id": 36,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:54:31.907541",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:54:31.909271",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we might have a good opportunity here. What do you think?",
+        "timestamp": "2025-08-21T22:54:33.810602",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_TURN",
+    "hand_id": 36,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Measured pressure seems good.",
+        "timestamp": "2025-08-21T22:54:35.611713",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Measured pressure could work.",
+        "timestamp": "2025-08-21T22:54:35.613631",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_RIVER",
+    "hand_id": 36,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No rush here.",
+        "timestamp": "2025-08-21T22:54:39.863211",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_PREFLOP",
+    "hand_id": 37,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:54:43.868170",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:54:43.869955",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling a bit aggressive today, how about you?",
+        "timestamp": "2025-08-21T22:54:45.199695",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_FLOP",
+    "hand_id": 37,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:54:46.791065",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:54:46.792738",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_PREFLOP",
+    "hand_id": 38,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:54:48.558587",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:54:48.560148",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "39_PREFLOP",
+    "hand_id": 39,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:54:50.294935",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:54:50.296401",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's a good time to add some pressure here, don't you?",
+        "timestamp": "2025-08-21T22:54:52.054593",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm not feeling great about my hand right now, might sit this one out.",
+        "timestamp": "2025-08-21T22:54:55.417603",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:47:37.528780",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:47:37.541947",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:47:37.543327",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:47:37.544888",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just looking to see a flop, you know?",
+        "timestamp": "2025-08-21T22:47:39.680806",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Just trying to keep the pressure on, what do you think?",
+        "timestamp": "2025-08-21T22:47:41.164228",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_FLOP",
+    "hand_id": 3,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:47:47.677141",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:47:47.681066",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:47:47.683165",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_PREFLOP",
+    "hand_id": 40,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:54:55.451482",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:54:55.462845",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "What do you think about putting some pressure on them? Seems like they\u2019re not too confident.",
+        "timestamp": "2025-08-21T22:54:59.043357",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_FLOP",
+    "hand_id": 40,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:55:01.156781",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:55:01.158474",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like they're feeling cautious, I think it's time to put some pressure on!",
+        "timestamp": "2025-08-21T22:55:02.773899",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_PREFLOP",
+    "hand_id": 41,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:55:07.794052",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:55:07.795484",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling confident about this hand, let's push the action a bit.",
+        "timestamp": "2025-08-21T22:55:09.283526",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_PREFLOP",
+    "hand_id": 42,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:55:11.154879",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:55:11.156344",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on, what do you guys think?",
+        "timestamp": "2025-08-21T22:55:14.182149",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_FLOP",
+    "hand_id": 42,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:55:15.792929",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:55:15.794589",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to squeeze a bit, let's make them think twice.",
+        "timestamp": "2025-08-21T22:55:17.668346",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_TURN",
+    "hand_id": 42,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Not overcommitting this street.",
+        "timestamp": "2025-08-21T22:55:19.884232",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Still keeping it disciplined.",
+        "timestamp": "2025-08-21T22:55:19.888181",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_RIVER",
+    "hand_id": 42,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Value spot maybe\u2014staying precise.",
+        "timestamp": "2025-08-21T22:55:23.495873",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_PREFLOP",
+    "hand_id": 43,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:55:26.819226",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:55:26.820711",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:55:27.954633",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_PREFLOP",
+    "hand_id": 44,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:55:28.170657",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:55:28.177743",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to apply some pressure here, what do you think?",
+        "timestamp": "2025-08-21T22:55:32.190707",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_FLOP",
+    "hand_id": 44,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:55:33.515857",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:55:33.520713",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I\u2019m feeling a strong hand here, let\u2019s make them think twice.",
+        "timestamp": "2025-08-21T22:55:35.105637",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_TURN",
+    "hand_id": 44,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Measured pressure seems good.",
+        "timestamp": "2025-08-21T22:55:37.753272",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Measured pressure could work.",
+        "timestamp": "2025-08-21T22:55:37.840905",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_RIVER",
+    "hand_id": 44,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No rush here.",
+        "timestamp": "2025-08-21T22:55:41.837370",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_PREFLOP",
+    "hand_id": 45,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:55:45.058860",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:55:45.063574",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling good about this hand, time to apply some pressure!",
+        "timestamp": "2025-08-21T22:55:47.068053",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_FLOP",
+    "hand_id": 45,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:55:49.160445",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:55:49.162097",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_PREFLOP",
+    "hand_id": 46,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:55:51.051992",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:55:51.062610",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it's a good time to put some pressure on, right?",
+        "timestamp": "2025-08-21T22:55:55.494398",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_FLOP",
+    "hand_id": 46,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:55:57.598502",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:55:57.600098",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should apply some pressure here.",
+        "timestamp": "2025-08-21T22:55:59.075414",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_TURN",
+    "hand_id": 46,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Not overcommitting this street.",
+        "timestamp": "2025-08-21T22:56:01.287360",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Still keeping it disciplined.",
+        "timestamp": "2025-08-21T22:56:01.289062",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "47_PREFLOP",
+    "hand_id": 47,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:56:05.730375",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:56:05.731897",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling good about this hand, think it\u2019s time to take control!",
+        "timestamp": "2025-08-21T22:56:07.175310",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "47_FLOP",
+    "hand_id": 47,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:56:09.148482",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:56:09.150908",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_PREFLOP",
+    "hand_id": 48,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:56:11.826772",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:56:11.838750",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put some pressure on, what do you think?",
+        "timestamp": "2025-08-21T22:56:15.706617",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_FLOP",
+    "hand_id": 48,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:56:17.616538",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:56:17.618181",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it's time to take control of this pot, don\u2019t you think?",
+        "timestamp": "2025-08-21T22:56:20.420367",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_TURN",
+    "hand_id": 48,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Measured pressure seems good.",
+        "timestamp": "2025-08-21T22:56:22.436682",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Measured pressure could work.",
+        "timestamp": "2025-08-21T22:56:22.438460",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_PREFLOP",
+    "hand_id": 49,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:56:26.942058",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:56:26.951073",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to squeeze a bit more value out of this pot.",
+        "timestamp": "2025-08-21T22:56:28.189842",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_FLOP",
+    "hand_id": 49,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:56:30.167795",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:56:30.169488",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:47:50.835564",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:47:50.837889",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:47:50.839243",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:47:50.854945",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I\u2019m on board with the small ball strategy.",
+        "timestamp": "2025-08-21T22:47:52.450235",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to put a little pressure on. How about we make it interesting?",
+        "timestamp": "2025-08-21T22:47:57.462171",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on, right? I like where this is going.",
+        "timestamp": "2025-08-21T22:47:59.914378",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_FLOP",
+    "hand_id": 4,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:48:03.887122",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:48:03.888841",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:48:03.890423",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we have a solid hand. Time to make it interesting!",
+        "timestamp": "2025-08-21T22:48:07.787506",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_PREFLOP",
+    "hand_id": 50,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:56:32.243701",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:56:32.260937",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:48:09.749932",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:48:09.752347",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:48:09.753744",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:48:09.769633",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should start putting some pressure on them now.",
+        "timestamp": "2025-08-21T22:48:15.380036",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think I\u2019ll sit this one out and wait for a better spot.",
+        "timestamp": "2025-08-21T22:48:17.774008",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_FLOP",
+    "hand_id": 5,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Small poke could work here.",
+        "timestamp": "2025-08-21T22:48:21.555402",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:48:21.561119",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to apply some pressure; let's see how they respond.",
+        "timestamp": "2025-08-21T22:48:23.453921",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_TURN",
+    "hand_id": 5,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I like the texture\u2014playing it disciplined.",
+        "timestamp": "2025-08-21T22:48:25.149744",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s not overcommit on the turn.",
+        "timestamp": "2025-08-21T22:48:25.156049",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_RIVER",
+    "hand_id": 5,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see how they respond first.",
+        "timestamp": "2025-08-21T22:48:30.530501",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_PREFLOP",
+    "hand_id": 6,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:48:34.038288",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:48:34.126020",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:48:34.132653",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:48:34.134160",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like we're feeling ready to mix it up a bit, huh?",
+        "timestamp": "2025-08-21T22:48:41.536103",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think a little action could be fun here.",
+        "timestamp": "2025-08-21T22:48:43.405483",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_FLOP",
+    "hand_id": 6,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "No need to go wild yet.",
+        "timestamp": "2025-08-21T22:48:45.215847",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:48:45.217502",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like we might have something brewing here, right?",
+        "timestamp": "2025-08-21T22:48:46.848924",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_TURN",
+    "hand_id": 6,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "We can wait for the river card.",
+        "timestamp": "2025-08-21T22:48:48.890960",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Still keeping it disciplined.",
+        "timestamp": "2025-08-21T22:48:48.893277",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_PREFLOP",
+    "hand_id": 7,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Might apply a little pressure here.",
+        "timestamp": "2025-08-21T22:48:50.938597",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:48:50.940188",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Keeping it light preflop.",
+        "timestamp": "2025-08-21T22:48:50.941714",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:48:50.947469",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Just looking to see a flop, what about you?",
+        "timestamp": "2025-08-21T22:48:52.272843",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I like the way this is shaping up, let's see what happens.",
+        "timestamp": "2025-08-21T22:48:53.794211",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I\u2019m in for the ride, let\u2019s see what the flop brings!",
+        "timestamp": "2025-08-21T22:48:59.532204",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_FLOP",
+    "hand_id": 7,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Curious to see their reaction here.",
+        "timestamp": "2025-08-21T22:48:59.699226",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:48:59.700943",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:48:59.702458",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_PREFLOP",
+    "hand_id": 8,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:49:03.689755",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Small ball sounds fine.",
+        "timestamp": "2025-08-21T22:49:03.691587",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:49:03.807441",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:49:04.005170",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm on board with feeling it out. Let's see the flop together.",
+        "timestamp": "2025-08-21T22:49:06.380600",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the idea of seeing the flop together. Let's keep it small for now.",
+        "timestamp": "2025-08-21T22:49:12.568388",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm in for the ride, let's see what the flop brings.",
+        "timestamp": "2025-08-21T22:49:14.262931",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_FLOP",
+    "hand_id": 8,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 3,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:49:18.021276",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:49:18.034043",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "Staying measured on this board.",
+        "timestamp": "2025-08-21T22:49:18.035559",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should put some pressure on them now. What do you think?",
+        "timestamp": "2025-08-21T22:49:21.806818",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_TURN",
+    "hand_id": 8,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Measured pressure seems good.",
+        "timestamp": "2025-08-21T22:49:24.082346",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "We\u2019ll see what the river brings.",
+        "timestamp": "2025-08-21T22:49:24.097487",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_RIVER",
+    "hand_id": 8,
+    "phase": "RIVER",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "Keeping it tight on the river.",
+        "timestamp": "2025-08-21T22:49:27.797166",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_PREFLOP",
+    "hand_id": 9,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 2,
+        "message": "No need to go big yet.",
+        "timestamp": "2025-08-21T22:49:31.941194",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s see a flop and feel it out.",
+        "timestamp": "2025-08-21T22:49:31.942747",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Thinking small for now.",
+        "timestamp": "2025-08-21T22:49:31.944235",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Keeping options open preflop.",
+        "timestamp": "2025-08-21T22:49:31.945778",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's time to apply some pressure here, what do you think?",
+        "timestamp": "2025-08-21T22:49:37.449568",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I like the way it's shaping up, let\u2019s see the flop together.",
+        "timestamp": "2025-08-21T22:49:39.344334",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think we should apply some pressure here and see how they respond.",
+        "timestamp": "2025-08-21T22:49:44.872626",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_FLOP",
+    "hand_id": 9,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Curious to see their reaction.",
+        "timestamp": "2025-08-21T22:49:44.880001",
+        "target_player": null
+      },
+      {
+        "player_id": 2,
+        "message": "We can take a small stab.",
+        "timestamp": "2025-08-21T22:49:44.881512",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s keep it steady and see the turn.",
+        "timestamp": "2025-08-21T22:49:44.882961",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Looks like a good time to apply some pressure and see how they react.",
+        "timestamp": "2025-08-21T22:49:46.823485",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_TURN",
+    "hand_id": 9,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Not overcommitting this street.",
+        "timestamp": "2025-08-21T22:49:50.715681",
+        "target_player": null
+      },
+      {
+        "player_id": 3,
+        "message": "Let\u2019s not overcommit on the turn.",
+        "timestamp": "2025-08-21T22:49:50.720288",
+        "target_player": null
+      }
+    ]
+  }
+]

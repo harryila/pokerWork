@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:55:01.607423",
+  "hand_id": 25,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the way you're thinking. Let's keep it steady for now.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 215,
+  "game_context": {
+    "pot_size": 17,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

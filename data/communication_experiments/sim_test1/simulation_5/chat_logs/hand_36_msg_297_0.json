@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-21T23:57:00.309629",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I think we should put some pressure on them while we have the chance!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 69,
+  "contains_signal": false,
+  "message_id": 297,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

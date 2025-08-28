@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-21T22:54:01.653578",
+  "hand_id": 33,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 3,
+      "message": "Let\u2019s keep it steady and see the turn.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Small poke could work here.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 32.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 28,
+    "active_players": 4,
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      }
+    ]
+  }
+}

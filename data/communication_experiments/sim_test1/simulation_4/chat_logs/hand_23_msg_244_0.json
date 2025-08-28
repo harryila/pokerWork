@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:18:37.453166",
+  "hand_id": 23,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like we're in for a wild ride. Let's see what the flop brings!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 244,
+  "game_context": {
+    "pot_size": 85,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

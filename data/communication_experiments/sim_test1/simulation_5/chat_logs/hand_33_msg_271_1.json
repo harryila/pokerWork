@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:56:27.339535",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, keeping it interesting sounds good. Let's see how this plays out!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 74,
+  "contains_signal": false,
+  "message_id": 271,
+  "game_context": {
+    "pot_size": 23,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,415 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-21T23:49:17.100480,1,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:49:17.101469,1,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:49:17.102495,1,PREFLOP,3,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:49:17.103478,1,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:49:19.676380,1,PREFLOP,1,,public,I like the idea of seeing a flop first. Let's keep it light.,60,False
+2025-08-21T23:49:25.365915,1,PREFLOP,0,,public,I think we should definitely see the flop. What do you guys think?,66,False
+2025-08-21T23:49:27.467746,1,PREFLOP,1,,public,I think calling here makes sense to see how the flop plays out.,63,False
+2025-08-21T23:49:31.221869,1,FLOP,3,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:49:31.223040,1,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:49:31.224109,1,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:49:34.564196,1,FLOP,0,,public,"Looks like a good time to apply some pressure, don’t you think?",63,False
+2025-08-21T23:49:36.257265,1,TURN,0,,public,I like the texture—playing it disciplined.,42,False
+2025-08-21T23:49:36.422318,1,TURN,2,,public,Measured pressure could work.,29,False
+2025-08-21T23:49:39.519187,2,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:49:39.520687,2,PREFLOP,3,,public,Keeping it light preflop.,25,False
+2025-08-21T23:49:39.522093,2,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:49:39.523633,2,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:49:45.004744,2,PREFLOP,0,,public,Looks like we’re getting some action! I’m feeling good about this hand.,71,False
+2025-08-21T23:49:46.811444,2,PREFLOP,1,,public,Let's see the flop and see how things unfold!,45,False
+2025-08-21T23:49:53.657360,2,PREFLOP,0,,public,"Let's keep the pressure on, feel like there's some good potential here!",71,False
+2025-08-21T23:49:53.673879,3,PREFLOP,3,,public,Small ball sounds fine.,23,False
+2025-08-21T23:49:53.682677,3,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:49:53.688697,3,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:49:53.690140,3,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:49:57.014222,3,PREFLOP,0,,public,I think it's time to apply some pressure and maybe take control of this pot.,76,False
+2025-08-21T23:49:58.644613,3,PREFLOP,1,,public,Let’s see what happens on the flop. Could be interesting.,57,False
+2025-08-21T23:50:05.382025,3,PREFLOP,0,,public,Looks like we might have a good hand here. Let's take control of this pot.,74,False
+2025-08-21T23:50:05.540124,4,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:50:05.556598,4,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:50:05.558050,4,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:50:05.562057,4,PREFLOP,3,,public,No need to go big yet.,22,False
+2025-08-21T23:50:07.411435,4,PREFLOP,0,,public,I’m feeling a bit more confident. How about we put some pressure on?,68,False
+2025-08-21T23:50:09.057170,4,PREFLOP,1,,public,"I like where this is going, let’s see what the flop brings.",59,False
+2025-08-21T23:50:15.665300,4,PREFLOP,0,,public,I’m on board with the plan. Let’s see the flop together.,56,False
+2025-08-21T23:50:15.671431,4,FLOP,3,,public,We can take a small stab.,25,False
+2025-08-21T23:50:15.672996,4,FLOP,1,,public,Small poke could work here.,27,False
+2025-08-21T23:50:19.173317,5,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:50:19.174835,5,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:50:19.177699,5,PREFLOP,3,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:50:19.192063,5,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:50:21.174741,5,PREFLOP,1,,public,"I agree, let's keep it small and see how things develop.",56,False
+2025-08-21T23:50:27.763934,5,PREFLOP,0,,public,"I'm feeling confident about this round, let’s put some pressure on them.",72,False
+2025-08-21T23:50:30.677696,5,PREFLOP,1,,public,"I'm on board with seeing the flop, let's keep it interesting.",61,False
+2025-08-21T23:50:32.261137,5,FLOP,3,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:50:32.262951,5,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:50:34.114975,6,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:50:34.117901,6,PREFLOP,3,,public,Keeping it light preflop.,25,False
+2025-08-21T23:50:34.124960,6,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:50:34.126423,6,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:50:41.703497,6,PREFLOP,0,,public,I think it's time to turn up the heat a bit!,44,False
+2025-08-21T23:50:43.991640,6,PREFLOP,1,,public,"Looks like things are heating up, I’m in for more!",50,False
+2025-08-21T23:50:49.218998,6,PREFLOP,0,,public,Looks like we’re both ready to take this up a notch!,52,False
+2025-08-21T23:50:49.236008,6,FLOP,1,,public,No need to go wild yet.,23,False
+2025-08-21T23:50:49.240836,6,FLOP,3,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:50:50.497349,6,FLOP,1,,public,"Looks like we’re both feeling confident, right?",47,False
+2025-08-21T23:50:52.602847,7,PREFLOP,3,,public,Small ball sounds fine.,23,False
+2025-08-21T23:50:52.606098,7,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:50:52.610121,7,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:50:52.611585,7,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:50:56.209129,7,PREFLOP,0,,public,"Let's see how it plays out. You never know, right?",50,False
+2025-08-21T23:50:58.218804,7,PREFLOP,1,,public,"I think we can squeeze them a bit here, what do you think?",58,False
+2025-08-21T23:51:04.364751,7,PREFLOP,0,,public,I think we can really put them to the test now.,47,False
+2025-08-21T23:51:04.391081,8,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:51:04.392809,8,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:51:04.403361,8,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:51:04.407771,8,PREFLOP,3,,public,No need to go big yet.,22,False
+2025-08-21T23:51:06.419436,8,PREFLOP,0,,public,"I think it's time to put some pressure on, what do you all think?",65,False
+2025-08-21T23:51:07.866714,8,PREFLOP,1,,public,"I like your thinking, let’s keep the momentum going!",52,False
+2025-08-21T23:51:12.329624,8,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:51:12.331349,8,FLOP,3,,public,We can take a small stab.,25,False
+2025-08-21T23:51:12.332902,8,FLOP,0,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:51:16.581446,9,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:51:16.587751,9,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:51:16.589430,9,PREFLOP,3,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:51:16.602203,9,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:51:17.991545,9,PREFLOP,1,,public,"I agree, keeping it small for now sounds good.",46,False
+2025-08-21T23:51:24.120639,9,PREFLOP,0,,public,"Just calling this one, feels like a good spot to see the flop.",62,False
+2025-08-21T23:51:25.893439,9,PREFLOP,1,,public,"Just calling this one, want to see the flop.",44,False
+2025-08-21T23:51:29.703167,9,FLOP,3,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:51:29.704768,9,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:51:29.711067,9,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:51:34.171510,9,FLOP,0,,public,I think a strong play here could pressure them. What do you think?,66,False
+2025-08-21T23:51:37.175694,10,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:51:37.180639,10,PREFLOP,3,,public,Keeping it light preflop.,25,False
+2025-08-21T23:51:37.183030,10,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:51:37.184386,10,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:51:42.284815,10,PREFLOP,0,,public,Let's put some pressure on them and see how they respond.,57,False
+2025-08-21T23:51:43.581929,10,PREFLOP,1,,public,I think I'm going to sit this one out. Too risky with these cards.,66,False
+2025-08-21T23:51:50.577016,11,PREFLOP,3,,public,Small ball sounds fine.,23,False
+2025-08-21T23:51:50.578491,11,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:51:50.579864,11,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:51:50.581698,11,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:51:54.688718,11,PREFLOP,0,,public,"I'm feeling good about this hand, let’s see if we can push them out.",68,False
+2025-08-21T23:51:55.952079,11,PREFLOP,1,,public,"Looks like we’re in for some action, huh?",41,False
+2025-08-21T23:52:01.070093,11,PREFLOP,0,,public,Let's push the action and see how they respond!,47,False
+2025-08-21T23:52:01.085625,11,FLOP,1,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:52:01.087202,11,FLOP,2,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:52:01.088751,11,FLOP,3,,public,Staying measured on this board.,31,False
+2025-08-21T23:52:03.076414,11,FLOP,1,,public,"Looks like we have a strong situation here, let’s make them think twice!",72,False
+2025-08-21T23:52:07.155965,11,TURN,1,,public,Measured pressure seems good.,29,False
+2025-08-21T23:52:07.157651,11,TURN,2,,public,Still keeping it disciplined.,29,False
+2025-08-21T23:52:07.160285,11,TURN,3,,public,We’ll see what the river brings.,32,False
+2025-08-21T23:52:13.231831,11,RIVER,2,,public,Value spot maybe—staying precise.,33,False
+2025-08-21T23:52:13.233737,11,RIVER,3,,public,Keeping it tight on the river.,30,False
+2025-08-21T23:52:20.015495,12,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:52:20.017048,12,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:52:20.032491,12,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:52:20.117287,12,PREFLOP,3,,public,No need to go big yet.,22,False
+2025-08-21T23:52:22.082398,12,PREFLOP,0,,public,"I'm just going to let this one go, not feeling it.",50,False
+2025-08-21T23:52:23.454945,12,PREFLOP,1,,public,Let's see if we can catch something good on the flop.,53,False
+2025-08-21T23:52:27.099047,12,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:52:27.101526,12,FLOP,1,,public,Small poke could work here.,27,False
+2025-08-21T23:52:29.002519,13,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:52:29.004165,13,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:52:29.008301,13,PREFLOP,3,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:52:29.009678,13,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:52:30.993429,13,PREFLOP,1,,public,"I agree, let's keep it light for now and see how it unfolds.",60,False
+2025-08-21T23:52:35.751007,13,PREFLOP,0,,public,"Just looking to see a flop, how about you?",42,False
+2025-08-21T23:52:37.262305,13,PREFLOP,1,,public,I like the idea of seeing the flop. Let's keep it casual for now.,65,False
+2025-08-21T23:52:39.136826,13,FLOP,3,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:52:39.138534,13,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:52:41.427713,14,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:52:41.429302,14,PREFLOP,3,,public,Keeping it light preflop.,25,False
+2025-08-21T23:52:41.430679,14,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:52:41.432055,14,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:52:46.471394,14,PREFLOP,0,,public,"I think it’s time to make a move, getting a little more aggressive here.",72,False
+2025-08-21T23:52:47.778240,14,PREFLOP,1,,public,"I like how this is shaping up, let's keep it interesting.",57,False
+2025-08-21T23:52:53.785974,14,PREFLOP,0,,public,"Feeling good about this one, let's keep the pressure on!",56,False
+2025-08-21T23:52:53.817113,15,PREFLOP,3,,public,Small ball sounds fine.,23,False
+2025-08-21T23:52:53.819293,15,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:52:53.824039,15,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:52:53.828356,15,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:52:57.165653,15,PREFLOP,0,,public,"Just keeping it light for now, let's see what the flop brings.",62,False
+2025-08-21T23:52:59.046069,15,PREFLOP,1,,public,"Feels like a good time to put some pressure on them, right?",59,False
+2025-08-21T23:53:05.295747,15,PREFLOP,0,,public,"Looks like we’re all in on this one, huh?",41,False
+2025-08-21T23:53:05.426820,16,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:53:05.430064,16,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:53:05.434731,16,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:53:05.439681,16,PREFLOP,3,,public,No need to go big yet.,22,False
+2025-08-21T23:53:08.341983,16,PREFLOP,0,,public,I think I'll join in and see what happens. Let’s keep it light for now.,71,False
+2025-08-21T23:53:10.094529,16,PREFLOP,1,,public,I’m curious to see what the flop brings. Let’s keep it light and see how it plays out.,86,False
+2025-08-21T23:53:16.999798,16,PREFLOP,0,,public,"I’m feeling a bit bold, let’s see if we can push this through.",62,False
+2025-08-21T23:53:17.015476,17,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:53:17.016917,17,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:53:17.030761,17,PREFLOP,3,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:53:17.038748,17,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:53:19.010066,17,PREFLOP,1,,public,I like the idea of keeping it light for now. Let's see how the next cards look.,79,False
+2025-08-21T23:53:24.360062,17,PREFLOP,0,,public,I think it's time to take control. Let's put some pressure on them.,67,False
+2025-08-21T23:53:26.205362,17,PREFLOP,1,,public,"I think we should apply some pressure here, keep them guessing.",63,False
+2025-08-21T23:53:30.472542,17,FLOP,3,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:53:30.474281,17,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:53:30.478680,17,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:53:35.678608,17,FLOP,0,,public,"Let’s turn up the heat a bit, I feel a strong hand coming on.",61,False
+2025-08-21T23:53:37.778564,18,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:53:37.780183,18,PREFLOP,3,,public,Keeping it light preflop.,25,False
+2025-08-21T23:53:37.784173,18,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:53:37.785500,18,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:53:42.574379,18,PREFLOP,0,,public,"Let's keep the pressure on, shall we?",37,False
+2025-08-21T23:53:44.639276,18,PREFLOP,1,,public,"I like the vibe here, let's see what the flop brings.",53,False
+2025-08-21T23:53:47.520946,18,PREFLOP,0,,public,I think we can really put some heat on them here.,49,False
+2025-08-21T23:53:47.551383,19,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:53:47.558355,19,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:53:47.559728,19,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:53:49.344990,19,PREFLOP,0,,public,What do you think about raising here? Could be a good spot.,59,False
+2025-08-21T23:53:50.622803,19,PREFLOP,1,,public,I think we're in a good spot to see the flop. What do you guys think?,69,False
+2025-08-21T23:53:54.613606,19,PREFLOP,0,,public,"I like the idea of seeing a flop, might give us some good options.",66,False
+2025-08-21T23:53:54.618338,19,FLOP,1,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:53:54.619839,19,FLOP,2,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:53:56.192793,19,FLOP,1,,public,I think calling here keeps our options open. What do you guys think?,68,False
+2025-08-21T23:53:56.235287,20,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:53:56.242566,20,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:53:56.244636,20,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:53:58.520188,20,PREFLOP,1,,public,Let's turn up the heat a bit!,29,False
+2025-08-21T23:54:02.626574,20,PREFLOP,0,,public,"I'm not feeling this one, let's see how it plays out.",53,False
+2025-08-21T23:54:02.835173,20,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:54:03.123488,20,FLOP,1,,public,Small poke could work here.,27,False
+2025-08-21T23:54:05.258168,21,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:54:05.264304,21,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:54:05.270168,21,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:54:09.485846,21,PREFLOP,0,,public,"I think it’s time to apply some pressure here, what do you guys think?",70,False
+2025-08-21T23:54:11.250907,21,PREFLOP,1,,public,I’m on board with applying pressure. Let’s see where this goes.,63,False
+2025-08-21T23:54:11.261130,21,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:54:11.262642,21,FLOP,1,,public,Curious to see their reaction.,30,False
+2025-08-21T23:54:12.495971,21,FLOP,0,,public,I think a strong move could shake them up. Let’s see how they respond.,70,False
+2025-08-21T23:54:14.262341,21,FLOP,1,,public,I like the way this is shaping up. Let’s see if we can get some more action.,76,False
+2025-08-21T23:54:14.272371,21,TURN,0,,public,I like the texture—playing it disciplined.,42,False
+2025-08-21T23:54:14.274599,21,TURN,1,,public,Not overcommitting this street.,31,False
+2025-08-21T23:54:18.167388,22,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:54:18.173877,22,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:54:18.177305,22,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:54:19.971988,22,PREFLOP,0,,public,"I think I might squeeze a bit here, just to see how they react.",63,False
+2025-08-21T23:54:21.169003,22,PREFLOP,1,,public,I feel like applying some pressure here too!,44,False
+2025-08-21T23:54:27.064858,22,PREFLOP,0,,public,"Looks like we're all feeling a bit aggressive today, huh?",57,False
+2025-08-21T23:54:27.072568,22,FLOP,1,,public,No need to go wild yet.,23,False
+2025-08-21T23:54:27.074036,22,FLOP,2,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:54:28.672975,22,FLOP,1,,public,I think I’ll put in a little more pressure here. Let’s see how they respond!,76,False
+2025-08-21T23:54:31.908189,22,TURN,1,,public,We can wait for the river card.,31,False
+2025-08-21T23:54:31.909964,22,TURN,2,,public,Let’s not overcommit on the turn.,33,False
+2025-08-21T23:54:35.323799,22,RIVER,2,,public,Let’s see how they respond first.,33,False
+2025-08-21T23:54:39.067081,23,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:54:39.068707,23,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:54:39.070124,23,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:54:40.416972,23,PREFLOP,1,,public,"I'm feeling good about this hand, let's see what we can do.",59,False
+2025-08-21T23:54:45.350880,23,PREFLOP,0,,public,Looks like a solid opportunity to apply some pressure here!,59,False
+2025-08-21T23:54:46.598592,23,PREFLOP,1,,public,"I'm in for the ride, let’s see where this goes!",47,False
+2025-08-21T23:54:47.942490,24,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:54:47.944611,24,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:54:47.948631,24,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:54:51.408487,24,PREFLOP,0,,public,"I agree, a cautious approach makes sense.",41,False
+2025-08-21T23:54:52.638284,24,PREFLOP,1,,public,I think I'm on board with the small ball approach too. Let's see if we can build something here.,96,False
+2025-08-21T23:54:57.656927,24,PREFLOP,0,,public,"I'm going to sit this one out, feels a bit too risky for me.",60,False
+2025-08-21T23:54:57.679800,25,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:54:57.684034,25,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:54:57.685398,25,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:54:59.785791,25,PREFLOP,0,,public,Let's see if we can take control here. What do you think?,57,False
+2025-08-21T23:55:01.607423,25,PREFLOP,1,,public,I like the way you're thinking. Let's keep it steady for now.,61,False
+2025-08-21T23:55:06.545276,25,PREFLOP,0,,public,I think we should put some pressure on them now.,48,False
+2025-08-21T23:55:06.566727,26,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:55:06.568600,26,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:55:06.579952,26,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:55:11.415166,26,PREFLOP,1,,public,I think we can take control of this pot early.,46,False
+2025-08-21T23:55:19.378540,26,PREFLOP,0,,public,Let's take control of this pot now.,35,False
+2025-08-21T23:55:21.132574,26,PREFLOP,1,,public,I'm in. Let's see the flop together.,36,False
+2025-08-21T23:55:23.236311,26,FLOP,2,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:55:23.237982,26,FLOP,0,,public,Curious to see their reaction.,30,False
+2025-08-21T23:55:24.990394,27,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:55:24.991826,27,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:55:24.997249,27,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:55:29.560418,27,PREFLOP,0,,public,I think it’s time to apply some pressure here.,46,False
+2025-08-21T23:55:31.447005,27,PREFLOP,1,,public,"Looks like we're heating things up, huh?",40,False
+2025-08-21T23:55:33.932703,27,FLOP,0,,public,No need to go wild yet.,23,False
+2025-08-21T23:55:34.084594,27,FLOP,2,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:55:36.041055,27,FLOP,0,,public,"I feel pretty good about this hand, let's keep the pressure on.",63,False
+2025-08-21T23:55:38.014300,27,TURN,0,,public,We can wait for the river card.,31,False
+2025-08-21T23:55:38.140042,27,TURN,2,,public,Still keeping it disciplined.,29,False
+2025-08-21T23:55:39.984390,28,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:55:39.987125,28,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:55:39.988497,28,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:55:41.611876,28,PREFLOP,0,,public,"I'm feeling a bit bold this hand, let's see if we can shake things up!",70,False
+2025-08-21T23:55:43.666776,28,PREFLOP,1,,public,"I like the aggression, let’s keep the pressure on.",50,False
+2025-08-21T23:55:47.785779,28,PREFLOP,0,,public,"Let's keep the momentum going, I feel good about this hand!",59,False
+2025-08-21T23:55:47.799877,29,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:55:47.801273,29,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:55:47.803165,29,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:55:51.469987,29,PREFLOP,1,,public,"I agree, let's see a flop. No need to rush things.",50,False
+2025-08-21T23:55:54.547894,29,PREFLOP,0,,public,Let's make it interesting!,26,False
+2025-08-21T23:55:54.551812,29,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:55:54.559120,29,FLOP,1,,public,Curious to see their reaction.,30,False
+2025-08-21T23:55:56.509291,30,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:55:56.511452,30,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:55:56.514422,30,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:55:59.540842,30,PREFLOP,0,,public,I’m feeling a bit adventurous. How about we spice this up?,58,False
+2025-08-21T23:56:01.084116,30,PREFLOP,1,,public,"I'm feeling strong about this hand, let's put some pressure on them!",68,False
+2025-08-21T23:56:03.844976,30,PREFLOP,0,,public,"Let's make it interesting, shall we?",36,False
+2025-08-21T23:56:04.694884,31,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:56:04.933605,31,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:56:04.936187,31,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:56:06.688582,31,PREFLOP,0,,public,"I’m just going to see how this plays out, feels like a good spot to stay in.",76,False
+2025-08-21T23:56:08.757882,31,PREFLOP,1,,public,I feel like putting some pressure on them. What do you think?,61,False
+2025-08-21T23:56:10.857087,32,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:56:10.864712,32,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:56:10.869564,32,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:56:12.309689,32,PREFLOP,1,,public,I like the sound of applying some pressure here.,48,False
+2025-08-21T23:56:15.843002,32,PREFLOP,0,,public,"I think it's time to put some pressure on, right?",49,False
+2025-08-21T23:56:17.695541,32,PREFLOP,1,,public,"I think we should really push it here, let's take control of this pot.",70,False
+2025-08-21T23:56:19.622840,32,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:56:19.624514,32,FLOP,0,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:56:21.668975,33,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:56:21.670585,33,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:56:21.674082,33,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:56:25.553414,33,PREFLOP,0,,public,"I feel like keeping things interesting, what do you think?",58,False
+2025-08-21T23:56:27.339535,33,PREFLOP,1,,public,"I agree, keeping it interesting sounds good. Let's see how this plays out!",74,False
+2025-08-21T23:56:30.806180,33,PREFLOP,0,,public,"Let's keep the pressure on, shall we?",37,False
+2025-08-21T23:56:30.813647,33,FLOP,1,,public,Curious to see their reaction.,30,False
+2025-08-21T23:56:30.815126,33,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:56:32.828289,33,FLOP,1,,public,Looks like things are heating up! I'm in for the ride. How about you all?,73,False
+2025-08-21T23:56:32.843541,34,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:56:32.846566,34,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:56:32.847921,34,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:56:34.564172,34,PREFLOP,0,,public,"I think it's time to take a stand, what do you think?",53,False
+2025-08-21T23:56:35.917752,34,PREFLOP,1,,public,"I agree, let’s see how it plays out after the flop.",51,False
+2025-08-21T23:56:39.973130,34,PREFLOP,0,,public,"Feeling confident, let's ramp up the pressure here.",51,False
+2025-08-21T23:56:39.977840,34,FLOP,1,,public,No need to go wild yet.,23,False
+2025-08-21T23:56:39.979265,34,FLOP,2,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:56:41.545513,34,FLOP,1,,public,I feel like we can really turn this around now. What do you think?,66,False
+2025-08-21T23:56:43.293909,34,TURN,1,,public,We can wait for the river card.,31,False
+2025-08-21T23:56:43.295835,34,TURN,2,,public,Let’s not overcommit on the turn.,33,False
+2025-08-21T23:56:45.586237,35,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:56:45.588882,35,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:56:45.590270,35,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:56:46.958289,35,PREFLOP,1,,public,I feel like we should take control of this hand.,48,False
+2025-08-21T23:56:50.771181,35,PREFLOP,0,,public,"Let's take control of this pot, I'm feeling good about my hand.",63,False
+2025-08-21T23:56:50.784754,36,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:56:50.786120,36,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:56:50.787718,36,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:56:54.416859,36,PREFLOP,0,,public,I think we should take control here and make it interesting.,60,False
+2025-08-21T23:56:57.200825,36,PREFLOP,1,,public,"I like the aggression, let's see what happens next!",51,False
+2025-08-21T23:57:00.309629,36,PREFLOP,0,,public,I think we should put some pressure on them while we have the chance!,69,False
+2025-08-21T23:57:00.326205,37,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:57:00.335798,37,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:57:00.344162,37,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:57:01.567982,37,PREFLOP,0,,public,"Let's keep the pressure on, right?",34,False
+2025-08-21T23:57:02.983227,37,PREFLOP,1,,public,"I like the small approach, let's see the flop.",46,False
+2025-08-21T23:57:06.911876,37,PREFLOP,0,,public,I’m on board with keeping it small for now. Let’s see where this goes.,70,False
+2025-08-21T23:57:06.960685,37,FLOP,1,,public,Curious to see their reaction.,30,False
+2025-08-21T23:57:06.964897,37,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:57:08.570565,37,FLOP,1,,public,"Let's turn up the heat a bit, what do you think?",48,False
+2025-08-21T23:57:10.379513,37,FLOP,0,,public,"Let's really apply some pressure now, I think they might be feeling it.",71,False
+2025-08-21T23:57:10.412660,38,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:57:10.416909,38,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:57:10.418933,38,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:57:12.308571,38,PREFLOP,1,,public,"Let's see how this develops, yeah?",34,False
+2025-08-21T23:57:16.526668,38,PREFLOP,0,,public,"I think it's time to squeeze a bit here, what do you think?",59,False
+2025-08-21T23:57:17.684227,38,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:57:19.634241,39,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:57:19.636255,39,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:57:19.637656,39,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:57:22.681672,39,PREFLOP,0,,public,I like the way this is shaping up. Let's see that flop.,55,False
+2025-08-21T23:57:25.310527,39,PREFLOP,1,,public,"I'm in for the ride, let's see that flop!",41,False
+2025-08-21T23:57:28.898781,39,PREFLOP,0,,public,"I think we have a solid chance here, let's push the action a bit!",65,False
+2025-08-21T23:57:28.964386,40,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:57:28.965998,40,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:57:28.967419,40,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:57:30.546933,40,PREFLOP,0,,public,"I feel like we need to put some pressure on here, what do you think?",68,False
+2025-08-21T23:57:32.463495,40,PREFLOP,1,,public,Let's keep the pressure on and see if we can get them to fold.,62,False
+2025-08-21T23:57:34.384093,40,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:57:34.386568,40,FLOP,0,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:57:35.853636,41,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:57:35.855795,41,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:57:35.859809,41,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:57:37.526500,41,PREFLOP,1,,public,"I like the idea of keeping it simple for now, let's see how it plays out.",73,False
+2025-08-21T23:57:40.477998,41,PREFLOP,0,,public,"Let's put some pressure on them, I think we're in a good spot.",62,False
+2025-08-21T23:57:41.983498,41,PREFLOP,1,,public,"I'm with you on this one, let's see the flop!",45,False
+2025-08-21T23:57:44.238216,41,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:57:44.369041,41,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:57:46.320030,42,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:57:46.323688,42,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:57:46.334463,42,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:57:51.156239,42,PREFLOP,0,,public,"Looks like a good time to put some pressure on, don’t you think?",64,False
+2025-08-21T23:57:53.260967,42,PREFLOP,1,,public,"I’m in for the ride, let’s see if we can build this pot.",56,False
+2025-08-21T23:57:56.579948,42,PREFLOP,0,,public,"Let’s turn up the heat a bit, shall we?",39,False
+2025-08-21T23:57:56.595709,42,FLOP,1,,public,No need to go wild yet.,23,False
+2025-08-21T23:57:56.597391,42,FLOP,2,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:57:58.080437,42,FLOP,1,,public,"I like where this is going, let's see if we can squeeze a bit more out of them.",79,False
+2025-08-21T23:58:00.229875,42,TURN,1,,public,We can wait for the river card.,31,False
+2025-08-21T23:58:00.232527,42,TURN,2,,public,Let’s not overcommit on the turn.,33,False
+2025-08-21T23:58:02.152542,43,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:58:02.156727,43,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:58:02.158179,43,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:58:03.798527,43,PREFLOP,0,,public,I think I'm going to stick around for the flop too.,51,False
+2025-08-21T23:58:06.787597,43,PREFLOP,1,,public,I like the way this is shaping up. Let's see what the flop brings us.,69,False
+2025-08-21T23:58:10.367556,43,PREFLOP,0,,public,"I'm in for the ride, let's see where this goes!",47,False
+2025-08-21T23:58:10.373913,43,FLOP,1,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:58:10.375516,43,FLOP,2,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:58:12.198002,43,FLOP,1,,public,"I feel good about this hand, might push a bit more now.",55,False
+2025-08-21T23:58:14.138381,43,TURN,1,,public,Measured pressure seems good.,29,False
+2025-08-21T23:58:14.140046,43,TURN,2,,public,Still keeping it disciplined.,29,False
+2025-08-21T23:58:18.777362,44,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:58:18.783392,44,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:58:18.784810,44,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:58:20.002397,44,PREFLOP,1,,public,"I agree, let's see how it plays out.",36,False
+2025-08-21T23:58:23.108628,44,PREFLOP,0,,public,"I'm in for now, let's see how it plays out!",43,False
+2025-08-21T23:58:24.857342,44,PREFLOP,1,,public,"I’m with you on this one, let’s see what the flop brings.",57,False
+2025-08-21T23:58:26.900203,44,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:58:26.901799,44,FLOP,0,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:58:28.747550,45,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:58:28.749120,45,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:58:28.750583,45,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:58:32.434749,45,PREFLOP,0,,public,"Just keeping it light for now, let's see how it plays out.",58,False
+2025-08-21T23:58:33.898541,45,PREFLOP,1,,public,"Just going to see how it plays out, no need to rush.",52,False
+2025-08-21T23:58:36.823142,45,PREFLOP,0,,public,"Just playing it cool, let's see the flop.",41,False
+2025-08-21T23:58:36.828758,45,FLOP,1,,public,Curious to see their reaction.,30,False
+2025-08-21T23:58:36.830198,45,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:58:38.481712,45,FLOP,1,,public,Looks like we need to apply some pressure here.,47,False
+2025-08-21T23:58:40.240151,45,TURN,1,,public,Not overcommitting this street.,31,False
+2025-08-21T23:58:40.443792,45,TURN,2,,public,Measured pressure could work.,29,False
+2025-08-21T23:58:45.559560,45,RIVER,2,,public,No rush here.,13,False
+2025-08-21T23:58:48.752993,46,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:58:48.754413,46,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:58:48.756252,46,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:58:51.568669,46,PREFLOP,0,,public,I'm going to sit this one out. Not feeling it with these cards.,63,False
+2025-08-21T23:58:53.157928,46,PREFLOP,1,,public,I think I'm going to see the flop. Might get something interesting.,67,False
+2025-08-21T23:58:55.693842,47,PREFLOP,1,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:58:55.697212,47,PREFLOP,2,,public,Keeping it light preflop.,25,False
+2025-08-21T23:58:55.698633,47,PREFLOP,0,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:58:57.004106,47,PREFLOP,1,,public,"I think it's time to put on some pressure, what do you all think?",65,False
+2025-08-21T23:59:00.541267,47,PREFLOP,0,,public,"Let's turn up the heat a bit, shall we?",39,False
+2025-08-21T23:59:02.601025,47,PREFLOP,1,,public,I think we should keep the pressure on. Let’s see how they respond!,67,False
+2025-08-21T23:59:04.377771,47,FLOP,2,,public,Curious to see their reaction here.,35,False
+2025-08-21T23:59:04.379381,47,FLOP,0,,public,No need to go wild yet.,23,False
+2025-08-21T23:59:06.456762,48,PREFLOP,2,,public,Small ball sounds fine.,23,False
+2025-08-21T23:59:06.463185,48,PREFLOP,0,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:59:06.469654,48,PREFLOP,1,,public,Thinking small for now.,23,False
+2025-08-21T23:59:09.960617,48,PREFLOP,0,,public,I feel like we should put some pressure on here.,48,False
+2025-08-21T23:59:11.822071,48,PREFLOP,1,,public,"I like the way this is shaping up, let's see the flop.",54,False
+2025-08-21T23:59:20.555049,48,PREFLOP,0,,public,"I think we can apply some pressure here, let’s raise it up a bit.",65,False
+2025-08-21T23:59:20.582349,48,FLOP,1,,public,Small poke could work here.,27,False
+2025-08-21T23:59:20.589667,48,FLOP,2,,public,Staying measured on this board.,31,False
+2025-08-21T23:59:22.050067,48,FLOP,1,,public,I think we can really put them to the test on this one.,55,False
+2025-08-21T23:59:24.003081,49,PREFLOP,0,,public,Thinking small for now.,23,False
+2025-08-21T23:59:24.004676,49,PREFLOP,1,,public,Keeping options open preflop.,29,False
+2025-08-21T23:59:24.006059,49,PREFLOP,2,,public,No need to go big yet.,22,False
+2025-08-21T23:59:25.425405,49,PREFLOP,0,,public,"Let's put some pressure on them, huh?",37,False
+2025-08-21T23:59:27.064038,49,PREFLOP,1,,public,"Let's keep the momentum going, right? Feeling good about this hand.",67,False
+2025-08-21T23:59:28.670034,49,FLOP,2,,public,We can take a small stab.,25,False
+2025-08-21T23:59:28.671607,49,FLOP,0,,public,Small poke could work here.,27,False
+2025-08-21T23:59:31.099775,50,PREFLOP,1,,public,Might apply a little pressure here.,35,False
+2025-08-21T23:59:31.101320,50,PREFLOP,2,,public,Let’s see a flop and feel it out.,33,False
+2025-08-21T23:59:31.102769,50,PREFLOP,0,,public,Keeping options open preflop.,29,False
+2025-08-21T23:59:32.633175,50,PREFLOP,1,,public,"I think we should show some strength here, don't you?",53,False
+2025-08-21T23:59:35.965408,50,PREFLOP,0,,public,"I'm feeling strong about this hand, let's put some pressure on them!",68,False
+2025-08-21T23:59:37.195550,50,PREFLOP,1,,public,I think we should really show them what we've got here!,55,False
+2025-08-21T23:59:38.993378,50,FLOP,2,,public,Let’s keep it steady and see the turn.,38,False
+2025-08-21T23:59:38.994981,50,FLOP,0,,public,Curious to see their reaction.,30,False

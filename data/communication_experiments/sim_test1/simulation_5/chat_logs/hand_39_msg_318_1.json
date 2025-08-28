@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:57:25.310527",
+  "hand_id": 39,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm in for the ride, let's see that flop!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 318,
+  "game_context": {
+    "pot_size": 23,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:56:57.200825",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the aggression, let's see what happens next!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 296,
+  "game_context": {
+    "pot_size": 25,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

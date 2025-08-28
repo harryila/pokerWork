@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:55:43.666776",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the aggression, let’s keep the pressure on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 50,
+  "contains_signal": false,
+  "message_id": 239,
+  "game_context": {
+    "pot_size": 21,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

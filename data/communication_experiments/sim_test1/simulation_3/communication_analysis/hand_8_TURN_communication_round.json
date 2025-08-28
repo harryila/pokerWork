@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-21T22:49:24.117792",
+  "hand_id": 8,
+  "phase": "TURN",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Measured pressure seems good.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "We\u2019ll see what the river brings.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 30.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 225,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ]
+  }
+}

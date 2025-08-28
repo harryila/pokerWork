@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-21T23:59:20.590820",
+  "hand_id": 48,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Small poke could work here.",
+      "signals": null
+    },
+    {
+      "player_id": 2,
+      "message": "Staying measured on this board.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 29.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 40,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 8,
+        "str_rank": "K",
+        "str_suit": "c",
+        "display": "Kc"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:20:05.117533",
+  "hand_id": 28,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think it's time to make a move, let's show some strength!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 59,
+  "contains_signal": false,
+  "message_id": 299,
+  "game_context": {
+    "pot_size": 2,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

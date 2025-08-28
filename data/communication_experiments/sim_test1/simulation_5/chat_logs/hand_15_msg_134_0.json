@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-21T23:53:05.295747",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Looks like we’re all in on this one, huh?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 134,
+  "game_context": {
+    "pot_size": 55,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

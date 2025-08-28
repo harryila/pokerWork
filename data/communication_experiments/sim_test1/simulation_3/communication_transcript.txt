@@ -1,0 +1,1043 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 3
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 2: "No need to go big yet."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "Just keeping it light for now, right? Let's see what the flop brings."
+[Player 0 RAISE $13]
+Player 1: "Just going along for the ride, let's see what happens next."
+[Player 1 RAISE $24]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Looks like we're both feeling a bit bold tonight, huh?"
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 2: "Let’s see a flop and feel it out."
+Player 0: "Looks like it's time to turn up the heat a bit."
+[Player 0 RAISE $15]
+Player 1: "I think I'm going to sit this one out. Let's see how it plays out."
+[Player 1 FOLD]
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 2: "Let’s keep it steady and see the turn."
+Player 3: "Curious to see their reaction here."
+Player 0: "Curious to see their reaction."
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+Player 2: "Keeping it light preflop."
+Player 3: "Small ball sounds fine."
+Player 0: "Just looking to see a flop, you know?"
+[Player 0 RAISE $15]
+Player 1: "Just trying to keep the pressure on, what do you think?"
+[Player 1 FOLD]
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 2: "Curious to see their reaction here."
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+Player 1: "Thinking small for now."
+Player 2: "Small ball sounds fine."
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "I’m on board with the small ball strategy."
+[Player 1 RAISE $15]
+Player 0: "I think it's time to put a little pressure on. How about we make it interesting?"
+[Player 0 RAISE $30]
+Player 1: "Let's keep the pressure on, right? I like where this is going."
+[Player 1 FOLD]
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 3: "We can take a small stab."
+Player 0: "Let’s keep it steady and see the turn."
+Player 2: "Staying measured on this board."
+[Player 3 CALL $15]
+Player 0: "Looks like we have a solid hand. Time to make it interesting!"
+[Player 0 RAISE $60]
+[Player 2 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+Player 2: "No need to go big yet."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+[Player 2 CALL]
+Player 0: "I think we should start putting some pressure on them now."
+[Player 0 RAISE $30]
+Player 1: "I think I’ll sit this one out and wait for a better spot."
+[Player 1 FOLD]
+[Player 2 FOLD]
+[Player 3 CALL $30]
+
+--- FLOP ---
+Player 0: "Small poke could work here."
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "I think it's time to apply some pressure; let's see how they respond."
+[Player 0 RAISE $50]
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 0: "I like the texture—playing it disciplined."
+Player 3: "Let’s not overcommit on the turn."
+[Player 0 RAISE $100]
+[Player 3 CALL $100]
+
+--- RIVER ---
+Player 3: "Let’s see how they respond first."
+[Player 0 RAISE $100]
+[Player 3 FOLD]
+
+========================================
+HAND 6
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 2: "Let’s see a flop and feel it out."
+[Player 3 CALL]
+Player 0: "Looks like we're feeling ready to mix it up a bit, huh?"
+[Player 0 FOLD]
+Player 1: "I think a little action could be fun here."
+[Player 1 CALL]
+[Player 2 CALL]
+
+--- FLOP ---
+Player 1: "No need to go wild yet."
+Player 3: "Curious to see their reaction here."
+Player 1: "Looks like we might have something brewing here, right?"
+[Player 1 RAISE $30]
+[Player 3 CALL $30]
+
+--- TURN ---
+Player 1: "We can wait for the river card."
+Player 3: "Still keeping it disciplined."
+[Player 1 FOLD]
+
+========================================
+HAND 7
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+Player 2: "Keeping it light preflop."
+Player 3: "Small ball sounds fine."
+Player 0: "Just looking to see a flop, what about you?"
+[Player 0 RAISE $15]
+Player 1: "I like the way this is shaping up, let's see what happens."
+[Player 1 RAISE $35]
+[Player 2 CALL $35]
+[Player 3 CALL $35]
+Player 0: "I’m in for the ride, let’s see what the flop brings!"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 2: "Curious to see their reaction here."
+Player 3: "Staying measured on this board."
+Player 1: "Let’s keep it steady and see the turn."
+[Player 2 CALL $35]
+[Player 3 CALL $35]
+
+========================================
+HAND 8
+========================================
+
+--- PREFLOP ---
+Player 1: "Thinking small for now."
+Player 2: "Small ball sounds fine."
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "I'm on board with feeling it out. Let's see the flop together."
+[Player 1 RAISE $15]
+Player 0: "I like the idea of seeing the flop together. Let's keep it small for now."
+[Player 0 RAISE $30]
+Player 1: "I'm in for the ride, let's see what the flop brings."
+[Player 1 FOLD]
+[Player 2 CALL $15]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 3: "We can take a small stab."
+Player 0: "Let’s keep it steady and see the turn."
+Player 2: "Staying measured on this board."
+[Player 3 FOLD]
+Player 0: "I think we should put some pressure on them now. What do you think?"
+[Player 0 RAISE $60]
+[Player 2 CALL $15]
+
+--- TURN ---
+Player 0: "Measured pressure seems good."
+Player 2: "We’ll see what the river brings."
+[Player 0 RAISE $60]
+[Player 2 CALL $15]
+
+--- RIVER ---
+Player 2: "Keeping it tight on the river."
+[Player 0 RAISE $120]
+[Player 2 FOLD]
+
+========================================
+HAND 9
+========================================
+
+--- PREFLOP ---
+Player 2: "No need to go big yet."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+Player 0: "I think it's time to apply some pressure here, what do you think?"
+[Player 0 RAISE $20]
+Player 1: "I like the way it's shaping up, let’s see the flop together."
+[Player 1 RAISE $45]
+[Player 2 CALL]
+[Player 3 CALL]
+Player 0: "I think we should apply some pressure here and see how they respond."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Curious to see their reaction."
+Player 2: "We can take a small stab."
+Player 3: "Let’s keep it steady and see the turn."
+Player 1: "Looks like a good time to apply some pressure and see how they react."
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 1: "Not overcommitting this street."
+Player 3: "Let’s not overcommit on the turn."
+[Player 1 FOLD]
+
+========================================
+HAND 10
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 2: "Let’s see a flop and feel it out."
+[Player 3 CALL]
+Player 0: "Looks like it's time to make a move and see if anyone wants to play for more."
+[Player 0 RAISE $30]
+Player 1: "Looks like we're both feeling it tonight, huh?"
+[Player 1 RAISE $78]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I feel good about this one. Let's keep the pressure on!"
+[Player 0 FOLD]
+
+========================================
+HAND 11
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+Player 2: "Keeping it light preflop."
+Player 3: "Small ball sounds fine."
+Player 0: "Just trying to see a flop, feels like a good spot."
+[Player 0 RAISE $15]
+Player 1: "I’m with you on this one, let’s see the flop together."
+[Player 1 RAISE $35]
+[Player 2 CALL $35]
+[Player 3 CALL $35]
+Player 0: "Looks like we're all in for the ride. Let's see that flop!"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 2: "Curious to see their reaction here."
+Player 3: "Staying measured on this board."
+Player 1: "Let’s keep it steady and see the turn."
+[Player 2 CALL $35]
+[Player 3 CALL $35]
+
+========================================
+HAND 12
+========================================
+
+--- PREFLOP ---
+Player 1: "Thinking small for now."
+Player 2: "Small ball sounds fine."
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "I agree, let's see the flop and see what we have."
+[Player 1 RAISE $15]
+[Player 2 CALL $15]
+Player 0: "I’m with you on this, let’s see the flop."
+[Player 0 RAISE $30]
+Player 1: "I think it's best to wait for a stronger hand before committing more chips."
+[Player 1 FOLD]
+[Player 2 FOLD]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 3: "We can take a small stab."
+Player 0: "Let’s keep it steady and see the turn."
+[Player 3 CALL $15]
+
+========================================
+HAND 13
+========================================
+
+--- PREFLOP ---
+Player 2: "No need to go big yet."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+Player 0: "I agree, let's see the flop and play it out from there."
+[Player 0 RAISE $13]
+Player 1: "Let's see what the flop brings, could be interesting."
+[Player 1 RAISE $24]
+[Player 2 CALL $24]
+[Player 3 CALL $24]
+Player 0: "I think we should apply some pressure here. What do you think?"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Curious to see their reaction."
+Player 2: "We can take a small stab."
+Player 3: "Let’s keep it steady and see the turn."
+Player 1: "Looks like we're building a nice pot here! Let's make it interesting."
+[Player 1 RAISE $50]
+[Player 2 CALL $50]
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 1: "Not overcommitting this street."
+Player 2: "Measured pressure could work."
+Player 3: "Let’s not overcommit on the turn."
+[Player 1 RAISE $100]
+[Player 2 FOLD]
+[Player 3 CALL $100]
+
+--- RIVER ---
+Player 3: "Let’s see how they respond first."
+[Player 1 FOLD]
+
+========================================
+HAND 14
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 2: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to put some pressure on this hand."
+[Player 0 RAISE $36]
+Player 1: "Might apply a little pressure here."
+[Player 1 FOLD]
+[Player 2 CALL $36]
+[Player 3 CALL $36]
+
+--- FLOP ---
+Player 2: "Let’s keep it steady and see the turn."
+Player 3: "Curious to see their reaction here."
+Player 0: "Curious to see their reaction."
+[Player 2 CALL $36]
+[Player 3 CALL $36]
+
+========================================
+HAND 15
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+Player 2: "Keeping it light preflop."
+Player 3: "Small ball sounds fine."
+Player 0: "Let's keep the pressure on. What do you think about the action so far?"
+[Player 0 RAISE $10]
+Player 1: "I'm thinking of squeezing a bit more here. What do you all think?"
+[Player 1 FOLD]
+[Player 2 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 16
+========================================
+
+--- PREFLOP ---
+Player 1: "Thinking small for now."
+Player 2: "Small ball sounds fine."
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "I like the idea of keeping it small for now."
+[Player 1 RAISE $15]
+[Player 2 FOLD]
+Player 0: "Just going with the flow, might as well see the flop."
+[Player 0 RAISE $30]
+Player 1: "I'm with you on keeping it small. Let's see what the flop brings."
+[Player 1 FOLD]
+[Player 3 CALL $30]
+
+--- FLOP ---
+Player 3: "We can take a small stab."
+Player 0: "Let’s keep it steady and see the turn."
+[Player 3 CALL $30]
+
+========================================
+HAND 17
+========================================
+
+--- PREFLOP ---
+Player 2: "No need to go big yet."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+[Player 3 CALL]
+Player 0: "I agree, let’s keep it low for now and see what the flop brings."
+[Player 0 RAISE $13]
+Player 1: "Just trying to see the flop here, let's keep it interesting."
+[Player 1 RAISE $24]
+[Player 2 CALL $24]
+[Player 3 FOLD]
+Player 0: "I like the way this is shaping up, let's see if we can build it a bit more."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Curious to see their reaction."
+Player 2: "We can take a small stab."
+Player 1: "Looks like the pot's getting interesting, let’s see if we can push this a bit."
+[Player 1 RAISE $36]
+[Player 2 CALL $36]
+
+========================================
+HAND 18
+========================================
+
+--- PREFLOP ---
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 3: "Keeping it light preflop."
+Player 0: "I feel like it's a good time to put some pressure on. What do you think?"
+[Player 0 RAISE $10]
+Player 1: "Let's keep the pressure on, I have a good feeling about this."
+[Player 1 RAISE $20]
+[Player 3 FOLD]
+Player 0: "I think it's time to turn up the heat a bit more."
+[Player 0 FOLD]
+
+========================================
+HAND 19
+========================================
+
+--- PREFLOP ---
+Player 1: "Let’s see a flop and feel it out."
+Player 3: "Small ball sounds fine."
+Player 0: "Might apply a little pressure here."
+Player 1: "I think it's time to make a move, what do you guys think?"
+[Player 1 RAISE $10]
+Player 0: "I think we should put some pressure on them now. What do you all think?"
+[Player 0 RAISE $20]
+Player 1: "I'm with you on this one, let's see how it plays out."
+[Player 1 FOLD]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+[Player 3 CALL $20]
+
+========================================
+HAND 20
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "Thinking small for now."
+Player 0: "Just trying to see if I can catch something good."
+[Player 0 RAISE $13]
+Player 1: "Just playing it safe for now, let's see what the flop brings."
+[Player 1 RAISE $24]
+[Player 3 CALL $13]
+Player 0: "Just trying to see the flop myself, you never know what can happen!"
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Small poke could work here."
+Player 3: "We can take a small stab."
+Player 1: "Just keeping it steady for now, let's see how this plays out."
+[Player 1 FOLD]
+
+========================================
+HAND 21
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to apply some pressure here, what do you think?"
+[Player 0 RAISE $14]
+Player 1: "I feel like we can take this one down now."
+[Player 1 RAISE $28]
+[Player 3 FOLD]
+Player 0: "I think it's time to make a stand here, let's show some strength."
+[Player 0 FOLD]
+
+========================================
+HAND 22
+========================================
+
+--- PREFLOP ---
+Player 1: "Might apply a little pressure here."
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Let's see how the next cards fall, yeah?"
+[Player 1 RAISE $15]
+Player 0: "Just playing it safe and seeing how it goes. What do you think about the next hand?"
+[Player 0 RAISE $30]
+Player 1: "Just trying to see if I can catch something good on the flop. How about you?"
+[Player 1 FOLD]
+[Player 3 CALL $30]
+
+--- FLOP ---
+Player 3: "Curious to see their reaction here."
+Player 0: "Curious to see their reaction."
+[Player 3 CALL $30]
+
+========================================
+HAND 23
+========================================
+
+--- PREFLOP ---
+Player 3: "Small ball sounds fine."
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+[Player 3 CALL]
+Player 0: "I like the idea of seeing a flop. Let's keep it light for now."
+[Player 0 RAISE $13]
+Player 1: "I think I’ll just see the flop, feels like a good spot to play it safe."
+[Player 1 RAISE $24]
+[Player 3 FOLD]
+Player 0: "I’ll just see the flop too, could be interesting."
+[Player 0 CALL]
+
+--- FLOP ---
+Player 0: "No need to go wild yet."
+Player 1: "Let’s keep it steady and see the turn."
+Player 0: "Feeling good about this hand, let's apply some pressure."
+[Player 0 RAISE $30]
+Player 1: "Looks like we're both feeling good, let's keep the pressure on!"
+[Player 1 FOLD]
+
+========================================
+HAND 24
+========================================
+
+--- PREFLOP ---
+Player 0: "Let’s see a flop and feel it out."
+Player 1: "Thinking small for now."
+Player 3: "No need to go big yet."
+Player 0: "I think I'll just see what the next card brings."
+[Player 0 RAISE $15]
+Player 1: "I'm in for the ride, let's see what happens next!"
+[Player 1 RAISE $33]
+[Player 3 CALL $33]
+Player 0: "Let’s see a flop and feel it out."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Small poke could work here."
+Player 3: "We can take a small stab."
+Player 1: "Feeling confident about this hand, I think a bigger bet could pressure them."
+[Player 1 RAISE $45]
+[Player 3 CALL $45]
+
+--- TURN ---
+Player 1: "I like the texture—playing it disciplined."
+Player 3: "Measured pressure could work."
+[Player 1 RAISE $90]
+[Player 3 CALL $90]
+
+--- RIVER ---
+Player 3: "No rush here."
+[Player 1 RAISE $180]
+[Player 3 CALL $180]
+
+========================================
+HAND 25
+========================================
+
+--- PREFLOP ---
+Player 1: "Keeping options open preflop."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "I’m feeling good about this hand, let’s put some pressure on."
+[Player 1 RAISE $15]
+[Player 3 FOLD]
+Player 0: "I like where this is going, let’s add some heat!"
+[Player 0 RAISE $30]
+Player 1: "Let’s keep the pressure on, I’m feeling strong about this hand."
+[Player 1 FOLD]
+
+========================================
+HAND 26
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+[Player 3 FOLD]
+Player 0: "Looks like it might be a good time to stir things up a bit."
+[Player 0 RAISE $12]
+
+========================================
+HAND 27
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 1: "Let’s see a flop and feel it out."
+Player 3: "Small ball sounds fine."
+Player 0: "I think a little raise here could help us gauge their interest."
+[Player 0 RAISE $10]
+Player 1: "I’m just going to see what the flop brings, no need to scare them off too soon."
+[Player 1 CALL $10]
+[Player 3 CALL $10]
+
+--- FLOP ---
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+Player 1: "Let’s keep it steady and see the turn."
+[Player 3 CALL $10]
+
+========================================
+HAND 28
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+[Player 3 CALL]
+Player 0: "I think we should just see the flop. No need to get too aggressive yet, right?"
+[Player 0 FOLD]
+
+========================================
+HAND 29
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to put some pressure on, what do you guys think?"
+[Player 0 RAISE $10]
+[Player 3 CALL $10]
+
+--- FLOP ---
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "Small poke could work here."
+[Player 3 CALL $10]
+
+========================================
+HAND 30
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+[Player 3 CALL]
+Player 0: "I'm feeling pretty good about this hand so far. How about you?"
+[Player 0 RAISE $20]
+[Player 3 FOLD]
+
+========================================
+HAND 31
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 3: "Small ball sounds fine."
+Player 0: "I think we should turn up the heat a bit, what do you guys think?"
+[Player 0 RAISE $14]
+[Player 3 CALL $14]
+
+--- FLOP ---
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+[Player 3 CALL $14]
+
+========================================
+HAND 32
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+[Player 3 CALL]
+Player 0: "I like the way this is shaping up, just trying to see the flop for now."
+[Player 0 FOLD]
+
+========================================
+HAND 33
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "I'm feeling good about this hand, let's make it interesting!"
+[Player 0 RAISE $14]
+[Player 3 CALL $14]
+
+--- FLOP ---
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "Small poke could work here."
+[Player 3 CALL $14]
+
+========================================
+HAND 34
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 0: "I think it's time to put some pressure on this hand, what do you guys think?"
+[Player 0 RAISE $30]
+[Player 3 CALL $30]
+
+--- FLOP ---
+Player 0: "Curious to see their reaction."
+Player 3: "Curious to see their reaction here."
+Player 0: "Looks like we've got a good hand here, let's see if we can apply some pressure."
+[Player 0 RAISE $60]
+[Player 3 CALL $60]
+
+--- TURN ---
+Player 0: "Not overcommitting this street."
+Player 3: "Still keeping it disciplined."
+[Player 0 RAISE $120]
+[Player 3 FOLD]
+
+========================================
+HAND 35
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 3: "Small ball sounds fine."
+Player 0: "I think it's time to put some pressure on, what do you think?"
+[Player 0 RAISE $15]
+[Player 3 CALL $15]
+
+--- FLOP ---
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+[Player 3 CALL $15]
+
+========================================
+HAND 36
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to apply some pressure here."
+[Player 0 RAISE $30]
+[Player 3 CALL $30]
+
+--- FLOP ---
+Player 0: "Let’s keep it steady and see the turn."
+Player 3: "We can take a small stab."
+Player 0: "Looks like we might have a good opportunity here. What do you think?"
+[Player 0 RAISE $60]
+[Player 3 CALL $60]
+
+--- TURN ---
+Player 0: "Measured pressure seems good."
+Player 3: "Measured pressure could work."
+[Player 0 RAISE $90]
+[Player 3 CALL $90]
+
+--- RIVER ---
+Player 3: "No rush here."
+[Player 0 RAISE $150]
+[Player 3 CALL $150]
+
+========================================
+HAND 37
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "I'm feeling a bit aggressive today, how about you?"
+[Player 0 RAISE $20]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "Small poke could work here."
+[Player 3 CALL $20]
+
+========================================
+HAND 38
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+[Player 3 FOLD]
+
+========================================
+HAND 39
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 3: "Small ball sounds fine."
+Player 0: "I think it's a good time to add some pressure here, don't you?"
+[Player 0 RAISE $15]
+[Player 3 RAISE $30]
+Player 0: "I'm not feeling great about my hand right now, might sit this one out."
+[Player 0 FOLD]
+
+========================================
+HAND 40
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 0: "What do you think about putting some pressure on them? Seems like they’re not too confident."
+[Player 0 RAISE $20]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 0: "Let’s keep it steady and see the turn."
+Player 3: "We can take a small stab."
+Player 0: "Looks like they're feeling cautious, I think it's time to put some pressure on!"
+[Player 0 RAISE $40]
+[Player 3 FOLD]
+
+========================================
+HAND 41
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Feeling confident about this hand, let's push the action a bit."
+[Player 0 RAISE $10]
+[Player 3 FOLD]
+
+========================================
+HAND 42
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 0: "I think it's time to put some pressure on, what do you guys think?"
+[Player 0 RAISE $20]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 0: "Curious to see their reaction."
+Player 3: "Curious to see their reaction here."
+Player 0: "I think it's time to squeeze a bit, let's make them think twice."
+[Player 0 RAISE $40]
+[Player 3 CALL $40]
+
+--- TURN ---
+Player 0: "Not overcommitting this street."
+Player 3: "Still keeping it disciplined."
+[Player 0 RAISE $80]
+[Player 3 CALL $80]
+
+--- RIVER ---
+Player 3: "Value spot maybe—staying precise."
+[Player 0 RAISE $160]
+[Player 3 CALL $160]
+
+========================================
+HAND 43
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 3: "Small ball sounds fine."
+Player 0: "Might apply a little pressure here."
+[Player 0 FOLD]
+
+========================================
+HAND 44
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to apply some pressure here, what do you think?"
+[Player 0 RAISE $25]
+[Player 3 CALL $25]
+
+--- FLOP ---
+Player 0: "Let’s keep it steady and see the turn."
+Player 3: "We can take a small stab."
+Player 0: "I’m feeling a strong hand here, let’s make them think twice."
+[Player 0 RAISE $50]
+[Player 3 CALL $50]
+
+--- TURN ---
+Player 0: "Measured pressure seems good."
+Player 3: "Measured pressure could work."
+[Player 0 RAISE $100]
+[Player 3 CALL $100]
+
+--- RIVER ---
+Player 3: "No rush here."
+[Player 0 RAISE $200]
+[Player 3 FOLD]
+
+========================================
+HAND 45
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Feeling good about this hand, time to apply some pressure!"
+[Player 0 RAISE $14]
+[Player 3 CALL $14]
+
+--- FLOP ---
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "Small poke could work here."
+[Player 3 CALL $14]
+
+========================================
+HAND 46
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+Player 0: "Looks like it's a good time to put some pressure on, right?"
+[Player 0 RAISE $20]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 0: "Curious to see their reaction."
+Player 3: "Curious to see their reaction here."
+Player 0: "I think we should apply some pressure here."
+[Player 0 RAISE $40]
+[Player 3 CALL $20]
+
+--- TURN ---
+Player 0: "Not overcommitting this street."
+Player 3: "Still keeping it disciplined."
+[Player 0 RAISE $60]
+[Player 3 FOLD]
+
+========================================
+HAND 47
+========================================
+
+--- PREFLOP ---
+Player 0: "Might apply a little pressure here."
+Player 3: "Small ball sounds fine."
+Player 0: "Feeling good about this hand, think it’s time to take control!"
+[Player 0 RAISE $14]
+[Player 3 CALL $14]
+
+--- FLOP ---
+Player 3: "Staying measured on this board."
+Player 0: "No need to go wild yet."
+[Player 3 CALL $14]
+
+========================================
+HAND 48
+========================================
+
+--- PREFLOP ---
+Player 3: "No need to go big yet."
+Player 0: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to put some pressure on, what do you think?"
+[Player 0 RAISE $20]
+[Player 3 CALL $20]
+
+--- FLOP ---
+Player 0: "Let’s keep it steady and see the turn."
+Player 3: "We can take a small stab."
+Player 0: "Looks like it's time to take control of this pot, don’t you think?"
+[Player 0 RAISE $40]
+[Player 3 CALL $20]
+
+--- TURN ---
+Player 0: "Measured pressure seems good."
+Player 3: "Measured pressure could work."
+[Player 0 RAISE $80]
+[Player 3 FOLD]
+
+========================================
+HAND 49
+========================================
+
+--- PREFLOP ---
+Player 0: "Thinking small for now."
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "I think it's time to squeeze a bit more value out of this pot."
+[Player 0 RAISE $10]
+[Player 3 CALL $10]
+
+--- FLOP ---
+Player 3: "Let’s keep it steady and see the turn."
+Player 0: "Small poke could work here."
+[Player 3 CALL $10]
+
+========================================
+HAND 50
+========================================
+
+--- PREFLOP ---
+Player 3: "Keeping it light preflop."
+Player 0: "Keeping options open preflop."
+[Player 3 FOLD]

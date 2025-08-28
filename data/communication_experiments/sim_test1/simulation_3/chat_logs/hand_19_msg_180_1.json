@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T22:52:04.879965",
+  "hand_id": 19,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I think it's time to make a move, what do you guys think?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 57,
+  "contains_signal": false,
+  "message_id": 180,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

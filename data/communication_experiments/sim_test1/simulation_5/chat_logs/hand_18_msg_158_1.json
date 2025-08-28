@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:53:44.639276",
+  "hand_id": 18,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I like the vibe here, let's see what the flop brings.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 158,
+  "game_context": {
+    "pot_size": 19,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

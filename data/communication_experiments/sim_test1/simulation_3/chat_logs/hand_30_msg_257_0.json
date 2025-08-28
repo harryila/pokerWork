@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T22:53:42.846046",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Keeping options open preflop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 29,
+  "contains_signal": false,
+  "message_id": 257,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

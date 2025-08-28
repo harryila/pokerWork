@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:22:18.650847",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "No need to go big yet.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 22,
+  "contains_signal": false,
+  "message_id": 368,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

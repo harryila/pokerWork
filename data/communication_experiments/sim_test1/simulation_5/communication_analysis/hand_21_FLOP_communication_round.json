@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-21T23:54:14.276648",
+  "hand_id": 21,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "I think a strong move could shake them up. Let’s see how they respond.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I like the way this is shaping up. Let’s see if we can get some more action.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 73.0,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 60,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      },
+      {
+        "rank": 5,
+        "suit": 1,
+        "str_rank": "7",
+        "str_suit": "s",
+        "display": "7s"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      }
+    ]
+  }
+}

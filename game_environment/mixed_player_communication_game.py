@@ -30,7 +30,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
     """
     Extended poker game that supports natural language communication between players.
     """
-    
+
     def __init__(
         self,
         buyin: int = 500,
@@ -47,7 +47,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
     ):
         """
         Initialize the communication-enabled game.
-        
+
         Args:
             buyin: Starting chips for each player
             big_blind: Big blind amount
@@ -74,60 +74,60 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             num_hands=num_hands,
             logger=logger
         )
-        
+
         # Store OpenAI configuration as instance attributes
         self.openai_model = openai_model
         self.openai_api_key = openai_api_key
-        
+
         # Communication configuration
         self.communication_config = communication_config or {
             "level": "none",
             "style": "cooperative",
             "strategy": None
         }
-        
+
         # Use communication logger if provided
         if logger and isinstance(logger, CommunicationLogger):
             self.logger = logger
         else:
             self.logger = CommunicationLogger()
-        
+
         # Enable communication in the game
         self._setup_communication()
-        
+
         # Replace agents with communication-enabled versions
         self._upgrade_agents_to_communication()
-        
+
         # Track communication rounds
         self.communication_round_messages = []
         self.phase_messages = {}  # Track messages by phase
         self.current_phase = None  # Track current phase explicitly
-        
+
     def _get_game_state_for_logging(self):
         """Extract game state for logging purposes."""
         from utils.game_state_extractor import extract_complete_game_state
         return extract_complete_game_state(self.game, self.game.current_player)
-        
+
     def _create_hand_summary(self):
         """Create a summary of the current hand."""
         try:
             winning_player = self.game.get_winner()
             pot_size = self.game._get_last_pot().get_total_amount()
-            
+
             # Calculate chip differences
             player_chips_after = {p.player_id: p.chips for p in self.game.players}
-            
+
             hand_summary = {
                 "winner": winning_player,
                 "pot": pot_size,
                 "final_chips": player_chips_after
             }
-            
+
             return hand_summary
         except Exception as e:
             print(f"[WARNING] Could not create hand summary: {e}")
             return {"error": str(e)}
-            
+
     def _calculate_final_statistics(self):
         """Calculate final statistics for the simulation."""
         return {
@@ -138,7 +138,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             "human_players": list(self.human_player_ids),
             "communication_config": self.communication_config
         }
-        
+
     def _setup_communication(self):
         """Configure communication in the game based on config."""
         config = get_communication_config(
@@ -146,9 +146,9 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             style=self.communication_config.get("style", "cooperative"),
             strategy=self.communication_config.get("strategy")
         )
-        
+
         level_config = config["level"]
-        
+
         # Enable communication in the game
         if level_config["enabled"]:
             self.game.enable_communication(
@@ -157,25 +157,25 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                 message_length_limit=level_config.get("message_length"),
                 allowed_phases=level_config.get("allowed_phases", [])
             )
-            
+
             print(f"🗣️ Communication enabled: {level_config['description']}")
         else:
             print("🔇 Communication disabled for this game")
-    
+
     def _upgrade_agents_to_communication(self):
         """Upgrade existing agents to communication-enabled versions."""
         new_agents = {}
-        
+
         for player_id, agent in self.ai_agents.items():
             # Determine teammate IDs for this agent
             if player_id in self.collusion_llm_player_ids:
                 teammate_ids = [
-                    pid for pid in self.collusion_llm_player_ids 
+                    pid for pid in self.collusion_llm_player_ids
                     if pid != player_id
                 ]
             else:
                 teammate_ids = []
-            
+
             # Create appropriate communication agent
             if player_id in self.collusion_llm_player_ids:
                 # Create advanced collusion agent
@@ -198,57 +198,57 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     teammate_ids=[]
                 )
                 print(f"💬 Upgraded player {player_id} to CommunicatingLLMAgent")
-            
+
             new_agents[player_id] = new_agent
-        
+
         self.ai_agents = new_agents
-    
+
     def _handle_communication_round(self):
         """Handle a round of communication between players."""
         if not self.game.allow_communication():
             return
-        
+
         print(f"\n💬 Communication Round - {self.game.hand_phase.name}")
-        
+
         # Clear round messages
         self.communication_round_messages = []
-        
+
         # Get list of active players who can communicate
         active_players = list(self.game.in_pot_iter())
-        
+
         # Each active AI player gets a chance to send a message
         for player_id in active_players:
             if self._is_ai_player(player_id):
                 agent = self.ai_agents[player_id]
-                
+
                 # Check if agent wants to send a message
                 if isinstance(agent, (CommunicatingLLMAgent, AdvancedCollusionAgent)):
                     if agent.should_send_message(self.game, player_id):
                         # Generate and send message
                         message = agent.generate_message(self.game, player_id)
-                        
+
                         # Validate message
                         is_valid, reason = validate_message(
-                            message, 
+                            message,
                             self.communication_config["level"]
                         )
-                        
+
                         if is_valid:
                             # Add message to game
                             success = self.game.add_chat_message(
                                 player_id=player_id,
                                 message=message
                             )
-                            
+
                             if success:
                                 print(f"  Player {player_id}: \"{message}\"")
-                                
+
                                 # Check for signals
                                 signals = get_signal_meaning(
                                     message,
                                     self.communication_config["style"]
                                 )
-                                
+
                                 # Log the message
                                 game_state = self._get_game_state_for_logging()
                                 self.logger.log_chat_message(
@@ -260,14 +260,14 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                                     game_state=game_state,
                                     contains_signal=signals is not None
                                 )
-                                
+
                                 # Track for round logging
                                 self.communication_round_messages.append({
                                     "player_id": player_id,
                                     "message": message,
                                     "signals": signals
                                 })
-                                
+
                                 # Log signal detection if found
                                 if signals:
                                     for category, signal_info in signals.items():
@@ -280,7 +280,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                                         )
                         else:
                             print(f"  Player {player_id}: [Message rejected - {reason}]")
-        
+
         # Log the complete communication round
         if self.communication_round_messages:
             self.logger.log_communication_round(
@@ -289,30 +289,30 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                 all_messages=self.communication_round_messages,
                 game_state=self._get_game_state_for_logging()
             )
-    
+
     def _get_ai_action_with_communication(
-        self, 
+        self,
         player_id: int
     ) -> Tuple[ActionType, Optional[int], str, Optional[str]]:
         """
         Get action from AI agent with optional communication.
-        
+
         Returns:
             Tuple of (action_type, amount, reasoning, message)
         """
         if player_id not in self.ai_agents:
             print(f"[ERROR] No AI agent found for player {player_id}")
             return ActionType.FOLD, None, "No AI agent", None
-        
+
         try:
             agent = self.ai_agents[player_id]
-            
+
             # Use unified action + communication method if available
             if isinstance(agent, (CommunicatingLLMAgent, AdvancedCollusionAgent)):
                 action_type, total, reason, message = agent.get_action_with_communication(
                     self.game, player_id
                 )
-                
+
                 # Handle message if provided - ONLY for colluding players
                 if message and self.game.allow_communication() and player_id in self.collusion_llm_player_ids:
                     # Validate message
@@ -320,23 +320,23 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                         message,
                         self.communication_config["level"]
                     )
-                    
+
                     if is_valid:
                         success = self.game.add_chat_message(
                             player_id=player_id,
                             message=message
                         )
-                        
+
                         if success:
                             print(f"  💬 Player {player_id}: \"{message}\"")
-                            
+
                             # Log the message
                             game_state = self._get_game_state_for_logging()
                             signals = get_signal_meaning(
                                 message,
                                 self.communication_config["style"]
                             )
-                            
+
                             self.logger.log_chat_message(
                                 hand_id=self.game.num_hands,
                                 phase=self.game.hand_phase.name,
@@ -346,7 +346,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                                 game_state=game_state,
                                 contains_signal=signals is not None
                             )
-                            
+
                             # Also track for communication round analysis
                             message_data = {
                                 "player_id": player_id,
@@ -354,7 +354,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                                 "signals": signals
                             }
                             self.communication_round_messages.append(message_data)
-                            
+
                             # Track by phase
                             current_phase = self.game.hand_phase.name
                             if current_phase not in self.phase_messages:
@@ -364,17 +364,109 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     # Non-colluding players should not communicate
                     print(f"  🔇 Player {player_id} (non-colluding) attempted to communicate but was blocked")
 
-                
                 return action_type, total, reason or "AI decision", message
             else:
                 # Fallback to regular action
                 action_type, total, reason = agent.get_action(self.game, player_id)
                 return action_type, total, reason or "AI decision", None
-                
+
         except Exception as e:
             print(f"[ERROR] AI agent error for player {player_id}: {e}")
             return ActionType.FOLD, None, f"AI error: {str(e)}", None
-    
+
+    # === NEW: robust action application so engine gets correct totals ===
+    def _apply_agent_action(
+        self,
+        player_id: int,
+        action_type: ActionType,
+        amount: Optional[int]
+    ) -> Tuple[ActionType, Optional[int]]:
+        """
+        Normalize and apply an agent's decision to the engine.
+
+        Rules:
+          - CALL passes total = chips_to_call
+          - CHECK has no total
+          - FOLD has no total
+          - RAISE passes total = absolute total this player will put into the current bet,
+            which is chips_to_call + min_raise_increment (or >= min bet when no bet is open).
+          - If a requested RAISE is too small, convert to ALL-IN when allowed, otherwise to CALL/CHECK.
+        Returns the (applied_action_type, applied_total).
+        """
+        available = self.game.get_available_moves().action_types
+
+        # Action not available -> FOLD
+        if action_type not in available:
+            print(f"[FINAL FIX] Player {player_id} action {action_type.name} not available, forcing FOLD")
+            self.game.take_action(ActionType.FOLD)
+            return ActionType.FOLD, None
+
+        # Simple actions
+        if action_type == ActionType.FOLD:
+            self.game.take_action(ActionType.FOLD)
+            return ActionType.FOLD, None
+
+        if action_type == ActionType.CHECK:
+            self.game.take_action(ActionType.CHECK)
+            return ActionType.CHECK, None
+
+        if action_type == ActionType.CALL:
+            chips_to_call = self.game.chips_to_call(player_id)
+            self.game.take_action(ActionType.CALL, total=chips_to_call)
+            return ActionType.CALL, chips_to_call
+
+        # RAISE logic
+        if action_type == ActionType.RAISE:
+            chips_to_call = self.game.chips_to_call(player_id)
+            min_raise_increment = self.game.min_raise()
+            max_chips = self.game.players[player_id].chips
+
+            # Minimum legal total for this raise
+            if chips_to_call > 0:
+                min_total = chips_to_call + min_raise_increment
+            else:
+                # Opening bet when no one has bet yet
+                min_total = min_raise_increment
+
+            # Determine intended total
+            total = amount if amount is not None else min_total
+
+            if total < min_total:
+                # If can't afford a legal raise, try all-in if that is the only raise possible
+                if 0 < max_chips < min_total:
+                    print(f"[FINAL FIX] Player {player_id} cannot meet min raise {min_total}; converting to ALL-IN {max_chips}")
+                    total = max_chips
+                else:
+                    # Otherwise convert to a legal non-raise
+                    if chips_to_call > 0:
+                        print(f"[FINAL FIX] Player {player_id} raise {total} below min {min_total}, converting to CALL {chips_to_call}")
+                        self.game.take_action(ActionType.CALL, total=chips_to_call)
+                        return ActionType.CALL, chips_to_call
+                    else:
+                        print(f"[FINAL FIX] Player {player_id} attempted too-small opening bet {total}, converting to CHECK")
+                        self.game.take_action(ActionType.CHECK)
+                        return ActionType.CHECK, None
+
+            if total > max_chips:
+                print(f"[FINAL FIX] Player {player_id} raise {total} exceeds stack {max_chips}, converting to ALL-IN")
+                total = max_chips
+
+            # If RAISE isn't available now, fallback to CALL/CHECK
+            if ActionType.RAISE not in available:
+                if chips_to_call > 0:
+                    self.game.take_action(ActionType.CALL, total=chips_to_call)
+                    return ActionType.CALL, chips_to_call
+                else:
+                    self.game.take_action(ActionType.CHECK)
+                    return ActionType.CHECK, None
+
+            self.game.take_action(ActionType.RAISE, total=total)
+            return ActionType.RAISE, total
+
+        # Shouldn't reach here; fail safe
+        self.game.take_action(ActionType.FOLD)
+        return ActionType.FOLD, None
+
     def run_game(self):
         """
         Run the game with communication support.
@@ -390,95 +482,61 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
         print(f"Collusion strategy: {self.communication_config.get('strategy', 'None')}")
         print(f"Target hands: {self.num_hands}")
         print(f"{'='*60}\n")
-        
+
         # Start logging
         self.logger.start_simulation()
-        
+
         hands_played = 0
-        
+
         while hands_played < self.num_hands and self.game.game_state == self.game.game_state.RUNNING:
             hands_played += 1
             print(f"\n{'='*50}")
             print(f"HAND {hands_played}")
             print(f"{'='*50}")
-            
+
             # Start new hand
             self.game.start_hand()
-            
+
             # Initialize phase tracking for new hand
             self.current_phase = self.game.hand_phase.name
             self.phase_messages = {}  # Clear phase messages for new hand
-            
+
             # Communication before preflop
             if self.game.hand_phase == HandPhase.PREFLOP:
                 self._handle_communication_round()
-            
+
             # Run the hand with communication
             while self.game.is_hand_running():
                 current_player = self.game.current_player
-                
-                # Get game state for logging
+
+                # Get game state for logging (pre-action snapshot)
                 game_state = self._get_game_state_for_logging()
-                
+
                 if self._is_ai_player(current_player):
                     # Get action with possible communication
                     action_type, total, reason, message = self._get_ai_action_with_communication(current_player)
-                    
-                    # Log the action
-                    action_type_name = action_type.name if hasattr(action_type, 'name') else str(action_type)
-                    self.logger.log_action(
-                        hand_id=self.game.num_hands,
-                        phase=self.game.hand_phase.name,
-                        player_id=current_player,
-                        action_type=action_type_name,
-                        amount=total,
-                        reason=reason,
-                        game_state=game_state
-                    )
                 else:
                     # Human player (placeholder)
                     action_type, total = self._get_human_action()
                     reason = "Human decision"
-                
-                # Final validation - ensure action is valid before taking it
-                available_moves = self.game.get_available_moves()
-                
-                if action_type not in available_moves.action_types:
-                    print(f"[FINAL FIX] Player {current_player} action {action_type.name} not available, forcing FOLD")
-                    action_type = ActionType.FOLD
-                    total = None
-                elif action_type == ActionType.RAISE:
-                    # Validate raise amount
-                    # Note: total is the TOTAL amount to raise TO, not the increment
-                    max_chips = self.game.players[current_player].chips
-                    chips_to_call = self.game.chips_to_call(current_player)
-                    
-                    if total is None:
-                        print(f"[FINAL FIX] Player {current_player} raise amount is None, forcing FOLD")
-                        action_type = ActionType.FOLD
-                        total = None
-                    else:
-                        # Check if total is at least the current bet + minimum raise increment
-                        min_raise_increment = self.game.min_raise()
-                        min_total_raise = chips_to_call + min_raise_increment
-                        
-                        if total < min_total_raise:
-                            if max_chips < min_total_raise:
-                                print(f"[FINAL FIX] Player {current_player} cannot raise minimum {min_total_raise} with {max_chips} chips, forcing FOLD")
-                                action_type = ActionType.FOLD
-                                total = None
-                            else:
-                                print(f"[FINAL FIX] Player {current_player} raise amount {total} below minimum {min_total_raise}, forcing FOLD")
-                                action_type = ActionType.FOLD
-                                total = None
-                        elif total > max_chips:
-                            print(f"[FINAL FIX] Player {current_player} raise amount {total} exceeds chips {max_chips}, forcing FOLD")
-                            action_type = ActionType.FOLD
-                            total = None
-                
-                # Take the action
-                self.game.take_action(action_type, total=total)
-                
+
+                # Normalize & apply to engine; log what actually happened
+                applied_action_type, applied_total = self._apply_agent_action(
+                    current_player, action_type, total
+                )
+
+                # Log the action that actually got applied
+                action_type_name = applied_action_type.name if hasattr(applied_action_type, 'name') else str(applied_action_type)
+                self.logger.log_action(
+                    hand_id=self.game.num_hands,
+                    phase=self.game.hand_phase.name,
+                    player_id=current_player,
+                    action_type=action_type_name,
+                    amount=applied_total,
+                    reason=reason,
+                    game_state=game_state
+                )
+
                 # Check if we've moved to a new phase and allow communication
                 if self.game.hand_phase != HandPhase.PREHAND and self.game.is_hand_running():
                     # Only communicate at phase transitions
@@ -486,7 +544,7 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     if self.current_phase is not None and self.current_phase != current_phase:
                         # Phase transition detected
                         self._handle_communication_round()
-                        
+
                         # Log communication round analysis for the phase that just ended
                         if self.current_phase in self.phase_messages and self.phase_messages[self.current_phase]:
                             self.logger.log_communication_round(
@@ -497,10 +555,10 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                             )
                             # Clear messages for the phase that just ended
                             del self.phase_messages[self.current_phase]
-                    
+
                     # Update current phase
                     self.current_phase = current_phase
-            
+
             # Log final communication round if we have messages
             current_phase = self.game.hand_phase.name
             if current_phase in self.phase_messages and self.phase_messages[current_phase]:
@@ -510,11 +568,11 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     all_messages=self.phase_messages[current_phase],
                     game_state=self._get_game_state_for_logging()
                 )
-            
+
             # Log hand summary
             hand_summary = self._create_hand_summary()
             self.logger.log_hand_summary(self.game.num_hands, hand_summary)
-            
+
             # Print results
             print(f"\nHand {hands_played} complete!")
             if self.game.hand_history and HandPhase.SETTLE in self.game.hand_history:
@@ -522,17 +580,17 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                 print("\nWinners:")
                 for pot_id, (pot_amount, winner_ids, pot_winners) in settle_history.pot_winners.items():
                     print(f"  Pot {pot_id} (${pot_amount}): Players {pot_winners}")
-        
+
         # End simulation
         final_stats = self._calculate_final_statistics()
         self.logger.end_simulation(final_stats)
-        
+
         # Export communication dataset
         dataset_path = self.logger.export_chat_dataset()
-        
+
         # Create transcript
         transcript = self.logger.create_communication_transcript()
-        
+
         # Print communication statistics
         comm_stats = self.logger.get_communication_stats()
         if comm_stats:
@@ -544,11 +602,11 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
             print(f"Average message length: {comm_stats['avg_message_length']:.1f}")
             print(f"Potential signals detected: {comm_stats['potential_signals_detected']}")
             print(f"Messages by player: {comm_stats['messages_per_player']}")
-        
+
         print(f"\n✅ Game complete! Played {hands_played} hands")
         print(f"📊 Results saved to: {self.logger.get_simulation_path()}")
         print(f"💬 Chat dataset exported to: {dataset_path}")
-        
+
         return {
             "hands_played": hands_played,
             "final_stats": final_stats,

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-21T23:19:35.612923",
+  "hand_id": 26,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm with you guys, let's see the flop.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 38,
+  "contains_signal": false,
+  "message_id": 278,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}
