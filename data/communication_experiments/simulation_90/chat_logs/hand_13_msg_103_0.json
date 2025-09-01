@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-29T14:32:31.884813",
+  "hand_id": 13,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Ready to take this up a notch!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 30,
+  "contains_signal": false,
+  "message_id": 103,
+  "game_context": {
+    "pot_size": 80,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

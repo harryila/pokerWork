@@ -1,0 +1,77 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, feeling pretty good about this one. Let's apply some pressure.",
+        "timestamp": "2025-08-19T16:28:27.237385",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's put some more heat on them.",
+        "timestamp": "2025-08-19T16:28:29.704598",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them hard. I'm going all in.",
+        "timestamp": "2025-08-19T16:28:30.729003",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident about this hand. Let's see some action!",
+        "timestamp": "2025-08-19T16:28:34.191899",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm going to spice things up a bit here!",
+        "timestamp": "2025-08-19T16:28:34.864730",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the spice! Let's turn up the heat.",
+        "timestamp": "2025-08-19T16:28:37.929755",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I think it's time to crank up the pressure a bit.",
+        "timestamp": "2025-08-19T16:28:39.869291",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's apply some heat here.",
+        "timestamp": "2025-08-19T16:28:41.021306",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's turn up the heat even more.",
+        "timestamp": "2025-08-19T16:28:42.838061",
+        "target_player": null
+      }
+    ]
+  }
+]

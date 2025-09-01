@@ -37,10 +37,11 @@ class CommunicatingLLMAgent:
         self.is_hf = tokenizer is not None
         self.client = None
 
-        # Lazy init OpenAI client (non-HF path)
+        # Lazy init OpenAI API (non-HF path)
         if not self.is_hf and api_key:
             import openai
-            self.client = openai.OpenAI(api_key=api_key)
+            openai.api_key = api_key
+            self.client = openai  # Use the module directly
 
     # -----------------------------------------------------------
     # Communication Helpers
@@ -149,7 +150,7 @@ class CommunicatingLLMAgent:
 
             # run LLM
             if not self.is_hf:
-                response = self.client.chat.completions.create(
+                response = self.client.ChatCompletion.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a poker agent. Respond ONLY in JSON."},

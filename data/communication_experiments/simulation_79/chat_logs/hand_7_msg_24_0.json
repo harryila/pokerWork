@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T15:12:24.474061",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice raise! Let's squeeze them a bit more with a re-raise.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 58,
+  "contains_signal": false,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

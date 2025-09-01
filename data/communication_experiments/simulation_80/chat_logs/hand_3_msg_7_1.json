@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T16:26:55.826555",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The weather does seem favorable today, let's add a little extra sunshine to the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 84,
+  "contains_signal": false,
+  "message_id": 7,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

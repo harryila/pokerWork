@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-08-29T14:32:01.242671",
+  "hand_id": 9,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 2,
+      "message": "No need to go big yet.",
+      "signals": null
+    },
+    {
+      "player_id": 3,
+      "message": "Let’s see a flop and feel it out.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Thinking small for now.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Keeping options open preflop.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 4,
+    "private_messages": 0,
+    "avg_message_length": 26.75,
+    "unique_speakers": 4,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 7,
+    "active_players": 4,
+    "board_cards": []
+  }
+}

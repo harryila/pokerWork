@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T16:26:44.446620",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'll put some more chips in the pot to test the waters.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 55,
+  "contains_signal": false,
+  "message_id": 2,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

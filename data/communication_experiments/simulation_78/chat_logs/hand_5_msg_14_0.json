@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T15:04:34.554744",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice to hear that! Let's pump it up a bit more.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 38,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

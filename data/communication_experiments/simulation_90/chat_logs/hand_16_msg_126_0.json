@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-29T14:32:48.701406",
+  "hand_id": 16,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let’s keep it steady and see the turn.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 38,
+  "contains_signal": false,
+  "message_id": 126,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 10,
+        "suit": 2,
+        "str_rank": "Q",
+        "str_suit": "h",
+        "display": "Qh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,66 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 89
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 3: "Let’s see a flop and feel it out."
+Player 0: "Thinking small for now."
+Player 1: "Keeping options open preflop."
+Player 2: "No need to go big yet."
+[Player 3 CALL $5]
+Player 0: "Feeling confident in this hand. Let's build this pot a bit!"
+[Player 0 RAISE $15]
+Player 1: "Feeling the strength here, raising to see where we stand."
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's apply some pressure here."
+
+--- PREHAND ---
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 0: "Keeping options open preflop."
+Player 1: "Might apply a little pressure here."
+Player 2: "Let’s see a flop and feel it out."
+Player 3: "Keeping it light preflop."
+Player 0: "Let's see if we can build this pot a bit."
+[Player 0 FOLD]
+Player 1: "Let's apply some pressure and see if we can take control of this pot."
+[Player 1 RAISE $10]
+[Player 2 RAISE $20]
+[Player 3 FOLD]
+Player 1: "Let's apply some additional pressure and build this pot up."
+
+--- PREHAND ---
+[Player 1 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+Player 1: "Let’s see a flop and feel it out."
+Player 2: "Keeping it light preflop."
+Player 3: "Small ball sounds fine."
+Player 0: "Might apply a little pressure here."
+Player 1: "Let's see how strong the hands really are."
+[Player 1 RAISE $10]
+[Player 2 CALL $10]
+[Player 3 CALL $8]
+Player 0: "I sense some strength in this hand. Let's apply some pressure."
+[Player 0 RAISE $25]
+Player 1: "I agree, let's apply some pressure. Raising $80."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+--- PREHAND ---
+[Player 3 FOLD]

@@ -1,0 +1,48 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 81
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, feeling pretty good about this one. Let's apply some pressure."
+[Player 1 RAISE $25]
+[Player 2 FOLD]
+[Player 3 CALL $23]
+Player 0: "I agree, let's put some more heat on them."
+[Player 0 RAISE $50]
+Player 1: "Let's squeeze them hard. I'm going all in."
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL]
+[Player 3 CALL $5]
+Player 0: "I'm feeling confident about this hand. Let's see some action!"
+[Player 0 RAISE $20]
+Player 1: "I'm going to spice things up a bit here!"
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I like the spice! Let's turn up the heat."
+[Player 0 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I think it's time to crank up the pressure a bit."
+[Player 0 RAISE $15]
+Player 1: "I agree, let's apply some heat here."
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+Player 0: "Let's turn up the heat even more."
+[Player 0 FOLD]

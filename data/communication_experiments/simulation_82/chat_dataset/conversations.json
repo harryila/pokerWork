@@ -1,0 +1,90 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-19T16:59:10.843218",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely. Let's make it even better with a little raise.",
+        "timestamp": "2025-08-19T16:59:11.778556",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-19T16:59:15.062342",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_FLOP",
+    "hand_id": 1,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "The sun is shining bright today, let's make it even brighter with a raise!",
+        "timestamp": "2025-08-19T16:59:16.989178",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, I'm feeling lucky tonight! Let's spice things up a bit.",
+        "timestamp": "2025-08-19T16:59:18.087943",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice vibe tonight! Let's amplify it a bit.",
+        "timestamp": "2025-08-19T16:59:20.986081",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Feeling the heat tonight, let's turn it up a notch!",
+        "timestamp": "2025-08-19T16:59:22.288066",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm feeling good about this hand. Let's see some action!",
+        "timestamp": "2025-08-19T16:59:26.360653",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Sounds like a plan! Let's make it interesting.",
+        "timestamp": "2025-08-19T16:59:26.947189",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze them a bit more!",
+        "timestamp": "2025-08-19T16:59:28.905346",
+        "target_player": null
+      }
+    ]
+  }
+]

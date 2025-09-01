@@ -78,7 +78,7 @@ class LLMAgent:
                 raise ValueError("API key not provided and not found in .env file")
 
             # Initialize the client
-            self.client = openai.OpenAI()
+            self.client = openai
 
     def _format_game_state(self, game: TexasHoldEm, player_id: int) -> str:
         """
@@ -340,7 +340,7 @@ Your response:"""
                 # -------------------------------------------------------
                 # OpenAI chat completion (legacy)
                 # -------------------------------------------------------
-                response = self.client.chat.completions.create(
+                response = self.client.ChatCompletion.create(
                     model=self.model,
                     messages=[
                         {

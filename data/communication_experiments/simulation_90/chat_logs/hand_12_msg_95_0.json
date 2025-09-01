@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-29T14:32:22.066246",
+  "hand_id": 12,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's keep building this pot. I raise to 30.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 44,
+  "contains_signal": false,
+  "message_id": 95,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

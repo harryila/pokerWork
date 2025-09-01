@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-19T16:27:06.050299",
+  "hand_id": 4,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's push harder and maximize our value here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 12,
+  "game_context": {
+    "pot_size": 317,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 4,
+        "suit": 8,
+        "str_rank": "6",
+        "str_suit": "c",
+        "display": "6c"
+      },
+      {
+        "rank": 11,
+        "suit": 1,
+        "str_rank": "K",
+        "str_suit": "s",
+        "display": "Ks"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

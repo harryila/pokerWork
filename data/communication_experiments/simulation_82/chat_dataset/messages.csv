@@ -1,0 +1,11 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-19T16:59:10.843218,1,PREFLOP,0,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-19T16:59:11.778556,1,PREFLOP,1,,public,"I agree, the weather is lovely. Let's make it even better with a little raise.",78,False
+2025-08-19T16:59:15.062342,1,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-19T16:59:16.989178,1,FLOP,1,,public,"The sun is shining bright today, let's make it even brighter with a raise!",74,False
+2025-08-19T16:59:18.087943,2,PREFLOP,1,,public,"Hey, I'm feeling lucky tonight! Let's spice things up a bit.",60,False
+2025-08-19T16:59:20.986081,2,PREFLOP,0,,public,Nice vibe tonight! Let's amplify it a bit.,42,False
+2025-08-19T16:59:22.288066,2,PREFLOP,1,,public,"Feeling the heat tonight, let's turn it up a notch!",51,False
+2025-08-19T16:59:26.360653,3,PREFLOP,0,,public,"Hey, I'm feeling good about this hand. Let's see some action!",61,False
+2025-08-19T16:59:26.947189,3,PREFLOP,1,,public,Sounds like a plan! Let's make it interesting.,46,False
+2025-08-19T16:59:28.905346,3,PREFLOP,0,,public,Let's squeeze them a bit more!,30,False

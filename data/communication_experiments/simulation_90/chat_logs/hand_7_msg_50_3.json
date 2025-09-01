@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-29T14:31:42.448522",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "message": "Small ball sounds fine.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 23,
+  "contains_signal": false,
+  "message_id": 50,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

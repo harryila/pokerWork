@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-19T16:59:16.989178",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "The sun is shining bright today, let's make it even brighter with a raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 74,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 82,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

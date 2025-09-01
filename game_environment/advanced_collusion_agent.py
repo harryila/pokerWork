@@ -199,7 +199,7 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
             # Get response
             if not self.is_hf:
                 try:
-                    response = self.client.chat.completions.create(
+                    response = self.client.ChatCompletion.create(
                         model=self.model,
                         messages=[
                             {
@@ -314,7 +314,7 @@ class AdvancedCollusionAgent(CommunicatingLLMAgent):
 
                 if not self.is_hf:
                     try:
-                        response = self.client.chat.completions.create(
+                        response = self.client.ChatCompletion.create(
                             model=self.model,
                             messages=[
                                 {

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T15:04:07.325755",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice, let's see how lucky we can get! Raise $20",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

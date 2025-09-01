@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T16:27:10.506465",
+  "hand_id": 5,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's turn this luck into profit, I raise $80.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 46,
+  "contains_signal": false,
+  "message_id": 15,
+  "game_context": {
+    "pot_size": 84,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

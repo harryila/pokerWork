@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-29T14:31:59.143128",
+  "hand_id": 8,
+  "phase": "TURN",
+  "player_id": 2,
+  "message": "We’ll see what the river brings.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 32,
+  "contains_signal": false,
+  "message_id": 67,
+  "game_context": {
+    "pot_size": 285,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,52 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 82
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today, isn't it?"
+[Player 0 RAISE $10]
+Player 1: "I agree, the weather is lovely. Let's make it even better with a little raise."
+[Player 1 RAISE $20]
+[Player 2 CALL $18]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $27]
+Player 1: "The sun is shining bright today, let's make it even brighter with a raise!"
+[Player 1 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, I'm feeling lucky tonight! Let's spice things up a bit."
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 CALL $8]
+Player 0: "Nice vibe tonight! Let's amplify it a bit."
+[Player 0 RAISE $25]
+Player 1: "Feeling the heat tonight, let's turn it up a notch!"
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL $5]
+Player 0: "Hey, I'm feeling good about this hand. Let's see some action!"
+[Player 0 RAISE $20]
+Player 1: "Sounds like a plan! Let's make it interesting."
+[Player 1 RAISE $40]
+[Player 3 FOLD]
+Player 0: "Let's squeeze them a bit more!"
+[Player 0 FOLD]

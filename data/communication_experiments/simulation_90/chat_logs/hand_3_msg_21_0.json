@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-29T14:31:13.004550",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "No need to go wild yet.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 23,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 25,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 8,
+        "str_rank": "7",
+        "str_suit": "c",
+        "display": "7c"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

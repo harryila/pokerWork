@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-19T15:11:47.735587",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Yeah, I agree. I'll fold this one too.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 38,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 25,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

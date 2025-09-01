@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-29T14:32:42.677829",
+  "hand_id": 15,
+  "phase": "FLOP",
+  "messages": [
+    {
+      "player_id": 3,
+      "message": "Staying measured on this board.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Let’s keep it steady and see the turn.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 34.5,
+    "unique_speakers": 2,
+    "potential_signals": 0,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 62,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      }
+    ]
+  }
+}

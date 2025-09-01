@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-19T16:28:29.704598",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I agree, let's put some more heat on them.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 42,
+  "contains_signal": false,
+  "message_id": 1,
+  "game_context": {
+    "pot_size": 55,
+    "players_in_hand": [
+      0,
+      1,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

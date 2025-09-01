@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-19T15:12:21.006120",
+  "hand_id": 6,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think I see some potential here. Let's make things more interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": false,
+  "message_id": 22,
+  "game_context": {
+    "pot_size": 132,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 1,
+        "str_rank": "9",
+        "str_suit": "s",
+        "display": "9s"
+      },
+      {
+        "rank": 3,
+        "suit": 1,
+        "str_rank": "5",
+        "str_suit": "s",
+        "display": "5s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-19T15:11:44.011046",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Hey, let's conserve our chips for better spots. I'll fold this one.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Nice weather we're having today!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 49.5,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 25,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 10,
+        "suit": 4,
+        "str_rank": "Q",
+        "str_suit": "d",
+        "display": "Qd"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-19T15:12:38.472652",
+  "hand_id": 8,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Nice weather indeed! Feeling confident as well. Let's keep the pressure on!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 75,
+  "contains_signal": false,
+  "message_id": 32,
+  "game_context": {
+    "pot_size": 450,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

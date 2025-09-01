@@ -1,0 +1,10 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-19T16:28:27.237385,1,PREFLOP,1,,public,"Hey guys, feeling pretty good about this one. Let's apply some pressure.",72,False
+2025-08-19T16:28:29.704598,1,PREFLOP,0,,public,"I agree, let's put some more heat on them.",42,False
+2025-08-19T16:28:30.729003,1,PREFLOP,1,,public,Let's squeeze them hard. I'm going all in.,42,False
+2025-08-19T16:28:34.191899,2,PREFLOP,0,,public,I'm feeling confident about this hand. Let's see some action!,61,False
+2025-08-19T16:28:34.864730,2,PREFLOP,1,,public,I'm going to spice things up a bit here!,40,False
+2025-08-19T16:28:37.929755,2,PREFLOP,0,,public,I like the spice! Let's turn up the heat.,41,False
+2025-08-19T16:28:39.869291,3,PREFLOP,0,,public,I think it's time to crank up the pressure a bit.,49,False
+2025-08-19T16:28:41.021306,3,PREFLOP,1,,public,"I agree, let's apply some heat here.",36,False
+2025-08-19T16:28:42.838061,3,PREFLOP,0,,public,Let's turn up the heat even more.,33,False

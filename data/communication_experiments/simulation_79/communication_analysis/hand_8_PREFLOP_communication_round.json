@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-19T15:12:35.735391",
+  "hand_id": 8,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, huh?",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'm feeling confident in this hand, let's make it interesting!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling good about this hand too, let's squeeze them a bit more!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 55.666666666666664,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 120,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ]
+  }
+}
