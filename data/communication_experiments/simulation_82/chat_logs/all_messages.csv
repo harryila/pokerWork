@@ -1,0 +1,199 @@
+timestamp,hand_id,phase,player_id,target_player,message_type,message,message_length,contains_signal
+2025-08-31T22:17:35.353762,1,PREFLOP,0,,public,"Hey guys, let's spice things up a bit with a little raise here!",63,False
+2025-08-31T22:17:36.752317,1,PREFLOP,1,,public,"I'm feeling lucky today, let's bump up the stakes a bit!",56,False
+2025-08-31T22:17:41.121255,1,PREFLOP,0,,public,Let's heat things up a bit more! I'll raise $70.,48,False
+2025-08-31T22:17:42.531708,2,PREFLOP,1,,public,"Hey, feeling good about this hand. Let's pump up the action a bit!",66,False
+2025-08-31T22:17:45.455070,2,PREFLOP,0,,public,"Great hand here, let's make it interesting!",43,False
+2025-08-31T22:17:46.109381,2,PREFLOP,1,,public,Let's keep the momentum going with a raise here!,48,False
+2025-08-31T22:17:47.813248,3,PREFLOP,0,,public,"Nice weather today, isn't it?",29,False
+2025-08-31T22:17:49.459408,3,PREFLOP,1,,public,"I agree, the weather is beautiful. Let's make the most of this hand!",68,False
+2025-08-31T22:17:51.994510,3,PREFLOP,0,,public,I'm feeling confident about this hand. Let's build that pot!,60,False
+2025-08-31T22:17:53.310322,4,PREFLOP,0,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-31T22:17:54.825804,4,PREFLOP,1,,public,"I agree, the weather is lovely. Let's make it even sunnier with a little raise of $20!",86,False
+2025-08-31T22:17:56.930964,4,PREFLOP,0,,public,"I'm feeling lucky today, let's make it $50 to go!",49,False
+2025-08-31T22:17:58.049904,5,PREFLOP,0,,public,"Hey guys, feeling pretty good about my hand here. Let's build this pot up a bit!",80,False
+2025-08-31T22:17:58.734992,5,PREFLOP,1,,public,"Nice hand, I'm backing you up with a raise to build the pot even more!",70,False
+2025-08-31T22:18:01.579929,5,PREFLOP,0,,public,Nice move! Let's put even more pressure on them.,48,False
+2025-08-31T22:18:02.579041,5,PREFLOP,1,,public,I'll add some more pressure too! Raising $120.,46,False
+2025-08-31T22:18:03.289378,6,PREFLOP,1,,public,Thinking of conserving chips with this hand.,44,False
+2025-08-31T22:18:04.964795,6,PREFLOP,0,,public,I think it's worth applying some pressure here.,47,False
+2025-08-31T22:18:09.342591,7,PREFLOP,0,,public,"Hey, feeling pretty good about this hand. Let's spice things up a bit!",70,False
+2025-08-31T22:18:10.578057,7,PREFLOP,1,,public,"Nice, let's make it interesting! I'm raising $20.",49,False
+2025-08-31T22:18:11.602801,7,PREFLOP,0,,public,I'm feeling confident too! Let's squeeze them a bit more. Raising $30.,70,False
+2025-08-31T22:18:13.614584,8,PREFLOP,0,,public,Let's squeeze a bit here.,25,False
+2025-08-31T22:18:14.738301,8,PREFLOP,1,,public,"Nice play, I'm in!",18,False
+2025-08-31T22:18:16.122893,8,PREFLOP,0,,public,Nice hand! Let's build this pot together.,41,False
+2025-08-31T22:18:17.623662,9,PREFLOP,0,,public,"Feeling strong today, let's build this pot together!",52,False
+2025-08-31T22:18:19.677040,9,PREFLOP,1,,public,Let's crank up the heat a bit!,30,False
+2025-08-31T22:18:22.722063,9,PREFLOP,0,,public,Let's squeeze this pot a little more!,37,False
+2025-08-31T22:18:24.911074,9,FLOP,1,,public,Let's keep the pressure on!,27,False
+2025-08-31T22:18:25.801591,10,PREFLOP,1,,public,"Looks like a tough hand to play here, I'll fold.",48,False
+2025-08-31T22:18:30.012495,10,PREFLOP,0,,public,"Feeling lucky today, let's spice things up a bit!",49,False
+2025-08-31T22:18:33.911104,10,FLOP,0,,public,"Looks like there might be some potential here, let's see how this plays out!",76,False
+2025-08-31T22:18:36.931868,11,PREFLOP,0,,public,"Hey guys, this one looks a bit too rich for my blood. I'll sit this one out.",76,False
+2025-08-31T22:18:37.755300,11,PREFLOP,1,,public,"Nice raise there, really making the game interesting!",53,False
+2025-08-31T22:18:40.138891,11,FLOP,1,,public,"Feeling confident with this hand, let's see where it takes us!",62,False
+2025-08-31T22:18:42.601392,12,PREFLOP,0,,public,Looks like we've got some good hands to play here!,50,False
+2025-08-31T22:18:43.758858,12,PREFLOP,1,,public,"Nice hand, feeling confident?",29,False
+2025-08-31T22:18:45.259480,12,PREFLOP,0,,public,I'm feeling confident too! Let's squeeze them a bit more.,57,False
+2025-08-31T22:18:46.166940,13,PREFLOP,0,,public,Just testing the waters with a little raise here. Let's see how this plays out!,79,False
+2025-08-31T22:18:47.119443,13,PREFLOP,1,,public,"Nice move, testing the waters with a raise. Let's squeeze the action a bit more!",80,False
+2025-08-31T22:18:49.822492,13,PREFLOP,0,,public,Let's put some real pressure on the table!,42,False
+2025-08-31T22:18:52.634384,13,FLOP,1,,public,I see the opportunity to apply more pressure here.,50,False
+2025-08-31T22:18:53.509939,14,PREFLOP,1,,public,"Hey guys, feeling strong here. Let's put some pressure on them!",63,False
+2025-08-31T22:18:55.195992,14,PREFLOP,0,,public,Nice! Let's squeeze them hard!,30,False
+2025-08-31T22:18:56.604610,14,PREFLOP,1,,public,Let's keep the pressure on! Raising $30.,40,False
+2025-08-31T22:18:59.186069,15,PREFLOP,0,,public,"Nice little hand here, let's see some action!",45,False
+2025-08-31T22:18:59.876608,15,PREFLOP,1,,public,"Let's spice things up a bit, raising $30!",41,False
+2025-08-31T22:19:02.054129,15,PREFLOP,0,,public,"Let's keep the pressure on, raising $60!",40,False
+2025-08-31T22:19:03.525750,16,PREFLOP,0,,public,"Nice weather today, isn't it?",29,False
+2025-08-31T22:19:04.285230,16,PREFLOP,1,,public,"I agree, the weather is lovely. Let's make it even better by adding $20 to the pot!",83,False
+2025-08-31T22:19:05.947693,16,PREFLOP,0,,public,"I'm feeling good about this hand, let's spice things up with an extra $30.",74,False
+2025-08-31T22:19:06.926618,17,PREFLOP,0,,public,"Let's apply some pressure here, gonna bump it up a bit!",55,False
+2025-08-31T22:19:07.743503,17,PREFLOP,1,,public,"Nice move, I'm going to reraise to put some more pressure!",58,False
+2025-08-31T22:19:10.246667,17,PREFLOP,0,,public,Let's squeeze the pot here and put some real pressure on the others!,68,False
+2025-08-31T22:19:11.173259,18,PREFLOP,1,,public,"Hey guys, feeling confident with my hand here. Let's put a little pressure on the table!",88,False
+2025-08-31T22:19:12.917074,18,PREFLOP,0,,public,Great to hear! Let's make it interesting. I'll raise $20.,57,False
+2025-08-31T22:19:13.838092,18,PREFLOP,1,,public,"Nice bet, let's build this pot up a bit more!",45,False
+2025-08-31T22:19:15.879392,18,FLOP,0,,public,"Nice, let's keep the pressure on. I'll raise $40.",49,False
+2025-08-31T22:19:19.240957,19,PREFLOP,0,,public,"Nice hand, let's bump it up a bit!",34,False
+2025-08-31T22:19:20.521938,19,PREFLOP,1,,public,I'll join the party with a raise!,33,False
+2025-08-31T22:19:22.511052,19,PREFLOP,0,,public,"I'm feeling lucky today, let's make this interesting!",53,False
+2025-08-31T22:19:24.282845,20,PREFLOP,0,,public,Nice weather we're having today!,32,False
+2025-08-31T22:19:25.214439,20,PREFLOP,1,,public,"Oh, I agree! The weather is lovely. I'll just call here.",56,False
+2025-08-31T22:19:27.996327,20,PREFLOP,0,,public,Looks like a good spot to apply some pressure. Let's build this pot!,68,False
+2025-08-31T22:19:28.780819,21,PREFLOP,0,,public,"Nice weather we're having today, huh?",37,False
+2025-08-31T22:19:29.804684,21,PREFLOP,1,,public,This weather does make me feel lucky. I'll raise $30.,53,False
+2025-08-31T22:19:32.363037,21,PREFLOP,0,,public,I'm feeling lucky too! I'll raise $50.,38,False
+2025-08-31T22:19:35.948824,21,FLOP,1,,public,I'm feeling the luck too! Let's push it up by $150!,51,False
+2025-08-31T22:19:36.769272,22,PREFLOP,1,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-31T22:19:39.505392,22,PREFLOP,1,,public,"I think the pot could use a little boost, let's make it more interesting!",73,False
+2025-08-31T22:19:42.834156,22,FLOP,0,,public,"I'm feeling confident in this hand, let's see where it goes!",60,False
+2025-08-31T22:19:46.640896,23,PREFLOP,0,,public,"Nice weather we're having, huh?",31,False
+2025-08-31T22:19:48.135191,23,PREFLOP,1,,public,"Yeah, it's a beautiful day. I'm enjoying the sunshine. I'll raise $50.",70,False
+2025-08-31T22:19:50.280997,23,PREFLOP,0,,public,"I like the way you're playing, let's make it $100 to go!",56,False
+2025-08-31T22:19:52.026459,24,PREFLOP,0,,public,"Nice weather today, isn't it? So much sunshine!",47,False
+2025-08-31T22:19:52.937961,24,PREFLOP,1,,public,"Absolutely, the weather is fantastic! Let's make it even better with a nice little raise.",89,False
+2025-08-31T22:19:55.203588,24,PREFLOP,0,,public,I'm feeling the heat today! Let's spice things up with a raise.,63,False
+2025-08-31T22:19:56.550322,25,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-31T22:19:57.455720,25,PREFLOP,1,,public,Nice move! Let's make it spicy indeed. I'll add a little extra flavor to the pot.,81,False
+2025-08-31T22:19:59.337414,25,PREFLOP,0,,public,I'm feeling the heat too! Let's turn up the temperature with a raise.,69,False
+2025-08-31T22:20:00.238619,26,PREFLOP,1,,public,"Hey guys, feeling pretty good about my hand here. Let's build this pot together!",80,False
+2025-08-31T22:20:02.264383,26,PREFLOP,0,,public,"Nice, let's make this pot juicy!",32,False
+2025-08-31T22:20:03.799864,26,PREFLOP,1,,public,Let's squeeze this pot a bit more!,34,False
+2025-08-31T22:20:05.650588,27,PREFLOP,0,,public,"Nice weather today, isn't it?",29,False
+2025-08-31T22:20:06.673850,27,PREFLOP,1,,public,"I agree, the weather is lovely today. Let's make the most of it with a little raise to $30!",91,False
+2025-08-31T22:20:08.960781,27,PREFLOP,0,,public,"Indeed, let's make the most of this weather with a strong play. I raise to $80.",79,False
+2025-08-31T22:20:10.329293,28,PREFLOP,0,,public,Nice hand to play. Let's spice things up a bit!,47,False
+2025-08-31T22:20:11.175112,28,PREFLOP,1,,public,Feeling confident with my hand.,31,False
+2025-08-31T22:20:14.285324,28,PREFLOP,0,,public,Let's make this interesting. I raise $40.,41,False
+2025-08-31T22:20:15.366425,29,PREFLOP,0,,public,"Feeling confident in this hand, let's spice things up a bit!",60,False
+2025-08-31T22:20:16.706310,29,PREFLOP,1,,public,Sounds exciting! Let's add to the pot and see where this hand takes us!,71,False
+2025-08-31T22:20:20.251444,29,PREFLOP,0,,public,Let's keep the momentum going! I'll raise $100.,47,False
+2025-08-31T22:20:21.031485,29,PREFLOP,1,,public,Let's keep the pressure on! I'll raise $200.,44,False
+2025-08-31T22:20:21.926838,30,PREFLOP,1,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-31T22:20:24.895317,30,PREFLOP,0,,public,"I agree, the weather is lovely. Let's keep the good vibes going with a little raise here.",89,False
+2025-08-31T22:20:26.233331,30,PREFLOP,1,,public,"I'm feeling good about this hand, let's keep the momentum going!",64,False
+2025-08-31T22:20:29.710975,31,PREFLOP,0,,public,"Hey guys, facing a big raise here with J7 suited. Fold for now and let's regroup next hand.",91,False
+2025-08-31T22:20:30.426284,31,PREFLOP,1,,public,"Hey guys, not feeling strong with 2d 8s. I'll fold this one.",60,False
+2025-08-31T22:20:33.638465,32,PREFLOP,0,,public,"I'm feeling strong, let's apply some pressure here!",51,False
+2025-08-31T22:20:34.401784,32,PREFLOP,1,,public,"Let's squeeze a bit more, I'm with you on this!",47,False
+2025-08-31T22:20:36.034708,32,PREFLOP,0,,public,"Nice move, let's squeeze them harder!",37,False
+2025-08-31T22:20:36.937087,32,PREFLOP,1,,public,"Let's keep the pressure on, raising $80!",40,False
+2025-08-31T22:20:37.702864,33,PREFLOP,0,,public,"Nice weather we're having today, right?",39,False
+2025-08-31T22:20:38.621633,33,PREFLOP,1,,public,"I'm feeling confident today, let's spice things up a bit!",57,False
+2025-08-31T22:20:40.768582,33,PREFLOP,0,,public,"I agree, let's spice it up a bit more! I raise $50.",51,False
+2025-08-31T22:20:44.248592,33,FLOP,1,,public,"I'm feeling the heat here, let's turn up the temperature with a raise of $300.",78,False
+2025-08-31T22:20:46.384412,34,PREFLOP,1,,public,"Nice weather we're having today, feels like a good time to spice things up a bit!",81,False
+2025-08-31T22:20:49.604346,34,PREFLOP,0,,public,"Absolutely, let's add some spice to the mix! I'll raise by $30.",63,False
+2025-08-31T22:20:50.442386,34,PREFLOP,1,,public,"The weather is indeed nice, let's keep the spice going with a $70 raise!",72,False
+2025-08-31T22:20:53.060925,35,PREFLOP,0,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-31T22:20:54.401058,35,PREFLOP,1,,public,"I agree, the weather is lovely today! Let's make it even better with a raise.",77,False
+2025-08-31T22:20:56.157997,35,PREFLOP,0,,public,"I'm feeling confident about this hand, let's see where it takes us!",67,False
+2025-08-31T22:20:57.509787,36,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-31T22:20:59.236595,36,PREFLOP,1,,public,"Nice raise, let's see where this leads us!",42,False
+2025-08-31T22:21:01.484828,36,PREFLOP,0,,public,I'm in! Let's make this interesting.,36,False
+2025-08-31T22:21:02.399269,37,PREFLOP,0,,public,"Nice weather today, isn't it?",29,False
+2025-08-31T22:21:03.197052,37,PREFLOP,1,,public,"I agree, the weather is lovely today. Let's make it even better with a little raise!",84,False
+2025-08-31T22:21:06.646461,37,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-31T22:21:11.120687,37,FLOP,1,,public,"I'm feeling quite optimistic today, let's add some excitement to the game!",74,False
+2025-08-31T22:21:14.399102,37,TURN,1,,public,I'm feeling the luck today too! Let's make this interesting.,60,False
+2025-08-31T22:21:15.586866,38,PREFLOP,1,,public,"Hey guys, I'm not feeling this hand, so I'll fold here. Good luck!",66,False
+2025-08-31T22:21:17.481384,38,PREFLOP,0,,public,"Hey, nice call! Let's squeeze this pot a bit more.",50,False
+2025-08-31T22:21:20.714250,39,PREFLOP,0,,public,"Hey guys, feeling pretty good about my hand here. I'll raise to see where we stand.",83,False
+2025-08-31T22:21:21.844040,39,PREFLOP,1,,public,Nice raise! I'll reraise to put more pressure on the opponents.,63,False
+2025-08-31T22:21:24.197715,39,PREFLOP,0,,public,"I'm feeling strong too, let's squeeze them together!",52,False
+2025-08-31T22:21:26.563568,40,PREFLOP,0,,public,"Hey guys, feeling pretty strong here. Let's put some pressure on the table!",75,False
+2025-08-31T22:21:27.370366,40,PREFLOP,1,,public,"Nice, let's squeeze them a bit more!",36,False
+2025-08-31T22:21:30.458816,40,PREFLOP,0,,public,Let's keep the pressure on! Raising $75.,40,False
+2025-08-31T22:21:31.879456,41,PREFLOP,0,,public,"Feeling lucky today, let's spice things up a bit!",49,False
+2025-08-31T22:21:32.895672,41,PREFLOP,1,,public,Nice weather we're having today! I'll raise $25 to keep things interesting.,75,False
+2025-08-31T22:21:35.475109,41,PREFLOP,0,,public,"I'm feeling the heat too, let's turn up the pressure! Raise $50.",64,False
+2025-08-31T22:21:38.093901,41,FLOP,1,,public,"I'm feeling the heat too, let's spice things up even more! Raise $100.",70,False
+2025-08-31T22:21:42.005642,41,TURN,1,,public,Looks like the heat is on! I'll raise $400 to keep things spicy.,64,False
+2025-08-31T22:21:45.177742,42,PREFLOP,1,,public,"Hey guys, feeling pretty good about this one. Let's see if we can build this pot up a bit!",90,False
+2025-08-31T22:21:47.295610,42,PREFLOP,0,,public,"Nice start, let's make this interesting!",40,False
+2025-08-31T22:21:48.233844,42,PREFLOP,1,,public,"I'm feeling confident too, let's pump up this pot!",50,False
+2025-08-31T22:21:51.202212,43,PREFLOP,0,,public,"Hey, feeling strong here. Let's build this pot up!",50,False
+2025-08-31T22:21:52.451982,43,PREFLOP,1,,public,Nice to see you confident! Let's pump this pot and make them sweat a bit.,73,False
+2025-08-31T22:21:54.947294,43,PREFLOP,0,,public,Let's put the pressure on! Raising $100 to see where we stand.,62,False
+2025-08-31T22:21:55.839539,43,FLOP,1,,public,Feeling strong too! Let's make a statement with a $200 raise.,61,False
+2025-08-31T22:21:58.156852,44,PREFLOP,0,,public,"Feeling strong with this hand, let's build the pot a bit!",57,False
+2025-08-31T22:21:59.441565,44,PREFLOP,1,,public,"Nice, let's squeeze a bit more value out of this hand!",54,False
+2025-08-31T22:22:01.079569,44,PREFLOP,0,,public,Let's keep the pressure on and maximize our value here!,55,False
+2025-08-31T22:22:02.716384,45,PREFLOP,0,,public,Looks like it's heating up! Let's spice things up a bit.,56,False
+2025-08-31T22:22:03.613642,45,PREFLOP,1,,public,Nice move! Let's make it interesting.,37,False
+2025-08-31T22:22:06.326718,45,PREFLOP,0,,public,Let's see if we can take control of this pot!,45,False
+2025-08-31T22:22:09.961240,45,FLOP,1,,public,Let's crank up the heat a bit more!,35,False
+2025-08-31T22:22:10.780423,46,PREFLOP,1,,public,"Nice weather outside, isn't it?",31,False
+2025-08-31T22:22:12.617929,46,PREFLOP,0,,public,"I agree, great weather. Let's make it even better with a little action. I raise $20.",84,False
+2025-08-31T22:22:13.598458,46,PREFLOP,1,,public,I'm liking the action here! Let's squeeze a bit more. I raise $40.,66,False
+2025-08-31T22:22:16.827089,47,PREFLOP,0,,public,"Hey, feeling good about this one, let's spice it up a bit!",58,False
+2025-08-31T22:22:17.634919,47,PREFLOP,1,,public,"Let's make this hand interesting, I'll raise $20!",49,False
+2025-08-31T22:22:18.409924,47,PREFLOP,0,,public,"Nice hand you got there, let's build this pot together!",55,False
+2025-08-31T22:22:20.476706,48,PREFLOP,0,,public,"Feeling good about this one, let's add some heat to the pot!",60,False
+2025-08-31T22:22:21.247415,48,PREFLOP,1,,public,"Nice hand, let's make this interesting!",39,False
+2025-08-31T22:22:22.607464,48,PREFLOP,0,,public,Let's put some real pressure on them!,37,False
+2025-08-31T22:22:23.519492,49,PREFLOP,0,,public,"Nice weather we're having today, isn't it?",42,False
+2025-08-31T22:22:29.831463,49,PREFLOP,0,,public,"I'm feeling lucky today, let's spice things up a bit!",53,False
+2025-08-31T22:22:31.807067,49,FLOP,1,,public,I'm feeling lucky too. Let's make it interesting!,49,False
+2025-08-31T22:22:32.597249,50,PREFLOP,1,,public,"Nice weather we're having today, right?",39,False
+2025-08-31T22:22:34.743139,50,PREFLOP,0,,public,"Absolutely, the weather is perfect for a good game.",51,False
+2025-08-31T22:22:36.253473,50,FLOP,1,,public,"This board looks interesting, let's spice it up a bit.",54,False
+2025-08-31T22:22:37.815057,50,FLOP,1,,public,"I agree, let's spice things up even more!",41,False
+2025-08-31T22:22:39.623798,51,PREFLOP,0,,public,Looks like a good spot to apply some pressure. Let's see how they react.,72,False
+2025-08-31T22:22:40.683480,51,PREFLOP,1,,public,"I'm feeling confident with my hand, let's put some more pressure on them!",73,False
+2025-08-31T22:22:41.916888,51,PREFLOP,0,,public,"I believe it's time to squeeze a bit more, let's push them further.",67,False
+2025-08-31T22:22:43.250111,52,PREFLOP,0,,public,"Nice hand, Player 3! I'll raise to add some spice to the pot.",61,False
+2025-08-31T22:22:44.414361,52,PREFLOP,1,,public,"Nice raise, Player 0! I'll join the action with a raise too.",60,False
+2025-08-31T22:22:46.527395,52,PREFLOP,0,,public,"Nice hands, guys! Let's build this pot together.",48,False
+2025-08-31T22:22:47.415936,53,PREFLOP,0,,public,"Nice weather we're having today, right? I'll raise it up a bit to spice things up.",82,False
+2025-08-31T22:22:48.645100,53,PREFLOP,1,,public,"Indeed, the weather is lovely. I'll raise it a bit more to keep things interesting.",83,False
+2025-08-31T22:22:54.772089,53,PREFLOP,0,,public,"I'm feeling good about this hand, let's keep the momentum going!",64,False
+2025-08-31T22:22:56.733631,53,FLOP,1,,public,I'm going to keep the momentum going with a raise.,50,False
+2025-08-31T22:22:57.590895,54,PREFLOP,1,,public,"Nice weather today, isn't it?",29,False
+2025-08-31T22:23:00.156355,54,PREFLOP,0,,public,I'm feeling lucky today! Let's make it interesting.,51,False
+2025-08-31T22:23:01.676317,54,PREFLOP,1,,public,I'm feeling lucky too! Let's make this pot really interesting.,62,False
+2025-08-31T22:23:04.603236,54,FLOP,0,,public,"Nice weather indeed! Feeling the luck today, let's add some excitement to the pot.",82,False
+2025-08-31T22:23:07.250927,55,PREFLOP,0,,public,"Nice hand so far, let's see if we can build this pot a bit!",59,False
+2025-08-31T22:23:08.348237,55,PREFLOP,1,,public,"I like the energy, let's pump this up a bit more!",49,False
+2025-08-31T22:23:10.072023,55,PREFLOP,0,,public,Let's keep the momentum going! I raise $60.,43,False
+2025-08-31T22:23:10.685535,55,FLOP,1,,public,"Nice, let's squeeze the value out of this hand!",47,False
+2025-08-31T22:23:13.426195,56,PREFLOP,0,,public,"Hey, I'm feeling lucky today! Let's spice things up a bit.",58,False
+2025-08-31T22:23:14.167327,56,PREFLOP,1,,public,"Nice vibe, let's keep it rolling! I'll bump it up a bit.",56,False
+2025-08-31T22:23:17.875772,56,PREFLOP,0,,public,"Feeling the heat, let's turn up the pressure.",45,False
+2025-08-31T22:23:18.518556,56,FLOP,1,,public,Time to turn up the heat even more!,35,False
+2025-08-31T22:23:20.722718,56,FLOP,1,,public,Let's squeeze the most out of this hand!,40,False
+2025-08-31T22:23:21.952665,57,PREFLOP,0,,public,Nice weather we're having today! Just testing the waters with a little raise.,77,False
+2025-08-31T22:23:22.975962,57,PREFLOP,1,,public,"I'm feeling good about this hand, let's put some pressure on the table.",71,False
+2025-08-31T22:23:26.238902,57,PREFLOP,0,,public,"I agree, let's squeeze them a bit more with a raise.",52,False
+2025-08-31T22:23:28.195559,57,FLOP,1,,public,Looks like the pot could use a little boost! Let's keep the pressure up.,72,False
+2025-08-31T22:23:29.444104,58,PREFLOP,1,,public,"Nice hand, I'm feeling strong too!",34,False
+2025-08-31T22:23:32.033826,58,PREFLOP,0,,public,"I agree, feeling strong as well! Let's build this pot together.",63,False
+2025-08-31T22:23:33.116727,58,PREFLOP,1,,public,Let's squeeze them a bit more! I'll raise $100.,47,False
+2025-08-31T22:23:36.130602,58,FLOP,0,,public,"Nice raise, I'll add $118 to the pot!",37,False
+2025-08-31T22:23:39.373471,59,PREFLOP,0,,public,"Hey, I'm feeling strong here. Let's put some pressure on them!",62,False
+2025-08-31T22:23:40.181131,59,PREFLOP,1,,public,"Nice, let's squeeze them harder!",32,False
+2025-08-31T22:23:43.754012,59,PREFLOP,0,,public,Let's keep the pressure on! I'm raising $200.,45,False
+2025-08-31T22:23:45.220845,60,PREFLOP,0,,public,"Nice try, but this hand isn't worth it. I'll fold.",50,False
+2025-08-31T22:23:46.431470,60,PREFLOP,1,,public,"I agree, let's fold this one and wait for a better spot.",56,False

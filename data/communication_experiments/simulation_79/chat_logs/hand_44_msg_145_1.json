@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:30:31.506665",
+  "hand_id": 44,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "The weather is great indeed! Let's spice things up a bit. I'll raise $50.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 73,
+  "contains_signal": false,
+  "message_id": 145,
+  "game_context": {
+    "pot_size": 30,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

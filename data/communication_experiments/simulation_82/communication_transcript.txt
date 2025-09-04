@@ -1,0 +1,983 @@
+============================================================
+POKER COMMUNICATION TRANSCRIPT - Simulation 82
+============================================================
+
+========================================
+HAND 1
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey guys, let's spice things up a bit with a little raise here!"
+[Player 0 RAISE $12]
+Player 1: "I'm feeling lucky today, let's bump up the stakes a bit!"
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's heat things up a bit more! I'll raise $70."
+[Player 0 FOLD]
+
+========================================
+HAND 2
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey, feeling good about this hand. Let's pump up the action a bit!"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Great hand here, let's make it interesting!"
+[Player 0 RAISE $20]
+Player 1: "Let's keep the momentum going with a raise here!"
+[Player 1 FOLD]
+
+========================================
+HAND 3
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Nice weather today, isn't it?"
+[Player 0 RAISE $20]
+Player 1: "I agree, the weather is beautiful. Let's make the most of this hand!"
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+Player 0: "I'm feeling confident about this hand. Let's build that pot!"
+[Player 0 FOLD]
+
+========================================
+HAND 4
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Nice weather we're having today, isn't it?"
+[Player 0 RAISE $10]
+Player 1: "I agree, the weather is lovely. Let's make it even sunnier with a little raise of $20!"
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+Player 0: "I'm feeling lucky today, let's make it $50 to go!"
+[Player 0 FOLD]
+
+========================================
+HAND 5
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey guys, feeling pretty good about my hand here. Let's build this pot up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice hand, I'm backing you up with a raise to build the pot even more!"
+[Player 1 RAISE $25]
+[Player 2 FOLD]
+[Player 3 RAISE $52]
+Player 0: "Nice move! Let's put even more pressure on them."
+[Player 0 FOLD]
+Player 1: "I'll add some more pressure too! Raising $120."
+[Player 1 FOLD]
+
+========================================
+HAND 6
+========================================
+
+--- PREFLOP ---
+Player 1: "Thinking of conserving chips with this hand."
+[Player 1 FOLD]
+[Player 2 FOLD]
+[Player 3 CALL $3]
+Player 0: "I think it's worth applying some pressure here."
+[Player 0 RAISE $10]
+[Player 3 FOLD]
+
+========================================
+HAND 7
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Hey, feeling pretty good about this hand. Let's spice things up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice, let's make it interesting! I'm raising $20."
+[Player 1 RAISE $20]
+Player 0: "I'm feeling confident too! Let's squeeze them a bit more. Raising $30."
+[Player 0 FOLD]
+
+========================================
+HAND 8
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Let's squeeze a bit here."
+[Player 0 RAISE $10]
+Player 1: "Nice play, I'm in!"
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+Player 0: "Nice hand! Let's build this pot together."
+[Player 0 FOLD]
+
+========================================
+HAND 9
+========================================
+
+--- PREFLOP ---
+Player 0: "Feeling strong today, let's build this pot together!"
+[Player 0 RAISE $15]
+Player 1: "Let's crank up the heat a bit!"
+[Player 1 RAISE $30]
+[Player 2 CALL $28]
+[Player 3 FOLD]
+Player 0: "Let's squeeze this pot a little more!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $40]
+Player 1: "Let's keep the pressure on!"
+[Player 1 FOLD]
+
+========================================
+HAND 10
+========================================
+
+--- PREFLOP ---
+Player 1: "Looks like a tough hand to play here, I'll fold."
+[Player 1 FOLD]
+[Player 2 CALL $5]
+Player 0: "Feeling lucky today, let's spice things up a bit!"
+[Player 0 RAISE $15]
+[Player 2 FOLD]
+[Player 3 CALL]
+
+--- FLOP ---
+[Player 3 RAISE $23]
+Player 0: "Looks like there might be some potential here, let's see how this plays out!"
+[Player 0 FOLD]
+
+========================================
+HAND 11
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 RAISE $15]
+Player 0: "Hey guys, this one looks a bit too rich for my blood. I'll sit this one out."
+[Player 0 FOLD]
+Player 1: "Nice raise there, really making the game interesting!"
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+[Player 3 CALL]
+
+--- FLOP ---
+Player 1: "Feeling confident with this hand, let's see where it takes us!"
+[Player 1 RAISE $90]
+[Player 3 FOLD]
+
+========================================
+HAND 12
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Looks like we've got some good hands to play here!"
+[Player 0 RAISE $12]
+Player 1: "Nice hand, feeling confident?"
+[Player 1 RAISE $25]
+[Player 2 FOLD]
+Player 0: "I'm feeling confident too! Let's squeeze them a bit more."
+[Player 0 FOLD]
+
+========================================
+HAND 13
+========================================
+
+--- PREFLOP ---
+Player 0: "Just testing the waters with a little raise here. Let's see how this plays out!"
+[Player 0 RAISE $10]
+Player 1: "Nice move, testing the waters with a raise. Let's squeeze the action a bit more!"
+[Player 1 RAISE $30]
+[Player 2 CALL $28]
+[Player 3 CALL $25]
+Player 0: "Let's put some real pressure on the table!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $66]
+[Player 3 FOLD]
+Player 1: "I see the opportunity to apply more pressure here."
+[Player 1 FOLD]
+
+========================================
+HAND 14
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, feeling strong here. Let's put some pressure on them!"
+[Player 1 RAISE $10]
+[Player 2 CALL $10]
+[Player 3 FOLD]
+Player 0: "Nice! Let's squeeze them hard!"
+[Player 0 RAISE $20]
+Player 1: "Let's keep the pressure on! Raising $30."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 15
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL $5]
+Player 0: "Nice little hand here, let's see some action!"
+[Player 0 RAISE $15]
+Player 1: "Let's spice things up a bit, raising $30!"
+[Player 1 RAISE $30]
+[Player 3 FOLD]
+Player 0: "Let's keep the pressure on, raising $60!"
+[Player 0 FOLD]
+
+========================================
+HAND 16
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Nice weather today, isn't it?"
+[Player 0 RAISE $10]
+Player 1: "I agree, the weather is lovely. Let's make it even better by adding $20 to the pot!"
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+Player 0: "I'm feeling good about this hand, let's spice things up with an extra $30."
+[Player 0 FOLD]
+
+========================================
+HAND 17
+========================================
+
+--- PREFLOP ---
+Player 0: "Let's apply some pressure here, gonna bump it up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice move, I'm going to reraise to put some more pressure!"
+[Player 1 RAISE $25]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's squeeze the pot here and put some real pressure on the others!"
+[Player 0 FOLD]
+
+========================================
+HAND 18
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, feeling confident with my hand here. Let's put a little pressure on the table!"
+[Player 1 RAISE $10]
+[Player 3 FOLD]
+Player 0: "Great to hear! Let's make it interesting. I'll raise $20."
+[Player 0 RAISE $20]
+Player 1: "Nice bet, let's build this pot up a bit more!"
+[Player 1 FOLD]
+[Player 2 CALL]
+
+--- FLOP ---
+Player 0: "Nice, let's keep the pressure on. I'll raise $40."
+[Player 0 RAISE $40]
+[Player 2 FOLD]
+
+========================================
+HAND 19
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL $5]
+Player 0: "Nice hand, let's bump it up a bit!"
+[Player 0 RAISE $15]
+Player 1: "I'll join the party with a raise!"
+[Player 1 RAISE $30]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's make this interesting!"
+[Player 0 FOLD]
+
+========================================
+HAND 20
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice weather we're having today!"
+[Player 0 RAISE $15]
+Player 1: "Oh, I agree! The weather is lovely. I'll just call here."
+[Player 1 RAISE $33]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Looks like a good spot to apply some pressure. Let's build this pot!"
+[Player 0 FOLD]
+
+========================================
+HAND 21
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today, huh?"
+[Player 0 RAISE $10]
+Player 1: "This weather does make me feel lucky. I'll raise $30."
+[Player 1 RAISE $30]
+[Player 2 CALL $28]
+[Player 3 CALL $25]
+Player 0: "I'm feeling lucky too! I'll raise $50."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $125]
+[Player 3 FOLD]
+Player 1: "I'm feeling the luck too! Let's push it up by $150!"
+[Player 1 FOLD]
+
+========================================
+HAND 22
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather we're having today, isn't it?"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 0 RAISE $20]
+Player 1: "I think the pot could use a little boost, let's make it more interesting!"
+[Player 1 FOLD]
+[Player 3 CALL]
+
+--- FLOP ---
+[Player 3 RAISE $25]
+Player 0: "I'm feeling confident in this hand, let's see where it goes!"
+[Player 0 RAISE $50]
+[Player 3 FOLD]
+
+========================================
+HAND 23
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Nice weather we're having, huh?"
+[Player 0 RAISE $20]
+Player 1: "Yeah, it's a beautiful day. I'm enjoying the sunshine. I'll raise $50."
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+Player 0: "I like the way you're playing, let's make it $100 to go!"
+[Player 0 FOLD]
+
+========================================
+HAND 24
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice weather today, isn't it? So much sunshine!"
+[Player 0 RAISE $20]
+Player 1: "Absolutely, the weather is fantastic! Let's make it even better with a nice little raise."
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I'm feeling the heat today! Let's spice things up with a raise."
+[Player 0 FOLD]
+
+========================================
+HAND 25
+========================================
+
+--- PREFLOP ---
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 RAISE $15]
+Player 1: "Nice move! Let's make it spicy indeed. I'll add a little extra flavor to the pot."
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I'm feeling the heat too! Let's turn up the temperature with a raise."
+[Player 0 FOLD]
+
+========================================
+HAND 26
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, feeling pretty good about my hand here. Let's build this pot together!"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Nice, let's make this pot juicy!"
+[Player 0 RAISE $20]
+Player 1: "Let's squeeze this pot a bit more!"
+[Player 1 FOLD]
+
+========================================
+HAND 27
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Nice weather today, isn't it?"
+[Player 0 RAISE $15]
+Player 1: "I agree, the weather is lovely today. Let's make the most of it with a little raise to $30!"
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+Player 0: "Indeed, let's make the most of this weather with a strong play. I raise to $80."
+[Player 0 FOLD]
+
+========================================
+HAND 28
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice hand to play. Let's spice things up a bit!"
+[Player 0 RAISE $20]
+Player 1: "Feeling confident with my hand."
+[Player 1 RAISE $60]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's make this interesting. I raise $40."
+[Player 0 FOLD]
+
+========================================
+HAND 29
+========================================
+
+--- PREFLOP ---
+Player 0: "Feeling confident in this hand, let's spice things up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Sounds exciting! Let's add to the pot and see where this hand takes us!"
+[Player 1 RAISE $20]
+[Player 2 RAISE $46]
+[Player 3 FOLD]
+Player 0: "Let's keep the momentum going! I'll raise $100."
+[Player 0 FOLD]
+Player 1: "Let's keep the pressure on! I'll raise $200."
+[Player 1 FOLD]
+
+========================================
+HAND 30
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather we're having today, isn't it?"
+[Player 1 RAISE $15]
+[Player 2 CALL]
+[Player 3 FOLD]
+Player 0: "I agree, the weather is lovely. Let's keep the good vibes going with a little raise here."
+[Player 0 RAISE $30]
+Player 1: "I'm feeling good about this hand, let's keep the momentum going!"
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 31
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 RAISE $15]
+Player 0: "Hey guys, facing a big raise here with J7 suited. Fold for now and let's regroup next hand."
+[Player 0 FOLD]
+Player 1: "Hey guys, not feeling strong with 2d 8s. I'll fold this one."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 32
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I'm feeling strong, let's apply some pressure here!"
+[Player 0 RAISE $10]
+Player 1: "Let's squeeze a bit more, I'm with you on this!"
+[Player 1 RAISE $20]
+[Player 2 RAISE $43]
+Player 0: "Nice move, let's squeeze them harder!"
+[Player 0 FOLD]
+Player 1: "Let's keep the pressure on, raising $80!"
+[Player 1 FOLD]
+
+========================================
+HAND 33
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today, right?"
+[Player 0 RAISE $10]
+Player 1: "I'm feeling confident today, let's spice things up a bit!"
+[Player 1 RAISE $25]
+[Player 2 CALL $23]
+[Player 3 CALL $20]
+Player 0: "I agree, let's spice it up a bit more! I raise $50."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $106]
+[Player 3 RAISE $238]
+Player 1: "I'm feeling the heat here, let's turn up the temperature with a raise of $300."
+[Player 1 FOLD]
+[Player 2 FOLD]
+
+========================================
+HAND 34
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather we're having today, feels like a good time to spice things up a bit!"
+[Player 1 RAISE $10]
+[Player 2 RAISE $21]
+[Player 3 FOLD]
+Player 0: "Absolutely, let's add some spice to the mix! I'll raise by $30."
+[Player 0 RAISE $30]
+Player 1: "The weather is indeed nice, let's keep the spice going with a $70 raise!"
+[Player 1 FOLD]
+
+========================================
+HAND 35
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 CALL $5]
+Player 0: "Nice weather we're having today, isn't it?"
+[Player 0 RAISE $20]
+Player 1: "I agree, the weather is lovely today! Let's make it even better with a raise."
+[Player 1 RAISE $50]
+[Player 3 FOLD]
+Player 0: "I'm feeling confident about this hand, let's see where it takes us!"
+[Player 0 FOLD]
+
+========================================
+HAND 36
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice raise, let's see where this leads us!"
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+Player 0: "I'm in! Let's make this interesting."
+[Player 0 FOLD]
+
+========================================
+HAND 37
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather today, isn't it?"
+[Player 0 RAISE $10]
+Player 1: "I agree, the weather is lovely today. Let's make it even better with a little raise!"
+[Player 1 RAISE $30]
+[Player 2 CALL $28]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $49]
+Player 1: "I'm feeling quite optimistic today, let's add some excitement to the game!"
+[Player 1 RAISE $100]
+[Player 2 CALL $51]
+
+--- TURN ---
+[Player 2 RAISE $181]
+Player 1: "I'm feeling the luck today too! Let's make this interesting."
+[Player 1 FOLD]
+
+========================================
+HAND 38
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, I'm not feeling this hand, so I'll fold here. Good luck!"
+[Player 1 FOLD]
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Hey, nice call! Let's squeeze this pot a bit more."
+[Player 0 RAISE $20]
+[Player 2 FOLD]
+
+========================================
+HAND 39
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 FOLD]
+Player 0: "Hey guys, feeling pretty good about my hand here. I'll raise to see where we stand."
+[Player 0 RAISE $15]
+Player 1: "Nice raise! I'll reraise to put more pressure on the opponents."
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+Player 0: "I'm feeling strong too, let's squeeze them together!"
+[Player 0 FOLD]
+
+========================================
+HAND 40
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Hey guys, feeling pretty strong here. Let's put some pressure on the table!"
+[Player 0 RAISE $15]
+Player 1: "Nice, let's squeeze them a bit more!"
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's keep the pressure on! Raising $75."
+[Player 0 FOLD]
+
+========================================
+HAND 41
+========================================
+
+--- PREFLOP ---
+Player 0: "Feeling lucky today, let's spice things up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice weather we're having today! I'll raise $25 to keep things interesting."
+[Player 1 RAISE $25]
+[Player 2 CALL $23]
+[Player 3 FOLD]
+Player 0: "I'm feeling the heat too, let's turn up the pressure! Raise $50."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $42]
+Player 1: "I'm feeling the heat too, let's spice things up even more! Raise $100."
+[Player 1 RAISE $100]
+[Player 2 CALL]
+
+--- TURN ---
+[Player 2 RAISE $174]
+Player 1: "Looks like the heat is on! I'll raise $400 to keep things spicy."
+[Player 1 RAISE $400]
+[Player 2 CALL]
+
+--- RIVER ---
+[Player 2 FOLD]
+
+========================================
+HAND 42
+========================================
+
+--- PREFLOP ---
+Player 1: "Hey guys, feeling pretty good about this one. Let's see if we can build this pot up a bit!"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 CALL $8]
+Player 0: "Nice start, let's make this interesting!"
+[Player 0 RAISE $20]
+Player 1: "I'm feeling confident too, let's pump up this pot!"
+[Player 1 FOLD]
+[Player 3 FOLD]
+
+========================================
+HAND 43
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Hey, feeling strong here. Let's build this pot up!"
+[Player 0 RAISE $15]
+Player 1: "Nice to see you confident! Let's pump this pot and make them sweat a bit."
+[Player 1 RAISE $40]
+[Player 2 CALL]
+Player 0: "Let's put the pressure on! Raising $100 to see where we stand."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Feeling strong too! Let's make a statement with a $200 raise."
+[Player 1 RAISE $200]
+[Player 2 CALL]
+
+========================================
+HAND 44
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Feeling strong with this hand, let's build the pot a bit!"
+[Player 0 RAISE $10]
+Player 1: "Nice, let's squeeze a bit more value out of this hand!"
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+Player 0: "Let's keep the pressure on and maximize our value here!"
+[Player 0 FOLD]
+
+========================================
+HAND 45
+========================================
+
+--- PREFLOP ---
+Player 0: "Looks like it's heating up! Let's spice things up a bit."
+[Player 0 RAISE $15]
+Player 1: "Nice move! Let's make it interesting."
+[Player 1 RAISE $40]
+[Player 2 FOLD]
+[Player 3 CALL $35]
+Player 0: "Let's see if we can take control of this pot!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 RAISE $64]
+Player 1: "Let's crank up the heat a bit more!"
+[Player 1 FOLD]
+
+========================================
+HAND 46
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather outside, isn't it?"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "I agree, great weather. Let's make it even better with a little action. I raise $20."
+[Player 0 RAISE $20]
+Player 1: "I'm liking the action here! Let's squeeze a bit more. I raise $40."
+[Player 1 FOLD]
+
+========================================
+HAND 47
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Hey, feeling good about this one, let's spice it up a bit!"
+[Player 0 RAISE $10]
+Player 1: "Let's make this hand interesting, I'll raise $20!"
+[Player 1 RAISE $20]
+Player 0: "Nice hand you got there, let's build this pot together!"
+[Player 0 FOLD]
+
+========================================
+HAND 48
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Feeling good about this one, let's add some heat to the pot!"
+[Player 0 RAISE $12]
+Player 1: "Nice hand, let's make this interesting!"
+[Player 1 RAISE $24]
+[Player 2 FOLD]
+Player 0: "Let's put some real pressure on them!"
+[Player 0 FOLD]
+
+========================================
+HAND 49
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today, isn't it?"
+[Player 0 RAISE $10]
+[Player 1 RAISE $25]
+[Player 2 CALL $23]
+[Player 3 FOLD]
+Player 0: "I'm feeling lucky today, let's spice things up a bit!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 2 RAISE $32]
+Player 1: "I'm feeling lucky too. Let's make it interesting!"
+[Player 1 FOLD]
+
+========================================
+HAND 50
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather we're having today, right?"
+[Player 1 RAISE $10]
+[Player 2 CALL $10]
+[Player 3 FOLD]
+Player 0: "Absolutely, the weather is perfect for a good game."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "This board looks interesting, let's spice it up a bit."
+[Player 1 RAISE $20]
+[Player 2 RAISE $58]
+Player 1: "I agree, let's spice things up even more!"
+[Player 1 FOLD]
+
+========================================
+HAND 51
+========================================
+
+--- PREFLOP ---
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Looks like a good spot to apply some pressure. Let's see how they react."
+[Player 0 RAISE $10]
+Player 1: "I'm feeling confident with my hand, let's put some more pressure on them!"
+[Player 1 RAISE $25]
+Player 0: "I believe it's time to squeeze a bit more, let's push them further."
+[Player 0 FOLD]
+
+========================================
+HAND 52
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice hand, Player 3! I'll raise to add some spice to the pot."
+[Player 0 RAISE $15]
+Player 1: "Nice raise, Player 0! I'll join the action with a raise too."
+[Player 1 RAISE $30]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Nice hands, guys! Let's build this pot together."
+[Player 0 FOLD]
+
+========================================
+HAND 53
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today, right? I'll raise it up a bit to spice things up."
+[Player 0 RAISE $10]
+Player 1: "Indeed, the weather is lovely. I'll raise it a bit more to keep things interesting."
+[Player 1 RAISE $20]
+[Player 2 FOLD]
+[Player 3 CALL $15]
+Player 0: "I'm feeling good about this hand, let's keep the momentum going!"
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 RAISE $34]
+Player 1: "I'm going to keep the momentum going with a raise."
+[Player 1 FOLD]
+
+========================================
+HAND 54
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice weather today, isn't it?"
+[Player 1 RAISE $10]
+[Player 2 FOLD]
+[Player 3 RAISE $21]
+Player 0: "I'm feeling lucky today! Let's make it interesting."
+[Player 0 RAISE $50]
+Player 1: "I'm feeling lucky too! Let's make this pot really interesting."
+[Player 1 FOLD]
+[Player 3 CALL $29]
+
+--- FLOP ---
+[Player 3 RAISE $72]
+Player 0: "Nice weather indeed! Feeling the luck today, let's add some excitement to the pot."
+[Player 0 FOLD]
+
+========================================
+HAND 55
+========================================
+
+--- PREFLOP ---
+[Player 3 FOLD]
+Player 0: "Nice hand so far, let's see if we can build this pot a bit!"
+[Player 0 RAISE $10]
+Player 1: "I like the energy, let's pump this up a bit more!"
+[Player 1 RAISE $30]
+[Player 2 CALL]
+Player 0: "Let's keep the momentum going! I raise $60."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Nice, let's squeeze the value out of this hand!"
+[Player 1 RAISE $60]
+[Player 2 RAISE $162]
+[Player 1 FOLD]
+
+========================================
+HAND 56
+========================================
+
+--- PREFLOP ---
+Player 0: "Hey, I'm feeling lucky today! Let's spice things up a bit."
+[Player 0 RAISE $20]
+Player 1: "Nice vibe, let's keep it rolling! I'll bump it up a bit."
+[Player 1 RAISE $50]
+[Player 2 FOLD]
+[Player 3 CALL]
+Player 0: "Feeling the heat, let's turn up the pressure."
+[Player 0 FOLD]
+
+--- FLOP ---
+Player 1: "Time to turn up the heat even more!"
+[Player 1 RAISE $100]
+[Player 3 RAISE $281]
+Player 1: "Let's squeeze the most out of this hand!"
+[Player 1 FOLD]
+
+========================================
+HAND 57
+========================================
+
+--- PREFLOP ---
+Player 0: "Nice weather we're having today! Just testing the waters with a little raise."
+[Player 0 RAISE $15]
+Player 1: "I'm feeling good about this hand, let's put some pressure on the table."
+[Player 1 RAISE $35]
+[Player 2 FOLD]
+[Player 3 CALL $30]
+Player 0: "I agree, let's squeeze them a bit more with a raise."
+[Player 0 FOLD]
+
+--- FLOP ---
+[Player 3 RAISE $57]
+Player 1: "Looks like the pot could use a little boost! Let's keep the pressure up."
+[Player 1 FOLD]
+
+========================================
+HAND 58
+========================================
+
+--- PREFLOP ---
+Player 1: "Nice hand, I'm feeling strong too!"
+[Player 1 RAISE $15]
+[Player 2 FOLD]
+Player 0: "I agree, feeling strong as well! Let's build this pot together."
+[Player 0 RAISE $40]
+Player 1: "Let's squeeze them a bit more! I'll raise $100."
+[Player 1 FOLD]
+[Player 3 CALL]
+
+--- FLOP ---
+[Player 3 RAISE $118]
+Player 0: "Nice raise, I'll add $118 to the pot!"
+[Player 0 FOLD]
+
+========================================
+HAND 59
+========================================
+
+--- PREFLOP ---
+[Player 2 CALL $5]
+[Player 3 RAISE $15]
+Player 0: "Hey, I'm feeling strong here. Let's put some pressure on them!"
+[Player 0 RAISE $40]
+Player 1: "Nice, let's squeeze them harder!"
+[Player 1 RAISE $100]
+[Player 2 FOLD]
+[Player 3 FOLD]
+Player 0: "Let's keep the pressure on! I'm raising $200."
+[Player 0 FOLD]
+
+========================================
+HAND 60
+========================================
+
+--- PREFLOP ---
+[Player 3 CALL $5]
+Player 0: "Nice try, but this hand isn't worth it. I'll fold."
+[Player 0 FOLD]
+Player 1: "I agree, let's fold this one and wait for a better spot."
+[Player 1 FOLD]
+[Player 2 FOLD]

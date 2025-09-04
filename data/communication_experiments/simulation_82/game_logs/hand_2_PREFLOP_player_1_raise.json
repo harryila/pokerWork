@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-08-31T22:17:42.532108",
+  "hand_id": 2,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "action_type": "RAISE",
+  "amount": 10,
+  "reason": "Initiating squeeze play to maximize value from our strong hand and apply pressure on opponents.",
+  "action_number": 5,
+  "game_state": {
+    "hand_id": 2,
+    "current_player": 1,
+    "phase": "preflop",
+    "pot_amount": 7,
+    "chips_to_call": 5,
+    "min_raise": 5,
+    "community_cards": [],
+    "players": {
+      "0": {
+        "chips": 483,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 5,
+            "suit": 8,
+            "str_rank": "7",
+            "str_suit": "c",
+            "display": "7c"
+          },
+          {
+            "rank": 8,
+            "suit": 2,
+            "str_rank": "T",
+            "str_suit": "h",
+            "display": "Th"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "1": {
+        "chips": 519,
+        "state": "TO_CALL",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 4,
+            "str_rank": "2",
+            "str_suit": "d",
+            "display": "2d"
+          },
+          {
+            "rank": 7,
+            "suit": 4,
+            "str_rank": "9",
+            "str_suit": "d",
+            "display": "9d"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 498,
+        "state": "TO_CALL",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 4,
+            "suit": 4,
+            "str_rank": "6",
+            "str_suit": "d",
+            "display": "6d"
+          },
+          {
+            "rank": 1,
+            "suit": 4,
+            "str_rank": "3",
+            "str_suit": "d",
+            "display": "3d"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 493,
+        "state": "TO_CALL",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 6,
+            "suit": 2,
+            "str_rank": "8",
+            "str_suit": "h",
+            "display": "8h"
+          },
+          {
+            "rank": 0,
+            "suit": 2,
+            "str_rank": "2",
+            "str_suit": "h",
+            "display": "2h"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [],
+    "button_position": 2,
+    "small_blind_position": 3,
+    "big_blind_position": 0,
+    "num_players": 4,
+    "num_active_players": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:26:35.990407",
+  "hand_id": 17,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's turn up the heat with a little more fuel!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 47,
+  "contains_signal": false,
+  "message_id": 55,
+  "game_context": {
+    "pot_size": 118,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:18:33.911104",
+  "hand_id": 10,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Looks like there might be some potential here, let's see how this plays out!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": false,
+  "message_id": 30,
+  "game_context": {
+    "pot_size": 58,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

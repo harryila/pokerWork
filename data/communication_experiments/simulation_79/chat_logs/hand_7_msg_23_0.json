@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:25:31.291930",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's spice it up even more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 28,
+  "contains_signal": false,
+  "message_id": 23,
+  "game_context": {
+    "pot_size": 37,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

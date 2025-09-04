@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-31T22:22:54.772793",
+  "hand_id": 53,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, right? I'll raise it up a bit to spice things up.",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Indeed, the weather is lovely. I'll raise it a bit more to keep things interesting.",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling good about this hand, let's keep the momentum going!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 76.33333333333333,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 52,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 6,
+        "suit": 4,
+        "str_rank": "8",
+        "str_suit": "d",
+        "display": "8d"
+      },
+      {
+        "rank": 7,
+        "suit": 4,
+        "str_rank": "9",
+        "str_suit": "d",
+        "display": "9d"
+      },
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      }
+    ]
+  }
+}

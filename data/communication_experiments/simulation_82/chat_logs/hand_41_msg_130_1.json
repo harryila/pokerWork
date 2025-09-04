@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:21:38.093901",
+  "hand_id": 41,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling the heat too, let's spice things up even more! Raise $100.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 70,
+  "contains_signal": false,
+  "message_id": 130,
+  "game_context": {
+    "pot_size": 107,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      },
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 1,
+        "suit": 4,
+        "str_rank": "3",
+        "str_suit": "d",
+        "display": "3d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

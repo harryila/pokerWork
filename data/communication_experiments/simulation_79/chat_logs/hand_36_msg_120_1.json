@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T19:29:11.796435",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's heat things up a bit more! I'll raise $40.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 48,
+  "contains_signal": false,
+  "message_id": 120,
+  "game_context": {
+    "pot_size": 20,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

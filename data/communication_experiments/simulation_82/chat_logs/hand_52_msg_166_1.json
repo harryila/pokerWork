@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T22:22:44.414361",
+  "hand_id": 52,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Nice raise, Player 0! I'll join the action with a raise too.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 166,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

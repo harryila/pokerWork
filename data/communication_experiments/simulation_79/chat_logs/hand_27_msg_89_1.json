@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:28:09.056889",
+  "hand_id": 27,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's keep the momentum going with a solid raise!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 89,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

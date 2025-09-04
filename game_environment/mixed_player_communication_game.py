@@ -453,6 +453,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                     max_chips = self.game.players[current_player].chips
                     chips_to_call = self.game.chips_to_call(current_player)
                     
+                    print(f"[DEBUG VALIDATION] Player {current_player} RAISE validation: total={total}, max_chips={max_chips}, chips_to_call={chips_to_call}")
+                    
                     if total is None:
                         print(f"[FINAL FIX] Player {current_player} raise amount is None, forcing FOLD")
                         action_type = ActionType.FOLD
@@ -461,6 +463,8 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                         # Check if total is at least the current bet + minimum raise increment
                         min_raise_increment = self.game.min_raise()
                         min_total_raise = chips_to_call + min_raise_increment
+                        
+                        print(f"[DEBUG VALIDATION] Player {current_player} RAISE validation: min_raise_increment={min_raise_increment}, min_total_raise={min_total_raise}")
                         
                         if total < min_total_raise:
                             if max_chips < min_total_raise:
@@ -475,9 +479,16 @@ class MixedPlayerCommunicationGame(MixedPlayerGame):
                             print(f"[FINAL FIX] Player {current_player} raise amount {total} exceeds chips {max_chips}, forcing FOLD")
                             action_type = ActionType.FOLD
                             total = None
+                        else:
+                            print(f"[DEBUG VALIDATION] Player {current_player} RAISE validation: PASSED")
                 
                 # Take the action
-                self.game.take_action(action_type, total=total)
+                try:
+                    self.game.take_action(action_type, total=total)
+                except ValueError as e:
+                    print(f"[CRITICAL FIX] Player {current_player} action failed: {e}")
+                    print(f"[CRITICAL FIX] Forcing FOLD for player {current_player}")
+                    self.game.take_action(ActionType.FOLD)
                 
                 # Check if we've moved to a new phase and allow communication
                 if self.game.hand_phase != HandPhase.PREHAND and self.game.is_hand_running():

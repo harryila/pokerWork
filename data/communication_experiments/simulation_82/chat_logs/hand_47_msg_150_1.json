@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T22:22:17.634919",
+  "hand_id": 47,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's make this hand interesting, I'll raise $20!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 150,
+  "game_context": {
+    "pot_size": 15,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

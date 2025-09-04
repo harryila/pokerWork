@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-08-31T19:29:43.138386",
+  "hand_id": 40,
+  "phase": "PREFLOP",
+  "player_id": 3,
+  "action_type": "FOLD",
+  "amount": 0,
+  "reason": "The betting round is over, and my hand is not strong enough to call the 85 chips. Folding is the best decision here.",
+  "action_number": 254,
+  "game_state": {
+    "hand_id": 40,
+    "current_player": 3,
+    "phase": "preflop",
+    "pot_amount": 165,
+    "chips_to_call": 85,
+    "min_raise": 55,
+    "community_cards": [],
+    "players": {
+      "0": {
+        "chips": 181,
+        "state": "TO_CALL",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 3,
+            "suit": 8,
+            "str_rank": "5",
+            "str_suit": "c",
+            "display": "5c"
+          },
+          {
+            "rank": 8,
+            "suit": 1,
+            "str_rank": "T",
+            "str_suit": "s",
+            "display": "Ts"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 278,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 12,
+            "suit": 1,
+            "str_rank": "A",
+            "str_suit": "s",
+            "display": "As"
+          },
+          {
+            "rank": 2,
+            "suit": 2,
+            "str_rank": "4",
+            "str_suit": "h",
+            "display": "4h"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "2": {
+        "chips": 1077,
+        "state": "OUT",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 7,
+            "suit": 1,
+            "str_rank": "9",
+            "str_suit": "s",
+            "display": "9s"
+          },
+          {
+            "rank": 12,
+            "suit": 8,
+            "str_rank": "A",
+            "str_suit": "c",
+            "display": "Ac"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 299,
+        "state": "TO_CALL",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 9,
+            "suit": 2,
+            "str_rank": "J",
+            "str_suit": "h",
+            "display": "Jh"
+          },
+          {
+            "rank": 12,
+            "suit": 2,
+            "str_rank": "A",
+            "str_suit": "h",
+            "display": "Ah"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 5,
+            "position": "BB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 15,
+            "position": "UTG"
+          },
+          {
+            "player_id": 0,
+            "action_type": "RAISE",
+            "amount": 45,
+            "position": "CO"
+          },
+          {
+            "player_id": 1,
+            "action_type": "RAISE",
+            "amount": 100,
+            "position": "SB"
+          },
+          {
+            "player_id": 2,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "BB"
+          }
+        ]
+      }
+    ],
+    "button_position": 3,
+    "small_blind_position": 0,
+    "big_blind_position": 1,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

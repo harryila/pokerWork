@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-31T19:25:27.411055",
+  "hand_id": 6,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "I sense a strong hand here, let's see if we can take this pot down together.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": false,
+  "message_id": 21,
+  "game_context": {
+    "pot_size": 555,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:26:39.051976",
+  "hand_id": 18,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Feeling good about this one, let's spice it up a bit!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 58,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

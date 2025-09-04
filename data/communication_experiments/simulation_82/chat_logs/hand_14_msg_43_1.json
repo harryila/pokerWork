@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:18:56.604610",
+  "hand_id": 14,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's keep the pressure on! Raising $30.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 40,
+  "contains_signal": false,
+  "message_id": 43,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

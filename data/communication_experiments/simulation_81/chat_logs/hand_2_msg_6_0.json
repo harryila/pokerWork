@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T20:23:14.845379",
+  "hand_id": 2,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'm feeling confident with this hand, let's see how it plays out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 6,
+  "game_context": {
+    "pot_size": 32,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      },
+      {
+        "rank": 7,
+        "suit": 8,
+        "str_rank": "9",
+        "str_suit": "c",
+        "display": "9c"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

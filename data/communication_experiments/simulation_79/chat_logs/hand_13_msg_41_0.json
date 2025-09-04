@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:26:04.720994",
+  "hand_id": 13,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Love the energy at this table! Let's keep it lively.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 41,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

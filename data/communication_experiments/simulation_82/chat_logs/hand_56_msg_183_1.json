@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:23:18.518556",
+  "hand_id": 56,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Time to turn up the heat even more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 35,
+  "contains_signal": false,
+  "message_id": 183,
+  "game_context": {
+    "pot_size": 125,
+    "players_in_hand": [
+      1,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

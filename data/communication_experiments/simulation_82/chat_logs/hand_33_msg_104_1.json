@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-31T22:20:44.248592",
+  "hand_id": 33,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling the heat here, let's turn up the temperature with a raise of $300.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 78,
+  "contains_signal": false,
+  "message_id": 104,
+  "game_context": {
+    "pot_size": 429,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

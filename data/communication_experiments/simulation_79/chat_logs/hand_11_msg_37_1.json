@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T19:25:56.709927",
+  "hand_id": 11,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I'm going to bump it up, let's make this pot really interesting!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 64,
+  "contains_signal": false,
+  "message_id": 37,
+  "game_context": {
+    "pot_size": 42,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

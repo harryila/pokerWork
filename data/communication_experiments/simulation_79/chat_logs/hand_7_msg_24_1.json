@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:25:32.021372",
+  "hand_id": 7,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Let's see who's really feeling lucky now!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 24,
+  "game_context": {
+    "pot_size": 67,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-09-01T01:32:03.534092",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise! I'll join the party with you.",
+        "timestamp": "2025-09-01T01:32:05.341742",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling lucky too! Let's make this interesting.",
+        "timestamp": "2025-09-01T01:32:08.628784",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling good about this hand, let's build the pot a bit!",
+        "timestamp": "2025-09-01T01:32:10.386922",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice hand, let's see how they respond!",
+        "timestamp": "2025-09-01T01:32:11.968612",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like it's heating up! Let's spice it up a bit more.",
+        "timestamp": "2025-09-01T01:32:16.620516",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling confident in this hand, let's squeeze them a bit more!",
+        "timestamp": "2025-09-01T01:32:17.813105",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling lucky tonight. Let's spice things up a bit!",
+        "timestamp": "2025-09-01T01:32:22.068040",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice hand you got there. Let's make this interesting.",
+        "timestamp": "2025-09-01T01:32:24.270873",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Feeling good about this one. Let's see where it takes us.",
+        "timestamp": "2025-09-01T01:32:25.741455",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, don't you think?",
+        "timestamp": "2025-09-01T01:32:28.786720",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Yeah, it's a great day for poker!",
+        "timestamp": "2025-09-01T01:32:29.602602",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident in this hand, let's put some pressure on the opponents.",
+        "timestamp": "2025-09-01T01:32:32.077003",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_FLOP",
+    "hand_id": 4,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'll raise here to apply some more pressure on the opponents. Let's see how they react.",
+        "timestamp": "2025-09-01T01:32:33.005056",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling good about this hand too. Let's squeeze them a bit more!",
+        "timestamp": "2025-09-01T01:32:35.126500",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-09-01T01:32:36.334553",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely today! Let's see how this hand plays out.",
+        "timestamp": "2025-09-01T01:32:37.653728",
+        "target_player": null
+      }
+    ]
+  }
+]

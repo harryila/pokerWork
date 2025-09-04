@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T22:23:14.167327",
+  "hand_id": 56,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Nice vibe, let's keep it rolling! I'll bump it up a bit.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 181,
+  "game_context": {
+    "pot_size": 32,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

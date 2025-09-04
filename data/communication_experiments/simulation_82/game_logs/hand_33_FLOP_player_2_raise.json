@@ -1,0 +1,185 @@
+{
+  "timestamp": "2025-08-31T22:20:42.203235",
+  "hand_id": 33,
+  "phase": "FLOP",
+  "player_id": 2,
+  "action_type": "RAISE",
+  "amount": 106,
+  "reason": "Following the aggressive betting pattern and aiming to increase the pressure on opponents.",
+  "action_number": 199,
+  "game_state": {
+    "hand_id": 33,
+    "current_player": 2,
+    "phase": "flop",
+    "pot_amount": 85,
+    "chips_to_call": 0,
+    "min_raise": 5,
+    "community_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "players": {
+      "0": {
+        "chips": 347,
+        "state": "OUT",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 9,
+            "suit": 2,
+            "str_rank": "J",
+            "str_suit": "h",
+            "display": "Jh"
+          },
+          {
+            "rank": 11,
+            "suit": 2,
+            "str_rank": "K",
+            "str_suit": "h",
+            "display": "Kh"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 622,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 6,
+            "suit": 8,
+            "str_rank": "8",
+            "str_suit": "c",
+            "display": "8c"
+          },
+          {
+            "rank": 11,
+            "suit": 8,
+            "str_rank": "K",
+            "str_suit": "c",
+            "display": "Kc"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "2": {
+        "chips": 612,
+        "state": "IN",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 5,
+            "suit": 1,
+            "str_rank": "7",
+            "str_suit": "s",
+            "display": "7s"
+          },
+          {
+            "rank": 12,
+            "suit": 2,
+            "str_rank": "A",
+            "str_suit": "h",
+            "display": "Ah"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 334,
+        "state": "IN",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 7,
+            "suit": 8,
+            "str_rank": "9",
+            "str_suit": "c",
+            "display": "9c"
+          },
+          {
+            "rank": 8,
+            "suit": 2,
+            "str_rank": "T",
+            "str_suit": "h",
+            "display": "Th"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 0,
+            "action_type": "RAISE",
+            "amount": 10,
+            "position": "BB"
+          },
+          {
+            "player_id": 1,
+            "action_type": "RAISE",
+            "amount": 25,
+            "position": "UTG"
+          },
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 23,
+            "position": "CO"
+          },
+          {
+            "player_id": 3,
+            "action_type": "CALL",
+            "amount": 20,
+            "position": "SB"
+          },
+          {
+            "player_id": 0,
+            "action_type": "FOLD",
+            "amount": null,
+            "position": "BB"
+          }
+        ]
+      }
+    ],
+    "button_position": 1,
+    "small_blind_position": 2,
+    "big_blind_position": 3,
+    "num_players": 4,
+    "num_active_players": 3
+  }
+}

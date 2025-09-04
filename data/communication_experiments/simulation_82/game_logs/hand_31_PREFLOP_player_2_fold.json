@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-08-31T22:20:31.653882",
+  "hand_id": 31,
+  "phase": "PREFLOP",
+  "player_id": 2,
+  "action_type": "FOLD",
+  "amount": 0,
+  "reason": "Considering the weak hand and the previous folds, folding is the best choice here.",
+  "action_number": 187,
+  "game_state": {
+    "hand_id": 31,
+    "current_player": 2,
+    "phase": "preflop",
+    "pot_amount": 27,
+    "chips_to_call": 10,
+    "min_raise": 10,
+    "community_cards": [],
+    "players": {
+      "0": {
+        "chips": 367,
+        "state": "OUT",
+        "position": "CO",
+        "hand_cards": [
+          {
+            "rank": 9,
+            "suit": 8,
+            "str_rank": "J",
+            "str_suit": "c",
+            "display": "Jc"
+          },
+          {
+            "rank": 5,
+            "suit": 8,
+            "str_rank": "7",
+            "str_suit": "c",
+            "display": "7c"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": true,
+        "is_big_blind": false
+      },
+      "1": {
+        "chips": 667,
+        "state": "OUT",
+        "position": "SB",
+        "hand_cards": [
+          {
+            "rank": 0,
+            "suit": 4,
+            "str_rank": "2",
+            "str_suit": "d",
+            "display": "2d"
+          },
+          {
+            "rank": 6,
+            "suit": 1,
+            "str_rank": "8",
+            "str_suit": "s",
+            "display": "8s"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": true
+      },
+      "2": {
+        "chips": 607,
+        "state": "TO_CALL",
+        "position": "BB",
+        "hand_cards": [
+          {
+            "rank": 11,
+            "suit": 2,
+            "str_rank": "K",
+            "str_suit": "h",
+            "display": "Kh"
+          },
+          {
+            "rank": 4,
+            "suit": 4,
+            "str_rank": "6",
+            "str_suit": "d",
+            "display": "6d"
+          }
+        ],
+        "is_current_player": true,
+        "is_button": false,
+        "is_small_blind": false,
+        "is_big_blind": false
+      },
+      "3": {
+        "chips": 332,
+        "state": "IN",
+        "position": "UTG",
+        "hand_cards": [
+          {
+            "rank": 10,
+            "suit": 4,
+            "str_rank": "Q",
+            "str_suit": "d",
+            "display": "Qd"
+          },
+          {
+            "rank": 10,
+            "suit": 8,
+            "str_rank": "Q",
+            "str_suit": "c",
+            "display": "Qc"
+          }
+        ],
+        "is_current_player": false,
+        "is_button": true,
+        "is_small_blind": false,
+        "is_big_blind": false
+      }
+    },
+    "betting_history": [
+      {
+        "phase": "preflop",
+        "actions": [
+          {
+            "player_id": 2,
+            "action_type": "CALL",
+            "amount": 5,
+            "position": "BB"
+          },
+          {
+            "player_id": 3,
+            "action_type": "RAISE",
+            "amount": 15,
+            "position": "UTG"
+          },
+          {
+            "player_id": 0,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "CO"
+          },
+          {
+            "player_id": 1,
+            "action_type": "FOLD",
+            "amount": 0,
+            "position": "SB"
+          }
+        ]
+      }
+    ],
+    "button_position": 3,
+    "small_blind_position": 0,
+    "big_blind_position": 1,
+    "num_players": 4,
+    "num_active_players": 2
+  }
+}

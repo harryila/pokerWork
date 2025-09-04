@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-31T19:26:21.654403",
+  "hand_id": 15,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Nice weather today, huh?",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling confident today, raising $25!",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Great day for a strong move, let's push it up!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 37.0,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 70,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      }
+    ]
+  }
+}

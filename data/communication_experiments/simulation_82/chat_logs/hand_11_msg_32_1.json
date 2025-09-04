@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:18:37.755300",
+  "hand_id": 11,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Nice raise there, really making the game interesting!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 32,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

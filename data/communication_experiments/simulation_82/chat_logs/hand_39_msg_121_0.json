@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:21:20.714250",
+  "hand_id": 39,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey guys, feeling pretty good about my hand here. I'll raise to see where we stand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 83,
+  "contains_signal": false,
+  "message_id": 121,
+  "game_context": {
+    "pot_size": 12,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

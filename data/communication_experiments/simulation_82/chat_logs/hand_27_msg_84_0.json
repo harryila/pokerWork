@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T22:20:08.960781",
+  "hand_id": 27,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Indeed, let's make the most of this weather with a strong play. I raise to $80.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 79,
+  "contains_signal": false,
+  "message_id": 84,
+  "game_context": {
+    "pot_size": 50,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

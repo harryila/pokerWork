@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-08-31T22:21:14.399102",
+  "hand_id": 37,
+  "phase": "TURN",
+  "player_id": 1,
+  "message": "I'm feeling the luck today too! Let's make this interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 118,
+  "game_context": {
+    "pot_size": 456,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      },
+      {
+        "rank": 4,
+        "suit": 1,
+        "str_rank": "6",
+        "str_suit": "s",
+        "display": "6s"
+      }
+    ],
+    "betting_round": "turn"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-31T22:21:06.647258",
+  "hand_id": 37,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather today, isn't it?",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I agree, the weather is lovely today. Let's make it even better with a little raise!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling lucky today, let's spice things up a bit!",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 55.333333333333336,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 75,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      },
+      {
+        "rank": 2,
+        "suit": 4,
+        "str_rank": "4",
+        "str_suit": "d",
+        "display": "4d"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      }
+    ]
+  }
+}

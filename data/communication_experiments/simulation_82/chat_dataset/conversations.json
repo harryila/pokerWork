@@ -1,0 +1,1764 @@
+[
+  {
+    "key": "10_PREFLOP",
+    "hand_id": 10,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like a tough hand to play here, I'll fold.",
+        "timestamp": "2025-08-31T22:18:25.801591",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:18:30.012495",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "10_FLOP",
+    "hand_id": 10,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like there might be some potential here, let's see how this plays out!",
+        "timestamp": "2025-08-31T22:18:33.911104",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_PREFLOP",
+    "hand_id": 11,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, this one looks a bit too rich for my blood. I'll sit this one out.",
+        "timestamp": "2025-08-31T22:18:36.931868",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise there, really making the game interesting!",
+        "timestamp": "2025-08-31T22:18:37.755300",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "11_FLOP",
+    "hand_id": 11,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Feeling confident with this hand, let's see where it takes us!",
+        "timestamp": "2025-08-31T22:18:40.138891",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "12_PREFLOP",
+    "hand_id": 12,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like we've got some good hands to play here!",
+        "timestamp": "2025-08-31T22:18:42.601392",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice hand, feeling confident?",
+        "timestamp": "2025-08-31T22:18:43.758858",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident too! Let's squeeze them a bit more.",
+        "timestamp": "2025-08-31T22:18:45.259480",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_PREFLOP",
+    "hand_id": 13,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Just testing the waters with a little raise here. Let's see how this plays out!",
+        "timestamp": "2025-08-31T22:18:46.166940",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice move, testing the waters with a raise. Let's squeeze the action a bit more!",
+        "timestamp": "2025-08-31T22:18:47.119443",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put some real pressure on the table!",
+        "timestamp": "2025-08-31T22:18:49.822492",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "13_FLOP",
+    "hand_id": 13,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I see the opportunity to apply more pressure here.",
+        "timestamp": "2025-08-31T22:18:52.634384",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "14_PREFLOP",
+    "hand_id": 14,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, feeling strong here. Let's put some pressure on them!",
+        "timestamp": "2025-08-31T22:18:53.509939",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice! Let's squeeze them hard!",
+        "timestamp": "2025-08-31T22:18:55.195992",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on! Raising $30.",
+        "timestamp": "2025-08-31T22:18:56.604610",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "15_PREFLOP",
+    "hand_id": 15,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice little hand here, let's see some action!",
+        "timestamp": "2025-08-31T22:18:59.186069",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's spice things up a bit, raising $30!",
+        "timestamp": "2025-08-31T22:18:59.876608",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on, raising $60!",
+        "timestamp": "2025-08-31T22:19:02.054129",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "16_PREFLOP",
+    "hand_id": 16,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-31T22:19:03.525750",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely. Let's make it even better by adding $20 to the pot!",
+        "timestamp": "2025-08-31T22:19:04.285230",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling good about this hand, let's spice things up with an extra $30.",
+        "timestamp": "2025-08-31T22:19:05.947693",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "17_PREFLOP",
+    "hand_id": 17,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's apply some pressure here, gonna bump it up a bit!",
+        "timestamp": "2025-08-31T22:19:06.926618",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice move, I'm going to reraise to put some more pressure!",
+        "timestamp": "2025-08-31T22:19:07.743503",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze the pot here and put some real pressure on the others!",
+        "timestamp": "2025-08-31T22:19:10.246667",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_PREFLOP",
+    "hand_id": 18,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, feeling confident with my hand here. Let's put a little pressure on the table!",
+        "timestamp": "2025-08-31T22:19:11.173259",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Great to hear! Let's make it interesting. I'll raise $20.",
+        "timestamp": "2025-08-31T22:19:12.917074",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice bet, let's build this pot up a bit more!",
+        "timestamp": "2025-08-31T22:19:13.838092",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "18_FLOP",
+    "hand_id": 18,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice, let's keep the pressure on. I'll raise $40.",
+        "timestamp": "2025-08-31T22:19:15.879392",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "19_PREFLOP",
+    "hand_id": 19,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand, let's bump it up a bit!",
+        "timestamp": "2025-08-31T22:19:19.240957",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'll join the party with a raise!",
+        "timestamp": "2025-08-31T22:19:20.521938",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's make this interesting!",
+        "timestamp": "2025-08-31T22:19:22.511052",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "1_PREFLOP",
+    "hand_id": 1,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, let's spice things up a bit with a little raise here!",
+        "timestamp": "2025-08-31T22:17:35.353762",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling lucky today, let's bump up the stakes a bit!",
+        "timestamp": "2025-08-31T22:17:36.752317",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's heat things up a bit more! I'll raise $70.",
+        "timestamp": "2025-08-31T22:17:41.121255",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "20_PREFLOP",
+    "hand_id": 20,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today!",
+        "timestamp": "2025-08-31T22:19:24.282845",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Oh, I agree! The weather is lovely. I'll just call here.",
+        "timestamp": "2025-08-31T22:19:25.214439",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Looks like a good spot to apply some pressure. Let's build this pot!",
+        "timestamp": "2025-08-31T22:19:27.996327",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_PREFLOP",
+    "hand_id": 21,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, huh?",
+        "timestamp": "2025-08-31T22:19:28.780819",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "This weather does make me feel lucky. I'll raise $30.",
+        "timestamp": "2025-08-31T22:19:29.804684",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky too! I'll raise $50.",
+        "timestamp": "2025-08-31T22:19:32.363037",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "21_FLOP",
+    "hand_id": 21,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling the luck too! Let's push it up by $150!",
+        "timestamp": "2025-08-31T22:19:35.948824",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_PREFLOP",
+    "hand_id": 22,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-31T22:19:36.769272",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I think the pot could use a little boost, let's make it more interesting!",
+        "timestamp": "2025-08-31T22:19:39.505392",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "22_FLOP",
+    "hand_id": 22,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident in this hand, let's see where it goes!",
+        "timestamp": "2025-08-31T22:19:42.834156",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "23_PREFLOP",
+    "hand_id": 23,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having, huh?",
+        "timestamp": "2025-08-31T22:19:46.640896",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Yeah, it's a beautiful day. I'm enjoying the sunshine. I'll raise $50.",
+        "timestamp": "2025-08-31T22:19:48.135191",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I like the way you're playing, let's make it $100 to go!",
+        "timestamp": "2025-08-31T22:19:50.280997",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "24_PREFLOP",
+    "hand_id": 24,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it? So much sunshine!",
+        "timestamp": "2025-08-31T22:19:52.026459",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Absolutely, the weather is fantastic! Let's make it even better with a nice little raise.",
+        "timestamp": "2025-08-31T22:19:52.937961",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling the heat today! Let's spice things up with a raise.",
+        "timestamp": "2025-08-31T22:19:55.203588",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "25_PREFLOP",
+    "hand_id": 25,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:19:56.550322",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice move! Let's make it spicy indeed. I'll add a little extra flavor to the pot.",
+        "timestamp": "2025-08-31T22:19:57.455720",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling the heat too! Let's turn up the temperature with a raise.",
+        "timestamp": "2025-08-31T22:19:59.337414",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "26_PREFLOP",
+    "hand_id": 26,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, feeling pretty good about my hand here. Let's build this pot together!",
+        "timestamp": "2025-08-31T22:20:00.238619",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice, let's make this pot juicy!",
+        "timestamp": "2025-08-31T22:20:02.264383",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze this pot a bit more!",
+        "timestamp": "2025-08-31T22:20:03.799864",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "27_PREFLOP",
+    "hand_id": 27,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-31T22:20:05.650588",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely today. Let's make the most of it with a little raise to $30!",
+        "timestamp": "2025-08-31T22:20:06.673850",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Indeed, let's make the most of this weather with a strong play. I raise to $80.",
+        "timestamp": "2025-08-31T22:20:08.960781",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "28_PREFLOP",
+    "hand_id": 28,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand to play. Let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:20:10.329293",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Feeling confident with my hand.",
+        "timestamp": "2025-08-31T22:20:11.175112",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's make this interesting. I raise $40.",
+        "timestamp": "2025-08-31T22:20:14.285324",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "29_PREFLOP",
+    "hand_id": 29,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling confident in this hand, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:20:15.366425",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Sounds exciting! Let's add to the pot and see where this hand takes us!",
+        "timestamp": "2025-08-31T22:20:16.706310",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the momentum going! I'll raise $100.",
+        "timestamp": "2025-08-31T22:20:20.251444",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on! I'll raise $200.",
+        "timestamp": "2025-08-31T22:20:21.031485",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "2_PREFLOP",
+    "hand_id": 2,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey, feeling good about this hand. Let's pump up the action a bit!",
+        "timestamp": "2025-08-31T22:17:42.531708",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Great hand here, let's make it interesting!",
+        "timestamp": "2025-08-31T22:17:45.455070",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the momentum going with a raise here!",
+        "timestamp": "2025-08-31T22:17:46.109381",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "30_PREFLOP",
+    "hand_id": 30,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-31T22:20:21.926838",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, the weather is lovely. Let's keep the good vibes going with a little raise here.",
+        "timestamp": "2025-08-31T22:20:24.895317",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling good about this hand, let's keep the momentum going!",
+        "timestamp": "2025-08-31T22:20:26.233331",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "31_PREFLOP",
+    "hand_id": 31,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, facing a big raise here with J7 suited. Fold for now and let's regroup next hand.",
+        "timestamp": "2025-08-31T22:20:29.710975",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Hey guys, not feeling strong with 2d 8s. I'll fold this one.",
+        "timestamp": "2025-08-31T22:20:30.426284",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "32_PREFLOP",
+    "hand_id": 32,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling strong, let's apply some pressure here!",
+        "timestamp": "2025-08-31T22:20:33.638465",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze a bit more, I'm with you on this!",
+        "timestamp": "2025-08-31T22:20:34.401784",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice move, let's squeeze them harder!",
+        "timestamp": "2025-08-31T22:20:36.034708",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on, raising $80!",
+        "timestamp": "2025-08-31T22:20:36.937087",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_PREFLOP",
+    "hand_id": 33,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, right?",
+        "timestamp": "2025-08-31T22:20:37.702864",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling confident today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:20:38.621633",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's spice it up a bit more! I raise $50.",
+        "timestamp": "2025-08-31T22:20:40.768582",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "33_FLOP",
+    "hand_id": 33,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling the heat here, let's turn up the temperature with a raise of $300.",
+        "timestamp": "2025-08-31T22:20:44.248592",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "34_PREFLOP",
+    "hand_id": 34,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather we're having today, feels like a good time to spice things up a bit!",
+        "timestamp": "2025-08-31T22:20:46.384412",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Absolutely, let's add some spice to the mix! I'll raise by $30.",
+        "timestamp": "2025-08-31T22:20:49.604346",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "The weather is indeed nice, let's keep the spice going with a $70 raise!",
+        "timestamp": "2025-08-31T22:20:50.442386",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "35_PREFLOP",
+    "hand_id": 35,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-31T22:20:53.060925",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely today! Let's make it even better with a raise.",
+        "timestamp": "2025-08-31T22:20:54.401058",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident about this hand, let's see where it takes us!",
+        "timestamp": "2025-08-31T22:20:56.157997",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "36_PREFLOP",
+    "hand_id": 36,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:20:57.509787",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise, let's see where this leads us!",
+        "timestamp": "2025-08-31T22:20:59.236595",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm in! Let's make this interesting.",
+        "timestamp": "2025-08-31T22:21:01.484828",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_PREFLOP",
+    "hand_id": 37,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-31T22:21:02.399269",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely today. Let's make it even better with a little raise!",
+        "timestamp": "2025-08-31T22:21:03.197052",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:21:06.646461",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_FLOP",
+    "hand_id": 37,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling quite optimistic today, let's add some excitement to the game!",
+        "timestamp": "2025-08-31T22:21:11.120687",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "37_TURN",
+    "hand_id": 37,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling the luck today too! Let's make this interesting.",
+        "timestamp": "2025-08-31T22:21:14.399102",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "38_PREFLOP",
+    "hand_id": 38,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, I'm not feeling this hand, so I'll fold here. Good luck!",
+        "timestamp": "2025-08-31T22:21:15.586866",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Hey, nice call! Let's squeeze this pot a bit more.",
+        "timestamp": "2025-08-31T22:21:17.481384",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "39_PREFLOP",
+    "hand_id": 39,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, feeling pretty good about my hand here. I'll raise to see where we stand.",
+        "timestamp": "2025-08-31T22:21:20.714250",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise! I'll reraise to put more pressure on the opponents.",
+        "timestamp": "2025-08-31T22:21:21.844040",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling strong too, let's squeeze them together!",
+        "timestamp": "2025-08-31T22:21:24.197715",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "3_PREFLOP",
+    "hand_id": 3,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-31T22:17:47.813248",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is beautiful. Let's make the most of this hand!",
+        "timestamp": "2025-08-31T22:17:49.459408",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident about this hand. Let's build that pot!",
+        "timestamp": "2025-08-31T22:17:51.994510",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "40_PREFLOP",
+    "hand_id": 40,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, feeling pretty strong here. Let's put some pressure on the table!",
+        "timestamp": "2025-08-31T22:21:26.563568",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice, let's squeeze them a bit more!",
+        "timestamp": "2025-08-31T22:21:27.370366",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on! Raising $75.",
+        "timestamp": "2025-08-31T22:21:30.458816",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_PREFLOP",
+    "hand_id": 41,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:21:31.879456",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice weather we're having today! I'll raise $25 to keep things interesting.",
+        "timestamp": "2025-08-31T22:21:32.895672",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling the heat too, let's turn up the pressure! Raise $50.",
+        "timestamp": "2025-08-31T22:21:35.475109",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_FLOP",
+    "hand_id": 41,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling the heat too, let's spice things up even more! Raise $100.",
+        "timestamp": "2025-08-31T22:21:38.093901",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "41_TURN",
+    "hand_id": 41,
+    "phase": "TURN",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like the heat is on! I'll raise $400 to keep things spicy.",
+        "timestamp": "2025-08-31T22:21:42.005642",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "42_PREFLOP",
+    "hand_id": 42,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Hey guys, feeling pretty good about this one. Let's see if we can build this pot up a bit!",
+        "timestamp": "2025-08-31T22:21:45.177742",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice start, let's make this interesting!",
+        "timestamp": "2025-08-31T22:21:47.295610",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling confident too, let's pump up this pot!",
+        "timestamp": "2025-08-31T22:21:48.233844",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_PREFLOP",
+    "hand_id": 43,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, feeling strong here. Let's build this pot up!",
+        "timestamp": "2025-08-31T22:21:51.202212",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice to see you confident! Let's pump this pot and make them sweat a bit.",
+        "timestamp": "2025-08-31T22:21:52.451982",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put the pressure on! Raising $100 to see where we stand.",
+        "timestamp": "2025-08-31T22:21:54.947294",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "43_FLOP",
+    "hand_id": 43,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Feeling strong too! Let's make a statement with a $200 raise.",
+        "timestamp": "2025-08-31T22:21:55.839539",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "44_PREFLOP",
+    "hand_id": 44,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling strong with this hand, let's build the pot a bit!",
+        "timestamp": "2025-08-31T22:21:58.156852",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice, let's squeeze a bit more value out of this hand!",
+        "timestamp": "2025-08-31T22:21:59.441565",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on and maximize our value here!",
+        "timestamp": "2025-08-31T22:22:01.079569",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_PREFLOP",
+    "hand_id": 45,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like it's heating up! Let's spice things up a bit.",
+        "timestamp": "2025-08-31T22:22:02.716384",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice move! Let's make it interesting.",
+        "timestamp": "2025-08-31T22:22:03.613642",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's see if we can take control of this pot!",
+        "timestamp": "2025-08-31T22:22:06.326718",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "45_FLOP",
+    "hand_id": 45,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's crank up the heat a bit more!",
+        "timestamp": "2025-08-31T22:22:09.961240",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "46_PREFLOP",
+    "hand_id": 46,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather outside, isn't it?",
+        "timestamp": "2025-08-31T22:22:10.780423",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, great weather. Let's make it even better with a little action. I raise $20.",
+        "timestamp": "2025-08-31T22:22:12.617929",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm liking the action here! Let's squeeze a bit more. I raise $40.",
+        "timestamp": "2025-08-31T22:22:13.598458",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "47_PREFLOP",
+    "hand_id": 47,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, feeling good about this one, let's spice it up a bit!",
+        "timestamp": "2025-08-31T22:22:16.827089",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's make this hand interesting, I'll raise $20!",
+        "timestamp": "2025-08-31T22:22:17.634919",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice hand you got there, let's build this pot together!",
+        "timestamp": "2025-08-31T22:22:18.409924",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "48_PREFLOP",
+    "hand_id": 48,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling good about this one, let's add some heat to the pot!",
+        "timestamp": "2025-08-31T22:22:20.476706",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice hand, let's make this interesting!",
+        "timestamp": "2025-08-31T22:22:21.247415",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's put some real pressure on them!",
+        "timestamp": "2025-08-31T22:22:22.607464",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_PREFLOP",
+    "hand_id": 49,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-31T22:22:23.519492",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:22:29.831463",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "49_FLOP",
+    "hand_id": 49,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm feeling lucky too. Let's make it interesting!",
+        "timestamp": "2025-08-31T22:22:31.807067",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "4_PREFLOP",
+    "hand_id": 4,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, isn't it?",
+        "timestamp": "2025-08-31T22:17:53.310322",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, the weather is lovely. Let's make it even sunnier with a little raise of $20!",
+        "timestamp": "2025-08-31T22:17:54.825804",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today, let's make it $50 to go!",
+        "timestamp": "2025-08-31T22:17:56.930964",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_PREFLOP",
+    "hand_id": 50,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather we're having today, right?",
+        "timestamp": "2025-08-31T22:22:32.597249",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Absolutely, the weather is perfect for a good game.",
+        "timestamp": "2025-08-31T22:22:34.743139",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "50_FLOP",
+    "hand_id": 50,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "This board looks interesting, let's spice it up a bit.",
+        "timestamp": "2025-08-31T22:22:36.253473",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's spice things up even more!",
+        "timestamp": "2025-08-31T22:22:37.815057",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "51_PREFLOP",
+    "hand_id": 51,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Looks like a good spot to apply some pressure. Let's see how they react.",
+        "timestamp": "2025-08-31T22:22:39.623798",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling confident with my hand, let's put some more pressure on them!",
+        "timestamp": "2025-08-31T22:22:40.683480",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I believe it's time to squeeze a bit more, let's push them further.",
+        "timestamp": "2025-08-31T22:22:41.916888",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "52_PREFLOP",
+    "hand_id": 52,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand, Player 3! I'll raise to add some spice to the pot.",
+        "timestamp": "2025-08-31T22:22:43.250111",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice raise, Player 0! I'll join the action with a raise too.",
+        "timestamp": "2025-08-31T22:22:44.414361",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice hands, guys! Let's build this pot together.",
+        "timestamp": "2025-08-31T22:22:46.527395",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_PREFLOP",
+    "hand_id": 53,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today, right? I'll raise it up a bit to spice things up.",
+        "timestamp": "2025-08-31T22:22:47.415936",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Indeed, the weather is lovely. I'll raise it a bit more to keep things interesting.",
+        "timestamp": "2025-08-31T22:22:48.645100",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling good about this hand, let's keep the momentum going!",
+        "timestamp": "2025-08-31T22:22:54.772089",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "53_FLOP",
+    "hand_id": 53,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "I'm going to keep the momentum going with a raise.",
+        "timestamp": "2025-08-31T22:22:56.733631",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "54_PREFLOP",
+    "hand_id": 54,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice weather today, isn't it?",
+        "timestamp": "2025-08-31T22:22:57.590895",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling lucky today! Let's make it interesting.",
+        "timestamp": "2025-08-31T22:23:00.156355",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling lucky too! Let's make this pot really interesting.",
+        "timestamp": "2025-08-31T22:23:01.676317",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "54_FLOP",
+    "hand_id": 54,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather indeed! Feeling the luck today, let's add some excitement to the pot.",
+        "timestamp": "2025-08-31T22:23:04.603236",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_PREFLOP",
+    "hand_id": 55,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice hand so far, let's see if we can build this pot a bit!",
+        "timestamp": "2025-08-31T22:23:07.250927",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I like the energy, let's pump this up a bit more!",
+        "timestamp": "2025-08-31T22:23:08.348237",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the momentum going! I raise $60.",
+        "timestamp": "2025-08-31T22:23:10.072023",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "55_FLOP",
+    "hand_id": 55,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice, let's squeeze the value out of this hand!",
+        "timestamp": "2025-08-31T22:23:10.685535",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "56_PREFLOP",
+    "hand_id": 56,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm feeling lucky today! Let's spice things up a bit.",
+        "timestamp": "2025-08-31T22:23:13.426195",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice vibe, let's keep it rolling! I'll bump it up a bit.",
+        "timestamp": "2025-08-31T22:23:14.167327",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Feeling the heat, let's turn up the pressure.",
+        "timestamp": "2025-08-31T22:23:17.875772",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "56_FLOP",
+    "hand_id": 56,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Time to turn up the heat even more!",
+        "timestamp": "2025-08-31T22:23:18.518556",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze the most out of this hand!",
+        "timestamp": "2025-08-31T22:23:20.722718",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "57_PREFLOP",
+    "hand_id": 57,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice weather we're having today! Just testing the waters with a little raise.",
+        "timestamp": "2025-08-31T22:23:21.952665",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'm feeling good about this hand, let's put some pressure on the table.",
+        "timestamp": "2025-08-31T22:23:22.975962",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, let's squeeze them a bit more with a raise.",
+        "timestamp": "2025-08-31T22:23:26.238902",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "57_FLOP",
+    "hand_id": 57,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Looks like the pot could use a little boost! Let's keep the pressure up.",
+        "timestamp": "2025-08-31T22:23:28.195559",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "58_PREFLOP",
+    "hand_id": 58,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Nice hand, I'm feeling strong too!",
+        "timestamp": "2025-08-31T22:23:29.444104",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I agree, feeling strong as well! Let's build this pot together.",
+        "timestamp": "2025-08-31T22:23:32.033826",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's squeeze them a bit more! I'll raise $100.",
+        "timestamp": "2025-08-31T22:23:33.116727",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "58_FLOP",
+    "hand_id": 58,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice raise, I'll add $118 to the pot!",
+        "timestamp": "2025-08-31T22:23:36.130602",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "59_PREFLOP",
+    "hand_id": 59,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, I'm feeling strong here. Let's put some pressure on them!",
+        "timestamp": "2025-08-31T22:23:39.373471",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice, let's squeeze them harder!",
+        "timestamp": "2025-08-31T22:23:40.181131",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's keep the pressure on! I'm raising $200.",
+        "timestamp": "2025-08-31T22:23:43.754012",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "5_PREFLOP",
+    "hand_id": 5,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey guys, feeling pretty good about my hand here. Let's build this pot up a bit!",
+        "timestamp": "2025-08-31T22:17:58.049904",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice hand, I'm backing you up with a raise to build the pot even more!",
+        "timestamp": "2025-08-31T22:17:58.734992",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice move! Let's put even more pressure on them.",
+        "timestamp": "2025-08-31T22:18:01.579929",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I'll add some more pressure too! Raising $120.",
+        "timestamp": "2025-08-31T22:18:02.579041",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "60_PREFLOP",
+    "hand_id": 60,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Nice try, but this hand isn't worth it. I'll fold.",
+        "timestamp": "2025-08-31T22:23:45.220845",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "I agree, let's fold this one and wait for a better spot.",
+        "timestamp": "2025-08-31T22:23:46.431470",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "6_PREFLOP",
+    "hand_id": 6,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Thinking of conserving chips with this hand.",
+        "timestamp": "2025-08-31T22:18:03.289378",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I think it's worth applying some pressure here.",
+        "timestamp": "2025-08-31T22:18:04.964795",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "7_PREFLOP",
+    "hand_id": 7,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Hey, feeling pretty good about this hand. Let's spice things up a bit!",
+        "timestamp": "2025-08-31T22:18:09.342591",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice, let's make it interesting! I'm raising $20.",
+        "timestamp": "2025-08-31T22:18:10.578057",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "I'm feeling confident too! Let's squeeze them a bit more. Raising $30.",
+        "timestamp": "2025-08-31T22:18:11.602801",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "8_PREFLOP",
+    "hand_id": 8,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Let's squeeze a bit here.",
+        "timestamp": "2025-08-31T22:18:13.614584",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Nice play, I'm in!",
+        "timestamp": "2025-08-31T22:18:14.738301",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Nice hand! Let's build this pot together.",
+        "timestamp": "2025-08-31T22:18:16.122893",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_PREFLOP",
+    "hand_id": 9,
+    "phase": "PREFLOP",
+    "messages": [
+      {
+        "player_id": 0,
+        "message": "Feeling strong today, let's build this pot together!",
+        "timestamp": "2025-08-31T22:18:17.623662",
+        "target_player": null
+      },
+      {
+        "player_id": 1,
+        "message": "Let's crank up the heat a bit!",
+        "timestamp": "2025-08-31T22:18:19.677040",
+        "target_player": null
+      },
+      {
+        "player_id": 0,
+        "message": "Let's squeeze this pot a little more!",
+        "timestamp": "2025-08-31T22:18:22.722063",
+        "target_player": null
+      }
+    ]
+  },
+  {
+    "key": "9_FLOP",
+    "hand_id": 9,
+    "phase": "FLOP",
+    "messages": [
+      {
+        "player_id": 1,
+        "message": "Let's keep the pressure on!",
+        "timestamp": "2025-08-31T22:18:24.911074",
+        "target_player": null
+      }
+    ]
+  }
+]

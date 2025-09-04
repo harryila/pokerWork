@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:25:03.928972",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I'll follow up your raise with an additional $60.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 10,
+  "game_context": {
+    "pot_size": 168,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:18:24.911074",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "Let's keep the pressure on!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 27,
+  "contains_signal": false,
+  "message_id": 27,
+  "game_context": {
+    "pot_size": 120,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 6,
+        "suit": 2,
+        "str_rank": "8",
+        "str_suit": "h",
+        "display": "8h"
+      },
+      {
+        "rank": 3,
+        "suit": 2,
+        "str_rank": "5",
+        "str_suit": "h",
+        "display": "5h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

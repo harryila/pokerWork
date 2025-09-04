@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:30:35.230718",
+  "hand_id": 44,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I see potential here, let's raise the stakes a bit more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 147,
+  "game_context": {
+    "pot_size": 120,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      },
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

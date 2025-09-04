@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T22:19:50.280997",
+  "hand_id": 23,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I like the way you're playing, let's make it $100 to go!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 56,
+  "contains_signal": false,
+  "message_id": 72,
+  "game_context": {
+    "pot_size": 75,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

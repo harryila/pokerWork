@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:20:24.895317",
+  "hand_id": 30,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I agree, the weather is lovely. Let's keep the good vibes going with a little raise here.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": false,
+  "message_id": 93,
+  "game_context": {
+    "pot_size": 37,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:28:49.947298",
+  "hand_id": 32,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling confident in my hand. Let's keep building this pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 63,
+  "contains_signal": false,
+  "message_id": 109,
+  "game_context": {
+    "pot_size": 360,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

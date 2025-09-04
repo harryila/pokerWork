@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-31T22:20:40.769341",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, right?",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'm feeling confident today, let's spice things up a bit!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I agree, let's spice it up a bit more! I raise $50.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 49.0,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 85,
+    "active_players": 3,
+    "board_cards": [
+      {
+        "rank": 2,
+        "suit": 1,
+        "str_rank": "4",
+        "str_suit": "s",
+        "display": "4s"
+      },
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ]
+  }
+}

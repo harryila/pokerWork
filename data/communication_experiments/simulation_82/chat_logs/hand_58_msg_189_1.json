@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T22:23:29.444104",
+  "hand_id": 58,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Nice hand, I'm feeling strong too!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 34,
+  "contains_signal": false,
+  "message_id": 189,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

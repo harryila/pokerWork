@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-31T19:25:21.763695",
+  "hand_id": 6,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "This pot is getting spicy! Let's turn up the heat a bit more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 61,
+  "contains_signal": false,
+  "message_id": 20,
+  "game_context": {
+    "pot_size": 162,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

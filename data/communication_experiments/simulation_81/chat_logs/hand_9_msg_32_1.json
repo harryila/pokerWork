@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T20:23:59.737193",
+  "hand_id": 9,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I think I've got something good here, let's push them a bit.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 32,
+  "game_context": {
+    "pot_size": 91,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 8,
+        "suit": 1,
+        "str_rank": "T",
+        "str_suit": "s",
+        "display": "Ts"
+      },
+      {
+        "rank": 3,
+        "suit": 4,
+        "str_rank": "5",
+        "str_suit": "d",
+        "display": "5d"
+      },
+      {
+        "rank": 9,
+        "suit": 2,
+        "str_rank": "J",
+        "str_suit": "h",
+        "display": "Jh"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

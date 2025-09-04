@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:22:34.743139",
+  "hand_id": 50,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Absolutely, the weather is perfect for a good game.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 159,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:19:35.948824",
+  "hand_id": 21,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling the luck too! Let's push it up by $150!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 66,
+  "game_context": {
+    "pot_size": 225,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 6,
+        "suit": 1,
+        "str_rank": "8",
+        "str_suit": "s",
+        "display": "8s"
+      },
+      {
+        "rank": 9,
+        "suit": 1,
+        "str_rank": "J",
+        "str_suit": "s",
+        "display": "Js"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

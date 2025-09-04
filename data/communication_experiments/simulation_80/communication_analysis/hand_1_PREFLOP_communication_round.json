@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-31T20:21:19.260139",
+  "hand_id": 1,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, wouldn't you agree?",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "I'm feeling lucky today, let's see where this hand takes us!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Feeling lucky too! Let's build this pot together.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 53.666666666666664,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 120,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ]
+  }
+}

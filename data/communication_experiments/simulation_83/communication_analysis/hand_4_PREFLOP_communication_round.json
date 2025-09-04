@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-01T01:32:32.079451",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 0,
+      "message": "Nice weather we're having today, don't you think?",
+      "signals": null
+    },
+    {
+      "player_id": 1,
+      "message": "Yeah, it's a great day for poker!",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "I'm feeling confident in this hand, let's put some pressure on the opponents.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 3,
+    "private_messages": 0,
+    "avg_message_length": 53.0,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.5
+  },
+  "game_state_summary": {
+    "pot_size": 115,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ]
+  }
+}

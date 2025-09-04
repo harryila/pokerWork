@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-31T20:21:33.391217",
+  "hand_id": 3,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "I think I've got something strong here, let's make it interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 66,
+  "contains_signal": false,
+  "message_id": 9,
+  "game_context": {
+    "pot_size": 103,
+    "players_in_hand": [
+      0,
+      2,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 7,
+        "suit": 2,
+        "str_rank": "9",
+        "str_suit": "h",
+        "display": "9h"
+      },
+      {
+        "rank": 9,
+        "suit": 4,
+        "str_rank": "J",
+        "str_suit": "d",
+        "display": "Jd"
+      },
+      {
+        "rank": 2,
+        "suit": 2,
+        "str_rank": "4",
+        "str_suit": "h",
+        "display": "4h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

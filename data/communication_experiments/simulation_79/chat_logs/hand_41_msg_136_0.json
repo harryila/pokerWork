@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T19:29:50.899013",
+  "hand_id": 41,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm feeling the pressure, raising $50 to keep things interesting!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 65,
+  "contains_signal": false,
+  "message_id": 136,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

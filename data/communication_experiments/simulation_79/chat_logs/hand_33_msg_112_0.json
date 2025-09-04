@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T19:28:55.366773",
+  "hand_id": 33,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Great weather for a little squeeze, don't you think?",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 52,
+  "contains_signal": false,
+  "message_id": 112,
+  "game_context": {
+    "pot_size": 35,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

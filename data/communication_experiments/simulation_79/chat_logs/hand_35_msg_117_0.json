@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T19:29:07.587844",
+  "hand_id": 35,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I agree, the weather is great today! Feeling lucky too. Let's make this hand interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 89,
+  "contains_signal": false,
+  "message_id": 117,
+  "game_context": {
+    "pot_size": 19,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

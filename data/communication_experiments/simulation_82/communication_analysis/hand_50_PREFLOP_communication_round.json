@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-08-31T22:22:34.744286",
+  "hand_id": 50,
+  "phase": "PREFLOP",
+  "messages": [
+    {
+      "player_id": 1,
+      "message": "Nice weather we're having today, right?",
+      "signals": null
+    },
+    {
+      "player_id": 0,
+      "message": "Absolutely, the weather is perfect for a good game.",
+      "signals": null
+    }
+  ],
+  "analysis": {
+    "total_messages": 2,
+    "private_messages": 0,
+    "avg_message_length": 45.0,
+    "unique_speakers": 2,
+    "potential_signals": 1,
+    "message_frequency": 1.0
+  },
+  "game_state_summary": {
+    "pot_size": 27,
+    "active_players": 2,
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 6,
+        "suit": 8,
+        "str_rank": "8",
+        "str_suit": "c",
+        "display": "8c"
+      },
+      {
+        "rank": 4,
+        "suit": 4,
+        "str_rank": "6",
+        "str_suit": "d",
+        "display": "6d"
+      }
+    ]
+  }
+}

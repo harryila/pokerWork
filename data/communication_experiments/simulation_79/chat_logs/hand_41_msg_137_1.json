@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:29:52.293615",
+  "hand_id": 41,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling the heat too! Raising $75 to keep the pressure on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": false,
+  "message_id": 137,
+  "game_context": {
+    "pot_size": 60,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 5,
+        "suit": 2,
+        "str_rank": "7",
+        "str_suit": "h",
+        "display": "7h"
+      },
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

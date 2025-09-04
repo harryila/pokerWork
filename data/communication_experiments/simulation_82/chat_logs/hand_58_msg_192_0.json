@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:23:36.130602",
+  "hand_id": 58,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Nice raise, I'll add $118 to the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 37,
+  "contains_signal": false,
+  "message_id": 192,
+  "game_context": {
+    "pot_size": 213,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 5,
+        "suit": 4,
+        "str_rank": "7",
+        "str_suit": "d",
+        "display": "7d"
+      },
+      {
+        "rank": 0,
+        "suit": 1,
+        "str_rank": "2",
+        "str_suit": "s",
+        "display": "2s"
+      },
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

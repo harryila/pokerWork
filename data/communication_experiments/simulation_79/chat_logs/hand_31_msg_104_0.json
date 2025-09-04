@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:28:39.594360",
+  "hand_id": 31,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Let's squeeze them a bit more! Raise $150",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 41,
+  "contains_signal": false,
+  "message_id": 104,
+  "game_context": {
+    "pot_size": 184,
+    "players_in_hand": [
+      0,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 2,
+        "str_rank": "3",
+        "str_suit": "h",
+        "display": "3h"
+      },
+      {
+        "rank": 11,
+        "suit": 2,
+        "str_rank": "K",
+        "str_suit": "h",
+        "display": "Kh"
+      },
+      {
+        "rank": 10,
+        "suit": 1,
+        "str_rank": "Q",
+        "str_suit": "s",
+        "display": "Qs"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

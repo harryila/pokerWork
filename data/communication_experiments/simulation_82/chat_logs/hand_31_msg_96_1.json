@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:20:30.426284",
+  "hand_id": 31,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Hey guys, not feeling strong with 2d 8s. I'll fold this one.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 60,
+  "contains_signal": false,
+  "message_id": 96,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

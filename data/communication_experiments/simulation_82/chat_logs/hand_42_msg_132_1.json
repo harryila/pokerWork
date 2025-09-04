@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T22:21:45.177742",
+  "hand_id": 42,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "Hey guys, feeling pretty good about this one. Let's see if we can build this pot up a bit!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 90,
+  "contains_signal": false,
+  "message_id": 132,
+  "game_context": {
+    "pot_size": 7,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T22:22:31.807067",
+  "hand_id": 49,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling lucky too. Let's make it interesting!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 49,
+  "contains_signal": false,
+  "message_id": 157,
+  "game_context": {
+    "pot_size": 97,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 1,
+        "suit": 1,
+        "str_rank": "3",
+        "str_suit": "s",
+        "display": "3s"
+      },
+      {
+        "rank": 0,
+        "suit": 8,
+        "str_rank": "2",
+        "str_suit": "c",
+        "display": "2c"
+      },
+      {
+        "rank": 9,
+        "suit": 8,
+        "str_rank": "J",
+        "str_suit": "c",
+        "display": "Jc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

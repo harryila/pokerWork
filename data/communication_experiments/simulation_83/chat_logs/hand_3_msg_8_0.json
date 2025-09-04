@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-01T01:32:24.270873",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Nice hand you got there. Let's make this interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 53,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

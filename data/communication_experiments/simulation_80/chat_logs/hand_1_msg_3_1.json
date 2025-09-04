@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T20:21:20.277147",
+  "hand_id": 1,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling pretty confident with this board. Let's keep the pressure on.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 73,
+  "contains_signal": false,
+  "message_id": 3,
+  "game_context": {
+    "pot_size": 120,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 2,
+        "str_rank": "2",
+        "str_suit": "h",
+        "display": "2h"
+      },
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 8,
+        "suit": 4,
+        "str_rank": "T",
+        "str_suit": "d",
+        "display": "Td"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

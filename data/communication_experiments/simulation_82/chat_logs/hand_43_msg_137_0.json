@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T22:21:54.947294",
+  "hand_id": 43,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Let's put the pressure on! Raising $100 to see where we stand.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 62,
+  "contains_signal": false,
+  "message_id": 137,
+  "game_context": {
+    "pot_size": 95,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

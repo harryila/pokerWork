@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-31T20:21:39.221709",
+  "hand_id": 4,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "The sun is shining bright today! I'll add a little more to the pot.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 67,
+  "contains_signal": false,
+  "message_id": 11,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

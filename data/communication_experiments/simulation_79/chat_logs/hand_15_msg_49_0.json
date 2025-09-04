@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-31T19:26:23.202800",
+  "hand_id": 15,
+  "phase": "FLOP",
+  "player_id": 0,
+  "message": "Nice move, let's squeeze the pot!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 33,
+  "contains_signal": false,
+  "message_id": 49,
+  "game_context": {
+    "pot_size": 116,
+    "players_in_hand": [
+      0,
+      3
+    ],
+    "board_cards": [
+      {
+        "rank": 12,
+        "suit": 8,
+        "str_rank": "A",
+        "str_suit": "c",
+        "display": "Ac"
+      },
+      {
+        "rank": 8,
+        "suit": 2,
+        "str_rank": "T",
+        "str_suit": "h",
+        "display": "Th"
+      },
+      {
+        "rank": 12,
+        "suit": 2,
+        "str_rank": "A",
+        "str_suit": "h",
+        "display": "Ah"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

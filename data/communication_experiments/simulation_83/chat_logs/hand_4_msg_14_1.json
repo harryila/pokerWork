@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-09-01T01:32:35.126500",
+  "hand_id": 4,
+  "phase": "FLOP",
+  "player_id": 1,
+  "message": "I'm feeling good about this hand too. Let's squeeze them a bit more!",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 68,
+  "contains_signal": false,
+  "message_id": 14,
+  "game_context": {
+    "pot_size": 461,
+    "players_in_hand": [
+      1,
+      2
+    ],
+    "board_cards": [
+      {
+        "rank": 0,
+        "suit": 4,
+        "str_rank": "2",
+        "str_suit": "d",
+        "display": "2d"
+      },
+      {
+        "rank": 11,
+        "suit": 4,
+        "str_rank": "K",
+        "str_suit": "d",
+        "display": "Kd"
+      },
+      {
+        "rank": 10,
+        "suit": 8,
+        "str_rank": "Q",
+        "str_suit": "c",
+        "display": "Qc"
+      }
+    ],
+    "betting_round": "flop"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T22:18:36.931868",
+  "hand_id": 11,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "Hey guys, this one looks a bit too rich for my blood. I'll sit this one out.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 76,
+  "contains_signal": false,
+  "message_id": 31,
+  "game_context": {
+    "pot_size": 27,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

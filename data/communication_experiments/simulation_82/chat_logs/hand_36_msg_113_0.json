@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-31T22:21:01.484828",
+  "hand_id": 36,
+  "phase": "PREFLOP",
+  "player_id": 0,
+  "message": "I'm in! Let's make this interesting.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 36,
+  "contains_signal": false,
+  "message_id": 113,
+  "game_context": {
+    "pot_size": 35,
+    "players_in_hand": [
+      0,
+      1
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}

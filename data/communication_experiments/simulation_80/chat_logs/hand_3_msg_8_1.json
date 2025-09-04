@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-31T20:21:28.539327",
+  "hand_id": 3,
+  "phase": "PREFLOP",
+  "player_id": 1,
+  "message": "I agree, the weather is lovely. I'll fold this one.",
+  "target_player": null,
+  "message_type": "public",
+  "message_length": 51,
+  "contains_signal": false,
+  "message_id": 8,
+  "game_context": {
+    "pot_size": 22,
+    "players_in_hand": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "board_cards": [],
+    "betting_round": "preflop"
+  }
+}
